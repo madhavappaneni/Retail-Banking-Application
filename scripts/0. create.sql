@@ -89,3 +89,47 @@ CREATE TABLE public.CRMCallCenterLogs (
 	ser_time varchar(50) NULL
 );
 
+
+CREATE TABLE public."order" (
+	order_id int4 NOT NULL,
+	account_id varchar(50) NOT NULL,
+	bank_to varchar(50) NULL,
+	account_to int4 NULL,
+	amount int4 NULL,
+	k_symbol varchar(50) NULL
+);
+
+CREATE TABLE public."LuxuryLoanPortfolio" (
+	loan_id varchar(50) NOT NULL,
+	funded_amount float4 NOT NULL,
+	funded_date varchar(50) NOT NULL,
+	"duration years" int4 NULL,
+	"duration months" int4 NULL,
+	"10 yr treasury index date funded" float4 NULL,
+	"interest rate percent" float4 NULL,
+	"interest rate" float4 NULL,
+	payments float4 NULL,
+	"total past payments" int4 NULL,
+	"loan balance" float4 NULL,
+	"property value" float4 NULL,
+	purpose varchar(50) NULL,
+	firstname varchar(50) NULL,
+	middlename varchar(50) NULL,
+	lastname varchar(50) NULL,
+	social varchar(50) NOT NULL,
+	phone varchar(50) NULL,
+	title varchar(50) NULL,
+	"employment length" int4 NULL,
+	"BUILDING CLASS CATEGORY" varchar(50) NULL,
+	"TAX CLASS AT PRESENT" varchar(50) NULL,
+	"BUILDING CLASS AT PRESENT" varchar(50) NULL,
+	"ADDRESS 1" varchar(50) NULL,
+	"ADDRESS 2" varchar(50) NULL,
+	"ZIP CODE" int4 NULL,
+	city varchar(50) NULL,
+	state varchar(50) NULL,
+	"TOTAL UNITS" int4 NULL,
+	"LAND SQUARE FEET" varchar(50) NULL,
+	"GROSS SQUARE FEET" varchar(50) NULL,
+	"TAX CLASS AT TIME OF SALE" int4 NULL
+);

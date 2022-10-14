@@ -20,6 +20,6 @@ CREATE TYPE card_type_enum AS ENUM (
 CREATE TABLE public.card (
     card_id varchar(50) NOT NULL,
     disp_id varchar(50) NOT NULL,
-    "type" varchar(50) NOT NULL,
+    "type" card_type_enum NOT NULL,
     date date NOT NULL
 );

@@ -24,6 +24,15 @@ CREATE TABLE public.card (
     date date NOT NULL
 );
 
+CREATE TYPE disposition_type_enum AS ENUM ('Owner', 'User');
+
+CREATE TABLE public.disposition (
+    disp_id varchar(10) NOT NULL,
+    client_id varchar(10) NOT NULL,
+    account_id varchar(10) NOT NULL,
+    "type" varchar(50) NOT NULL
+);
+
 CREATE TABLE public.client (
 	client_id varchar NOT NULL,
 	sex varchar NOT NULL,
@@ -62,5 +71,21 @@ CREATE TABLE public.loan (
 	fulldate varchar(50) NULL,
 	"location" int4 NULL,
 	purpose varchar(50) NULL
+);
+
+CREATE TABLE public.CRMCallCenterLogs (
+	"Date received" varchar(50) NOT NULL,
+	"Complaint ID" varchar(50) NOT NULL,
+	"rand client" varchar(50) NULL,
+	phonefinal varchar(50) NULL,
+	"vru+line" varchar(50) NULL,
+	call_id int4 NULL,
+	priority int4 NULL,
+	"type" varchar(50) NULL,
+	outcome varchar(50) NULL,
+	"server" varchar(50) NULL,
+	ser_start varchar(50) NULL,
+	ser_exit varchar(50) NULL,
+	ser_time varchar(50) NULL
 );
 

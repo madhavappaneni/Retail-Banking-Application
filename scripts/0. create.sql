@@ -7,7 +7,7 @@ CREATE TYPE account_frequency_enum AS ENUM (
 CREATE TABLE public.account (
     account_id varchar NOT NULL,
     district_id integer NOT NULL,
-    frequency account_frequency NOT NULL,
+    frequency account_frequency_enum NOT NULL,
     "date" date NOT NULL
 );
 

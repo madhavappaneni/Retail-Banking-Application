@@ -23,3 +23,12 @@ CREATE TABLE public.card (
     "type" card_type_enum NOT NULL,
     date date NOT NULL
 );
+
+CREATE TYPE disposition_type_enum AS ENUM ('Owner', 'User');
+
+CREATE TABLE public.disposition (
+    disp_id varchar(10) NOT NULL,
+    client_id varchar(10) NOT NULL,
+    account_id varchar(10) NOT NULL,
+    "type" varchar(50) NOT NULL
+);

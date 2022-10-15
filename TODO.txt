@@ -1,3 +1,4 @@
 1. Remove column_1 in transaction
 2. Remove fulltime in transaction
 3. Remove quotes in tables
+4. Identify primary keys

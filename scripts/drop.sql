@@ -20,4 +20,8 @@ DROP TABLE public.LuxuryLoanPortfolio;
 
 DROP TABLE public.order;
 
+DROP TABLE public.crmevents;
 
+DROP TABLE public.CRMReviews;
+
+DROP TABLE public.transaction;

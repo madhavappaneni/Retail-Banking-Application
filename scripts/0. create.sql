@@ -133,3 +133,48 @@ CREATE TABLE public.LuxuryLoanPortfolio (
 	"GROSS SQUARE FEET" varchar(50) NULL,
 	"TAX CLASS AT TIME OF SALE" int4 NULL
 );
+
+CREATE TABLE public.crmevents (
+	"Date received" date NULL,
+	"Product" varchar(50) NULL,
+	"Sub-product" varchar(50) NULL,
+	"Issue" varchar(50) NULL,
+	"Sub-issue" varchar(50) NULL,
+	"Consumer complaint narrative" varchar NULL,
+	"Tags" varchar(50) NULL,
+	"Consumer consent provided?" varchar(50) NULL,
+	"Submitted via" varchar(50) NULL,
+	"Date sent to company" varchar(50) NULL,
+	"Company response to consumer" varchar(50) NULL,
+	"Timely response?" varchar(50) NULL,
+	"Consumer disputed?" varchar(50) NULL,
+	"Complaint ID" varchar(50) NULL,
+	"Client_ID" varchar(50) NULL
+);
+
+CREATE TABLE public.CRMReviews (
+	"Date" date NULL,
+	"Stars" int4 NULL,
+	"Reviews" varchar NULL,
+	"Product" varchar(50) NULL,
+	district_id int4 NULL
+);
+
+CREATE TABLE public.transaction (
+	"Column1" int4 NULL,
+	trans_id varchar(50) NULL,
+	account_id varchar(50) NULL,
+	"type" varchar(50) NULL,
+	operation varchar(50) NULL,
+	amount int4 NULL,
+	balance int4 NULL,
+	k_symbol varchar(50) NULL,
+	bank varchar(50) NULL,
+	account varchar(50) NULL,
+	"year" int4 NULL,
+	"month" int4 NULL,
+	"day" int4 NULL,
+	"date" varchar(50) NULL,
+	fulltime varchar(50) NULL,
+	fulldatewithtime varchar(50) NULL
+);

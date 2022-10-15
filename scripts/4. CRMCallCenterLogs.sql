@@ -1,4 +1,4 @@
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-03-27','CR2406263','C00004587','977-806-9726','AA0103',34536,0,'NW','AGENT','MICHAL','13:34:11','13:40:23','00:06:12'),
 	 ('2017-03-27','CR2405641','C00003328','322-598-7152','AA0205',34537,0,'PS','AGENT','TOVA','10:58:22','11:16:10','00:17:48'),
 	 ('2017-03-27','CR2405629','C00001685','508-311-5237','AA0110',34538,2,'PS','AGENT','YIFAT','13:00:54','13:13:31','00:12:37'),
@@ -9,7 +9,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-03-22','CR2398401','C00000486','478-749-3447','AA0204',34544,0,'PS','AGENT','TOVA','15:05:09','15:17:45','00:12:36'),
 	 ('2017-03-22','CR2398768','C00002342','994-862-3218','AA0101',34545,0,'NW','AGENT','STEREN','10:19:11','10:19:57','00:00:46'),
 	 ('2017-03-21','CR2397737','C00003730','617-161-9051','AA0205',34546,0,'PS','AGENT','YIFAT','10:47:11','10:53:13','00:06:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-03-21','CR2398271','C00001891','953-476-9580','AA0105',34547,0,'NW','AGENT','MIKI','14:20:21','14:31:52','00:11:31'),
 	 ('2017-03-17','CR2392378','C00003321','254-815-1076','AA0106',34549,1,'PS','AGENT','DORIT','09:00:11','09:03:53','00:03:42'),
 	 ('2017-03-17','CR2392249','C00004218','508-495-9597','AA0102',34550,0,'PS','AGENT','AVNI','12:38:08','12:42:25','00:04:17'),
@@ -20,7 +20,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-03-15','CR2388580','C00003366','356-333-5984','AA0201',34555,1,'PS','AGENT','KAZAV','16:22:51','16:38:04','00:15:13'),
 	 ('2017-03-14','CR2386079','C00009987','294-459-8475','AA0103',34557,2,'NE','AGENT','KAZAV','11:11:40','11:20:04','00:08:24'),
 	 ('2017-03-10','CR2382372','C00001401','124-161-2235','AA0201',34559,0,'PS','AGENT','YITZ','10:33:03','10:34:01','00:00:58');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-03-09','CR2376980','C00003545','472-217-3837','AA0110',34560,2,'PS','AGENT','DARMON','10:21:54','10:35:22','00:13:28'),
 	 ('2017-03-08','CR2377263','C00004301','495-249-7895','AA0215',34561,0,'PS','AGENT','SHLOMO','10:38:34','10:45:56','00:07:22'),
 	 ('2017-03-08','CR2378338','C00004528','463-191-1159','AA0215',34562,0,'PS','AGENT','MIKI','16:59:32','17:06:41','00:07:09'),
@@ -31,7 +31,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-03-07','CR2375008','C00004113','914-751-1865','AA0204',34567,0,'NW','AGENT','MICHAL','10:41:15','11:01:00','00:19:45'),
 	 ('2017-03-06','CR2372694','C00004906','386-438-1635','AA0104',34568,0,'PS','AGENT','AVIDAN','11:31:53','11:51:46','00:19:53'),
 	 ('2017-03-06','CR2373271','C00006366','817-770-7405','AA0103',34569,0,'PS','AGENT','AVIDAN','12:51:02','12:58:13','00:07:11');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-03-06','CR2373496','C00004015','617-592-2307','AA0109',34570,0,'PS','AGENT','ZOHARI','13:37:53','13:37:53','00:00:00'),
 	 ('2017-03-06','CR2374246','C00011804','893-107-7760','AA0103',34571,2,'PS','AGENT','SHLOMO','16:42:54','17:02:48','00:19:54'),
 	 ('2017-03-03','CR2371358','C00004193','101-824-7809','AA0115',34572,2,'PS','AGENT','YIFAT','11:44:45','11:54:42','00:09:57'),
@@ -42,7 +42,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-02-27','CR2363462','C00002806','508-791-3193','AA0201',34584,2,'PS','AGENT','AVNI','09:10:42','09:31:01','00:20:19'),
 	 ('2017-02-27','CR2362129','C00011267','617-853-1807','AA0113',34585,1,'PS','AGENT','SHARON','14:47:03','14:52:48','00:05:45'),
 	 ('2017-02-24','CR2360714','C00000076','293-545-7588','AA0104',34586,0,'NW','AGENT','IDIT','11:49:21','11:55:21','00:06:00');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-02-23','CR2357722','C00004541','401-778-6265','AA0115',34587,1,'NW','AGENT','SHLOMO','10:35:26','10:49:20','00:13:54'),
 	 ('2017-02-23','CR2358198','C00003463','212-616-8813','AA0106',34588,2,'PS','AGENT','SHARON','14:58:09','15:14:29','00:16:20'),
 	 ('2017-02-22','CR2355167','C00001029','212-333-2794','AA0215',34589,0,'PS','AGENT','BENSION','13:26:16','13:39:18','00:13:02'),
@@ -53,7 +53,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-02-21','CR2354077','C00001753','781-292-5899','AA0201',34596,0,'NW','AGENT','MORIAH','11:46:04','11:59:02','00:12:58'),
 	 ('2017-02-21','CR2353608','C00002480','161-776-5723','AA0203',34597,0,'PS','AGENT','TOVA','09:38:24','09:42:07','00:03:43'),
 	 ('2017-02-17','CR2349304','C00002902','150-386-8887','AA0204',34598,2,'PS','AGENT','STEREN','14:31:11','14:51:46','00:20:35');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-02-16','CR2347795','C00001122','298-650-1719','AA0105',34599,1,'PS','AGENT','GELBER','13:18:47','13:29:04','00:10:17'),
 	 ('2017-02-15','CR2346999','C00001890','242-066-8207','AA0115',34602,2,'PS','AGENT','TOVA','16:54:11','16:59:12','00:05:01'),
 	 ('2017-02-14','CR2344160','C00010828','212-376-3611','AA0102',34603,0,'PS','AGENT','YIFAT','11:36:54','11:38:06','00:01:12'),
@@ -64,7 +64,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-02-09','CR2336561','C00009846','361-447-3343','AA0203',34611,0,'NW','AGENT','TOVA','15:43:18','15:47:13','00:03:55'),
 	 ('2017-02-09','CR2336515','C00004735','799-709-6386','AA0201',34612,1,'PS','AGENT','TOVA','13:30:05','13:35:43','00:05:38'),
 	 ('2017-02-07','CR2332670','C00010070','617-987-0617','AA0214',34614,0,'PS','AGENT','TOVA','13:05:10','13:07:11','00:02:01');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-02-06','CR2330453','C00003907','197-430-7586','AA0213',34615,0,'NE','AGENT','GILI','10:43:17','10:46:42','00:03:25'),
 	 ('2018-05-12','','','466-429-3051','',NULL,NULL,'','','','13:15:49','13:23:43','00:07:54'),
 	 ('2017-02-06','CR2330518','C00001408','238-765-9083','AA0202',34616,0,'PS','AGENT','KAZAV','13:44:38','13:59:06','00:14:28'),
@@ -75,7 +75,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-01-30','CR2317569','C00003475','924-456-1095','AA0107',34623,2,'TT','AGENT','NO_SERVER','10:20:37','10:36:00','00:15:23'),
 	 ('2017-01-30','CR2317933','C00002151','508-174-5751','AA0206',34624,2,'PS','AGENT','ANAT','11:32:41','11:42:47','00:10:06'),
 	 ('2017-01-27','CR2314643','C00001797','312-349-2628','AA0101',34626,0,'PS','AGENT','DORIT','13:07:44','13:20:57','00:13:13');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-01-27','CR2314736','C00002226','312-080-0390','AA0105',34628,0,'PS','AGENT','SHARON','11:00:40','11:05:56','00:05:16'),
 	 ('2017-01-27','CR2315474','C00003875','212-994-8696','AA0209',34629,2,'PS','AGENT','YITZ','10:48:38','10:48:45','00:00:07'),
 	 ('2017-01-25','CR2310722','C00003657','248-634-7803','AA0205',34630,2,'PS','AGENT','MIKI','14:28:10','14:47:31','00:19:21'),
@@ -86,7 +86,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-01-23','CR2305857','C00000110','634-013-0057','AA0102',34635,2,'PS','AGENT','DARMON','10:17:50','10:25:12','00:07:22'),
 	 ('2017-01-20','CR2301475','C00002268','910-018-0049','AA0214',34636,2,'PS','AGENT','MIKI','12:14:56','12:17:58','00:03:02'),
 	 ('2017-01-20','CR2301210','C00004258','547-226-1341','AA0206',34637,1,'PS','AGENT','ANAT','15:05:55','15:25:31','00:19:36');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-01-20','CR2301127','C00008489','585-787-6851','AA0203',34639,0,'PS','AGENT','TOVA','16:29:32','16:43:15','00:13:43'),
 	 ('2017-01-19','CR2298291','C00003258','711-170-3148','AA0103',34640,2,'PS','AGENT','SHARON','12:38:21','12:39:12','00:00:51'),
 	 ('2017-01-18','CR2294240','C00000917','857-625-6519','AA0206',34642,0,'PS','AGENT','DARMON','15:16:07','15:36:24','00:20:17'),
@@ -97,7 +97,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-01-11','CR2285660','C00002906','461-185-8491','AA0206',34648,0,'PS','AGENT','AVIDAN','12:24:56','12:38:37','00:13:41'),
 	 ('2017-01-10','CR2283299','C00000287','716-179-4777','AA0109',34649,0,'NW','AGENT','TOVA','15:42:47','15:49:43','00:06:56'),
 	 ('2017-01-10','CR2283645','C00001394','674-781-6659','AA0205',34650,0,'NW','AGENT','YITZ','13:33:46','13:50:25','00:16:39');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-01-10','CR2282295','C00002786','671-085-3435','AA0111',34651,0,'TT','AGENT','BASCH','11:19:59','11:40:31','00:20:32'),
 	 ('2017-01-09','CR2281138','C00001199','644-160-4985','AA0215',34652,0,'NW','AGENT','MIKI','15:37:19','15:51:58','00:14:39'),
 	 ('2017-01-06','CR2275944','C00003782','212-522-4265','AA0106',34653,0,'PS','AGENT','BENSION','09:21:43','09:38:30','00:16:47'),
@@ -108,7 +108,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-01-03','CR2272801','C00002430','996-964-9510','AA0215',34658,0,'NW','AGENT','STEREN','16:54:36','17:08:11','00:13:35'),
 	 ('2016-12-28','CR2267388','C00001121','617-927-2995','AA0110',34659,0,'PS','AGENT','YIFAT','11:34:46','11:42:41','00:07:55'),
 	 ('2016-12-27','CR2264142','C00001434','946-732-1068','AA0101',34662,0,'PS','AGENT','YIFAT','13:16:58','13:27:12','00:10:14');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-12-27','CR2264909','C00005325','755-055-9989','AA0110',34663,2,'NE','AGENT','IDIT','16:41:25','16:52:04','00:10:39'),
 	 ('2016-12-23','CR2262905','C00001932','786-139-8177','AA0104',34664,0,'PS','AGENT','AVNI','10:21:20','10:25:57','00:04:37'),
 	 ('2016-12-22','CR2261790','C00002559','692-076-6357','AA0113',34666,0,'PS','AGENT','ANAT','13:50:18','13:57:30','00:07:12'),
@@ -119,7 +119,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-12-20','CR2257781','C00001899','617-395-4007','AA0209',34671,0,'NE','AGENT','SHARON','14:07:49','14:26:20','00:18:31'),
 	 ('2016-12-19','CR2255768','C00001033','212-310-1819','AA0202',34672,0,'PS','AGENT','SHARON','15:00:43','15:10:03','00:09:20'),
 	 ('2016-12-19','CR2254796','C00000893','596-089-6158','AA0109',34673,2,'PS','AGENT','YIFAT','14:11:45','14:25:32','00:13:47');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-12-19','CR2256790','C00013262','585-467-6271','AA0110',34674,0,'NE','AGENT','TOVA','10:42:23','11:00:43','00:18:20'),
 	 ('2016-12-14','CR2250030','C00003698','833-893-0290','AA0214',34676,1,'PS','AGENT','TOVA','09:16:17','09:33:10','00:16:53'),
 	 ('2016-12-13','CR2248095','C00001479','212-915-4941','AA0104',34677,0,'PS','AGENT','YIFAT','12:15:48','12:23:37','00:07:49'),
@@ -130,7 +130,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-12-08','CR2241678','C00001747','408-629-2951','AA0203',34683,0,'PS','AGENT','IDIT','16:42:52','16:57:41','00:14:49'),
 	 ('2016-12-08','CR2242281','C00000348','801-528-5337','AA0209',34684,1,'PS','AGENT','SHARON','16:55:22','17:14:39','00:19:17'),
 	 ('2016-12-07','CR2239689','C00004476','770-608-8468','AA0209',34685,1,'PS','AGENT','BENSION','12:50:20','13:11:13','00:20:53');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-12-05','CR2236100','C00000699','647-201-6786','AA0102',34688,2,'PS','AGENT','IDIT','10:03:04','10:04:23','00:01:19'),
 	 ('2016-12-05','CR2235210','C00005012','893-899-0740','AA0110',34689,0,'PS','AGENT','DORIT','09:59:29','10:08:28','00:08:59'),
 	 ('2016-12-02','CR2232723','C00002818','609-647-3562','AA0102',34690,0,'NW','AGENT','DORIT','12:42:14','12:57:16','00:15:02'),
@@ -141,7 +141,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-11-28','CR2226376','C00004808','161-615-6933','AA0102',34695,0,'PS','AGENT','YIFAT','15:55:03','16:03:04','00:08:01'),
 	 ('2016-11-25','CR2223343','C00003305','532-240-5250','AA0206',34696,2,'PS','AGENT','ANAT','11:02:04','11:09:24','00:07:20'),
 	 ('2016-11-25','CR2223164','C00003304','176-588-9105','AA0112',34697,0,'TT','AGENT','BASCH','13:17:02','13:32:26','00:15:24');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-11-24','CR2221149','C00013451','404-775-9228','AA0209',34698,0,'NW','AGENT','AVNI','13:02:57','13:19:13','00:16:16'),
 	 ('2016-11-23','CR2222146','C00000700','857-578-4130','AA0102',34699,0,'PS','AGENT','YIFAT','14:03:22','14:22:24','00:19:02'),
 	 ('2016-11-23','CR2222452','C00002718','374-184-1812','AA0109',34701,0,'NW','AGENT','MICHAL','13:01:47','13:21:14','00:19:27'),
@@ -152,7 +152,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-11-17','CR2214007','C00003578','734-149-5933','AA0214',34707,0,'PS','AGENT','AVIDAN','15:12:49','15:23:05','00:10:16'),
 	 ('2016-11-17','CR2213224','C00012303','362-949-2478','AA0202',34708,2,'PS','AGENT','YIFAT','14:21:14','14:40:23','00:19:09'),
 	 ('2016-11-16','CR2211664','C00004186','981-817-8340','AA0203',34709,1,'PS','AGENT','AVIDAN','14:36:35','14:52:37','00:16:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-11-16','CR2212183','C00001899','606-221-8334','AA0204',34710,0,'NW','AGENT','MICHAL','15:40:44','15:52:15','00:11:31'),
 	 ('2016-11-16','CR2210790','C00005138','746-353-2657','AA0106',34711,1,'PS','AGENT','YIFAT','09:41:17','09:45:04','00:03:47'),
 	 ('2016-11-15','CR2210253','C00002577','377-861-5411','AA0104',34715,0,'PS','AGENT','TOVA','16:25:39','16:29:48','00:04:09'),
@@ -163,7 +163,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-11-10','CR2204099','C00000258','679-001-2022','AA0203',34721,0,'NE','AGENT','BASCH','15:41:02','15:59:15','00:18:13'),
 	 ('2016-11-09','CR2201357','C00003470','114-406-9537','AA0204',34722,0,'PS','AGENT','BENSION','12:43:41','12:55:20','00:11:39'),
 	 ('2016-11-07','CR2198057','C00003251','143-003-4091','AA0109',34723,2,'NE','AGENT','AVIDAN','09:55:14','10:03:49','00:08:35');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-11-07','CR2197959','C00000260','637-172-2074','AA0102',34724,0,'NE','AGENT','ELI','14:30:21','14:40:32','00:10:11'),
 	 ('2016-11-03','CR2193850','C00002233','675-119-4754','AA0210',34725,2,'NE','AGENT','ZOHARI','09:09:44','09:13:12','00:03:28'),
 	 ('2016-11-03','CR2193660','C00003438','802-842-2969','AA0203',34726,1,'PS','AGENT','YITZ','09:47:05','09:56:26','00:09:21'),
@@ -174,7 +174,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-11-01','CR2188678','C00003456','709-146-4033','AA0206',34732,2,'PS','AGENT','SHARON','10:26:05','10:33:20','00:07:15'),
 	 ('2016-10-28','CR2185200','C00004348','285-954-1811','AA0214',34735,2,'PS','AGENT','BASCH','11:08:46','11:09:15','00:00:29'),
 	 ('2016-10-26','CR2180000','C00001817','282-524-0037','AA0102',34736,0,'PS','AGENT','SHARON','14:06:23','14:19:22','00:12:59');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-10-26','CR2180332','C00002910','914-445-0614','AA0205',34737,0,'NW','AGENT','TOVA','16:43:40','16:45:40','00:02:00'),
 	 ('2016-10-25','CR2178177','C00004331','309-705-8191','AA0203',34738,1,'PS','AGENT','AVIDAN','13:00:59','13:21:27','00:20:28'),
 	 ('2016-10-25','CR2178679','C00010076','460-699-6534','AA0109',34739,1,'PS','AGENT','IDIT','09:04:58','09:06:28','00:01:30'),
@@ -185,7 +185,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-10-20','CR2169725','C00002752','508-743-2107','AA0201',34746,2,'PS','AGENT','MICHAL','16:29:36','16:47:28','00:17:52'),
 	 ('2016-10-19','CR2168738','C00004673','978-603-5427','AA0213',34747,0,'PS','AGENT','DORIT','12:47:42','12:50:52','00:03:10'),
 	 ('2016-10-18','CR2165723','C00000694','343-180-6235','AA0101',34748,0,'NW','AGENT','BASCH','11:57:37','12:02:57','00:05:20');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-10-18','CR2166137','C00007011','991-353-6868','AA0115',34749,1,'PS','AGENT','ZOHARI','11:05:37','11:20:32','00:14:55'),
 	 ('2016-10-17','CR2163506','C00000285','762-058-5335','AA0214',34750,2,'PS','AGENT','IDIT','12:21:22','12:37:22','00:16:00'),
 	 ('2016-10-17','CR2165000','C00013190','617-175-3681','AA0213',34751,2,'PS','AGENT','AVIDAN','09:57:14','10:09:26','00:12:12'),
@@ -196,7 +196,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-10-06','CR2150432','C00003201','214-736-2773','AA0209',34759,2,'NE','AGENT','TOVA','15:36:35','15:37:35','00:01:00'),
 	 ('2016-10-06','CR2149617','C00002167','212-260-8145','AA0115',34760,0,'NW','AGENT','BASCH','09:04:15','09:24:11','00:19:56'),
 	 ('2016-10-05','CR2148694','C00001682','978-204-4837','AA0215',34761,0,'NE','AGENT','ANAT','11:46:27','11:53:15','00:06:48');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-10-04','CR2144993','C00004288','199-730-9100','AA0101',34762,1,'PS','AGENT','GILI','11:37:23','11:50:30','00:13:07'),
 	 ('2016-10-04','CR2145445','C00000417','212-127-8460','AA0112',34763,1,'TT','AGENT','MIKI','10:47:19','10:56:47','00:09:28'),
 	 ('2016-10-04','CR2146294','C00002593','212-810-5117','AA0107',34764,0,'TT','AGENT','ANAT','14:53:45','15:09:32','00:15:47'),
@@ -207,7 +207,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-09-28','CR2135857','C00006886','401-509-2345','AA0209',34769,2,'PS','AGENT','KAZAV','13:05:07','13:15:03','00:09:56'),
 	 ('2016-09-27','CR2132926','C00002968','808-268-7264','AA0101',34770,0,'PS','AGENT','GILI','10:17:18','10:21:44','00:04:26'),
 	 ('2016-09-23','CR2128341','C00005402','236-437-1490','AA0101',34771,2,'PS','AGENT','YIFAT','15:05:55','15:09:31','00:03:36');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-09-23','CR2128660','C00004199','611-090-7828','AA0104',34772,2,'PS','AGENT','YITZ','09:45:39','09:46:51','00:01:12'),
 	 ('2016-09-23','CR2128020','C00004628','212-096-9270','AA0109',34775,0,'PS','AGENT','DORIT','16:39:50','16:56:37','00:16:47'),
 	 ('2016-09-23','CR2129490','C00010389','727-324-6761','AA0210',34776,2,'PS','AGENT','MICHAL','11:27:43','11:45:23','00:17:40'),
@@ -218,7 +218,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-09-19','CR2119043','C00004387','392-537-8507','AA0105',34785,2,'PS','AGENT','ANAT','12:41:20','12:47:25','00:06:05'),
 	 ('2016-09-16','CR2116017','C00003800','171-180-8290','AA0109',34786,0,'NW','AGENT','AVIDAN','12:00:51','12:09:24','00:08:33'),
 	 ('2016-09-16','CR2116445','C00011409','803-600-1604','AA0201',34787,2,'PS','AGENT','YITZ','11:59:33','12:05:47','00:06:14');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-09-16','CR2115603','C00000945','192-086-9822','AA0204',34788,0,'NW','AGENT','MIKI','10:36:42','10:49:04','00:12:22'),
 	 ('2016-09-15','CR2114332','C00002674','313-973-2876','AA0203',34789,0,'PS','AGENT','IDIT','12:32:08','12:43:59','00:11:51'),
 	 ('2016-09-14','CR2112683','C00003471','212-266-7906','AA0210',34790,2,'PS','AGENT','IDIT','13:59:20','13:59:44','00:00:24'),
@@ -229,7 +229,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-09-08','CR2101414','C00000051','193-754-1578','AA0101',34795,0,'NW','AGENT','SHARON','15:12:09','15:20:49','00:08:40'),
 	 ('2016-09-07','CR2098991','C00005801','125-631-4840','AA0104',34797,2,'PS','AGENT','GELBER','10:26:19','10:41:18','00:14:59'),
 	 ('2016-09-06','CR2096360','C00002329','444-910-8715','AA0214',34799,0,'PS','AGENT','NAAMA','15:39:49','15:59:52','00:20:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-09-06','CR2097924','C00003620','658-087-8204','AA0210',34800,2,'PS','AGENT','BENSION','12:31:47','12:32:59','00:01:12'),
 	 ('2016-09-06','CR2096586','C00000086','212-302-5046','AA0214',34801,0,'PS','AGENT','TOVA','14:22:05','14:31:18','00:09:13'),
 	 ('2016-09-01','CR2092735','C00003244','541-529-7166','AA0106',34802,0,'NW','AGENT','KAZAV','14:28:30','14:36:07','00:07:37'),
@@ -240,7 +240,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-08-29','CR2085142','C00001930','719-748-5017','AA0204',34808,0,'PS','AGENT','SHARON','10:56:02','11:11:32','00:15:30'),
 	 ('2016-08-26','CR2084172','C00000548','716-337-2086','AA0210',34809,0,'PS','AGENT','IDIT','14:46:03','14:46:40','00:00:37'),
 	 ('2016-08-26','CR2083554','C00001583','212-119-8291','AA0203',34810,1,'PS','AGENT','STEREN','14:35:34','14:44:51','00:09:17');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-08-25','CR2079552','C00001958','285-927-8795','AA0109',34811,0,'NW','AGENT','IDIT','16:27:20','16:42:22','00:15:02'),
 	 ('2016-08-25','CR2082015','C00003275','554-290-3106','AA0106',34812,0,'NE','AGENT','ZOHARI','16:23:44','16:27:12','00:03:28'),
 	 ('2016-08-25','CR2082032','C00000814','484-928-7263','AA0205',34814,1,'PS','AGENT','SHARON','12:40:32','13:00:15','00:19:43'),
@@ -251,7 +251,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-08-19','CR2072511','C00000757','617-755-6768','AA0107',34822,2,'TT','AGENT','AVNI','13:12:35','13:25:32','00:12:57'),
 	 ('2016-08-19','CR2072231','C00002463','483-951-2085','AA0105',34823,1,'PS','AGENT','TOVA','09:29:17','09:32:32','00:03:15'),
 	 ('2016-08-18','CR2071163','C00003039','978-763-0248','AA0111',34824,1,'TT','AGENT','DORIT','11:35:40','11:53:25','00:17:45');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-08-18','CR2070783','C00004462','212-162-5784','AA0105',34825,0,'NW','AGENT','STEREN','10:55:42','11:12:14','00:16:32'),
 	 ('2016-08-18','CR2069704','C00000390','211-771-4957','AA0109',34826,2,'PS','AGENT','AVNI','15:48:45','15:52:33','00:03:48'),
 	 ('2016-08-18','CR2069950','C00002115','413-532-7903','AA0115',34827,0,'PS','AGENT','YITZ','11:31:50','11:33:45','00:01:55'),
@@ -262,7 +262,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-08-15','CR2063516','C00005606','808-626-9008','AA0204',34832,0,'PS','AGENT','MICHAL','15:20:33','15:40:19','00:19:46'),
 	 ('2016-08-12','CR2060519','C00003796','113-395-0996','AA0216',34834,0,'IN','AGENT','YIFAT','12:57:26','13:13:52','00:16:26'),
 	 ('2016-08-12','CR2061856','C00002762','431-662-8446','AA0204',34835,1,'PS','AGENT','AVIDAN','15:08:34','15:22:38','00:14:04');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-08-10','CR2056848','C00003811','905-075-9356','AA0103',34838,2,'PS','AGENT','MIKI','12:49:35','13:01:37','00:12:02'),
 	 ('2016-08-10','CR2056992','C00002013','212-837-7058','AA0202',34839,0,'NW','AGENT','IDIT','11:58:43','12:05:57','00:07:14'),
 	 ('2016-08-05','CR2047954','C00002435','867-806-2184','AA0109',34841,1,'PS','AGENT','NAAMA','09:34:34','09:48:29','00:13:55'),
@@ -273,7 +273,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-12-20','','','982-075-6244','',NULL,NULL,'','','','09:21:38','09:39:47','00:18:09'),
 	 ('2016-07-29','CR2037380','C00003092','617-783-7171','AA0215',34847,0,'NE','AGENT','NAAMA','13:42:32','13:50:16','00:07:44'),
 	 ('2016-07-28','CR2034291','C00000093','388-389-6102','AA0103',34848,1,'PS','AGENT','AVIDAN','10:59:07','11:00:43','00:01:36');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-07-28','CR2034506','C00000708','716-709-7766','AA0111',34849,1,'TT','AGENT','NO_SERVER','14:07:52','14:09:52','00:02:00'),
 	 ('2016-07-27','CR2032806','C00003519','223-993-8335','AA0214',34850,0,'NE','AGENT','ANAT','16:30:15','16:46:17','00:16:02'),
 	 ('2016-07-26','CR2031161','C00001388','821-599-1366','AA0215',34851,0,'NE','AGENT','ANAT','12:36:11','12:48:46','00:12:35'),
@@ -284,7 +284,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-07-19','CR2018989','C00001244','212-825-2848','AA0110',34858,2,'PS','AGENT','STEREN','09:56:40','10:16:11','00:19:31'),
 	 ('2016-07-15','CR2014249','C00004166','212-958-0128','AA0109',34862,0,'PS','AGENT','NO_SERVER','13:21:56','13:41:28','00:19:32'),
 	 ('2016-07-14','CR2012547','C00002187','939-060-0924','AA0109',34863,0,'NE','AGENT','TOVA','16:38:17','16:50:20','00:12:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-07-14','CR2013557','C00005204','490-684-3724','AA0209',34864,1,'PS','AGENT','STEREN','13:43:07','13:43:22','00:00:15'),
 	 ('2016-07-13','CR2009862','C00003904','619-439-1402','AA0214',34865,0,'NW','AGENT','AVNI','12:53:17','13:08:09','00:14:52'),
 	 ('2016-07-13','CR2011312','C00002425','589-152-4476','AA0113',34866,0,'PS','AGENT','TOVA','13:40:21','13:42:29','00:02:08'),
@@ -295,7 +295,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-07-08','CR2004639','C00000336','236-061-6362','AA0101',34872,0,'PS','AGENT','BASCH','12:23:46','12:27:21','00:03:35'),
 	 ('2016-07-08','CR2004696','C00001533','978-803-8181','AA0106',34873,2,'PS','AGENT','MIKI','09:27:31','09:40:40','00:13:09'),
 	 ('2016-07-07','CR2001591','C00000212','195-225-2296','AA0204',34874,0,'PS','AGENT','MIKI','11:54:31','12:09:39','00:15:08');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-07-07','CR2001838','C00002823','865-444-1244','AA0203',34875,0,'NE','AGENT','ZOHARI','13:10:17','13:15:46','00:05:29'),
 	 ('2016-07-06','CR2000885','C00002073','247-735-9431','AA0203',34876,2,'PS','AGENT','TOVA','14:56:03','15:01:55','00:05:52'),
 	 ('2016-07-05','CR1998263','C00002862','533-129-6610','AA0202',34877,2,'PS','AGENT','KAZAV','10:50:53','10:57:45','00:06:52'),
@@ -306,7 +306,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-06-29','CR1990472','C00002139','447-353-2701','AA0205',34885,0,'PS','AGENT','AVIDAN','12:15:10','12:21:12','00:06:02'),
 	 ('2016-06-28','CR1987912','C00004019','828-072-2911','AA0203',34886,0,'PS','AGENT','DORIT','09:08:59','09:12:48','00:03:49'),
 	 ('2016-06-28','CR1988564','C00009933','294-421-5763','AA0209',34887,2,'PS','AGENT','MORIAH','12:53:20','13:01:37','00:08:17');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-06-28','CR1988095','C00001337','169-473-4872','AA0106',34889,2,'NE','AGENT','ZOHARI','14:12:44','14:29:22','00:16:38'),
 	 ('2016-06-27','CR1987559','C00002667','617-960-2229','AA0101',34890,0,'PS','AGENT','YITZ','12:48:14','12:53:15','00:05:01'),
 	 ('2016-06-24','CR1985155','C00004744','933-111-6777','AA0104',34892,2,'PS','AGENT','STEREN','15:35:12','15:49:55','00:14:43'),
@@ -317,7 +317,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-06-22','CR1980335','C00004768','212-035-2517','AA0206',34897,0,'PS','AGENT','YITZ','15:57:01','16:12:17','00:15:16'),
 	 ('2016-06-21','CR1977855','C00004076','940-095-4698','AA0102',34898,0,'NW','AGENT','MIKI','13:07:55','13:09:35','00:01:40'),
 	 ('2016-06-21','CR1977295','C00006114','712-161-2640','AA0102',34900,2,'PS','AGENT','YIFAT','16:32:51','16:38:28','00:05:37');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-06-21','CR1978303','C00002097','537-977-3438','AA0109',34901,2,'PS','AGENT','MIKI','11:30:03','11:45:55','00:15:52'),
 	 ('2016-06-21','CR1977721','C00005384','423-641-3733','AA0213',34902,2,'PS','AGENT','IDIT','11:50:40','11:58:30','00:07:50'),
 	 ('2016-06-20','CR1976891','C00000080','914-011-1365','AA0101',34903,0,'PS','AGENT','STEREN','11:22:58','11:41:25','00:18:27'),
@@ -328,7 +328,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-06-17','CR1973400','C00004695','316-065-9578','AA0106',34909,2,'PS','AGENT','TOVA','09:45:08','10:05:04','00:19:56'),
 	 ('2016-06-17','CR1973369','C00002428','401-229-5507','AA0102',34910,2,'PS','AGENT','YIFAT','16:12:27','16:25:32','00:13:05'),
 	 ('2016-06-16','CR1972195','C00004529','652-722-6771','AA0112',34911,0,'TT','AGENT','DARMON','13:41:18','13:56:31','00:15:13');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-06-16','CR1972714','C00007435','257-894-6219','AA0210',34912,2,'PS','AGENT','AVIDAN','09:12:01','09:32:50','00:20:49'),
 	 ('2016-06-16','CR1972167','C00004161','138-313-3688','AA0110',34914,0,'PS','AGENT','AVNI','14:33:36','14:53:43','00:20:07'),
 	 ('2016-06-15','CR1970480','C00002635','363-890-7536','AA0109',34915,2,'PS','AGENT','TOVA','12:33:46','12:52:56','00:19:10'),
@@ -339,7 +339,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-06-07','CR1958451','C00004553','212-221-5503','AA0110',34922,2,'NE','AGENT','TOVA','15:52:02','16:01:03','00:09:01'),
 	 ('2016-06-07','CR1959041','C00004628','212-096-9270','AA0203',34923,1,'PS','AGENT','MORIAH','09:51:49','10:04:08','00:12:19'),
 	 ('2016-06-06','CR1955199','C00004956','984-024-9840','AA0107',34924,0,'TT','AGENT','MIKI','16:43:29','16:56:17','00:12:48');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-06-06','CR1955520','C00002326','647-579-4206','AA0202',34925,2,'NE','AGENT','ELI','10:52:25','10:58:28','00:06:03'),
 	 ('2016-06-06','CR1956058','C00000366','212-737-2197','AA0103',34926,1,'PS','AGENT','DORIT','14:57:32','15:15:41','00:18:09'),
 	 ('2016-06-06','CR1956709','C00004781','617-249-2579','AA0214',34927,0,'NW','AGENT','MICHAL','12:35:02','12:41:20','00:06:18'),
@@ -350,7 +350,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-05-31','CR1946988','C00005224','586-243-4486','AA0105',34936,0,'NW','AGENT','YITZ','09:11:43','09:17:23','00:05:40'),
 	 ('2016-05-31','CR1948645','C00001096','212-310-1636','AA0201',34937,2,'PS','AGENT','AVIDAN','11:21:42','11:42:32','00:20:50'),
 	 ('2016-05-31','CR1947455','C00007291','315-400-8095','AA0104',34938,2,'PS','AGENT','SHLOMO','16:40:05','16:41:46','00:01:41');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-05-31','CR1948238','C00002086','614-882-1397','AA0203',34939,1,'PS','AGENT','BENSION','09:36:31','09:42:55','00:06:24'),
 	 ('2016-05-26','CR1943023','C00005241','555-288-5142','AA0104',34940,1,'PS','AGENT','MORIAH','12:16:44','12:22:03','00:05:19'),
 	 ('2016-05-25','CR1941460','C00002038','830-584-7155','AA0104',34941,0,'PS','AGENT','GILI','11:40:08','11:58:58','00:18:50'),
@@ -361,7 +361,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-05-24','CR1938846','C00000404','820-484-9449','AA0215',34947,2,'PS','AGENT','SHARON','16:29:11','16:39:36','00:10:25'),
 	 ('2016-05-20','CR1934865','C00002071','212-363-1536','AA0101',34951,1,'PS','AGENT','YITZ','13:34:07','13:50:01','00:15:54'),
 	 ('2016-05-20','CR1934905','C00000738','347-612-8297','AA0105',34952,0,'PS','AGENT','MORIAH','15:36:47','15:44:42','00:07:55');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-05-20','CR1934828','C00003220','947-032-7956','AA0104',34953,2,'NE','AGENT','ZOHARI','11:43:56','11:46:07','00:02:11'),
 	 ('2016-05-17','CR1929741','C00001133','700-341-5117','AA0202',34955,0,'PS','AGENT','KAZAV','11:43:51','12:03:28','00:19:37'),
 	 ('2016-05-13','CR1924092','C00004225','914-561-7059','AA0206',34956,0,'NW','AGENT','NO_SERVER','15:44:27','16:00:19','00:15:52'),
@@ -372,7 +372,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-05-10','CR1918718','C00001413','772-602-9919','AA0103',34961,0,'PS','AGENT','NAAMA','10:30:12','10:47:08','00:16:56'),
 	 ('2016-05-09','CR1915885','C00001047','557-976-6902','AA0105',34962,2,'PS','AGENT','NAAMA','12:44:57','12:48:52','00:03:55'),
 	 ('2016-05-09','CR1915827','C00002547','508-733-0987','AA0101',34964,2,'PS','AGENT','BENSION','12:46:18','12:57:27','00:11:09');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-05-09','CR1915681','C00003377','337-973-1627','AA0201',34966,2,'PS','AGENT','AVIDAN','13:07:57','13:18:16','00:10:19'),
 	 ('2016-05-06','CR1913527','C00002304','508-045-4609','AA0213',34967,2,'PS','AGENT','TOVA','09:03:31','09:06:56','00:03:25'),
 	 ('2016-05-04','CR1909872','C00002775','772-909-4483','AA0213',34968,0,'NW','AGENT','MORIAH','15:21:23','15:28:16','00:06:53'),
@@ -383,7 +383,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-04-29','CR1903419','C00000615','563-214-9433','AA0205',34975,2,'PS','AGENT','YITZ','13:55:30','14:08:27','00:12:57'),
 	 ('2016-04-29','CR1904040','C00004220','109-429-0300','AA0210',34976,2,'PS','AGENT','SHLOMO','11:19:29','11:22:12','00:02:43'),
 	 ('2016-04-29','CR1903236','C00012754','978-152-8213','AA0210',34977,1,'PS','AGENT','MICHAL','16:21:36','16:28:56','00:07:20');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-04-29','CR1903974','C00003577','277-314-3952','AA0216',34978,0,'IN','AGENT','YITZ','15:51:27','16:07:51','00:16:24'),
 	 ('2016-04-28','CR1901471','C00001332','334-346-2525','AA0105',34979,0,'NE','AGENT','ANAT','12:45:32','13:02:19','00:16:47'),
 	 ('2016-04-28','CR1900314','C00010778','106-614-0486','AA0214',34980,0,'PS','AGENT','BENSION','09:31:46','09:32:59','00:01:13'),
@@ -394,7 +394,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-04-27','CR1898715','C00004462','212-162-5784','AA0203',34985,2,'NE','AGENT','AVIDAN','16:58:23','17:16:16','00:17:53'),
 	 ('2016-04-26','CR1897162','C00001768','776-733-4517','AA0109',34986,2,'NE','AGENT','TOVA','13:06:21','13:09:03','00:02:42'),
 	 ('2016-04-26','CR1898121','C00006731','826-381-5603','AA0205',34987,0,'PS','AGENT','ANAT','16:05:21','16:24:35','00:19:14');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-04-25','CR1894293','C00000261','631-216-0148','AA0113',34988,0,'NW','AGENT','MORIAH','11:42:28','11:44:09','00:01:41'),
 	 ('2016-04-25','CR1895831','C00001828','978-153-5816','AA0115',34989,2,'PS','AGENT','YIFAT','14:46:12','15:06:04','00:19:52'),
 	 ('2016-04-25','CR1894599','C00013915','265-277-9310','AA0205',34990,0,'PS','AGENT','SHARON','10:39:20','10:55:26','00:16:06'),
@@ -405,7 +405,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-04-20','CR1888091','C00000787','564-245-8877','AA0109',34996,0,'NW','AGENT','MIKI','15:56:51','16:05:53','00:09:02'),
 	 ('2016-04-20','CR1889322','C00009995','870-214-6557','AA0214',34997,0,'PS','AGENT','TOVA','12:07:49','12:24:51','00:17:02'),
 	 ('2016-04-20','CR1888218','C00001618','410-007-0975','AA0109',34998,0,'NW','AGENT','MICHAL','15:05:26','15:24:43','00:19:17');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-03-12','','','910-018-0049','',NULL,NULL,'','','','12:50:12','13:09:18','00:19:06'),
 	 ('2016-04-19','CR1887630','C00002474','539-635-0992','AA0214',34999,2,'PS','AGENT','ZOHARI','13:22:43','13:25:40','00:02:57'),
 	 ('2016-04-19','CR1885810','C00010382','354-125-0285','AA0106',35000,0,'PS','AGENT','GILI','09:57:51','10:17:36','00:19:45'),
@@ -416,7 +416,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-04-14','CR1880675','C00002153','130-296-1655','AA0210',35005,0,'NW','AGENT','YITZ','13:37:52','13:54:44','00:16:52'),
 	 ('2016-04-13','CR1878387','C00001900','684-426-5729','AA0109',35006,2,'PS','AGENT','YIFAT','10:54:43','10:59:41','00:04:58'),
 	 ('2016-04-12','CR1876668','C00002116','914-235-2659','AA0202',35008,0,'PS','AGENT','ANAT','16:20:54','16:39:28','00:18:34');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-04-12','CR1876143','C00000751','396-848-5191','AA0206',35009,0,'NW','AGENT','SHARON','09:13:50','09:30:40','00:16:50'),
 	 ('2016-04-12','CR1876584','C00004809','218-178-4327','AA0115',35010,2,'PS','AGENT','IDIT','16:20:50','16:21:35','00:00:45'),
 	 ('2016-04-12','CR1875861','C00001807','387-514-1611','AA0202',35011,2,'PS','AGENT','BASCH','15:14:43','15:32:04','00:17:21'),
@@ -427,7 +427,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-04-11','CR1874788','C00000870','183-280-2128','AA0214',35016,1,'PS','AGENT','MICHAL','13:53:49','13:56:15','00:02:26'),
 	 ('2016-04-07','CR1869370','C00008392','439-123-7912','AA0204',35018,0,'PS','AGENT','NAAMA','13:58:45','13:59:52','00:01:07'),
 	 ('2016-04-07','CR1869572','C00000569','983-117-4618','AA0209',35020,2,'PS','AGENT','YIFAT','15:27:42','15:35:33','00:07:51');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-04-07','CR1868541','C00004484','779-840-8158','AA0204',35021,2,'PS','AGENT','BASCH','10:59:01','11:17:41','00:18:40'),
 	 ('2016-04-06','CR1867597','C00002662','107-989-2443','AA0109',35022,2,'PS','AGENT','BASCH','12:14:11','12:29:07','00:14:56'),
 	 ('2016-04-06','CR1866172','C00000924','212-195-5968','AA0206',35023,2,'PS','AGENT','YITZ','14:42:45','14:49:49','00:07:04'),
@@ -438,7 +438,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-04-01','CR1859915','C00011637','400-432-9445','AA0113',35029,0,'PS','AGENT','SHARON','09:27:14','09:45:45','00:18:31'),
 	 ('2016-03-31','CR1859611','C00001237','508-541-8481','AA0106',35030,1,'PS','AGENT','BASCH','10:00:54','10:12:02','00:11:08'),
 	 ('2016-03-31','CR1859291','C00009346','471-246-9491','AA0210',35031,0,'NE','AGENT','MORIAH','16:36:20','16:50:18','00:13:58');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-03-31','CR1859305','C00003650','430-099-1954','AA0104',35032,0,'PS','AGENT','IDIT','09:20:13','09:26:04','00:05:51'),
 	 ('2016-03-30','CR1857024','C00003457','227-737-9076','AA0216',35033,0,'IN','AGENT','MICHAL','09:05:27','09:15:20','00:09:53'),
 	 ('2016-03-30','CR1856990','C00004790','585-334-7286','AA0106',35035,2,'PS','AGENT','YIFAT','15:17:50','15:38:20','00:20:30'),
@@ -449,7 +449,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-03-23','CR1847200','C00001218','447-202-5625','AA0104',35042,2,'PS','AGENT','SHARON','09:47:24','09:59:43','00:12:19'),
 	 ('2016-03-22','CR1844719','C00000707','212-323-6386','AA0214',35046,1,'PS','AGENT','BENSION','16:05:41','16:17:03','00:11:22'),
 	 ('2016-03-21','CR1842420','C00000160','708-775-5257','AA0105',35047,0,'PS','AGENT','AVNI','16:43:16','16:49:41','00:06:25');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-03-18','CR1838896','C00003818','617-152-2948','AA0106',35048,0,'PS','AGENT','AVNI','15:45:59','15:54:28','00:08:29'),
 	 ('2016-03-18','CR1839458','C00000210','551-696-8238','AA0109',35049,2,'NE','AGENT','ZOHARI','16:05:12','16:07:47','00:02:35'),
 	 ('2016-03-18','CR1839901','C00002093','508-345-1895','AA0106',35050,0,'PS','AGENT','MICHAL','14:27:26','14:38:00','00:10:34'),
@@ -460,7 +460,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-03-15','CR1832300','C00000769','863-166-6167','AA0115',35055,0,'PS','AGENT','MIKI','14:52:34','15:00:29','00:07:55'),
 	 ('2016-03-14','CR1830837','C00002765','915-779-5619','AA0109',35056,1,'PS','AGENT','SHLOMO','09:35:52','09:55:22','00:19:30'),
 	 ('2016-03-14','CR1830442','C00003450','359-216-4841','AA0205',35057,2,'PS','AGENT','AVIDAN','15:54:15','15:58:17','00:04:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-03-14','CR1830801','C00010096','212-401-9289','AA0209',35058,2,'PS','AGENT','KAZAV','16:23:23','16:33:53','00:10:30'),
 	 ('2016-03-11','CR1828807','C00003221','807-180-9256','AA0215',35059,1,'NE','AGENT','ZOHARI','12:51:15','13:05:31','00:14:16'),
 	 ('2016-03-11','CR1828455','C00002571','640-195-3963','AA0213',35060,2,'PS','AGENT','GILI','16:21:28','16:39:55','00:18:27'),
@@ -471,7 +471,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-03-08','CR1823406','C00002374','617-989-0719','AA0202',35065,2,'PS','AGENT','MICHAL','11:13:35','11:29:03','00:15:28'),
 	 ('2016-03-07','CR1820146','C00004399','228-907-7540','AA0115',35066,0,'NW','AGENT','YIFAT','15:54:01','16:12:51','00:18:50'),
 	 ('2016-03-04','CR1816094','C00001532','238-720-6554','AA0213',35067,2,'PS','AGENT','ANAT','14:03:14','14:06:32','00:03:18');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-03-03','CR1814954','C00004063','508-308-4360','AA0203',35068,2,'PS','AGENT','SHARON','09:19:58','09:20:51','00:00:53'),
 	 ('2016-03-03','CR1814959','C00002200','590-287-8306','AA0112',35069,2,'TT','AGENT','KAZAV','09:23:31','09:35:20','00:11:49'),
 	 ('2019-03-21','','','320-221-8745','',NULL,NULL,'','','','11:30:59','11:38:09','00:07:10'),
@@ -482,7 +482,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-02-26','CR1805701','C00003606','463-576-8017','AA0205',35075,1,'PS','AGENT','YITZ','16:02:51','16:10:21','00:07:30'),
 	 ('2016-02-25','CR1804285','C00001350','212-183-9939','AA0202',35076,2,'PS','AGENT','SHARON','09:38:30','09:58:27','00:19:57'),
 	 ('2016-02-25','CR1803958','C00004116','594-833-6445','AA0213',35077,0,'PS','AGENT','ANAT','10:22:17','10:28:19','00:06:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-02-25','CR1804597','C00001642','781-114-6366','AA0103',35078,1,'PS','AGENT','AVNI','10:15:38','10:18:25','00:02:47'),
 	 ('2016-02-24','CR1803145','C00004524','315-318-5357','AA0104',35080,1,'PS','AGENT','STEREN','15:34:10','15:47:18','00:13:08'),
 	 ('2016-02-23','CR1799554','C00004298','996-111-9372','AA0213',35081,2,'PS','AGENT','SHARON','13:03:25','13:10:15','00:06:50'),
@@ -493,7 +493,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-02-19','CR1795301','C00003621','511-244-0212','AA0115',35086,0,'NW','AGENT','MIKI','14:04:06','14:05:35','00:01:29'),
 	 ('2016-02-18','CR1793870','C00005224','586-243-4486','AA0115',35087,0,'PS','AGENT','BENSION','16:55:35','17:12:50','00:17:15'),
 	 ('2016-02-18','CR1792662','C00006481','212-076-1095','AA0104',35088,0,'PS','AGENT','AVNI','10:21:14','10:25:42','00:04:28');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-02-17','CR1791658','C00006342','651-907-6500','AA0104',35089,0,'PS','AGENT','AVNI','16:57:24','17:10:34','00:13:10'),
 	 ('2016-02-17','CR1791989','C00003852','563-310-1401','AA0214',35090,0,'PS','AGENT','SHARON','14:32:46','14:47:21','00:14:35'),
 	 ('2016-02-17','CR1791021','C00003541','413-513-8461','AA0201',35091,2,'PS','AGENT','SHLOMO','15:33:18','15:44:55','00:11:37'),
@@ -504,7 +504,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-02-12','CR1786355','C00004524','315-318-5357','AA0107',35096,1,'TT','AGENT','IDIT','09:41:03','09:44:33','00:03:30'),
 	 ('2016-02-11','CR1784705','C00003629','713-412-9036','AA0102',35097,0,'NW','AGENT','MIKI','11:30:58','11:45:47','00:14:49'),
 	 ('2016-02-10','CR1782186','C00004540','978-977-9774','AA0205',35100,2,'PS','AGENT','SHARON','10:06:16','10:14:31','00:08:15');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-02-09','CR1779512','C00012051','213-809-7626','AA0102',35101,2,'NE','AGENT','BASCH','12:41:30','12:43:30','00:02:00'),
 	 ('2016-02-09','CR1780156','C00001811','212-475-9752','AA0215',35102,0,'NW','AGENT','MORIAH','14:16:23','14:25:30','00:09:07'),
 	 ('2016-02-04','CR1773665','C00001446','913-909-5355','AA0110',35105,0,'PS','AGENT','AVIDAN','11:12:19','11:27:51','00:15:32'),
@@ -515,7 +515,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-01-27','CR1760505','C00013640','944-841-4971','AA0205',35110,0,'PS','AGENT','TOVA','15:52:05','15:59:38','00:07:33'),
 	 ('2016-01-27','CR1760808','C00004652','300-424-8103','AA0101',35111,0,'NW','AGENT','MORIAH','13:04:10','13:23:43','00:19:33'),
 	 ('2016-01-27','CR1761445','C00010475','413-129-7278','AA0215',35112,0,'NE','AGENT','ZOHARI','11:32:28','11:50:30','00:18:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-01-25','CR1755680','C00002027','240-836-5112','AA0204',35113,0,'NE','AGENT','SHARON','15:22:25','15:33:53','00:11:28'),
 	 ('2016-01-25','CR1756553','C00004134','212-526-8214','AA0213',35114,0,'PS','AGENT','AVIDAN','14:46:21','14:53:00','00:06:39'),
 	 ('2016-01-25','CR1756863','C00001216','617-073-4821','AA0210',35115,1,'PS','AGENT','DARMON','09:30:02','09:41:37','00:11:35'),
@@ -526,7 +526,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-01-20','CR1750377','C00004529','652-722-6771','AA0202',35121,0,'NW','AGENT','YITZ','11:12:34','11:12:49','00:00:15'),
 	 ('2016-01-20','CR1749949','C00005873','267-635-5608','AA0215',35122,0,'PS','AGENT','ZOHARI','11:54:55','12:00:08','00:05:13'),
 	 ('2016-01-15','CR1745068','C00000621','790-326-5177','AA0115',35123,2,'PS','AGENT','BASCH','10:58:32','11:00:07','00:01:35');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-01-14','CR1741083','C00001448','716-860-1608','AA0204',35124,0,'PS','AGENT','MORIAH','09:49:45','10:04:57','00:15:12'),
 	 ('2016-01-13','CR1742892','C00000940','623-026-1533','AA0205',35125,0,'PS','AGENT','IDIT','11:20:18','11:27:36','00:07:18'),
 	 ('2016-01-13','CR1742871','C00000049','492-103-4485','AA0102',35126,0,'NW','AGENT','AVNI','14:48:30','15:07:37','00:19:07'),
@@ -537,7 +537,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-01-12','CR1737765','C00001673','508-379-6932','AA0202',35132,0,'NW','AGENT','BENSION','16:38:15','16:43:09','00:04:54'),
 	 ('2016-01-11','CR1736566','C00003925','770-934-4149','AA0206',35133,2,'PS','AGENT','YITZ','14:29:57','14:47:07','00:17:10'),
 	 ('2016-01-08','CR1734751','C00004504','157-880-3295','AA0214',35135,2,'PS','AGENT','AVNI','16:30:41','16:34:22','00:03:41');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-01-08','CR1731630','C00012344','184-509-6210','AA0204',35136,0,'NE','AGENT','ZOHARI','10:42:33','10:50:41','00:08:08'),
 	 ('2016-01-07','CR1731727','C00002119','404-905-9000','AA0115',35137,0,'PS','AGENT','DARMON','11:10:08','11:20:47','00:10:39'),
 	 ('2016-01-04','CR1726351','C00001901','631-072-7793','AA0214',35139,1,'PS','AGENT','TOVA','13:09:06','13:18:04','00:08:58'),
@@ -548,7 +548,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-12-31','CR1723704','C00000762','305-963-7179','AA0109',35143,2,'NE','AGENT','ZOHARI','10:39:26','10:49:02','00:09:36'),
 	 ('2015-12-31','CR1724079','C00004635','975-360-3055','AA0204',35144,0,'PS','AGENT','DORIT','10:08:35','10:26:24','00:17:49'),
 	 ('2015-12-30','CR1721831','C00004576','103-508-0451','AA0101',35145,0,'PS','AGENT','KAZAV','16:42:04','16:55:27','00:13:23');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-12-30','CR1721759','C00002405','832-945-3518','AA0203',35146,0,'NE','AGENT','NAAMA','14:45:15','15:05:14','00:19:59'),
 	 ('2015-12-29','CR1720544','C00003331','280-084-9010','AA0201',35147,2,'PS','AGENT','YITZ','13:58:02','14:18:10','00:20:08'),
 	 ('2015-12-28','CR1719135','C00003877','782-548-4080','AA0213',35148,0,'PS','AGENT','DORIT','09:02:24','09:06:46','00:04:22'),
@@ -559,7 +559,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-12-21','CR1709931','C00002988','869-628-6012','AA0206',35154,0,'NW','AGENT','ZOHARI','12:12:42','12:17:32','00:04:50'),
 	 ('2015-12-18','CR1709512','C00009641','751-672-5553','AA0102',35155,1,'PS','AGENT','TOVA','11:43:43','11:47:32','00:03:49'),
 	 ('2015-12-18','CR1708095','C00002760','601-853-1510','AA0203',35157,2,'PS','AGENT','AVIDAN','10:43:26','10:45:24','00:01:58');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-12-18','CR1708746','C00004528','463-191-1159','AA0106',35158,1,'NE','AGENT','YITZ','15:41:00','15:42:11','00:01:11'),
 	 ('2015-12-18','CR1708760','C00001838','456-252-6384','AA0109',35159,0,'PS','AGENT','DARMON','16:13:02','16:21:42','00:08:40'),
 	 ('2015-12-17','CR1706630','C00001936','325-745-9314','AA0213',35161,1,'PS','AGENT','MORIAH','11:06:26','11:18:33','00:12:07'),
@@ -570,7 +570,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-12-15','CR1696972','C00013556','972-899-2655','AA0103',35166,2,'NE','AGENT','DARMON','11:54:26','11:59:34','00:05:08'),
 	 ('2015-12-14','CR1695189','C00004929','535-005-3114','AA0102',35168,1,'PS','AGENT','MORIAH','13:04:37','13:09:47','00:05:10'),
 	 ('2015-12-11','CR1693501','C00005253','978-411-8811','AA0103',35169,1,'PS','AGENT','TOVA','10:10:32','10:10:41','00:00:09');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-12-10','CR1691760','C00002590','337-346-6323','AA0106',35170,0,'NW','AGENT','BASCH','13:32:26','13:49:54','00:17:28'),
 	 ('2015-12-09','CR1689921','C00000160','708-775-5257','AA0115',35171,2,'NW','AGENT','AVNI','13:25:36','13:26:50','00:01:14'),
 	 ('2015-12-08','CR1687003','C00002980','139-555-3887','AA0203',35173,0,'PS','AGENT','YIFAT','12:23:44','12:38:01','00:14:17'),
@@ -581,7 +581,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-12-07','CR1685894','C00002637','561-204-2011','AA0115',35181,0,'NW','AGENT','YIFAT','10:43:34','10:53:00','00:09:26'),
 	 ('2015-12-04','CR1683408','C00001831','413-657-3854','AA0206',35182,0,'PS','AGENT','BASCH','16:04:55','16:22:59','00:18:04'),
 	 ('2015-12-03','CR1682281','C00000724','617-019-9325','AA0111',35183,0,'TT','AGENT','STEREN','12:38:16','12:56:39','00:18:23');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-12-02','CR1680162','C00001469','787-256-7058','AA0201',35184,0,'PS','AGENT','IDIT','09:18:50','09:34:52','00:16:02'),
 	 ('2015-12-02','CR1679785','C00002291','394-787-2286','AA0109',35186,0,'PS','AGENT','ANAT','14:20:19','14:30:03','00:09:44'),
 	 ('2015-12-02','CR1681090','C00004329','998-054-4150','AA0210',35188,0,'NW','AGENT','BASCH','09:05:44','09:23:02','00:17:18'),
@@ -592,7 +592,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-12-01','CR1678013','C00004025','342-872-6638','AA0213',35193,0,'PS','AGENT','IDIT','12:38:16','12:40:28','00:02:12'),
 	 ('2015-11-30','CR1675522','C00001885','658-795-2335','AA0215',35194,0,'NW','AGENT','STEREN','16:46:27','17:00:53','00:14:26'),
 	 ('2015-11-30','CR1676467','C00000934','880-639-6482','AA0111',35195,1,'TT','AGENT','MIKI','09:55:12','09:58:46','00:03:34');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-11-28','CR1674294','C00001174','848-352-5548','AA0215',35196,1,'PS','AGENT','AVNI','10:08:09','10:09:05','00:00:56'),
 	 ('2015-11-27','CR1673770','C00003980','212-681-7827','AA0109',35197,0,'NW','AGENT','MORIAH','14:41:39','14:59:18','00:17:39'),
 	 ('2015-11-25','CR1672203','C00002203','107-675-0031','AA0104',35199,0,'NW','AGENT','AVNI','09:00:48','09:03:11','00:02:23'),
@@ -603,7 +603,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-11-19','CR1663434','C00001275','212-977-4972','AA0115',35205,1,'PE','AGENT','YITZ','09:28:27','09:39:20','00:10:53'),
 	 ('2015-11-18','CR1661077','C00000155','717-989-7187','AA0205',35207,0,'PS','AGENT','TOVA','15:29:29','15:48:14','00:18:45'),
 	 ('2015-11-18','CR1662194','C00004655','608-853-8795','AA0203',35208,0,'NE','AGENT','ELI','15:24:38','15:35:29','00:10:51');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-11-17','CR1659903','C00002571','640-195-3963','AA0110',35209,0,'PS','AGENT','GILI','16:05:38','16:18:02','00:12:24'),
 	 ('2015-11-17','CR1659881','C00012599','924-584-8267','AA0202',35210,0,'NW','AGENT','SHARON','10:40:54','10:59:36','00:18:42'),
 	 ('2015-11-17','CR1660043','C00005254','985-308-4738','AA0110',35211,0,'PS','AGENT','MORIAH','10:43:23','10:56:14','00:12:51'),
@@ -614,7 +614,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-11-16','CR1657655','C00000123','907-536-0022','AA0115',35215,0,'PS','AGENT','BENSION','11:31:54','11:49:25','00:17:31'),
 	 ('2015-11-16','CR1657410','C00000169','441-222-0909','AA0214',35216,0,'NW','AGENT','YIFAT','13:12:29','13:25:45','00:13:16'),
 	 ('2015-11-13','CR1653597','C00000774','478-015-9888','AA0201',35217,0,'NW','AGENT','AVNI','12:07:43','12:14:09','00:06:26');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-11-13','CR1654790','C00002362','617-876-1247','AA0101',35218,0,'PS','AGENT','TOVA','15:10:28','15:13:23','00:02:55'),
 	 ('2015-11-10','CR1649584','C00000472','395-986-3749','AA0111',35220,1,'TT','AGENT','YIFAT','12:04:12','12:07:08','00:02:56'),
 	 ('2015-11-09','CR1646504','C00003803','212-663-1882','AA0106',35221,0,'PS','AGENT','ANAT','10:03:42','10:06:05','00:02:23'),
@@ -625,7 +625,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-11-04','CR1640757','C00012221','781-901-0257','AA0103',35227,0,'NW','AGENT','AVNI','15:22:42','15:39:14','00:16:32'),
 	 ('2015-11-03','CR1638396','C00001760','315-133-2228','AA0104',35231,2,'PS','AGENT','TOVA','15:32:41','15:52:25','00:19:44'),
 	 ('2015-11-02','CR1635576','C00006342','651-907-6500','AA0115',35233,2,'PS','AGENT','MICHAL','14:16:24','14:28:37','00:12:13');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-11-02','CR1635615','C00000859','212-611-9119','AA0210',35234,2,'PS','AGENT','ZOHARI','16:22:49','16:40:52','00:18:03'),
 	 ('2015-11-02','CR1636310','C00002623','961-346-1802','AA0202',35235,2,'PS','AGENT','STEREN','13:59:21','14:06:51','00:07:30'),
 	 ('2015-10-29','CR1631157','C00001522','320-556-8935','AA0214',35236,0,'PS','AGENT','IDIT','14:50:58','15:04:15','00:13:17'),
@@ -636,7 +636,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-10-26','CR1624041','C00003655','617-742-8357','AA0204',35242,0,'NE','AGENT','AVIDAN','10:19:59','10:29:21','00:09:22'),
 	 ('2015-10-26','CR1624892','C00002642','423-959-7705','AA0101',35243,0,'NW','AGENT','BENSION','09:26:34','09:41:34','00:15:00'),
 	 ('2015-10-23','CR1621272','C00006001','781-783-8545','AA0209',35245,0,'NW','AGENT','YIFAT','11:04:42','11:10:12','00:05:30');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-10-22','CR1619938','C00000298','617-222-8348','AA0106',35247,2,'PS','AGENT','YIFAT','09:06:07','09:13:42','00:07:35'),
 	 ('2015-10-22','CR1620269','C00001013','703-040-3412','AA0104',35248,2,'PS','AGENT','DORIT','14:26:30','14:27:04','00:00:34'),
 	 ('2015-10-21','CR1617821','C00001849','508-560-1374','AA0110',35250,2,'PS','AGENT','GILI','12:19:54','12:36:34','00:16:40'),
@@ -647,7 +647,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-10-16','CR1611334','C00002761','212-327-1969','AA0101',35256,2,'PS','AGENT','SHARON','09:18:27','09:29:17','00:10:50'),
 	 ('2015-10-14','CR1606089','C00003241','374-578-0855','AA0103',35257,2,'PS','AGENT','AVIDAN','10:42:08','10:52:15','00:10:07'),
 	 ('2015-10-14','CR1606218','C00004383','162-575-3696','AA0115',35258,0,'PS','AGENT','BENSION','14:34:14','14:47:24','00:13:10');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-10-14','CR1605476','C00000993','305-867-9852','AA0204',35259,0,'PS','AGENT','BENSION','11:45:34','11:48:25','00:02:51'),
 	 ('2015-10-14','CR1606177','C00000686','851-540-0485','AA0209',35260,2,'PS','AGENT','ZOHARI','12:44:47','12:58:23','00:13:36'),
 	 ('2015-10-13','CR1604777','C00003793','111-828-4630','AA0104',35261,0,'NW','AGENT','YIFAT','09:50:21','10:06:38','00:16:17'),
@@ -658,7 +658,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-10-07','CR1597859','C00005107','716-212-2426','AA0110',35267,0,'NW','AGENT','YIFAT','10:31:44','10:46:42','00:14:58'),
 	 ('2015-10-06','CR1594577','C00004659','567-383-9205','AA0215',35270,2,'PS','AGENT','YITZ','10:59:13','11:07:07','00:07:54'),
 	 ('2015-10-05','CR1592361','C00006039','212-418-1613','AA0105',35271,1,'PS','AGENT','IDIT','10:00:28','10:08:15','00:07:47');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-10-05','CR1592376','C00001877','206-175-2272','AA0201',35272,2,'NE','AGENT','NAAMA','14:13:48','14:21:20','00:07:32'),
 	 ('2015-10-02','CR1590033','C00002457','806-657-6811','AA0201',35274,2,'NE','AGENT','SHARON','16:31:53','16:47:59','00:16:06'),
 	 ('2015-10-02','CR1591112','C00007327','175-084-6578','AA0214',35275,0,'PS','AGENT','BENSION','12:46:24','13:00:27','00:14:03'),
@@ -669,7 +669,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-09-28','CR1582436','C00006789','508-381-8803','AA0105',35282,0,'NE','AGENT','ZOHARI','16:17:43','16:20:17','00:02:34'),
 	 ('2015-09-25','CR1580637','C00006798','504-694-5308','AA0104',35283,0,'PS','AGENT','MICHAL','12:55:17','13:09:41','00:14:24'),
 	 ('2015-09-22','CR1574594','C00001736','674-955-0036','AA0102',35289,2,'PS','AGENT','MORIAH','13:01:45','13:19:51','00:18:06');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-09-22','CR1574697','C00001167','186-005-8724','AA0104',35290,2,'PS','AGENT','BASCH','15:32:39','15:47:17','00:14:38'),
 	 ('2015-09-18','CR1570979','C00002972','212-470-0776','AA0105',35291,2,'PS','AGENT','AVIDAN','14:44:57','15:02:48','00:17:51'),
 	 ('2015-09-17','CR1569035','C00002707','127-653-6370','AA0105',35292,0,'PS','AGENT','AVNI','12:52:22','13:05:31','00:13:09'),
@@ -680,7 +680,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-09-15','CR1565640','C00000027','407-745-6584','AA0206',35299,2,'PS','AGENT','MIKI','16:07:13','16:20:20','00:13:07'),
 	 ('2015-09-14','CR1563428','C00002411','631-071-0243','AA0103',35300,2,'PS','AGENT','MICHAL','16:36:55','16:50:33','00:13:38'),
 	 ('2015-09-11','CR1561156','C00003025','809-843-6560','AA0104',35301,2,'PS','AGENT','IDIT','13:46:53','13:50:14','00:03:21');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-09-10','CR1559295','C00004530','883-025-8077','AA0103',35302,0,'PS','AGENT','MORIAH','16:26:53','16:30:46','00:03:53'),
 	 ('2015-09-10','CR1558253','C00002832','261-752-0589','AA0209',35303,1,'PS','AGENT','ZOHARI','14:10:59','14:21:56','00:10:57'),
 	 ('2015-09-10','CR1559403','C00001077','402-237-4396','AA0101',35304,0,'PS','AGENT','ZOHARI','16:52:44','17:09:50','00:17:06'),
@@ -691,7 +691,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-09-08','CR1555854','C00001924','842-268-8750','AA0115',35310,2,'PS','AGENT','DORIT','11:47:23','11:58:03','00:10:40'),
 	 ('2015-09-08','CR1554613','C00003759','710-452-4737','AA0206',35311,1,'PS','AGENT','STEREN','15:29:51','15:37:03','00:07:12'),
 	 ('2015-09-08','CR1555865','C00000209','431-846-0245','AA0103',35312,2,'PS','AGENT','KAZAV','16:30:10','16:37:04','00:06:54');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-09-03','CR1550810','C00003714','888-142-1355','AA0213',35314,0,'PS','AGENT','MICHAL','11:24:46','11:39:37','00:14:51'),
 	 ('2015-09-02','CR1550385','C00000905','586-842-3973','AA0204',35317,0,'NW','AGENT','KAZAV','14:39:06','14:46:01','00:06:55'),
 	 ('2015-09-02','CR1548882','C00002909','374-813-8401','AA0109',35318,0,'PS','AGENT','AVIDAN','11:32:50','11:41:37','00:08:47'),
@@ -702,7 +702,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-08-27','CR1540488','C00001283','252-408-8007','AA0109',35327,1,'PS','AGENT','DORIT','14:05:18','14:21:52','00:16:34'),
 	 ('2015-08-27','CR1540348','C00003281','863-792-2119','AA0202',35328,0,'PS','AGENT','GILI','09:19:43','09:29:23','00:09:40'),
 	 ('2015-08-26','CR1538753','C00011362','413-200-5999','AA0202',35329,1,'PS','AGENT','DORIT','13:05:00','13:05:19','00:00:19');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-08-26','CR1537815','C00004729','824-714-4182','AA0206',35330,1,'PS','AGENT','MIKI','09:23:58','09:43:51','00:19:53'),
 	 ('2015-08-25','CR1535915','C00001014','212-397-3526','AA0110',35331,2,'PS','AGENT','KAZAV','11:13:05','11:28:20','00:15:15'),
 	 ('2015-08-25','CR1535245','C00002930','743-738-0264','AA0203',35332,2,'PS','AGENT','TOVA','09:30:46','09:37:48','00:07:02'),
@@ -713,7 +713,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-08-24','CR1533412','C00003384','125-611-1277','AA0106',35337,1,'PS','AGENT','BASCH','15:47:35','15:55:16','00:07:41'),
 	 ('2015-08-21','CR1531207','C00004607','388-005-5098','AA0210',35338,2,'PS','AGENT','BASCH','15:52:44','16:02:02','00:09:18'),
 	 ('2015-08-21','CR1530932','C00001424','643-014-8434','AA0103',35339,0,'NW','AGENT','YITZ','16:17:44','16:20:44','00:03:00');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-08-21','CR1530223','C00003622','416-541-3526','AA0205',35340,1,'PS','AGENT','AVIDAN','12:24:23','12:27:22','00:02:59'),
 	 ('2015-08-21','CR1530918','C00004408','402-984-2932','AA0104',35341,0,'PS','AGENT','IDIT','15:40:19','15:42:37','00:02:18'),
 	 ('2015-08-20','CR1529068','C00003131','649-878-4136','AA0110',35342,1,'PS','AGENT','SHLOMO','10:05:06','10:06:10','00:01:04'),
@@ -724,7 +724,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-08-19','CR1527123','C00004258','547-226-1341','AA0109',35348,0,'NW','AGENT','MICHAL','13:13:20','13:25:11','00:11:51'),
 	 ('2015-08-18','CR1524924','C00003656','659-966-0126','AA0109',35349,2,'PS','AGENT','KAZAV','12:43:33','13:03:33','00:20:00'),
 	 ('2015-08-18','CR1523827','C00004824','830-754-5842','AA0106',35350,0,'PS','AGENT','IDIT','13:04:00','13:24:34','00:20:34');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-08-17','CR1521079','C00004465','342-176-1543','AA0204',35351,0,'NW','AGENT','KAZAV','09:46:05','09:48:20','00:02:15'),
 	 ('2015-08-17','CR1522316','C00002312','947-269-8060','AA0205',35352,2,'NE','AGENT','ELI','13:07:48','13:20:58','00:13:10'),
 	 ('2015-08-17','CR1522811','C00002563','816-876-5732','AA0202',35353,0,'PS','AGENT','YIFAT','15:19:27','15:34:56','00:15:29'),
@@ -735,7 +735,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-08-13','CR1518405','C00004642','231-693-5871','AA0115',35358,0,'PS','AGENT','BASCH','14:52:10','15:01:08','00:08:58'),
 	 ('2015-08-13','CR1517159','C00011886','508-253-5013','AA0213',35359,2,'PS','AGENT','KAZAV','10:19:04','10:20:55','00:01:51'),
 	 ('2015-08-12','CR1515151','C00003331','280-084-9010','AA0210',35360,2,'NE','AGENT','KAZAV','15:45:57','15:59:36','00:13:39');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-08-11','CR1513764','C00001075','617-348-7409','AA0105',35361,2,'PS','AGENT','YIFAT','13:42:43','13:50:49','00:08:06'),
 	 ('2015-08-10','CR1510219','C00000785','953-922-9590','AA0210',35362,1,'PS','AGENT','YIFAT','09:12:04','09:20:43','00:08:39'),
 	 ('2015-08-10','CR1511129','C00000554','314-938-3383','AA0206',35363,2,'PS','AGENT','NAAMA','16:58:20','17:06:55','00:08:35'),
@@ -746,7 +746,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-08-03','CR1499374','C00002437','852-756-1134','AA0205',35370,1,'PS','AGENT','GILI','10:14:19','10:18:34','00:04:15'),
 	 ('2015-08-03','CR1500056','C00002476','585-736-4906','AA0206',35372,0,'PS','AGENT','ANAT','11:50:53','12:01:00','00:10:07'),
 	 ('2016-03-24','','','212-266-3674','',NULL,NULL,'','','','11:17:43','11:31:34','00:13:51');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-08-03','CR1499030','C00002099','212-798-5309','AA0209',35373,0,'PS','AGENT','YIFAT','16:22:44','16:32:46','00:10:02'),
 	 ('2015-07-31','CR1496787','C00013404','508-850-2826','AA0101',35374,0,'PS','AGENT','AVNI','14:51:18','14:53:39','00:02:21'),
 	 ('2015-07-31','CR1497394','C00013090','514-357-3232','AA0213',35375,0,'PS','AGENT','DORIT','13:11:50','13:22:52','00:11:02'),
@@ -757,7 +757,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-07-27','CR1488438','C00011136','683-583-3385','AA0210',35382,0,'PS','AGENT','IDIT','09:39:06','09:39:26','00:00:20'),
 	 ('2015-07-24','CR1486248','C00001986','637-495-4282','AA0203',35384,0,'PS','AGENT','SHARON','16:28:11','16:41:40','00:13:29'),
 	 ('2015-07-24','CR1485421','C00001772','618-587-4989','AA0101',35385,0,'PS','AGENT','TOVA','12:38:15','12:41:34','00:03:19');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-07-24','CR1486127','C00004927','157-887-6328','AA0105',35386,0,'PS','AGENT','ZOHARI','12:15:15','12:35:31','00:20:16'),
 	 ('2015-07-24','CR1486487','C00003676','123-604-1257','AA0202',35387,2,'PS','AGENT','YIFAT','12:14:14','12:15:48','00:01:34'),
 	 ('2015-07-23','CR1484573','C00002509','960-349-7112','AA0109',35388,2,'PS','AGENT','AVIDAN','16:22:56','16:41:00','00:18:04'),
@@ -768,7 +768,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-07-21','CR1478732','C00001818','241-723-0244','AA0116',35393,0,'IN','AGENT','BASCH','14:40:07','14:51:35','00:11:28'),
 	 ('2015-07-21','CR1478733','C00012859','212-805-3950','AA0109',35394,1,'PS','AGENT','SHARON','13:16:44','13:25:37','00:08:53'),
 	 ('2015-07-17','CR1474183','C00004659','127-696-9447','AA0110',35396,2,'PS','AGENT','YITZ','14:25:53','14:31:43','00:05:50');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-07-15','CR1469576','C00004192','165-231-7045','AA0204',35398,0,'PS','AGENT','AVNI','10:40:43','10:47:07','00:06:24'),
 	 ('2015-07-15','CR1468803','C00000078','206-534-4919','AA0215',35399,1,'PS','AGENT','IDIT','11:44:47','11:55:29','00:10:42'),
 	 ('2015-07-14','CR1468273','C00000406','301-721-1727','AA0109',35400,2,'NE','AGENT','MORIAH','13:54:31','14:14:06','00:19:35'),
@@ -779,7 +779,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-07-10','CR1462991','C00001806','299-048-4196','AA0104',35406,2,'PS','AGENT','ANAT','14:31:26','14:46:57','00:15:31'),
 	 ('2015-07-08','CR1456740','C00004651','985-977-1671','AA0210',35408,2,'PS','AGENT','NAAMA','12:55:23','13:03:55','00:08:32'),
 	 ('2015-07-08','CR1456767','C00004559','863-794-6527','AA0101',35409,0,'NW','AGENT','BENSION','09:06:51','09:25:52','00:19:01');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-07-08','CR1458981','C00000347','617-497-6254','AA0205',35410,0,'PS','AGENT','AVNI','16:37:17','16:47:22','00:10:05'),
 	 ('2015-07-07','CR1454378','C00003213','212-406-6261','AA0203',35411,0,'PS','AGENT','STEREN','10:56:58','11:06:15','00:09:17'),
 	 ('2015-07-06','CR1452382','C00005287','810-001-6001','AA0201',35412,0,'PS','AGENT','TOVA','10:19:52','10:26:18','00:06:26'),
@@ -790,7 +790,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-06-30','CR1445912','C00001827','612-176-1959','AA0105',35418,1,'PE','AGENT','MIKI','09:24:14','09:34:17','00:10:03'),
 	 ('2015-06-25','CR1438258','C00001286','567-845-8514','AA0102',35420,2,'NE','AGENT','BASCH','11:07:44','11:08:01','00:00:17'),
 	 ('2015-06-25','CR1437540','C00001462','818-120-9985','AA0213',35421,0,'PS','AGENT','SHLOMO','09:48:29','09:52:11','00:03:42');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-06-24','CR1436880','C00003885','737-780-6125','AA0203',35422,2,'PS','AGENT','MORIAH','14:03:27','14:06:22','00:02:55'),
 	 ('2015-06-23','CR1433701','C00001780','192-344-2020','AA0206',35423,2,'PS','AGENT','TOVA','15:23:34','15:42:14','00:18:40'),
 	 ('2015-06-23','CR1433657','C00002965','510-899-6373','AA0109',35424,2,'PS','AGENT','MIKI','13:59:18','14:18:25','00:19:07'),
@@ -801,7 +801,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-06-17','CR1425657','C00003980','212-681-7827','AA0203',35430,0,'NE','AGENT','ELI','14:39:34','14:59:24','00:19:50'),
 	 ('2015-06-17','CR1426496','C00001656','640-080-1042','AA0213',35432,0,'PS','AGENT','TOVA','09:09:00','09:12:12','00:03:12'),
 	 ('2015-06-16','CR1423243','C00008738','155-479-6531','AA0115',35434,0,'PS','AGENT','BENSION','16:47:39','17:01:00','00:13:21');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-06-11','CR1417216','C00011121','836-564-5183','AA0209',35438,0,'NW','AGENT','AVNI','12:50:54','13:04:39','00:13:45'),
 	 ('2015-06-11','CR1416658','C00003413','939-522-9296','AA0115',35439,2,'PS','AGENT','STEREN','13:38:27','13:54:49','00:16:22'),
 	 ('2015-06-09','CR1413746','C00001774','685-796-9901','AA0102',35440,2,'PS','AGENT','KAZAV','13:58:25','14:04:37','00:06:12'),
@@ -812,7 +812,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-06-03','CR1403320','C00003092','617-783-7171','AA0105',35445,1,'PE','AGENT','MICHAL','14:55:48','15:10:13','00:14:25'),
 	 ('2015-06-03','CR1405178','C00000380','365-081-2758','AA0209',35446,0,'PS','AGENT','TOVA','09:38:01','09:45:51','00:07:50'),
 	 ('2015-06-02','CR1402032','C00006936','151-970-7677','AA0209',35447,1,'PS','AGENT','SHLOMO','10:14:06','10:29:35','00:15:29');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-06-01','CR1400590','C00008393','931-004-6471','AA0206',35448,0,'PS','AGENT','BENSION','09:37:49','09:49:57','00:12:08'),
 	 ('2017-09-01','','','212-854-0474','',NULL,NULL,'','','','12:31:15','12:37:41','00:06:26'),
 	 ('2015-05-28','CR1395360','C00004453','508-779-9100','AA0201',35449,0,'PS','AGENT','DORIT','14:44:17','14:47:43','00:03:26'),
@@ -823,7 +823,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-05-26','CR1392684','C00004739','983-692-5548','AA0213',35455,0,'NW','AGENT','TOVA','10:12:07','10:32:22','00:20:15'),
 	 ('2015-05-22','CR1389480','C00001909','388-035-7021','AA0109',35456,2,'PS','AGENT','MIKI','16:55:08','16:56:27','00:01:19'),
 	 ('2015-05-22','CR1389700','C00002271','508-121-3305','AA0205',35457,1,'NE','AGENT','AVIDAN','13:59:42','14:19:48','00:20:06');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-05-20','CR1384318','C00003397','303-189-9605','AA0109',35458,2,'PS','AGENT','BENSION','12:11:53','12:26:23','00:14:30'),
 	 ('2015-05-20','CR1385420','C00002154','781-237-9406','AA0215',35459,0,'NE','AGENT','ZOHARI','09:02:51','09:08:43','00:05:52'),
 	 ('2015-05-20','CR1384709','C00012756','269-876-2611','AA0112',35460,0,'TT','AGENT','DORIT','14:54:39','15:03:51','00:09:12'),
@@ -834,7 +834,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-05-15','CR1378805','C00003606','463-576-8017','AA0110',35466,2,'NE','AGENT','SHARON','14:25:51','14:42:30','00:16:39'),
 	 ('2015-05-14','CR1374880','C00002697','306-671-5453','AA0115',35467,2,'PS','AGENT','YITZ','13:28:20','13:43:52','00:15:32'),
 	 ('2015-05-14','CR1375071','C00003144','212-195-1624','AA0110',35468,2,'PS','AGENT','NAAMA','16:33:31','16:47:14','00:13:43');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-05-14','CR1376409','C00001510','748-186-0003','AA0110',35469,0,'PS','AGENT','NAAMA','16:48:54','16:54:27','00:05:33'),
 	 ('2015-05-14','CR1376827','C00002011','953-359-3604','AA0204',35470,1,'PS','AGENT','BENSION','09:01:56','09:07:25','00:05:29'),
 	 ('2015-05-11','CR1369318','C00012308','116-564-1143','AA0116',35472,0,'IN','AGENT','YIFAT','11:38:20','11:40:18','00:01:58'),
@@ -845,7 +845,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-05-08','CR1366670','C00011866','212-842-6687','AA0204',35478,0,'PS','AGENT','SHARON','14:41:23','14:51:17','00:09:54'),
 	 ('2015-05-07','CR1365437','C00002253','569-042-2798','AA0203',35479,0,'PS','AGENT','AVIDAN','13:54:33','14:05:31','00:10:58'),
 	 ('2015-05-06','CR1363406','C00004010','226-437-5917','AA0202',35480,0,'PS','AGENT','STEREN','13:54:57','14:08:31','00:13:34');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-05-06','CR1362797','C00000948','540-989-4115','AA0202',35481,2,'PS','AGENT','YITZ','11:29:29','11:45:59','00:16:30'),
 	 ('2015-05-04','CR1358476','C00011701','617-254-8026','AA0204',35483,0,'NW','AGENT','ZOHARI','15:00:43','15:18:55','00:18:12'),
 	 ('2015-04-30','CR1355614','C00001611','145-729-5177','AA0110',35486,2,'NE','AGENT','KAZAV','09:00:06','09:15:57','00:15:51'),
@@ -856,7 +856,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-04-28','CR1351346','C00001004','276-967-6479','AA0201',35492,2,'PS','AGENT','ELI','13:33:27','13:43:33','00:10:06'),
 	 ('2015-04-27','CR1348256','C00002502','212-839-2338','AA0209',35493,0,'NW','AGENT','TOVA','09:26:28','09:35:26','00:08:58'),
 	 ('2015-04-23','CR1344918','C00003445','917-793-1424','AA0210',35495,0,'PS','AGENT','YIFAT','10:45:24','11:03:33','00:18:09');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-04-22','CR1342836','C00001977','969-814-8380','AA0102',35496,0,'NW','AGENT','MICHAL','16:38:59','16:59:39','00:20:40'),
 	 ('2015-04-22','CR1342096','C00002590','601-741-4066','AA0109',35497,0,'PS','AGENT','NAAMA','09:00:02','09:01:47','00:01:45'),
 	 ('2015-04-22','CR1341347','C00001645','409-094-6859','AA0108',35498,0,'TT','AGENT','MIKI','12:15:10','12:26:55','00:11:45'),
@@ -867,7 +867,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-04-16','CR1333144','C00005067','346-394-5666','AA0109',35505,0,'PS','AGENT','IDIT','11:23:21','11:25:07','00:01:46'),
 	 ('2015-04-16','CR1332800','C00003933','788-010-7567','AA0202',35506,2,'NE','AGENT','MORIAH','16:13:13','16:26:07','00:12:54'),
 	 ('2015-04-16','CR1333052','C00000454','414-424-4747','AA0210',35507,1,'PS','AGENT','IDIT','16:06:12','16:11:39','00:05:27');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-04-15','CR1331967','C00004794','521-635-8198','AA0201',35508,1,'PS','AGENT','AVNI','15:51:55','15:55:45','00:03:50'),
 	 ('2015-04-14','CR1330256','C00003768','789-006-0047','AA0214',35509,2,'PS','AGENT','ANAT','10:34:17','10:41:25','00:07:08'),
 	 ('2015-04-14','CR1330449','C00003396','229-618-2787','AA0102',35510,2,'PS','AGENT','ZOHARI','09:18:15','09:21:50','00:03:35'),
@@ -878,7 +878,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-04-07','CR1319478','C00003998','617-446-1546','AA0103',35516,0,'PS','AGENT','TOVA','15:37:15','15:53:36','00:16:21'),
 	 ('2015-04-02','CR1312489','C00004806','988-616-2713','AA0102',35518,2,'PS','AGENT','BASCH','10:45:50','10:55:45','00:09:55'),
 	 ('2015-04-01','CR1311422','C00004762','914-424-2496','AA0206',35519,0,'PS','AGENT','AVNI','11:49:04','12:02:07','00:13:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-03-31','CR1308008','C00002274','521-910-7196','AA0115',35520,0,'NW','AGENT','YIFAT','14:07:44','14:10:02','00:02:18'),
 	 ('2015-03-31','CR1308861','C00002310','553-357-7416','AA0209',35521,2,'NE','AGENT','TOVA','15:44:23','16:00:25','00:16:02'),
 	 ('2015-03-27','CR1304708','C00001258','547-629-7108','AA0203',35522,2,'PS','AGENT','IDIT','13:33:19','13:50:03','00:16:44'),
@@ -889,7 +889,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-03-26','CR1303627','C00000127','231-192-1790','AA0213',35526,0,'PS','AGENT','BENSION','10:35:31','10:56:26','00:20:55'),
 	 ('2015-03-25','CR1301014','C00001938','508-228-7720','AA0105',35527,2,'PS','AGENT','BENSION','16:15:10','16:33:19','00:18:09'),
 	 ('2015-03-25','CR1300384','C00003116','503-884-3925','AA0205',35528,0,'PS','AGENT','IDIT','14:41:17','14:52:35','00:11:18');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-03-24','CR1299755','C00003598','128-717-3416','AA0201',35529,2,'PS','AGENT','STEREN','14:01:57','14:19:00','00:17:03'),
 	 ('2015-03-23','CR1296052','C00011126','212-895-0493','AA0209',35530,0,'PS','AGENT','ZOHARI','14:41:15','15:00:05','00:18:50'),
 	 ('2015-03-19','CR1290596','C00002192','212-325-1662','AA0105',35531,2,'PS','AGENT','DARMON','10:10:27','10:18:07','00:07:40'),
@@ -900,7 +900,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-03-13','CR1281150','C00004341','914-951-9533','AA0202',35537,2,'PS','AGENT','MICHAL','09:35:18','09:46:02','00:10:44'),
 	 ('2015-03-12','CR1279060','C00001853','212-517-3604','AA0205',35538,0,'NW','AGENT','MIKI','13:49:59','13:55:18','00:05:19'),
 	 ('2015-03-11','CR1278609','C00002278','914-912-6650','AA0115',35540,1,'PS','AGENT','MICHAL','13:16:11','13:18:23','00:02:12');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-03-11','CR1278856','C00004722','925-623-6228','AA0203',35541,2,'PS','AGENT','YIFAT','13:45:03','13:46:27','00:01:24'),
 	 ('2015-03-10','CR1277072','C00009569','891-137-8893','AA0214',35542,2,'PS','AGENT','AVIDAN','13:56:52','14:00:33','00:03:41'),
 	 ('2015-03-09','CR1273234','C00001470','212-539-2937','AA0215',35543,0,'PS','AGENT','SHARON','11:02:06','11:19:33','00:17:27'),
@@ -911,7 +911,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-03-05','CR1269653','C00001101','949-809-7698','AA0112',35550,0,'TT','AGENT','GILI','14:23:47','14:34:21','00:10:34'),
 	 ('2015-03-04','CR1266998','C00000775','413-241-9716','AA0110',35551,2,'NE','AGENT','NAAMA','14:11:05','14:13:35','00:02:30'),
 	 ('2015-03-02','CR1262597','C00004430','901-547-4948','AA0110',35552,1,'PS','AGENT','KAZAV','10:23:41','10:35:33','00:11:52');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-03-02','CR1263228','C00004755','617-725-5993','AA0109',35553,2,'PS','AGENT','KAZAV','16:00:23','16:01:04','00:00:41'),
 	 ('2015-03-02','CR1262576','C00002811','689-082-4006','AA0201',35554,0,'PS','AGENT','TOVA','13:30:42','13:34:30','00:03:48'),
 	 ('2015-02-28','CR1261735','C00002910','914-445-0614','AA0201',35555,0,'NW','AGENT','SHARON','13:31:32','13:36:50','00:05:18'),
@@ -922,7 +922,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-02-25','CR1257105','C00003095','165-648-5757','AA0103',35560,0,'NE','AGENT','ZOHARI','14:39:18','14:48:49','00:09:31'),
 	 ('2015-02-24','CR1253770','C00003342','591-394-4474','AA0103',35562,0,'PS','AGENT','MICHAL','12:48:18','12:53:40','00:05:22'),
 	 ('2015-02-23','CR1251375','C00000099','805-269-0051','AA0215',35564,1,'PS','AGENT','STEREN','13:36:25','13:55:31','00:19:06');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-02-19','CR1246304','C00003536','978-832-4420','AA0206',35568,0,'PS','AGENT','MORIAH','16:24:36','16:26:03','00:01:27'),
 	 ('2015-02-18','CR1244183','C00000824','409-504-6110','AA0104',35569,1,'PS','AGENT','DORIT','09:54:08','10:06:42','00:12:34'),
 	 ('2015-02-18','CR1245783','C00013447','486-029-8220','AA0215',35570,2,'PS','AGENT','MICHAL','10:16:34','10:18:08','00:01:34'),
@@ -933,7 +933,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-02-12','CR1238096','C00004552','781-249-2279','AA0104',35577,0,'NE','AGENT','DARMON','09:12:09','09:18:59','00:06:50'),
 	 ('2015-02-12','CR1237871','C00003205','212-335-2117','AA0113',35578,0,'PS','AGENT','ANAT','16:52:46','17:10:36','00:17:50'),
 	 ('2015-02-12','CR1238559','C00001999','739-604-3913','AA0215',35579,0,'PS','AGENT','IDIT','14:05:21','14:06:27','00:01:06');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-02-10','CR1234067','C00001730','339-171-3211','AA0214',35580,1,'PS','AGENT','BASCH','14:27:15','14:47:34','00:20:19'),
 	 ('2015-02-10','CR1232713','C00001827','612-176-1959','AA0204',35581,2,'NE','AGENT','AVIDAN','14:19:59','14:33:20','00:13:21'),
 	 ('2015-02-10','CR1234068','C00002953','967-932-4739','AA0104',35582,0,'PS','AGENT','MORIAH','16:17:45','16:28:47','00:11:02'),
@@ -944,7 +944,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-02-04','CR1225403','C00000004','951-567-8925','AA0106',35587,0,'NW','AGENT','MICHAL','11:30:29','11:35:43','00:05:14'),
 	 ('2015-02-04','CR1223763','C00003245','541-580-9988','AA0103',35588,2,'PS','AGENT','TOVA','10:33:33','10:38:07','00:04:34'),
 	 ('2015-02-03','CR1223451','C00002375','599-364-7724','AA0209',35591,0,'PS','AGENT','MORIAH','14:05:39','14:23:49','00:18:10');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-02-02','CR1220809','C00001341','978-281-8894','AA0205',35592,2,'PS','AGENT','BASCH','11:15:44','11:36:11','00:20:27'),
 	 ('2015-02-02','CR1220052','C00001478','386-828-8016','AA0110',35593,0,'NW','AGENT','MIKI','10:50:05','10:54:46','00:04:41'),
 	 ('2015-02-02','CR1221333','C00002239','723-163-0058','AA0113',35595,2,'PS','AGENT','SHLOMO','16:30:13','16:48:59','00:18:46'),
@@ -955,7 +955,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-01-23','CR1206555','C00004601','212-557-9422','AA0215',35600,0,'PS','AGENT','BASCH','15:22:32','15:22:32','00:00:00'),
 	 ('2015-01-22','CR1204814','C00001227','538-831-2792','AA0201',35601,0,'NE','AGENT','ELI','14:39:18','14:51:33','00:12:15'),
 	 ('2015-01-21','CR1202740','C00003605','617-336-4553','AA0206',35602,2,'PS','AGENT','ZOHARI','16:02:47','16:19:14','00:16:27');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-01-20','CR1200162','C00000581','664-810-0008','AA0206',35603,0,'PS','AGENT','AVNI','12:48:48','13:04:42','00:15:54'),
 	 ('2015-01-15','CR1194490','C00004226','410-287-4638','AA0202',35605,0,'PS','AGENT','BASCH','11:30:42','11:31:27','00:00:45'),
 	 ('2015-01-14','CR1193013','C00000400','212-677-1436','AA0101',35606,2,'PS','AGENT','DARMON','14:32:35','14:37:51','00:05:16'),
@@ -966,7 +966,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-01-06','CR1182209','C00000344','722-196-3699','AA0105',35612,1,'PS','AGENT','IDIT','09:50:53','09:57:28','00:06:35'),
 	 ('2015-01-05','CR1180194','C00005204','490-684-3724','AA0108',35613,2,'TT','AGENT','YITZ','09:30:39','09:44:19','00:13:40'),
 	 ('2015-01-05','CR1181478','C00004171','212-414-4092','AA0104',35614,0,'PS','AGENT','YIFAT','15:27:51','15:36:37','00:08:46');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-01-05','CR1180608','C00004904','967-674-0231','AA0101',35616,0,'NW','AGENT','MICHAL','12:02:45','12:08:24','00:05:39'),
 	 ('2015-01-02','CR1178631','C00005323','640-977-1215','AA0210',35617,2,'NE','AGENT','TOVA','11:32:01','11:43:58','00:11:57'),
 	 ('2014-12-31','CR1176545','C00012490','253-511-4078','AA0205',35618,2,'PS','AGENT','DORIT','14:05:39','14:14:10','00:08:31'),
@@ -977,7 +977,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-12-26','CR1171074','C00001499','705-253-7423','AA0214',35624,0,'NW','AGENT','AVIDAN','11:50:15','12:02:22','00:12:07'),
 	 ('2014-12-24','CR1170197','C00003577','107-386-2423','AA0214',35625,1,'PS','AGENT','YITZ','16:32:43','16:48:09','00:15:26'),
 	 ('2014-12-24','CR1170536','C00001801','472-256-4449','AA0101',35626,1,'PS','AGENT','ANAT','11:51:08','11:53:01','00:01:53');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-12-23','CR1169485','C00000203','754-863-9022','AA0103',35627,2,'PS','AGENT','SHARON','13:02:42','13:02:55','00:00:13'),
 	 ('2014-12-19','CR1164935','C00011768','212-302-5076','AA0110',35629,0,'PS','AGENT','BASCH','13:21:33','13:36:21','00:14:48'),
 	 ('2014-12-15','CR1157353','C00007390','212-038-4699','AA0110',35630,1,'PS','AGENT','YIFAT','17:00:10','17:05:36','00:05:26'),
@@ -988,7 +988,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-12-10','CR1150468','C00003288','978-786-5016','AA0206',35635,2,'PS','AGENT','YIFAT','12:26:44','12:27:45','00:01:01'),
 	 ('2014-12-09','CR1148422','C00013051','296-250-2862','AA0215',35636,0,'NW','AGENT','TOVA','15:07:18','15:26:25','00:19:07'),
 	 ('2014-12-09','CR1149078','C00001308','978-293-7175','AA0201',35637,2,'PS','AGENT','AVIDAN','12:15:59','12:22:41','00:06:42');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-12-08','CR1146361','C00009273','976-489-3717','AA0105',35638,1,'PS','AGENT','YIFAT','14:42:48','15:03:31','00:20:43'),
 	 ('2014-12-05','CR1144605','C00004112','927-900-4313','AA0113',35640,2,'PS','AGENT','ANAT','11:13:16','11:20:16','00:07:00'),
 	 ('2014-12-05','CR1145846','C00003929','955-203-4261','AA0110',35641,1,'PS','AGENT','BASCH','14:40:36','15:00:07','00:19:31'),
@@ -999,7 +999,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-12-02','CR1139036','C00000453','383-652-9655','AA0201',35646,0,'NW','AGENT','AVIDAN','15:49:47','15:55:27','00:05:40'),
 	 ('2014-12-02','CR1139617','C00002802','866-102-9344','AA0104',35647,2,'PS','AGENT','DARMON','12:10:01','12:25:56','00:15:55'),
 	 ('2014-12-02','CR1139332','C00000895','225-464-9197','AA0209',35648,0,'NW','AGENT','BASCH','09:13:52','09:25:09','00:11:17');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-11-28','CR1135198','C00003131','212-369-3262','AA0106',35649,0,'NW','AGENT','NO_SERVER','14:07:03','14:25:24','00:18:21'),
 	 ('2014-11-24','CR1128691','C00003359','212-800-1878','AA0203',35651,0,'NW','AGENT','IDIT','16:16:14','16:22:54','00:06:40'),
 	 ('2014-11-24','CR1129618','C00004489','914-609-7124','AA0203',35652,2,'PS','AGENT','YIFAT','13:26:29','13:32:11','00:05:42'),
@@ -1010,7 +1010,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-11-18','CR1121248','C00010543','829-265-1898','AA0101',35657,0,'PS','AGENT','BENSION','10:37:49','10:42:57','00:05:08'),
 	 ('2014-11-14','CR1117472','C00004112','927-900-4313','AA0205',35660,1,'PS','AGENT','TOVA','09:24:14','09:44:01','00:19:47'),
 	 ('2014-11-14','CR1117093','C00001286','567-845-8514','AA0213',35661,0,'PS','AGENT','IDIT','16:56:48','17:08:19','00:11:31');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-11-13','CR1114552','C00004698','403-796-0376','AA0101',35662,0,'PS','AGENT','SHARON','12:33:56','12:43:08','00:09:12'),
 	 ('2014-11-10','CR1110334','C00004241','960-786-0262','AA0201',35663,2,'PS','AGENT','STEREN','12:05:20','12:13:37','00:08:17'),
 	 ('2014-11-06','CR1104515','C00010090','121-809-2286','AA0105',35664,0,'PS','AGENT','AVNI','13:27:52','13:31:22','00:03:30'),
@@ -1021,7 +1021,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-03-19','','','508-905-5630','',NULL,NULL,'','','','12:13:42','12:14:29','00:00:47'),
 	 ('2014-11-04','CR1101166','C00000316','585-383-5679','AA0205',35670,0,'PS','AGENT','IDIT','15:21:11','15:35:16','00:14:05'),
 	 ('2014-11-03','CR1099410','C00004221','788-824-9548','AA0115',35671,0,'PS','AGENT','YIFAT','16:23:19','16:39:06','00:15:47');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-10-31','CR1096086','C00003489','914-839-9555','AA0101',35672,2,'PS','AGENT','AVNI','16:03:09','16:06:03','00:02:54'),
 	 ('2014-10-31','CR1096380','C00003256','103-008-1817','AA0106',35673,0,'PS','AGENT','AVNI','09:15:51','09:18:32','00:02:41'),
 	 ('2014-10-29','CR1092003','C00001952','212-227-7013','AA0204',35675,0,'PS','AGENT','IDIT','11:44:52','11:47:06','00:02:14'),
@@ -1032,7 +1032,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-10-22','CR1082308','C00002121','780-063-7324','AA0201',35681,0,'NW','AGENT','YITZ','13:54:28','14:09:28','00:15:00'),
 	 ('2014-10-22','CR1081640','C00003909','459-262-9261','AA0216',35682,0,'IN','AGENT','BENSION','12:41:54','12:58:03','00:16:09'),
 	 ('2014-10-22','CR1081889','C00004154','727-489-1838','AA0201',35683,0,'PS','AGENT','BENSION','16:43:26','17:01:25','00:17:59');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-10-21','CR1080081','C00000312','811-152-2550','AA0210',35684,0,'NW','AGENT','BENSION','10:36:25','10:47:20','00:10:55'),
 	 ('2014-10-21','CR1080184','C00003324','486-676-4790','AA0113',35685,0,'PS','AGENT','AVNI','14:37:54','14:38:24','00:00:30'),
 	 ('2014-10-20','CR1077267','C00000136','978-722-6846','AA0209',35686,0,'PS','AGENT','MICHAL','13:50:22','14:02:51','00:12:29'),
@@ -1043,7 +1043,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-10-14','CR1070389','C00002572','212-171-8470','AA0203',35693,2,'PS','AGENT','ANAT','10:42:55','10:53:59','00:11:04'),
 	 ('2014-10-14','CR1069253','C00003794','252-567-0898','AA0104',35694,0,'PS','AGENT','BENSION','13:13:07','13:15:34','00:02:27'),
 	 ('2014-10-09','CR1065661','C00001659','963-345-4302','AA0203',35695,0,'PS','AGENT','YITZ','13:58:06','14:07:15','00:09:09');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-10-09','CR1065888','C00000476','212-794-4478','AA0105',35696,0,'PS','AGENT','DORIT','12:45:21','13:03:17','00:17:56'),
 	 ('2014-10-08','CR1063745','C00002270','508-667-2933','AA0109',35698,1,'PS','AGENT','YIFAT','10:18:20','10:25:38','00:07:18'),
 	 ('2014-10-07','CR1061943','C00001423','978-323-8552','AA0206',35699,2,'PS','AGENT','KAZAV','10:46:53','10:51:19','00:04:26'),
@@ -1054,7 +1054,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-10-01','CR1053303','C00000465','516-194-9203','AA0205',35705,0,'PS','AGENT','SHLOMO','15:20:49','15:27:52','00:07:03'),
 	 ('2014-10-01','CR1053456','C00000857','106-425-4849','AA0109',35706,1,'PS','AGENT','YITZ','15:09:19','15:24:01','00:14:42'),
 	 ('2014-10-01','CR1053822','C00003571','330-867-6075','AA0209',35707,2,'PS','AGENT','MORIAH','13:40:55','13:53:41','00:12:46');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-10-01','CR1053063','C00002535','212-266-3674','AA0113',35708,0,'NW','AGENT','AVNI','11:04:48','11:23:44','00:18:56'),
 	 ('2014-09-30','CR1051983','C00001518','569-891-6154','AA0113',35709,2,'PS','AGENT','YITZ','09:34:21','09:50:18','00:15:57'),
 	 ('2014-09-30','CR1051584','C00003714','888-142-1355','AA0202',35710,0,'NW','AGENT','KAZAV','09:57:06','10:01:21','00:04:15'),
@@ -1065,7 +1065,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-09-29','CR1050129','C00003380','390-480-1393','AA0105',35715,0,'NW','AGENT','BENSION','15:14:34','15:23:37','00:09:03'),
 	 ('2014-09-25','CR1045717','C00004161','219-783-4199','AA0109',35718,0,'NW','AGENT','YITZ','15:46:52','16:00:55','00:14:03'),
 	 ('2014-09-23','CR1041219','C00004291','508-205-9394','AA0102',35720,0,'PS','AGENT','BASCH','16:15:21','16:33:20','00:17:59');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-09-22','CR1038993','C00013924','451-056-4090','AA0109',35721,1,'PS','AGENT','GILI','13:36:16','13:49:59','00:13:43'),
 	 ('2014-09-22','CR1039684','C00000824','409-504-6110','AA0205',35722,0,'NW','AGENT','MIKI','14:58:08','15:02:57','00:04:49'),
 	 ('2014-09-18','CR1035040','C00008615','415-178-3539','AA0103',35724,0,'PS','AGENT','KAZAV','15:23:54','15:38:36','00:14:42'),
@@ -1076,7 +1076,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-09-16','CR1030767','C00002783','212-190-0724','AA0210',35729,2,'PS','AGENT','IDIT','09:45:48','09:58:08','00:12:20'),
 	 ('2014-09-12','CR1026897','C00000521','978-277-2764','AA0206',35730,0,'PS','AGENT','AVIDAN','10:36:44','10:53:01','00:16:17'),
 	 ('2014-09-12','CR1027234','C00002447','436-341-7372','AA0102',35731,0,'PS','AGENT','MICHAL','15:06:47','15:16:43','00:09:56');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-09-11','CR1024751','C00006122','538-541-5917','AA0110',35732,0,'NE','AGENT','ELI','09:39:40','09:46:06','00:06:26'),
 	 ('2014-09-10','CR1022251','C00000024','302-681-4855','AA0109',35733,0,'NW','AGENT','MIKI','11:14:42','11:15:51','00:01:09'),
 	 ('2014-09-10','CR1023417','C00001534','869-422-8897','AA0102',35735,0,'PS','AGENT','YITZ','16:17:44','16:34:36','00:16:52'),
@@ -1087,7 +1087,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-09-02','CR1010389','C00004486','446-071-0725','AA0106',35742,0,'NW','AGENT','NO_SERVER','16:34:36','16:47:56','00:13:20'),
 	 ('2014-08-29','CR1008497','C00000189','839-321-5466','AA0204',35743,0,'PS','AGENT','YITZ','11:10:09','11:12:38','00:02:29'),
 	 ('2018-02-24','','','257-894-6219','',NULL,NULL,'','','','11:14:03','11:15:09','00:01:06');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-08-29','CR1008267','C00006545','890-476-3140','AA0205',35744,0,'PS','AGENT','MICHAL','15:52:43','16:11:50','00:19:07'),
 	 ('2014-08-29','CR1006954','C00000520','429-375-5152','AA0203',35745,0,'PS','AGENT','SHARON','16:16:53','16:28:18','00:11:25'),
 	 ('2014-08-29','CR1007048','C00009196','236-176-7658','AA0110',35746,2,'PS','AGENT','IDIT','13:45:15','13:53:14','00:07:59'),
@@ -1098,7 +1098,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-08-21','CR0995102','C00000429','716-331-7512','AA0109',35752,2,'PS','AGENT','NAAMA','11:37:15','11:41:47','00:04:32'),
 	 ('2014-08-18','CR0988878','C00002179','617-702-7555','AA0110',35754,2,'PS','AGENT','MIKI','10:02:24','10:14:58','00:12:34'),
 	 ('2014-08-14','CR0984435','C00002409','897-756-7729','AA0204',35755,0,'PS','AGENT','BENSION','16:02:47','16:17:57','00:15:10');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-08-12','CR0981094','C00000689','488-626-2509','AA0202',35756,0,'NW','AGENT','SHARON','14:02:13','14:21:17','00:19:04'),
 	 ('2014-08-11','CR0977307','C00003006','937-752-3238','AA0104',35757,0,'PS','AGENT','BENSION','15:04:17','15:12:15','00:07:58'),
 	 ('2014-08-08','CR0975761','C00001408','238-765-9083','AA0102',35758,2,'PS','AGENT','KAZAV','11:00:03','11:03:00','00:02:57'),
@@ -1109,7 +1109,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-08-05','CR0969575','C00003654','636-614-0731','AA0105',35764,2,'NE','AGENT','MORIAH','12:31:34','12:50:52','00:19:18'),
 	 ('2014-08-04','CR0966709','C00000371','167-638-1741','AA0105',35765,2,'PS','AGENT','KAZAV','12:55:17','12:56:48','00:01:31'),
 	 ('2014-08-04','CR0966865','C00003454','852-616-0986','AA0105',35766,2,'NE','AGENT','ZOHARI','11:06:21','11:21:30','00:15:09');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-08-04','CR0967142','C00002299','563-460-6579','AA0205',35767,0,'NW','AGENT','IDIT','13:36:59','13:49:44','00:12:45'),
 	 ('2014-08-01','CR0964178','C00005460','165-239-0310','AA0214',35768,2,'PS','AGENT','YIFAT','12:14:51','12:15:35','00:00:44'),
 	 ('2014-08-01','CR0965282','C00004777','196-624-0540','AA0202',35769,0,'PS','AGENT','MIKI','12:17:23','12:26:10','00:08:47'),
@@ -1120,7 +1120,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-07-29','CR0958704','C00003265','549-055-2703','AA0215',35775,0,'PS','AGENT','TOVA','09:36:01','09:51:37','00:15:36'),
 	 ('2014-07-28','CR0957398','C00004323','875-037-6608','AA0210',35776,0,'NW','AGENT','IDIT','16:08:40','16:15:52','00:07:12'),
 	 ('2014-07-28','CR0956210','C00004929','535-005-3114','AA0202',35777,0,'NW','AGENT','YIFAT','13:48:04','14:03:25','00:15:21');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-07-25','CR0954418','C00000660','480-346-8032','AA0102',35778,1,'PS','AGENT','IDIT','16:15:11','16:20:56','00:05:45'),
 	 ('2014-07-25','CR0955187','C00003621','511-244-0212','AA0104',35779,0,'PS','AGENT','STEREN','13:58:07','14:00:21','00:02:14'),
 	 ('2014-07-23','CR0950426','C00013412','212-259-5250','AA0210',35780,2,'NE','AGENT','GILI','15:18:49','15:37:10','00:18:21'),
@@ -1131,7 +1131,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-07-21','CR0946814','C00002371','610-520-7079','AA0106',35786,2,'PS','AGENT','ANAT','11:42:50','11:46:33','00:03:43'),
 	 ('2014-07-18','CR0943427','C00001102','900-048-2704','AA0110',35787,0,'NW','AGENT','AVNI','09:18:35','09:23:06','00:04:31'),
 	 ('2014-07-17','CR0941636','C00003073','212-652-6762','AA0101',35788,2,'PS','AGENT','ANAT','10:47:20','10:59:09','00:11:49');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-07-17','CR0941507','C00001762','508-728-0903','AA0213',35790,0,'PS','AGENT','BENSION','13:25:43','13:36:02','00:10:19'),
 	 ('2014-07-16','CR0940476','C00003871','653-773-3729','AA0110',35791,0,'NW','AGENT','IDIT','15:04:22','15:05:40','00:01:18'),
 	 ('2014-07-16','CR0939780','C00001380','909-365-2623','AA0103',35792,0,'PS','AGENT','BASCH','14:14:38','14:32:38','00:18:00'),
@@ -1142,7 +1142,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-07-09','CR0928909','C00001536','601-068-4979','AA0214',35799,0,'PS','AGENT','TOVA','09:55:41','10:06:53','00:11:12'),
 	 ('2014-07-08','CR0927011','C00011638','664-141-6865','AA0210',35800,1,'PS','AGENT','MORIAH','15:34:23','15:54:47','00:20:24'),
 	 ('2014-07-08','CR0928499','C00004299','461-965-7630','AA0209',35801,0,'NW','AGENT','MICHAL','14:10:36','14:11:22','00:00:46');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-07-07','CR0926519','C00003392','212-650-6444','AA0102',35802,0,'NW','AGENT','KAZAV','14:19:20','14:31:41','00:12:21'),
 	 ('2014-07-03','CR0922953','C00003512','809-943-4321','AA0203',35804,0,'NE','AGENT','ZOHARI','12:03:44','12:21:41','00:17:57'),
 	 ('2014-07-02','CR0920939','C00003762','781-578-8319','AA0205',35805,2,'PS','AGENT','YIFAT','15:18:20','15:39:10','00:20:50'),
@@ -1153,7 +1153,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-06-26','CR0913199','C00001206','716-729-3104','AA0102',35811,2,'PS','AGENT','KAZAV','15:23:22','15:42:40','00:19:18'),
 	 ('2014-06-23','CR0906459','C00004665','617-991-9553','AA0103',35813,2,'PS','AGENT','BENSION','16:50:20','17:01:24','00:11:04'),
 	 ('2014-06-20','CR0904643','C00001566','127-860-5968','AA0213',35815,0,'PS','AGENT','BENSION','09:08:50','09:20:25','00:11:35');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-06-20','CR0904796','C00000603','140-455-6553','AA0110',35817,0,'NE','AGENT','ELI','15:21:45','15:24:21','00:02:36'),
 	 ('2018-06-16','','','508-261-0624','',NULL,NULL,'','','','15:11:16','15:25:00','00:13:44'),
 	 ('2014-06-19','CR0901854','C00002366','743-760-4718','AA0101',35818,0,'PS','AGENT','DORIT','10:39:14','10:56:07','00:16:53'),
@@ -1164,7 +1164,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-06-17','CR0898715','C00011327','542-576-6980','AA0216',35824,0,'IN','AGENT','YIFAT','12:57:56','13:02:54','00:04:58'),
 	 ('2014-06-16','CR0896126','C00000507','585-586-3733','AA0110',35825,0,'PS','AGENT','YIFAT','14:55:21','15:14:09','00:18:48'),
 	 ('2014-06-16','CR0896783','C00010492','487-723-6977','AA0210',35826,1,'PS','AGENT','TOVA','16:52:22','17:03:29','00:11:07');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-06-13','CR0893944','C00002288','450-724-5572','AA0205',35827,0,'PS','AGENT','AVNI','10:36:31','10:43:05','00:06:34'),
 	 ('2014-06-12','CR0893345','C00002857','581-937-0131','AA0209',35829,2,'NE','AGENT','ANAT','11:36:21','11:42:15','00:05:54'),
 	 ('2014-06-11','CR0889915','C00002337','651-281-3200','AA0205',35831,0,'PS','AGENT','SHLOMO','13:37:34','13:47:04','00:09:30'),
@@ -1175,7 +1175,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-06-09','CR0886718','C00000264','522-552-4466','AA0110',35837,2,'PS','AGENT','MICHAL','12:13:52','12:31:38','00:17:46'),
 	 ('2014-06-09','CR0885869','C00001181','212-447-9736','AA0113',35838,0,'PS','AGENT','IDIT','11:33:51','11:40:17','00:06:26'),
 	 ('2014-06-06','CR0884833','C00002210','594-358-6338','AA0106',35839,0,'PS','AGENT','MICHAL','11:50:14','11:52:12','00:01:58');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-06-05','CR0883141','C00003548','212-630-0700','AA0108',35840,2,'TT','AGENT','IDIT','13:48:24','13:51:00','00:02:36'),
 	 ('2014-06-05','CR0883041','C00004754','693-199-1653','AA0202',35841,0,'NE','AGENT','ZOHARI','13:57:02','14:05:45','00:08:43'),
 	 ('2014-06-03','CR0878092','C00003310','612-961-3610','AA0106',35842,2,'PS','AGENT','AVIDAN','11:21:48','11:35:48','00:14:00'),
@@ -1186,7 +1186,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-05-29','CR0872927','C00001829','413-326-0740','AA0103',35847,2,'PS','AGENT','DARMON','11:23:14','11:35:42','00:12:28'),
 	 ('2014-05-28','CR0870494','C00009915','380-168-9140','AA0206',35848,0,'NW','AGENT','STEREN','13:22:48','13:25:03','00:02:15'),
 	 ('2014-05-28','CR0870916','C00002471','902-228-0894','AA0210',35849,1,'NW','AGENT','IDIT','15:48:55','15:50:31','00:01:36');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-05-23','CR0866930','C00000782','585-004-3497','AA0213',35851,0,'PS','AGENT','YIFAT','13:55:16','14:15:09','00:19:53'),
 	 ('2014-05-23','CR0866742','C00004650','742-360-1267','AA0103',35852,1,'PS','AGENT','AVIDAN','12:00:24','12:12:41','00:12:17'),
 	 ('2014-05-23','CR0867044','C00000354','571-699-4951','AA0201',35853,0,'PS','AGENT','YITZ','14:59:55','15:18:24','00:18:29'),
@@ -1197,7 +1197,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-05-22','CR0864186','C00001240','489-770-5816','AA0204',35858,0,'PS','AGENT','ZOHARI','10:24:12','10:40:50','00:16:38'),
 	 ('2014-05-22','CR0865127','C00002155','225-239-7750','AA0203',35859,0,'NE','AGENT','ELI','15:46:51','15:50:45','00:03:54'),
 	 ('2014-05-21','CR0862109','C00001833','733-568-9675','AA0101',35860,2,'NE','AGENT','TOVA','11:55:51','12:14:58','00:19:07');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-05-21','CR0862825','C00004112','927-900-4313','AA0204',35862,1,'PS','AGENT','BASCH','12:41:05','12:52:31','00:11:26'),
 	 ('2014-05-21','CR0863156','C00002883','464-341-9697','AA0201',35863,0,'PS','AGENT','STEREN','15:50:55','16:04:17','00:13:22'),
 	 ('2014-05-21','CR0862092','C00000903','893-713-0792','AA0213',35864,2,'PS','AGENT','AVIDAN','15:10:37','15:22:47','00:12:10'),
@@ -1208,7 +1208,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-05-15','CR0853615','C00000524','975-092-7645','AA0110',35869,0,'NW','AGENT','YITZ','16:41:59','16:50:26','00:08:27'),
 	 ('2014-05-15','CR0854828','C00002691','692-655-2580','AA0109',35872,0,'NE','AGENT','ELI','16:30:26','16:46:04','00:15:38'),
 	 ('2014-05-15','CR0853602','C00000411','545-936-4133','AA0209',35873,0,'PS','AGENT','AVNI','10:46:15','10:56:33','00:10:18');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-05-14','CR0852258','C00000181','914-449-6685','AA0203',35875,0,'NW','AGENT','YITZ','13:32:43','13:49:40','00:16:57'),
 	 ('2014-05-14','CR0852356','C00011304','331-759-5512','AA0109',35877,0,'PS','AGENT','MICHAL','15:03:30','15:12:41','00:09:11'),
 	 ('2014-05-14','CR0852994','C00006299','212-472-2470','AA0102',35878,0,'PS','AGENT','SHARON','10:43:17','10:45:23','00:02:06'),
@@ -1219,7 +1219,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-05-02','CR0835527','C00004570','212-774-8938','AA0209',35886,0,'NW','AGENT','TOVA','13:25:09','13:28:50','00:03:41'),
 	 ('2014-05-01','CR0834285','C00001803','706-196-2666','AA0110',35887,0,'PS','AGENT','TOVA','13:16:29','13:20:41','00:04:12'),
 	 ('2014-04-30','CR0832612','C00004574','385-572-1276','AA0110',35888,2,'PS','AGENT','AVIDAN','12:40:46','12:54:25','00:13:39');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-04-30','CR0832535','C00001396','974-379-8332','AA0213',35889,0,'PS','AGENT','GILI','09:55:12','10:10:52','00:15:40'),
 	 ('2014-04-30','CR0832150','C00001978','240-798-7810','AA0209',35890,2,'PS','AGENT','ANAT','12:58:47','13:07:50','00:09:03'),
 	 ('2014-04-29','CR0830926','C00001861','916-749-3662','AA0209',35892,2,'PE','AGENT','MICHAL','16:35:26','16:53:52','00:18:26'),
@@ -1230,7 +1230,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-04-25','CR0826568','C00002037','978-388-7148','AA0105',35896,0,'NW','AGENT','SHARON','16:08:29','16:18:35','00:10:06'),
 	 ('2014-04-23','CR0821995','C00004492','888-040-0986','AA0213',35897,2,'NE','AGENT','SHARON','12:06:51','12:13:32','00:06:41'),
 	 ('2014-04-23','CR0821910','C00002463','483-951-2085','AA0201',35899,2,'PS','AGENT','DORIT','15:41:11','16:00:35','00:19:24');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-04-23','CR0821389','C00001220','694-780-1379','AA0101',35900,1,'PS','AGENT','MIKI','13:28:35','13:40:22','00:11:47'),
 	 ('2014-04-22','CR0818719','C00004425','495-908-8188','AA0102',35901,1,'PS','AGENT','MICHAL','09:54:24','10:02:03','00:07:39'),
 	 ('2014-04-22','CR0818777','C00000936','681-853-9420','AA0213',35902,0,'PS','AGENT','KAZAV','11:39:29','11:42:18','00:02:49'),
@@ -1241,7 +1241,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-04-18','CR0815379','C00000689','488-626-2509','AA0103',35907,0,'NW','AGENT','AVNI','15:03:22','15:12:35','00:09:13'),
 	 ('2014-04-17','CR0814011','C00003422','212-040-2248','AA0104',35908,1,'PS','AGENT','MIKI','13:11:11','13:23:59','00:12:48'),
 	 ('2014-04-16','CR0811776','C00005965','716-098-2235','AA0201',35909,0,'NW','AGENT','MORIAH','13:13:20','13:32:21','00:19:01');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-04-16','CR0810687','C00002949','677-006-3305','AA0104',35910,0,'PS','AGENT','TOVA','13:50:28','14:09:12','00:18:44'),
 	 ('2014-04-15','CR0809321','C00003557','545-365-5330','AA0215',35912,0,'NW','AGENT','MICHAL','15:47:58','15:56:29','00:08:31'),
 	 ('2014-04-14','CR0808571','C00003422','212-040-2248','AA0104',35913,0,'PS','AGENT','DARMON','11:54:59','11:57:08','00:02:09'),
@@ -1252,7 +1252,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-04-08','CR0798467','C00004029','554-857-1440','AA0102',35922,0,'PS','AGENT','BASCH','16:16:32','16:37:04','00:20:32'),
 	 ('2014-04-08','CR0799363','C00004520','212-853-8045','AA0203',35923,0,'NW','AGENT','YITZ','16:00:56','16:11:54','00:10:58'),
 	 ('2014-04-07','CR0796312','C00010041','697-488-6131','AA0214',35924,1,'PS','AGENT','AVNI','12:31:28','12:49:14','00:17:46');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-04-04','CR0794193','C00000630','508-261-0624','AA0101',35925,0,'PS','AGENT','GILI','11:04:21','11:20:55','00:16:34'),
 	 ('2014-04-03','CR0793223','C00000989','398-525-2053','AA0109',35927,0,'PS','AGENT','SHARON','12:42:44','12:51:24','00:08:40'),
 	 ('2014-04-03','CR0792504','C00011545','212-411-1247','AA0213',35928,0,'PS','AGENT','ZOHARI','10:03:21','10:19:19','00:15:58'),
@@ -1263,7 +1263,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-03-28','CR0783082','C00003204','212-199-2182','AA0106',35934,2,'PS','AGENT','YITZ','16:04:48','16:24:49','00:20:01'),
 	 ('2014-03-27','CR0780784','C00003344','647-367-0348','AA0206',35935,0,'NW','AGENT','ZOHARI','12:15:31','12:33:09','00:17:38'),
 	 ('2014-03-27','CR0780677','C00001957','322-687-3160','AA0202',35936,0,'NW','AGENT','MIKI','15:31:55','15:50:24','00:18:29');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-03-18','CR0764430','C00000401','212-115-1485','AA0104',35945,0,'PS','AGENT','AVNI','09:41:17','09:54:12','00:12:55'),
 	 ('2014-03-17','CR0760739','C00000854','833-342-9725','AA0115',35947,0,'NW','AGENT','BASCH','09:15:02','09:16:16','00:01:14'),
 	 ('2014-03-17','CR0761080','C00006501','619-734-7666','AA0205',35948,2,'PS','AGENT','BENSION','13:55:24','13:56:52','00:01:28'),
@@ -1274,7 +1274,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-03-11','CR0762766','C00000243','842-418-5837','AA0103',35953,2,'NE','AGENT','ZOHARI','16:03:53','16:22:10','00:18:17'),
 	 ('2014-03-10','CR0752324','C00006545','288-040-4417','AA0115',35954,1,'PS','AGENT','DORIT','16:48:33','17:06:23','00:17:50'),
 	 ('2014-03-10','CR0752245','C00008598','539-422-5777','AA0108',35955,2,'TT','AGENT','YITZ','14:49:01','14:58:10','00:09:09');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-03-10','CR0753756','C00006892','212-136-4486','AA0112',35956,2,'TT','AGENT','GILI','14:15:03','14:19:44','00:04:41'),
 	 ('2014-03-10','CR0753793','C00004810','554-916-1697','AA0103',35957,2,'PS','AGENT','GELBER','10:31:10','10:48:08','00:16:58'),
 	 ('2014-03-07','CR0750283','C00001915','378-182-8122','AA0106',35959,0,'PS','AGENT','TOVA','16:37:24','16:45:53','00:08:29'),
@@ -1285,7 +1285,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-02-28','CR0738042','C00002429','274-716-4122','AA0203',35967,0,'PS','AGENT','NAAMA','09:20:19','09:40:31','00:20:12'),
 	 ('2014-02-27','CR0735186','C00003132','212-411-2260','AA0210',35969,2,'PS','AGENT','NAAMA','11:12:34','11:18:49','00:06:15'),
 	 ('2014-02-27','CR0735229','C00004574','305-592-3389','AA0106',35970,0,'PS','AGENT','IDIT','13:36:40','13:43:35','00:06:55');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-02-25','CR0730663','C00001098','781-066-1283','AA0209',35971,0,'NW','AGENT','AVNI','11:16:06','11:33:22','00:17:16'),
 	 ('2014-02-25','CR0730978','C00011271','185-048-4505','AA0104',35972,0,'PS','AGENT','GELBER','14:06:21','14:21:16','00:14:55'),
 	 ('2014-02-24','CR0728963','C00001779','219-418-3951','AA0101',35974,0,'PS','AGENT','SHLOMO','10:37:30','10:56:13','00:18:43'),
@@ -1296,7 +1296,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-02-21','CR0725992','C00003355','926-865-2943','AA0113',35978,2,'PS','AGENT','TOVA','16:04:10','16:18:27','00:14:17'),
 	 ('2014-02-21','CR0726335','C00001689','212-671-8430','AA0204',35979,2,'PS','AGENT','DORIT','10:49:18','10:50:58','00:01:40'),
 	 ('2014-02-20','CR0722881','C00000466','212-399-6077','AA0203',35981,2,'PS','AGENT','ANAT','15:39:17','15:54:50','00:15:33');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-02-18','CR0718012','C00012859','212-805-3950','AA0204',35982,2,'PS','AGENT','YIFAT','13:51:37','14:08:42','00:17:05'),
 	 ('2014-02-18','CR0717912','C00000349','533-287-0517','AA0206',35983,0,'NW','AGENT','MICHAL','15:25:05','15:25:49','00:00:44'),
 	 ('2014-02-18','CR0719196','C00004685','948-958-9385','AA0202',35984,0,'PS','AGENT','MORIAH','11:09:37','11:18:17','00:08:40'),
@@ -1307,7 +1307,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-02-10','CR0707268','C00001265','508-785-2739','AA0103',35991,0,'PS','AGENT','BENSION','11:35:42','11:52:45','00:17:03'),
 	 ('2014-02-08','CR0704507','C00001561','212-105-0239','AA0103',35992,0,'NW','AGENT','BENSION','15:04:04','15:16:26','00:12:22'),
 	 ('2014-02-07','CR0703806','C00003264','922-110-1172','AA0213',35993,0,'NW','AGENT','BASCH','10:20:39','10:35:23','00:14:44');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-02-07','CR0704288','C00000017','914-238-1020','AA0204',35994,2,'PS','AGENT','TOVA','12:45:09','12:57:29','00:12:20'),
 	 ('2014-02-06','CR0701529','C00002022','617-418-9331','AA0104',35995,2,'PS','AGENT','AVIDAN','12:02:35','12:17:14','00:14:39'),
 	 ('2014-02-05','CR0700360','C00004296','508-889-9922','AA0115',35996,2,'PS','AGENT','IDIT','10:53:19','10:57:00','00:03:41'),
@@ -1318,7 +1318,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-02-03','CR0697793','C00004069','586-023-0121','AA0210',36001,1,'PS','AGENT','BENSION','09:24:31','09:41:39','00:17:08'),
 	 ('2014-02-03','CR0697034','C00001124','546-999-5216','AA0105',36003,0,'NW','AGENT','KAZAV','11:52:11','12:04:29','00:12:18'),
 	 ('2014-01-31','CR0694888','C00000005','428-265-1568','AA0202',36004,0,'PS','AGENT','ANAT','16:33:49','16:51:34','00:17:45');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-01-31','CR0694940','C00000157','243-504-9954','AA0110',36005,1,'PS','AGENT','KAZAV','13:22:15','13:39:40','00:17:25'),
 	 ('2014-01-31','CR0694894','C00004719','483-552-1237','AA0203',36006,0,'PS','AGENT','DORIT','09:24:04','09:43:11','00:19:07'),
 	 ('2014-01-30','CR0693018','C00004478','790-760-6983','AA0108',36008,1,'TT','AGENT','NO_SERVER','11:52:33','12:12:17','00:19:44'),
@@ -1329,7 +1329,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-01-23','CR0682428','C00000897','418-387-0408','AA0109',36014,0,'PS','AGENT','TOVA','14:59:11','15:20:01','00:20:50'),
 	 ('2014-01-23','CR0684112','C00000191','765-570-0787','AA0214',36015,1,'PS','AGENT','DORIT','10:37:25','10:44:51','00:07:26'),
 	 ('2014-01-21','CR0677923','C00001961','234-808-8240','AA0202',36016,2,'PS','AGENT','SHARON','15:39:25','15:47:01','00:07:36');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-01-21','CR0678444','C00002670','915-818-1976','AA0204',36017,0,'PS','AGENT','AVIDAN','09:52:08','10:10:45','00:18:37'),
 	 ('2014-01-21','CR0678370','C00004346','227-249-0952','AA0113',36018,0,'NW','AGENT','MICHAL','16:00:35','16:19:22','00:18:47'),
 	 ('2014-01-14','CR0669160','C00004718','271-247-7629','AA0105',36021,0,'PS','AGENT','BENSION','11:27:16','11:35:59','00:08:43'),
@@ -1340,7 +1340,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-01-06','CR0656902','C00002610','122-613-8300','AA0103',36028,1,'PS','AGENT','AVNI','12:00:36','12:09:54','00:09:18'),
 	 ('2014-01-06','CR0655907','C00004919','955-474-2346','AA0105',36029,0,'NW','AGENT','AVNI','13:42:05','13:58:00','00:15:55'),
 	 ('2014-01-03','CR0653570','C00004328','685-299-2722','AA0203',36031,2,'PS','AGENT','MORIAH','11:45:32','11:50:06','00:04:34');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-01-03','CR0654534','C00000618','508-099-1022','AA0214',36032,0,'NW','AGENT','SHARON','10:51:30','11:00:21','00:08:51'),
 	 ('2014-01-03','CR0653478','C00004070','145-116-5007','AA0214',36033,0,'NW','AGENT','KAZAV','13:18:23','13:19:08','00:00:45'),
 	 ('2014-01-02','CR0653037','C00003101','879-828-0515','AA0213',36034,1,'PS','AGENT','GILI','15:39:41','15:48:57','00:09:16'),
@@ -1351,7 +1351,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-12-27','CR0647337','C00004748','914-098-5310','AA0109',36041,0,'NW','AGENT','IDIT','09:00:51','09:12:22','00:11:31'),
 	 ('2013-12-27','CR0647550','C00001131','978-958-7540','AA0104',36042,1,'NE','AGENT','ANAT','14:45:28','14:59:10','00:13:42'),
 	 ('2013-12-26','CR0645655','C00004253','372-150-7677','AA0101',36043,2,'PS','AGENT','DORIT','09:35:42','09:54:11','00:18:29');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-12-24','CR0645163','C00002129','585-330-2680','AA0206',36044,1,'PS','AGENT','BENSION','11:56:29','12:16:08','00:19:39'),
 	 ('2013-12-23','CR0643092','C00004422','914-319-3943','AA0209',36045,2,'PS','AGENT','IDIT','11:55:33','12:02:52','00:07:19'),
 	 ('2013-12-23','CR0643733','C00013405','553-558-6291','AA0215',36046,2,'PS','AGENT','SHARON','10:02:37','10:07:53','00:05:16'),
@@ -1362,7 +1362,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-12-17','CR0636424','C00001829','413-326-0740','AA0115',36051,2,'PS','AGENT','MICHAL','13:44:19','13:53:41','00:09:22'),
 	 ('2013-12-17','CR0636753','C00002339','508-389-9448','AA0115',36052,2,'PS','AGENT','YITZ','13:52:42','13:53:05','00:00:23'),
 	 ('2013-12-17','CR0637064','C00001529','184-946-5589','AA0215',36053,2,'NE','AGENT','KAZAV','11:19:12','11:29:07','00:09:55');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-12-16','CR0636166','C00011252','819-954-1140','AA0209',36054,0,'PS','AGENT','TOVA','15:48:39','16:00:34','00:11:55'),
 	 ('2013-12-16','CR0634785','C00008432','229-298-2913','AA0103',36056,1,'PS','AGENT','AVIDAN','11:25:40','11:40:43','00:15:03'),
 	 ('2013-12-14','CR0633945','C00012145','766-723-5876','AA0202',36058,0,'PS','AGENT','KAZAV','13:09:03','13:28:57','00:19:54'),
@@ -1373,7 +1373,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-12-11','CR0629873','C00001284','204-421-6049','AA0110',36064,2,'PS','AGENT','SHARON','13:33:08','13:34:31','00:01:23'),
 	 ('2013-12-10','CR0628274','C00001691','827-707-6586','AA0103',36065,0,'NW','AGENT','NAAMA','16:51:05','17:03:15','00:12:10'),
 	 ('2013-12-10','CR0628615','C00004441','642-784-9911','AA0203',36066,0,'PS','AGENT','DORIT','14:00:55','14:01:49','00:00:54');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-12-06','CR0624885','C00002068','648-816-6304','AA0202',36068,0,'NW','AGENT','MIKI','10:46:51','11:04:55','00:18:04'),
 	 ('2013-12-05','CR0623191','C00013260','816-234-9264','AA0213',36069,2,'PS','AGENT','DORIT','11:05:48','11:13:23','00:07:35'),
 	 ('2013-12-03','CR0618869','C00002260','168-997-4954','AA0109',36070,1,'PS','AGENT','AVNI','11:02:21','11:15:02','00:12:41'),
@@ -1384,7 +1384,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-11-27','CR0615396','C00004438','307-979-6963','AA0113',36075,0,'NE','AGENT','BASCH','16:04:22','16:20:21','00:15:59'),
 	 ('2013-11-26','CR0612864','C00002511','759-975-9150','AA0113',36076,0,'NW','AGENT','BENSION','13:40:58','13:57:38','00:16:40'),
 	 ('2013-11-25','CR0611475','C00000674','327-140-9584','AA0206',36077,0,'PS','AGENT','ZOHARI','12:47:19','12:48:40','00:01:21');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-11-25','CR0611527','C00004402','154-050-2945','AA0105',36078,0,'PS','AGENT','YITZ','11:55:12','11:59:51','00:04:39'),
 	 ('2013-11-22','CR0609186','C00004164','682-720-2753','AA0214',36079,2,'PS','AGENT','AVNI','11:06:15','11:21:46','00:15:31'),
 	 ('2013-11-21','CR0607421','C00004862','212-415-2573','AA0113',36080,2,'NE','AGENT','ELI','16:25:59','16:33:25','00:07:26'),
@@ -1395,7 +1395,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-11-19','CR0603359','C00007724','508-025-7387','AA0115',36085,0,'NW','AGENT','YITZ','16:58:43','17:09:41','00:10:58'),
 	 ('2013-11-18','CR0601943','C00001409','366-643-8813','AA0101',36086,0,'PS','AGENT','AVIDAN','15:11:01','15:14:34','00:03:33'),
 	 ('2013-11-15','CR0597125','C00000358','639-291-0584','AA0204',36088,1,'PS','AGENT','BENSION','13:24:56','13:44:26','00:19:30');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-11-15','CR0600245','C00001109','508-616-0754','AA0214',36090,0,'PS','AGENT','SHARON','14:03:45','14:11:50','00:08:05'),
 	 ('2013-11-14','CR0598986','C00001039','109-943-9230','AA0101',36092,0,'PS','AGENT','DORIT','13:24:50','13:38:15','00:13:25'),
 	 ('2013-11-14','CR0598841','C00004473','212-348-2178','AA0106',36093,0,'PS','AGENT','DARMON','13:03:56','13:18:34','00:14:38'),
@@ -1406,7 +1406,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-11-12','CR0593265','C00000295','567-122-8082','AA0203',36098,0,'PS','AGENT','DARMON','14:32:43','14:38:44','00:06:01'),
 	 ('2013-11-12','CR0594192','C00002524','550-447-7295','AA0210',36099,2,'PS','AGENT','BENSION','15:03:00','15:22:56','00:19:56'),
 	 ('2013-11-12','CR0595030','C00003248','344-042-8227','AA0107',36100,2,'TT','AGENT','NO_SERVER','14:20:04','14:23:42','00:03:38');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-11-12','CR0594371','C00004642','231-693-5871','AA0205',36101,2,'PS','AGENT','SHLOMO','11:02:43','11:11:58','00:09:15'),
 	 ('2013-11-08','CR0591679','C00002582','413-363-6706','AA0204',36102,2,'PS','AGENT','NAAMA','16:22:57','16:32:09','00:09:12'),
 	 ('2013-11-08','CR0591524','C00002852','714-073-9055','AA0106',36103,0,'NW','AGENT','STEREN','16:27:32','16:27:38','00:00:06'),
@@ -1417,7 +1417,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-11-05','CR0585450','C00001479','212-915-4941','AA0110',36108,1,'PS','AGENT','SHARON','09:48:41','10:05:37','00:16:56'),
 	 ('2013-11-05','CR0585839','C00002392','912-744-3872','AA0103',36109,0,'PS','AGENT','NAAMA','14:08:07','14:18:08','00:10:01'),
 	 ('2013-11-05','CR0586549','C00001983','286-046-0269','AA0205',36112,0,'PS','AGENT','AVNI','11:45:44','12:06:42','00:20:58');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-11-04','CR0583761','C00001367','781-940-4151','AA0215',36113,0,'NW','AGENT','MORIAH','12:46:58','12:56:59','00:10:01'),
 	 ('2013-11-01','CR0581961','C00003722','212-960-4509','AA0109',36115,0,'PS','AGENT','AVIDAN','15:20:01','15:38:13','00:18:12'),
 	 ('2013-11-01','CR0580766','C00006478','539-693-0260','AA0103',36116,0,'PS','AGENT','NAAMA','12:12:49','12:17:36','00:04:47'),
@@ -1428,7 +1428,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-10-23','CR0567694','C00007863','814-452-0875','AA0115',36125,2,'PS','AGENT','DORIT','11:46:50','11:47:15','00:00:25'),
 	 ('2019-09-01','','','734-115-6049','',NULL,NULL,'','','','11:10:11','11:26:07','00:15:56'),
 	 ('2013-10-23','CR0567695','C00000830','978-886-8518','AA0110',36126,1,'PS','AGENT','GILI','13:34:30','13:40:13','00:05:43');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-10-23','CR0568256','C00000823','465-924-0047','AA0101',36127,0,'PS','AGENT','AVIDAN','11:29:16','11:40:34','00:11:18'),
 	 ('2013-10-23','CR0568678','C00000155','717-989-7187','AA0101',36128,0,'PS','AGENT','TOVA','15:14:38','15:26:16','00:11:38'),
 	 ('2013-10-22','CR0567077','C00008200','212-295-9205','AA0201',36129,0,'PS','AGENT','AVIDAN','09:35:25','09:44:01','00:08:36'),
@@ -1439,7 +1439,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-10-16','CR0560258','C00001580','212-975-5876','AA0214',36134,0,'PS','AGENT','BASCH','16:36:58','16:51:09','00:14:11'),
 	 ('2013-10-16','CR0560597','C00006342','651-907-6500','AA0106',36135,0,'PS','AGENT','MIKI','13:52:13','13:55:53','00:03:40'),
 	 ('2013-10-15','CR0559532','C00001479','212-915-4941','AA0103',36137,1,'PS','AGENT','IDIT','10:05:28','10:23:47','00:18:19');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-10-15','CR0559399','C00004157','212-770-6755','AA0210',36138,2,'PS','AGENT','DORIT','13:32:28','13:52:36','00:20:08'),
 	 ('2013-10-15','CR0559415','C00001165','684-891-2003','AA0101',36139,0,'PS','AGENT','YIFAT','14:12:52','14:27:11','00:14:19'),
 	 ('2013-10-11','CR0558188','C00006366','817-770-7405','AA0214',36140,0,'PS','AGENT','ELI','14:00:06','14:10:32','00:10:26'),
@@ -1450,7 +1450,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-10-07','CR0553651','C00011149','305-557-9361','AA0101',36146,0,'NW','AGENT','BASCH','09:11:11','09:29:27','00:18:16'),
 	 ('2013-10-07','CR0554119','C00000183','258-700-7257','AA0206',36148,2,'PS','AGENT','AVNI','13:36:36','13:44:08','00:07:32'),
 	 ('2013-10-04','CR0552690','C00000234','978-955-4330','AA0101',36149,0,'PS','AGENT','STEREN','14:32:36','14:52:06','00:19:30');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-10-03','CR0551821','C00001407','459-286-4407','AA0103',36150,2,'PS','AGENT','MICHAL','16:59:02','17:12:42','00:13:40'),
 	 ('2013-10-03','CR0551967','C00002716','934-632-6852','AA0213',36151,2,'PS','AGENT','MORIAH','15:52:52','15:54:44','00:01:52'),
 	 ('2013-10-01','CR0549090','C00006469','243-383-7562','AA0115',36152,0,'NW','AGENT','YIFAT','16:13:29','16:23:30','00:10:01'),
@@ -1461,7 +1461,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-09-27','CR0545794','C00003521','122-104-3459','AA0202',36157,0,'PS','AGENT','GILI','15:43:26','15:52:57','00:09:31'),
 	 ('2013-09-27','CR0546251','C00004307','109-556-0797','AA0206',36158,0,'PS','AGENT','MICHAL','13:11:31','13:21:50','00:10:19'),
 	 ('2013-09-27','CR0546793','C00004459','212-136-7544','AA0214',36159,2,'PS','AGENT','YIFAT','14:16:44','14:23:34','00:06:50');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-09-26','CR0544144','C00008076','675-825-2650','AA0111',36161,0,'TT','AGENT','YITZ','11:42:12','11:51:33','00:09:21'),
 	 ('2013-09-24','CR0540488','C00002292','617-842-5179','AA0101',36163,1,'PS','AGENT','YITZ','11:19:41','11:24:02','00:04:21'),
 	 ('2013-09-24','CR0539893','C00004057','296-240-7356','AA0213',36164,0,'PS','AGENT','TOVA','14:52:26','14:57:30','00:05:04'),
@@ -1472,7 +1472,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-09-19','CR0535179','C00003772','508-651-8237','AA0109',36169,2,'NE','AGENT','BENSION','15:59:50','16:13:26','00:13:36'),
 	 ('2013-09-19','CR0533931','C00002611','315-464-1425','AA0109',36170,0,'PS','AGENT','DORIT','09:27:50','09:28:14','00:00:24'),
 	 ('2013-09-18','CR0532311','C00000155','717-989-7187','AA0206',36171,2,'PS','AGENT','DORIT','14:30:09','14:39:18','00:09:09');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-09-18','CR0533368','C00003727','613-872-9891','AA0203',36172,0,'PS','AGENT','DORIT','14:27:02','14:37:58','00:10:56'),
 	 ('2013-09-18','CR0532774','C00003916','829-105-8999','AA0102',36173,1,'PS','AGENT','SHARON','16:29:52','16:34:31','00:04:39'),
 	 ('2013-09-17','CR0530624','C00004504','157-880-3295','AA0203',36176,0,'NW','AGENT','AVNI','13:25:54','13:35:34','00:09:40'),
@@ -1483,7 +1483,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-09-16','CR0529656','C00001254','911-877-1002','AA0111',36181,1,'TT','AGENT','BASCH','15:40:10','15:55:00','00:14:50'),
 	 ('2013-09-16','CR0529205','C00000739','859-994-2891','AA0214',36182,1,'PS','AGENT','MICHAL','11:51:58','12:12:34','00:20:36'),
 	 ('2013-09-12','CR0526089','C00003353','951-829-0462','AA0202',36184,0,'NW','AGENT','IDIT','14:10:40','14:27:43','00:17:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-09-12','CR0526102','C00004514','617-286-0356','AA0202',36185,2,'PS','AGENT','BENSION','13:59:20','14:13:15','00:13:55'),
 	 ('2013-09-12','CR0525565','C00004384','760-241-9329','AA0206',36186,2,'PS','AGENT','TOVA','11:32:43','11:46:35','00:13:52'),
 	 ('2013-09-11','CR0523978','C00001680','244-605-8042','AA0104',36187,2,'PS','AGENT','MORIAH','12:29:52','12:47:18','00:17:26'),
@@ -1494,7 +1494,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-09-09','CR0519823','C00011121','836-564-5183','AA0102',36194,0,'PE','AGENT','YITZ','15:19:08','15:35:18','00:16:10'),
 	 ('2013-09-06','CR0518494','C00004403','831-023-9586','AA0209',36195,0,'PS','AGENT','GILI','15:28:07','15:28:41','00:00:34'),
 	 ('2013-09-06','CR0518106','C00004536','986-008-4785','AA0102',36196,0,'PS','AGENT','SHLOMO','13:17:05','13:24:34','00:07:29');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-11-14','','','625-381-4143','',NULL,NULL,'','','','15:00:56','15:01:19','00:00:23'),
 	 ('2013-09-05','CR0515125','C00004667','651-313-1878','AA0105',36197,0,'PS','AGENT','AVNI','09:45:25','09:57:53','00:12:28'),
 	 ('2013-09-04','CR0514524','C00001444','409-093-6361','AA0110',36198,0,'NW','AGENT','MICHAL','15:03:14','15:23:56','00:20:42'),
@@ -1505,7 +1505,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-08-30','CR0510020','C00002910','914-445-0614','AA0204',36203,2,'PS','AGENT','TOVA','09:59:10','10:18:18','00:19:08'),
 	 ('2013-08-29','CR0509457','C00004818','212-441-9811','AA0108',36205,2,'TT','AGENT','IDIT','13:38:23','13:49:53','00:11:30'),
 	 ('2013-08-27','CR0505366','C00002536','654-004-3700','AA0110',36210,0,'NW','AGENT','KAZAV','13:39:33','13:57:23','00:17:50');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-08-27','CR0505222','C00003794','252-567-0898','AA0103',36211,2,'PS','AGENT','TOVA','13:10:49','13:16:11','00:05:22'),
 	 ('2013-08-26','CR0504699','C00002367','973-056-2895','AA0202',36212,0,'PS','AGENT','NAAMA','16:08:34','16:27:46','00:19:12'),
 	 ('2013-08-26','CR0504401','C00004683','413-016-1553','AA0101',36213,0,'PS','AGENT','NAAMA','14:55:59','15:02:42','00:06:43'),
@@ -1516,7 +1516,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-08-21','CR0501119','C00003797','743-174-4790','AA0201',36218,2,'PS','AGENT','STEREN','14:48:10','14:48:32','00:00:22'),
 	 ('2013-08-16','CR0494180','C00004775','617-846-1282','AA0116',36220,0,'IN','AGENT','MICHAL','09:51:00','09:59:44','00:08:44'),
 	 ('2013-08-16','CR0493663','C00003547','538-681-4664','AA0205',36221,0,'NE','AGENT','ZOHARI','16:55:53','16:58:05','00:02:12');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-08-15','CR0488748','C00003640','585-644-6837','AA0101',36222,0,'PS','AGENT','BASCH','15:23:42','15:28:04','00:04:22'),
 	 ('2013-08-15','CR0490608','C00004937','350-942-7923','AA0203',36223,2,'NE','AGENT','SHARON','15:04:57','15:21:19','00:16:22'),
 	 ('2013-08-14','CR0489217','C00003076','508-812-5302','AA0215',36225,0,'PS','AGENT','AVNI','14:47:44','15:03:39','00:15:55'),
@@ -1527,7 +1527,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-08-09','CR0485875','C00008287','259-161-5246','AA0104',30081,2,'PS','AGENT','ANAT','11:55:15','12:09:41','00:14:26'),
 	 ('2013-08-07','CR0482761','C00003184','577-675-4829','AA0106',30082,0,'NW','AGENT','MIKI','11:09:12','11:15:31','00:06:19'),
 	 ('2013-08-07','CR0482894','C00001366','674-371-8035','AA0101',30084,0,'PS','AGENT','IDIT','13:18:41','13:36:17','00:17:36');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-08-06','CR0481188','C00000909','532-460-0056','AA0205',30085,2,'PS','AGENT','MIKI','15:12:45','15:24:42','00:11:57'),
 	 ('2013-08-06','CR0481764','C00001259','862-444-0641','AA0102',30086,0,'PS','AGENT','AVNI','13:25:58','13:38:18','00:12:20'),
 	 ('2013-08-06','CR0481818','C00001038','978-831-5722','AA0104',30087,0,'PS','AGENT','AVNI','09:04:30','09:12:47','00:08:17'),
@@ -1538,7 +1538,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-08-02','CR0473120','C00004284','696-259-9422','AA0103',30092,0,'PS','AGENT','YITZ','11:27:01','11:29:21','00:02:20'),
 	 ('2013-08-02','CR0473334','C00004192','840-244-4552','AA0115',30094,2,'NE','AGENT','DARMON','12:47:22','13:04:04','00:16:42'),
 	 ('2013-08-01','CR0472112','C00004743','508-477-1134','AA0215',30095,0,'PS','AGENT','AVNI','10:12:39','10:27:16','00:14:37');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-08-01','CR0472312','C00002952','898-625-7778','AA0104',30096,1,'PS','AGENT','STEREN','14:41:55','14:59:03','00:17:08'),
 	 ('2013-07-31','CR0471048','C00004275','600-371-6711','AA0213',30097,0,'PS','AGENT','MICHAL','10:00:26','10:13:16','00:12:50'),
 	 ('2013-07-31','CR0471160','C00000286','764-948-4169','AA0101',30098,0,'NW','AGENT','AVNI','11:08:08','11:08:27','00:00:19'),
@@ -1549,7 +1549,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-07-29','CR0469559','C00003134','212-347-1815','AA0205',30103,0,'PS','AGENT','MIKI','11:11:12','11:29:13','00:18:01'),
 	 ('2013-07-26','CR0467847','C00002939','911-808-9429','AA0215',30104,1,'PS','AGENT','DORIT','16:12:28','16:13:26','00:00:58'),
 	 ('2013-07-26','CR0468193','C00001099','617-358-0267','AA0204',30105,1,'PS','AGENT','MIKI','12:54:39','13:14:41','00:20:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-07-26','CR0459696','C00000347','617-497-6254','AA0204',30106,2,'PS','AGENT','TOVA','11:31:15','11:44:16','00:13:01'),
 	 ('2013-07-26','CR0467579','C00002623','647-864-2181','AA0204',30107,2,'PS','AGENT','BASCH','12:46:03','13:04:55','00:18:52'),
 	 ('2013-07-25','CR0466296','C00003807','749-791-0553','AA0209',30108,0,'PS','AGENT','ANAT','11:36:48','11:38:43','00:01:55'),
@@ -1560,7 +1560,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-07-22','CR0463588','C00002202','485-643-7389','AA0201',30113,0,'PS','AGENT','YITZ','16:55:45','17:02:20','00:06:35'),
 	 ('2013-07-22','CR0463381','C00007100','697-782-8839','AA0201',30114,1,'PS','AGENT','GILI','11:09:52','11:11:48','00:01:56'),
 	 ('2013-07-22','CR0462933','C00007843','713-963-0502','AA0110',30115,1,'PS','AGENT','SHARON','09:06:08','09:07:27','00:01:19');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-07-22','CR0463202','C00002877','617-042-0165','AA0113',30116,0,'NW','AGENT','YIFAT','10:23:15','10:24:32','00:01:17'),
 	 ('2013-07-19','CR0461773','C00003591','837-195-8937','AA0110',30117,0,'NW','AGENT','IDIT','15:51:43','15:52:49','00:01:06'),
 	 ('2015-10-11','','','738-048-2435','',NULL,NULL,'','','','14:52:10','14:53:11','00:01:01'),
@@ -1571,7 +1571,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-07-15','CR0457543','C00001706','758-172-3713','AA0215',30127,0,'NW','AGENT','YIFAT','10:09:44','10:22:59','00:13:15'),
 	 ('2013-07-15','CR0457832','C00002817','713-665-1214','AA0204',30128,0,'NW','AGENT','MORIAH','15:59:05','16:11:46','00:12:41'),
 	 ('2013-07-12','CR0456796','C00001585','781-083-7700','AA0205',30129,2,'PS','AGENT','MICHAL','09:54:45','09:59:00','00:04:15');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-07-12','CR0456588','C00002047','302-655-2882','AA0113',30130,0,'PS','AGENT','TOVA','12:35:38','12:48:47','00:13:09'),
 	 ('2013-07-10','CR0453440','C00012464','733-656-4321','AA0102',30131,0,'NE','AGENT','TOVA','10:39:34','10:47:33','00:07:59'),
 	 ('2013-07-10','CR0454466','C00001170','840-879-1532','AA0206',30132,0,'PS','AGENT','STEREN','14:37:01','14:37:39','00:00:38'),
@@ -1582,7 +1582,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-07-05','CR0450294','C00002277','212-826-1832','AA0206',30138,0,'PS','AGENT','TOVA','16:03:23','16:18:15','00:14:52'),
 	 ('2013-07-05','CR0449912','C00001718','585-036-0660','AA0202',30139,0,'PS','AGENT','BENSION','11:47:02','12:01:37','00:14:35'),
 	 ('2013-07-05','CR0449961','C00002648','617-396-2757','AA0104',30140,0,'PS','AGENT','NO_SERVER','12:31:23','12:51:00','00:19:37');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-07-05','CR0450027','C00003998','617-446-1546','AA0106',30141,0,'PS','AGENT','YITZ','09:20:59','09:22:24','00:01:25'),
 	 ('2013-07-04','CR0449353','C00004394','667-782-8378','AA0214',30142,0,'PS','AGENT','TOVA','10:13:13','10:19:38','00:06:25'),
 	 ('2013-07-03','CR0449140','C00003495','375-895-5161','AA0204',30143,2,'PS','AGENT','AVNI','14:31:05','14:34:38','00:03:33'),
@@ -1593,7 +1593,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-06-27','CR0445179','C00004670','413-668-0192','AA0103',30150,0,'PS','AGENT','YIFAT','16:31:08','16:40:34','00:09:26'),
 	 ('2013-06-27','CR0445461','C00006892','212-136-4486','AA0101',30151,0,'NW','AGENT','IDIT','12:27:33','12:28:19','00:00:46'),
 	 ('2013-06-27','CR0445327','C00001488','320-221-8745','AA0105',30152,2,'PS','AGENT','MICHAL','16:15:16','16:34:18','00:19:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-06-25','CR0441874','C00001827','612-176-1959','AA0203',30155,0,'PS','AGENT','ANAT','13:58:10','14:17:44','00:19:34'),
 	 ('2013-06-25','CR0441884','C00000498','361-652-0155','AA0206',30156,1,'PS','AGENT','YITZ','14:57:47','15:17:18','00:19:31'),
 	 ('2013-06-24','CR0440666','C00000968','978-903-9812','AA0113',30157,0,'PS','AGENT','YITZ','10:18:44','10:21:55','00:03:11'),
@@ -1604,7 +1604,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-06-20','CR0437831','C00001078','197-040-1217','AA0101',30163,0,'NW','AGENT','AVIDAN','10:59:50','11:00:30','00:00:40'),
 	 ('2013-06-18','CR0435815','C00004473','212-348-2178','AA0110',30164,0,'NW','AGENT','MICHAL','15:54:53','16:00:59','00:06:06'),
 	 ('2013-06-17','CR0435032','C00001820','716-537-7735','AA0105',30165,2,'PS','AGENT','AVIDAN','14:26:27','14:38:18','00:11:51');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-06-17','CR0434909','C00008692','617-012-5921','AA0105',30166,0,'PS','AGENT','ANAT','16:56:37','17:10:16','00:13:39'),
 	 ('2013-06-17','CR0434879','C00003023','636-722-3544','AA0214',30167,2,'PS','AGENT','YIFAT','14:56:29','15:01:10','00:04:41'),
 	 ('2013-06-17','CR0434625','C00010077','447-608-4212','AA0209',30168,0,'NW','AGENT','MIKI','10:11:35','10:22:12','00:10:37'),
@@ -1615,7 +1615,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-06-13','CR0431913','C00001216','617-073-4821','AA0205',30174,2,'NE','AGENT','GILI','13:10:33','13:20:56','00:10:23'),
 	 ('2013-06-13','CR0432046','C00002513','218-131-0954','AA0112',30175,2,'TT','AGENT','NO_SERVER','16:03:31','16:19:58','00:16:27'),
 	 ('2013-06-12','CR0431345','C00012756','269-876-2611','AA0108',30177,2,'TT','AGENT','KAZAV','16:18:57','16:37:31','00:18:34');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-06-11','CR0429833','C00001966','331-010-8706','AA0203',30178,2,'NE','AGENT','MORIAH','15:20:33','15:29:40','00:09:07'),
 	 ('2013-06-10','CR0428602','C00004863','212-137-2095','AA0106',30180,0,'PS','AGENT','ANAT','09:05:28','09:09:34','00:04:06'),
 	 ('2013-06-10','CR0428571','C00000736','212-649-4482','AA0202',30181,2,'PS','AGENT','BENSION','14:12:12','14:26:38','00:14:26'),
@@ -1626,7 +1626,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-06-05','CR0424640','C00004426','547-904-8694','AA0115',30186,0,'PS','AGENT','AVNI','12:59:17','13:13:44','00:14:27'),
 	 ('2013-06-05','CR0424630','C00005965','716-098-2235','AA0109',30187,0,'PS','AGENT','DARMON','12:20:50','12:37:47','00:16:57'),
 	 ('2013-06-05','CR0425509','C00012376','933-272-2088','AA0106',30188,0,'NW','AGENT','SHARON','14:13:25','14:21:55','00:08:30');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-06-05','CR0423263','C00001016','259-090-1827','AA0113',30189,0,'NW','AGENT','AVNI','09:11:36','09:23:14','00:11:38'),
 	 ('2013-06-05','CR0424507','C00000810','508-664-7429','AA0105',30190,1,'PS','AGENT','AVNI','16:00:42','16:19:01','00:18:19'),
 	 ('2013-06-04','CR0424383','C00004207','518-816-2448','AA0115',30191,2,'PS','AGENT','SHLOMO','12:48:40','12:49:27','00:00:47'),
@@ -1637,7 +1637,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-05-28','CR0418036','C00012163','212-809-8492','AA0215',30195,1,'PS','AGENT','MIKI','10:27:23','10:39:47','00:12:24'),
 	 ('2013-05-28','CR0418053','C00004249','232-439-0619','AA0214',30196,0,'NW','AGENT','TOVA','09:55:02','10:11:07','00:16:05'),
 	 ('2013-05-21','CR0412235','C00004147','869-512-9919','AA0203',30197,2,'PS','AGENT','STEREN','10:00:25','10:00:51','00:00:26');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-05-20','CR0412229','C00003439','320-517-2915','AA0104',30198,0,'PS','AGENT','IDIT','13:21:06','13:25:42','00:04:36'),
 	 ('2013-05-20','CR0411842','C00002545','617-516-4027','AA0102',30199,2,'PS','AGENT','GILI','13:30:57','13:40:47','00:09:50'),
 	 ('2013-05-20','CR0411435','C00002787','666-833-6908','AA0101',30200,2,'PS','AGENT','YIFAT','09:47:27','10:02:39','00:15:12'),
@@ -1648,7 +1648,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-05-15','CR0407921','C00003909','459-262-9261','AA0209',30205,2,'NE','AGENT','ELI','14:06:09','14:23:02','00:16:53'),
 	 ('2013-05-14','CR0405595','C00003595','485-667-7447','AA0202',30206,2,'PS','AGENT','TOVA','16:53:18','16:58:57','00:05:39'),
 	 ('2013-05-14','CR0406526','C00000324','279-443-7776','AA0205',30207,2,'NE','AGENT','KAZAV','10:51:38','10:51:48','00:00:10');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-05-14','CR0406873','C00002043','364-615-9502','AA0214',30208,2,'PS','AGENT','MICHAL','13:14:30','13:20:07','00:05:37'),
 	 ('2013-05-13','CR0405616','C00001282','750-541-3197','AA0106',30209,0,'PS','AGENT','AVNI','14:52:03','15:10:16','00:18:13'),
 	 ('2013-05-10','CR0404838','C00003739','738-582-3049','AA0215',30212,2,'PS','AGENT','DARMON','14:28:43','14:48:35','00:19:52'),
@@ -1659,7 +1659,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-05-07','CR0400938','C00001375','978-210-7696','AA0210',30217,1,'PS','AGENT','STEREN','09:34:13','09:51:46','00:17:33'),
 	 ('2013-05-07','CR0401391','C00010276','315-703-9736','AA0102',30218,0,'PS','AGENT','KAZAV','10:26:14','10:40:28','00:14:14'),
 	 ('2013-05-06','CR0399705','C00000729','184-018-6122','AA0205',30221,2,'NE','AGENT','ZOHARI','13:21:28','13:21:46','00:00:18');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-05-06','CR0400023','C00010273','413-390-9655','AA0103',30222,1,'PS','AGENT','SHARON','13:26:12','13:32:53','00:06:41'),
 	 ('2013-05-03','CR0398731','C00001174','848-352-5548','AA0103',30223,2,'NE','AGENT','ZOHARI','14:00:31','14:05:13','00:04:42'),
 	 ('2013-05-01','CR0396685','C00002067','617-254-2363','AA0204',30224,0,'PS','AGENT','NAAMA','13:12:12','13:31:32','00:19:20'),
@@ -1670,7 +1670,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-04-30','CR0394855','C00004104','387-805-0675','AA0102',30230,2,'PS','AGENT','YITZ','16:18:15','16:20:05','00:01:50'),
 	 ('2013-04-29','CR0394119','C00004394','667-782-8378','AA0103',30231,2,'PS','AGENT','MICHAL','10:50:46','11:10:28','00:19:42'),
 	 ('2013-04-29','CR0394295','C00002603','357-238-7726','AA0105',30232,0,'NW','AGENT','MIKI','14:51:27','15:08:45','00:17:18');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-04-29','CR0394497','C00000633','679-103-1451','AA0202',30233,0,'PS','AGENT','MIKI','16:18:54','16:35:46','00:16:52'),
 	 ('2013-04-29','CR0394484','C00001412','698-780-5429','AA0104',30234,0,'PS','AGENT','MIKI','16:03:04','16:19:38','00:16:34'),
 	 ('2013-04-29','CR0394185','C00001512','565-233-1228','AA0209',30235,1,'PS','AGENT','ANAT','12:51:52','13:00:59','00:09:07'),
@@ -1681,7 +1681,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-04-16','CR0383552','C00002806','508-791-3193','AA0206',30241,0,'PS','AGENT','DORIT','10:09:28','10:28:21','00:18:53'),
 	 ('2013-04-16','CR0383410','C00000188','107-090-4202','AA0213',30242,2,'NE','AGENT','DARMON','15:28:39','15:37:05','00:08:26'),
 	 ('2013-04-15','CR0381800','C00001348','842-477-2826','AA0203',30243,0,'PS','AGENT','SHARON','13:45:55','14:04:34','00:18:39');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-04-15','CR0381669','C00003353','951-829-0462','AA0202',30244,2,'PS','AGENT','KAZAV','10:38:00','10:49:06','00:11:06'),
 	 ('2013-04-12','CR0381324','C00004533','517-247-9066','AA0105',30245,0,'PS','AGENT','MIKI','14:22:45','14:41:38','00:18:53'),
 	 ('2013-04-12','CR0381072','C00002840','994-942-9582','AA0107',30246,1,'TT','AGENT','YIFAT','15:45:47','15:53:05','00:07:18'),
@@ -1692,7 +1692,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-04-09','CR0377289','C00004343','306-673-7826','AA0101',30252,0,'NE','AGENT','ANAT','11:29:21','11:46:13','00:16:52'),
 	 ('2013-04-09','CR0378570','C00002343','212-387-7039','AA0215',30253,2,'PS','AGENT','ZOHARI','11:58:40','12:19:19','00:20:39'),
 	 ('2013-04-08','CR0376977','C00004036','740-403-2260','AA0111',30254,1,'TT','AGENT','MIKI','10:51:53','11:02:27','00:10:34');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-04-05','CR0374765','C00002412','566-758-9962','AA0203',30256,1,'PS','AGENT','ANAT','15:53:18','16:00:13','00:06:55'),
 	 ('2013-04-03','CR0373547','C00004365','543-937-5571','AA0102',30257,2,'PS','AGENT','SHARON','15:42:19','15:43:25','00:01:06'),
 	 ('2013-04-03','CR0373588','C00003575','617-733-3661','AA0111',30258,0,'TT','AGENT','BENSION','16:09:52','16:14:56','00:05:04'),
@@ -1703,7 +1703,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-04-01','CR0371323','C00004785','280-535-6146','AA0204',30263,2,'PS','AGENT','BENSION','13:55:28','14:16:02','00:20:34'),
 	 ('2013-03-29','CR0369772','C00008548','508-053-9023','AA0206',30264,0,'NW','AGENT','BENSION','10:41:56','10:55:28','00:13:32'),
 	 ('2013-03-27','CR0367411','C00004084','978-837-4973','AA0215',30266,1,'PS','AGENT','DARMON','12:39:40','12:42:15','00:02:35');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-03-27','CR0367260','C00004297','508-547-7092','AA0102',30268,2,'PS','AGENT','SHARON','14:04:48','14:09:18','00:04:30'),
 	 ('2013-03-25','CR0364117','C00002644','960-719-4383','AA0201',30269,0,'NE','AGENT','ELI','13:31:53','13:33:32','00:01:39'),
 	 ('2013-03-22','CR0363152','C00004471','279-763-6242','AA0209',30270,2,'PS','AGENT','STEREN','13:02:33','13:20:21','00:17:48'),
@@ -1714,7 +1714,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-03-20','CR0361294','C00003525','318-452-1112','AA0215',30275,2,'PS','AGENT','DARMON','10:41:03','10:47:41','00:06:38'),
 	 ('2013-03-19','CR0359753','C00012382','173-254-8299','AA0108',30276,2,'TT','AGENT','BASCH','11:42:14','11:47:13','00:04:59'),
 	 ('2013-03-19','CR0360059','C00002387','315-731-4489','AA0107',30277,2,'TT','AGENT','SHLOMO','10:09:39','10:29:38','00:19:59');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-03-18','CR0358202','C00003738','212-977-0717','AA0110',30278,0,'NW','AGENT','MICHAL','11:26:56','11:28:23','00:01:27'),
 	 ('2013-03-18','CR0358096','C00000208','418-031-5599','AA0104',30280,0,'NW','AGENT','MICHAL','09:14:17','09:33:06','00:18:49'),
 	 ('2013-03-15','CR0357124','C00000451','723-418-4078','AA0102',30281,2,'PS','AGENT','SHARON','15:36:48','15:57:23','00:20:35'),
@@ -1725,7 +1725,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-03-13','CR0352792','C00001419','116-966-8711','AA0108',30288,2,'TT','AGENT','NO_SERVER','09:17:47','09:36:53','00:19:06'),
 	 ('2013-03-13','CR0353395','C00000179','822-121-5569','AA0115',30289,0,'PS','AGENT','BASCH','15:37:36','15:53:14','00:15:38'),
 	 ('2013-03-12','CR0351535','C00004775','617-846-1282','AA0104',30290,2,'PS','AGENT','MORIAH','15:00:33','15:17:19','00:16:46');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-03-08','CR0346344','C00001745','965-720-7677','AA0202',30291,2,'NE','AGENT','ELI','09:18:30','09:29:30','00:11:00'),
 	 ('2013-03-08','CR0347396','C00001413','772-602-9919','AA0105',30292,2,'PS','AGENT','SHARON','15:00:01','15:01:07','00:01:06'),
 	 ('2013-03-08','CR0347894','C00006616','212-203-9156','AA0216',30294,0,'IN','AGENT','IDIT','11:26:14','11:29:35','00:03:21'),
@@ -1736,7 +1736,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-03-06','CR0343335','C00004454','508-793-6041','AA0102',30299,2,'PS','AGENT','ZOHARI','15:00:05','15:00:42','00:00:37'),
 	 ('2013-03-05','CR0342477','C00011907','914-103-8613','AA0210',30300,2,'PS','AGENT','YIFAT','10:41:40','10:58:00','00:16:20'),
 	 ('2013-03-05','CR0342259','C00003375','369-458-3530','AA0202',30301,2,'PS','AGENT','IDIT','15:40:02','15:55:18','00:15:16');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-03-04','CR0341528','C00001776','804-589-4830','AA0105',30302,0,'NW','AGENT','BASCH','16:39:30','16:46:23','00:06:53'),
 	 ('2013-02-27','CR0336381','C00004882','284-161-9913','AA0109',30303,2,'PS','AGENT','ZOHARI','10:36:40','10:53:31','00:16:51'),
 	 ('2013-02-26','CR0333281','C00003022','212-068-9912','AA0103',30304,0,'PS','AGENT','SHARON','16:28:36','16:39:18','00:10:42'),
@@ -1747,7 +1747,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-02-25','CR0330605','C00004011','933-298-1672','AA0105',30309,0,'NW','AGENT','AVNI','13:16:46','13:22:10','00:05:24'),
 	 ('2013-02-25','CR0330682','C00002961','212-099-9178','AA0205',30310,2,'PS','AGENT','ZOHARI','12:41:57','12:53:58','00:12:01'),
 	 ('2013-02-22','CR0326518','C00004735','103-688-1633','AA0108',30311,2,'TT','AGENT','AVNI','16:51:39','16:59:02','00:07:23');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-02-21','CR0325620','C00002515','684-858-7401','AA0204',30313,0,'PS','AGENT','GILI','14:15:15','14:23:06','00:07:51'),
 	 ('2013-02-20','CR0323662','C00000838','617-150-7104','AA0104',30315,0,'PS','AGENT','ANAT','10:10:19','10:23:43','00:13:24'),
 	 ('2013-02-19','CR0320876','C00000915','972-305-4452','AA0109',30316,0,'PS','AGENT','YIFAT','10:47:34','11:06:36','00:19:02'),
@@ -1758,7 +1758,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-02-14','CR0317164','C00002045','414-186-6894','AA0213',30321,2,'PS','AGENT','MIKI','10:56:28','11:13:08','00:16:40'),
 	 ('2013-02-13','CR0316165','C00005333','992-428-3802','AA0213',30322,0,'PS','AGENT','MIKI','14:45:23','14:58:34','00:13:11'),
 	 ('2013-02-13','CR0316172','C00002330','639-572-8298','AA0209',30323,0,'PS','AGENT','MORIAH','12:58:06','13:05:59','00:07:53');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-02-12','CR0314572','C00000408','947-152-7466','AA0103',30325,2,'NE','AGENT','ANAT','15:10:45','15:13:32','00:02:47'),
 	 ('2013-02-12','CR0315067','C00002037','978-388-7148','AA0213',30326,0,'PS','AGENT','IDIT','15:38:53','15:54:19','00:15:26'),
 	 ('2013-02-12','CR0315131','C00000032','382-190-5330','AA0105',30327,2,'PS','AGENT','AVNI','12:28:59','12:34:38','00:05:39'),
@@ -1769,7 +1769,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-02-06','CR0291481','C00000504','216-336-1409','AA0103',30334,1,'PS','AGENT','YITZ','09:24:38','09:38:49','00:14:11'),
 	 ('2019-01-12','','','261-544-9425','',NULL,NULL,'','','','10:14:28','10:15:01','00:00:33'),
 	 ('2013-02-06','CR0293175','C00003981','587-778-4601','AA0209',30335,0,'PS','AGENT','IDIT','09:25:20','09:38:39','00:13:19');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-02-06','CR0304801','C00007753','727-376-8507','AA0206',30336,0,'PS','AGENT','SHLOMO','16:08:21','16:10:38','00:02:17'),
 	 ('2013-02-05','CR0296695','C00000988','242-720-3713','AA0210',30337,0,'PS','AGENT','BASCH','11:26:55','11:31:15','00:04:20'),
 	 ('2013-02-05','CR0300080','C00000314','183-315-3173','AA0109',30338,0,'NE','AGENT','ELI','09:01:04','09:17:14','00:16:10'),
@@ -1780,7 +1780,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-02-01','CR0288284','C00004587','814-000-4314','AA0202',30343,0,'PS','AGENT','ANAT','09:11:41','09:21:58','00:10:17'),
 	 ('2013-02-01','CR0286872','C00000001','367-171-6840','AA0202',30344,0,'NW','AGENT','IDIT','09:37:03','09:52:27','00:15:24'),
 	 ('2013-02-01','CR0285384','C00004557','242-346-6362','AA0101',30345,0,'PS','AGENT','BENSION','16:44:12','16:48:17','00:04:05');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-01-31','CR0282653','C00000489','752-960-3642','AA0204',30346,0,'PS','AGENT','YITZ','13:29:12','13:44:38','00:15:26'),
 	 ('2013-01-31','CR0282435','C00012092','137-407-4390','AA0206',30347,2,'NE','AGENT','AVIDAN','16:12:38','16:22:12','00:09:34'),
 	 ('2013-01-31','CR0282358','C00002883','464-341-9697','AA0115',30348,2,'PS','AGENT','KAZAV','16:57:37','17:00:59','00:03:22'),
@@ -1791,7 +1791,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-01-28','CR0265855','C00002794','886-514-9424','AA0205',30354,0,'PS','AGENT','DARMON','16:56:53','16:57:09','00:00:16'),
 	 ('2013-01-28','CR0267004','C00004414','716-609-3605','AA0110',30355,0,'PS','AGENT','IDIT','09:24:48','09:28:55','00:04:07'),
 	 ('2013-01-25','CR0264386','C00000313','955-233-2808','AA0106',30356,0,'PS','AGENT','SHARON','16:28:12','16:34:18','00:06:06');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-01-25','CR0263718','C00002562','592-308-8149','AA0109',30357,0,'PS','AGENT','TOVA','15:00:04','15:01:12','00:01:08'),
 	 ('2013-01-23','CR0257098','C00011979','810-315-3030','AA0101',30358,2,'PS','AGENT','KAZAV','11:01:04','11:01:43','00:00:39'),
 	 ('2013-01-22','CR0251390','C00001447','862-407-2039','AA0105',30359,2,'PS','AGENT','IDIT','16:41:02','16:58:10','00:17:08'),
@@ -1802,7 +1802,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-01-18','CR0243620','C00001709','844-103-4039','AA0110',30365,0,'PS','AGENT','TOVA','09:00:36','09:20:47','00:20:11'),
 	 ('2013-01-17','CR0241484','C00002203','107-675-0031','AA0115',30366,0,'NW','AGENT','NO_SERVER','09:32:31','09:43:23','00:10:52'),
 	 ('2013-01-17','CR0245852','C00003992','617-618-6509','AA0101',30367,0,'NW','AGENT','AVNI','10:30:05','10:44:33','00:14:28');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-01-17','CR0247463','C00004462','212-162-5784','AA0206',30368,0,'PS','AGENT','GILI','15:19:36','15:20:23','00:00:47'),
 	 ('2013-01-14','CR0229995','C00003257','394-079-5449','AA0116',30369,0,'IN','AGENT','SHLOMO','09:07:09','09:26:44','00:19:35'),
 	 ('2013-01-14','CR0230181','C00000562','113-669-9431','AA0104',30370,0,'PS','AGENT','GILI','11:02:20','11:10:57','00:08:37'),
@@ -1813,7 +1813,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-01-07','CR0223123','C00001512','565-233-1228','AA0101',30376,0,'PS','AGENT','GILI','15:59:30','16:16:31','00:17:01'),
 	 ('2013-01-04','CR0222382','C00004763','315-020-7195','AA0102',30377,0,'PS','AGENT','DORIT','14:17:30','14:17:57','00:00:27'),
 	 ('2013-01-04','CR0222664','C00003252','256-150-2133','AA0205',30378,0,'PS','AGENT','YIFAT','10:54:31','11:06:08','00:11:37');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-01-03','CR0221797','C00000338','568-123-5924','AA0105',30379,2,'PS','AGENT','MICHAL','12:00:06','12:13:48','00:13:42'),
 	 ('2013-01-02','CR0219773','C00001567','716-634-4683','AA0106',30380,0,'PS','AGENT','DORIT','12:32:31','12:35:25','00:02:54'),
 	 ('2013-01-02','CR0219606','C00000930','855-235-3099','AA0101',30381,1,'PS','AGENT','YITZ','11:01:30','11:10:38','00:09:08'),
@@ -1824,7 +1824,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-12-27','CR0218168','C00003806','475-358-9664','AA0210',30387,2,'PS','AGENT','YITZ','12:48:18','12:50:05','00:01:47'),
 	 ('2012-12-26','CR0217350','C00004776','212-271-5275','AA0214',30389,2,'PS','AGENT','BENSION','11:58:47','12:14:22','00:15:35'),
 	 ('2012-12-26','CR0217612','C00005180','212-970-4352','AA0209',30390,2,'PS','AGENT','MORIAH','10:28:56','10:49:05','00:20:09');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-12-20','CR0214840','C00001425','228-330-0480','AA0107',30392,0,'TT','AGENT','AVIDAN','11:22:03','11:30:19','00:08:16'),
 	 ('2012-12-20','CR0214246','C00010382','354-125-0285','AA0109',30393,0,'NW','AGENT','KAZAV','11:33:47','11:53:25','00:19:38'),
 	 ('2012-12-20','CR0215093','C00005606','808-626-9008','AA0109',30394,0,'NE','AGENT','KAZAV','13:06:07','13:21:36','00:15:29'),
@@ -1835,7 +1835,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-12-12','CR0209272','C00002430','996-964-9510','AA0213',30401,0,'PS','AGENT','MIKI','11:49:02','12:03:10','00:14:08'),
 	 ('2012-12-12','CR0209499','C00001476','545-355-2449','AA0109',30403,0,'PS','AGENT','STEREN','12:45:02','12:54:21','00:09:19'),
 	 ('2012-12-12','CR0209614','C00002616','218-841-3318','AA0204',30404,2,'PS','AGENT','KAZAV','13:39:35','13:52:57','00:13:22');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-12-11','','','411-620-3904','',NULL,NULL,'','','','14:18:24','14:28:12','00:09:48'),
 	 ('2012-12-12','CR0209251','C00000847','787-958-5584','AA0202',30405,0,'NW','AGENT','NO_SERVER','15:14:12','15:21:46','00:07:34'),
 	 ('2012-12-12','CR0212841','C00002959','627-499-1483','AA0104',30407,2,'PS','AGENT','DORIT','10:54:28','10:56:13','00:01:45'),
@@ -1846,7 +1846,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-12-07','CR0206004','C00000827','603-666-9636','AA0205',30413,0,'PS','AGENT','GILI','11:04:24','11:09:25','00:05:01'),
 	 ('2012-12-07','CR0204762','C00000990','617-190-2879','AA0202',30414,2,'PS','AGENT','SHARON','15:31:57','15:49:46','00:17:49'),
 	 ('2012-12-06','CR0205149','C00004506','692-308-9768','AA0104',30415,2,'PS','AGENT','AVNI','12:40:24','12:50:45','00:10:21');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-12-06','CR0204864','C00002657','982-075-6244','AA0109',30416,0,'NE','AGENT','TOVA','15:30:24','15:48:00','00:17:36'),
 	 ('2012-12-05','CR0202787','C00000785','953-922-9590','AA0113',30417,0,'PS','AGENT','DORIT','13:55:38','14:06:00','00:10:22'),
 	 ('2012-12-04','CR0203040','C00003818','736-863-2020','AA0215',30418,2,'PS','AGENT','ANAT','16:49:47','16:50:44','00:00:57'),
@@ -1857,7 +1857,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-11-30','CR0201046','C00001111','508-174-1213','AA0109',30423,0,'PS','AGENT','MORIAH','09:15:08','09:22:03','00:06:55'),
 	 ('2012-11-29','CR0200614','C00001314','307-844-3173','AA0115',30425,2,'NE','AGENT','KAZAV','15:17:20','15:32:44','00:15:24'),
 	 ('2012-11-28','CR0199388','C00000310','726-281-9507','AA0101',30426,0,'PS','AGENT','ZOHARI','12:42:10','12:43:20','00:01:10');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-11-26','CR0197327','C00002534','212-115-8002','AA0213',30428,0,'PS','AGENT','AVIDAN','14:35:56','14:36:21','00:00:25'),
 	 ('2012-11-26','CR0197634','C00003952','103-884-0019','AA0113',30429,0,'PS','AGENT','KAZAV','15:54:02','16:09:19','00:15:17'),
 	 ('2012-11-26','CR0197448','C00005128','814-121-6492','AA0109',30430,0,'PS','AGENT','IDIT','11:44:13','11:46:11','00:01:58'),
@@ -1868,7 +1868,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-11-15','CR0192009','C00004493','504-598-3514','AA0205',30436,0,'NW','AGENT','SHLOMO','13:13:11','13:29:55','00:16:44'),
 	 ('2012-11-13','CR0189540','C00001970','303-194-9520','AA0204',30437,1,'PS','AGENT','YITZ','16:40:30','16:45:20','00:04:50'),
 	 ('2012-11-13','CR0189774','C00002371','610-520-7079','AA0213',30438,1,'PS','AGENT','ZOHARI','14:02:07','14:20:36','00:18:29');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-11-09','CR0188029','C00004240','767-205-7432','AA0109',30439,0,'PS','AGENT','ANAT','16:29:25','16:47:42','00:18:17'),
 	 ('2012-11-09','CR0188021','C00002159','819-660-3964','AA0109',30440,0,'PS','AGENT','BASCH','10:55:51','10:58:45','00:02:54'),
 	 ('2012-11-07','CR0185720','C00000642','679-459-3388','AA0214',30443,0,'NW','AGENT','SHARON','14:19:23','14:36:19','00:16:56'),
@@ -1879,7 +1879,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-10-26','CR0180677','C00002379','786-840-6056','AA0112',30450,1,'TT','AGENT','ANAT','09:58:27','10:04:47','00:06:20'),
 	 ('2012-10-26','CR0178709','C00002915','430-261-5670','AA0203',30451,1,'PS','AGENT','IDIT','12:37:29','12:56:53','00:19:24'),
 	 ('2012-10-26','CR0178659','C00005013','490-923-0215','AA0103',30452,2,'PS','AGENT','MORIAH','14:45:39','15:02:58','00:17:19');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-10-26','CR0178970','C00003953','893-002-8383','AA0215',30453,2,'NE','AGENT','AVNI','10:04:36','10:07:48','00:03:12'),
 	 ('2012-10-25','CR0178333','C00003836','818-315-0369','AA0209',30454,0,'NW','AGENT','MICHAL','14:20:53','14:35:11','00:14:18'),
 	 ('2012-10-25','CR0178334','C00002945','709-525-5928','AA0108',30455,0,'TT','AGENT','NAAMA','11:45:20','11:49:08','00:03:48'),
@@ -1890,7 +1890,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-10-23','CR0176761','C00004233','749-219-3392','AA0201',30460,0,'NW','AGENT','NO_SERVER','11:51:39','12:04:39','00:13:00'),
 	 ('2012-10-23','CR0176763','C00002403','212-188-8216','AA0213',30461,2,'NE','AGENT','AVNI','09:01:47','09:09:12','00:07:25'),
 	 ('2012-10-23','CR0176958','C00004975','221-030-2308','AA0108',30463,2,'TT','AGENT','DORIT','14:35:54','14:50:36','00:14:42');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-10-23','CR0176727','C00003897','160-923-1644','AA0214',30465,1,'NE','AGENT','ELI','09:28:36','09:28:55','00:00:19'),
 	 ('2012-10-22','CR0175989','C00003948','947-219-9813','AA0102',30467,2,'PS','AGENT','AVIDAN','09:28:35','09:41:04','00:12:29'),
 	 ('2012-10-22','CR0175743','C00003479','212-727-3609','AA0214',30468,1,'PS','AGENT','YITZ','11:57:17','12:10:03','00:12:46'),
@@ -1901,7 +1901,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-10-18','CR0173954','C00003787','473-728-6748','AA0203',30473,1,'PS','AGENT','MIKI','15:10:50','15:25:53','00:15:03'),
 	 ('2012-10-18','CR0174071','C00002976','508-300-6419','AA0109',30474,0,'PS','AGENT','TOVA','13:44:13','14:03:17','00:19:04'),
 	 ('2012-10-17','CR0173216','C00000202','229-606-7389','AA0105',30475,2,'PS','AGENT','YITZ','09:36:01','09:56:26','00:20:25');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-10-17','CR0173046','C00004400','276-625-5689','AA0115',30476,0,'PS','AGENT','YIFAT','13:57:04','14:04:38','00:07:34'),
 	 ('2012-10-15','CR0171701','C00000733','402-772-2649','AA0103',30477,2,'PS','AGENT','SHARON','09:00:43','09:13:37','00:12:54'),
 	 ('2012-10-15','CR0171646','C00010282','212-057-2976','AA0210',30478,0,'NE','AGENT','ANAT','14:29:45','14:40:13','00:10:28'),
@@ -1912,7 +1912,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-10-11','CR0169556','C00004766','825-948-4689','AA0203',30483,2,'PS','AGENT','YITZ','15:12:48','15:19:55','00:07:07'),
 	 ('2012-10-11','CR0169503','C00003346','953-256-9737','AA0205',30484,0,'PS','AGENT','ANAT','15:19:14','15:19:43','00:00:29'),
 	 ('2012-10-10','CR0168737','C00001751','415-713-3774','AA0109',30486,0,'PE','AGENT','IDIT','09:45:31','09:57:00','00:11:29');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-10-10','CR0168804','C00004671','745-634-2227','AA0102',30487,2,'PS','AGENT','BASCH','14:51:42','15:00:22','00:08:40'),
 	 ('2012-10-09','CR0167801','C00001575','978-952-9887','AA0213',30488,0,'PS','AGENT','BENSION','10:55:50','11:07:48','00:11:58'),
 	 ('2012-10-05','CR0166697','C00005433','716-101-9418','AA0209',30489,1,'PS','AGENT','MORIAH','12:22:16','12:34:27','00:12:11'),
@@ -1923,7 +1923,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-10-02','CR0164686','C00002278','914-912-6650','AA0206',30495,2,'PS','AGENT','SHARON','12:42:20','13:01:58','00:19:38'),
 	 ('2012-10-01','CR0164402','C00004376','258-930-2033','AA0215',30496,1,'PS','AGENT','IDIT','12:33:41','12:51:32','00:17:51'),
 	 ('2012-10-01','CR0164444','C00012490','253-511-4078','AA0206',30497,2,'PS','AGENT','MIKI','15:01:08','15:07:58','00:06:50');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-10-01','CR0164186','C00000441','212-826-4119','AA0209',30498,1,'PS','AGENT','KAZAV','16:39:54','16:54:53','00:14:59'),
 	 ('2012-09-28','CR0163898','C00005145','410-385-6183','AA0101',30499,1,'PS','AGENT','DORIT','09:18:12','09:33:38','00:15:26'),
 	 ('2012-09-27','CR0161208','C00005030','212-901-3102','AA0102',30500,2,'PS','AGENT','YIFAT','11:29:24','11:47:20','00:17:56'),
@@ -1934,7 +1934,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-09-26','CR0160214','C00002193','445-013-2369','AA0213',30505,0,'PS','AGENT','MICHAL','16:01:30','16:07:21','00:05:51'),
 	 ('2012-09-25','CR0159804','C00001114','617-563-9308','AA0101',30506,0,'PS','AGENT','SHARON','14:35:00','14:54:59','00:19:59'),
 	 ('2012-09-25','CR0159642','C00003420','498-282-7704','AA0206',30507,0,'NW','AGENT','TOVA','15:13:13','15:18:24','00:05:11');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-09-25','CR0159794','C00002610','212-209-9240','AA0214',30508,0,'NE','AGENT','IDIT','09:29:25','09:31:20','00:01:55'),
 	 ('2012-09-25','CR0159639','C00000932','429-998-2580','AA0101',30509,0,'NW','AGENT','YIFAT','13:09:23','13:16:12','00:06:49'),
 	 ('2012-09-25','CR0159747','C00000620','345-820-8090','AA0105',30510,0,'NW','AGENT','YIFAT','09:55:13','10:01:24','00:06:11'),
@@ -1945,7 +1945,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-09-20','CR0156773','C00005240','933-440-4886','AA0113',30517,0,'PS','AGENT','DORIT','12:51:52','13:04:26','00:12:34'),
 	 ('2012-09-20','CR0156790','C00002370','366-476-8371','AA0210',30518,2,'PS','AGENT','ZOHARI','14:08:39','14:22:41','00:14:02'),
 	 ('2012-09-17','CR0152612','C00002008','663-446-8838','AA0102',30522,2,'PS','AGENT','YITZ','16:04:54','16:19:25','00:14:31');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-09-17','CR0154220','C00004342','290-638-5549','AA0202',30523,2,'PS','AGENT','STEREN','11:26:50','11:30:20','00:03:30'),
 	 ('2012-09-13','CR0152355','C00005760','694-587-8130','AA0204',30524,0,'PS','AGENT','NO_SERVER','15:49:46','15:53:45','00:03:59'),
 	 ('2012-09-13','CR0152223','C00001931','902-428-5241','AA0116',30525,0,'IN','AGENT','YIFAT','10:58:38','10:59:27','00:00:49'),
@@ -1956,7 +1956,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-09-10','CR0149843','C00001175','212-875-6240','AA0203',30530,0,'NW','AGENT','SHARON','12:54:52','12:56:51','00:01:59'),
 	 ('2012-09-10','CR0149828','C00003243','617-395-9384','AA0204',30531,0,'PS','AGENT','YITZ','10:59:09','11:19:53','00:20:44'),
 	 ('2012-09-10','CR0149645','C00005399','996-027-6704','AA0206',30532,2,'PS','AGENT','BASCH','15:56:23','16:08:46','00:12:23');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-09-10','CR0149018','C00000021','894-384-1832','AA0206',30533,0,'PS','AGENT','SHLOMO','16:18:20','16:19:51','00:01:31'),
 	 ('2012-09-07','CR0148072','C00003414','389-105-1401','AA0214',30534,2,'PS','AGENT','TOVA','14:21:00','14:35:24','00:14:24'),
 	 ('2012-09-07','CR0148569','C00000732','460-365-4008','AA0103',30535,0,'PS','AGENT','TOVA','14:35:18','14:37:41','00:02:23'),
@@ -1967,7 +1967,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-08-30','CR0144994','C00002610','212-209-9240','AA0105',30542,0,'NW','AGENT','PINHAS','16:12:10','16:20:31','00:08:21'),
 	 ('2012-08-29','CR0143599','C00009997','397-340-7585','AA0210',30543,0,'NW','AGENT','IDIT','11:44:08','12:03:05','00:18:57'),
 	 ('2012-08-29','CR0143609','C00002747','222-045-5921','AA0204',30545,2,'NE','AGENT','ZOHARI','12:30:52','12:40:09','00:09:17');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-08-28','CR0143429','C00004091','611-662-1531','AA0106',30546,2,'PS','AGENT','GILI','11:03:58','11:17:38','00:13:40'),
 	 ('2012-08-27','CR0142319','C00002699','963-518-7612','AA0206',30547,0,'PS','AGENT','SHLOMO','13:34:01','13:47:44','00:13:43'),
 	 ('2012-08-27','CR0142431','C00002212','513-799-2738','AA0213',30548,2,'PS','AGENT','MIKI','09:38:46','09:38:51','00:00:05'),
@@ -1978,7 +1978,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-08-22','CR0140026','C00003935','617-594-2704','AA0102',30554,0,'NW','AGENT','SHARON','10:22:27','10:34:52','00:12:25'),
 	 ('2012-08-22','CR0140148','C00003790','508-712-6071','AA0204',30555,2,'PS','AGENT','YIFAT','16:12:36','16:29:21','00:16:45'),
 	 ('2012-08-22','CR0139999','C00003314','686-878-5108','AA0105',30556,0,'PS','AGENT','ANAT','13:58:36','14:16:16','00:17:40');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-08-21','CR0139281','C00004044','189-364-3931','AA0210',30558,1,'PS','AGENT','AVNI','09:54:06','10:04:05','00:09:59'),
 	 ('2012-08-20','CR0138531','C00003103','565-809-7254','AA0202',30559,1,'PS','AGENT','ANAT','13:03:09','13:23:07','00:19:58'),
 	 ('2012-08-20','CR0138425','C00004041','617-926-0521','AA0204',30560,0,'PS','AGENT','BENSION','10:06:04','10:23:58','00:17:54'),
@@ -1989,7 +1989,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-08-13','CR0134910','C00004232','863-914-7253','AA0106',30568,2,'PS','AGENT','MORIAH','09:02:20','09:13:10','00:10:50'),
 	 ('2012-08-10','CR0133403','C00000241','674-103-6839','AA0113',30570,0,'PS','AGENT','GILI','09:17:15','09:33:04','00:15:49'),
 	 ('2012-08-10','CR0134018','C00001868','781-135-2190','AA0103',30571,0,'NW','AGENT','AVNI','10:12:57','10:13:15','00:00:18');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-08-10','CR0133902','C00001164','809-671-9428','AA0101',30572,2,'NE','AGENT','ZOHARI','16:30:31','16:40:45','00:10:14'),
 	 ('2012-08-09','CR0133045','C00009641','751-672-5553','AA0206',30573,0,'PS','AGENT','SHARON','09:17:57','09:30:51','00:12:54'),
 	 ('2012-08-09','CR0133150','C00001668','103-179-9616','AA0106',30574,0,'PS','AGENT','GILI','09:52:09','10:05:29','00:13:20'),
@@ -2000,7 +2000,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-08-06','CR0130517','C00000518','303-437-3114','AA0115',30580,0,'NW','AGENT','AVNI','14:39:28','14:46:02','00:06:34'),
 	 ('2012-08-06','CR0130530','C00000545','585-725-8251','AA0107',30581,1,'TT','AGENT','BASCH','10:21:37','10:39:03','00:17:26'),
 	 ('2012-08-06','CR0130678','C00004078','361-498-7381','AA0110',30582,0,'PS','AGENT','AVNI','13:57:50','14:06:35','00:08:45');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-08-03','CR0129473','C00007787','261-241-4645','AA0101',30583,2,'NE','AGENT','ANAT','09:54:00','10:12:02','00:18:02'),
 	 ('2012-08-03','CR0130343','C00005413','423-381-5136','AA0103',30584,0,'PS','AGENT','BASCH','14:39:10','14:49:03','00:09:53'),
 	 ('2012-07-31','CR0127308','C00001507','405-524-1656','AA0110',30586,0,'PS','AGENT','YIFAT','11:01:20','11:18:44','00:17:24'),
@@ -2011,7 +2011,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-07-25','CR0124197','C00004571','212-575-6098','AA0204',30594,0,'NW','AGENT','AVNI','15:38:22','15:53:36','00:15:14'),
 	 ('2012-07-25','CR0124141','C00002599','212-278-6428','AA0108',30595,0,'TT','AGENT','KAZAV','16:25:50','16:28:24','00:02:34'),
 	 ('2012-07-25','CR0124297','C00013590','617-066-8236','AA0205',30596,1,'PS','AGENT','KAZAV','12:29:54','12:33:56','00:04:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-07-24','CR0123461','C00003973','661-828-0374','AA0103',30597,0,'NW','AGENT','TOVA','10:50:04','11:04:05','00:14:01'),
 	 ('2012-07-24','CR0123485','C00011768','171-145-8125','AA0202',30598,0,'PS','AGENT','YITZ','14:48:23','15:00:50','00:12:27'),
 	 ('2012-07-24','CR0123518','C00004126','144-927-1486','AA0103',30600,2,'PS','AGENT','MORIAH','09:38:33','09:38:53','00:00:20'),
@@ -2022,7 +2022,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-07-20','CR0121603','C00013469','184-033-0623','AA0213',30605,0,'NW','AGENT','STEREN','15:32:27','15:43:21','00:10:54'),
 	 ('2012-07-20','CR0121559','C00001641','516-466-9889','AA0109',30606,0,'PS','AGENT','DORIT','10:52:16','11:00:47','00:08:31'),
 	 ('2012-07-19','CR0120770','C00005223','629-898-8640','AA0209',30607,0,'PS','AGENT','YIFAT','13:11:15','13:28:48','00:17:33');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-07-19','CR0120508','C00001332','334-346-2525','AA0105',30608,0,'NW','AGENT','SHARON','11:19:18','11:25:55','00:06:37'),
 	 ('2012-07-18','CR0120143','C00006803','363-646-2645','AA0201',30609,0,'NW','AGENT','KAZAV','09:26:09','09:33:15','00:07:06'),
 	 ('2012-07-18','CR0119900','C00005275','837-016-1889','AA0204',30610,0,'PS','AGENT','AVNI','13:35:02','13:41:16','00:06:14'),
@@ -2033,7 +2033,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-07-16','CR0118775','C00002907','665-623-7398','AA0110',30615,0,'PS','AGENT','SHARON','12:15:47','12:28:03','00:12:16'),
 	 ('2012-07-16','CR0118068','C00001195','207-465-2754','AA0202',30616,1,'PS','AGENT','YIFAT','16:16:42','16:33:44','00:17:02'),
 	 ('2012-07-16','CR0118237','C00002589','195-082-6728','AA0116',30617,0,'IN','AGENT','ANAT','12:35:49','12:56:16','00:20:27');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-07-13','CR0117435','C00004393','212-562-8196','AA0115',30619,2,'PS','AGENT','BASCH','13:29:03','13:35:56','00:06:53'),
 	 ('2012-07-13','CR0117408','C00008678','383-399-3449','AA0203',30620,1,'PS','AGENT','IDIT','14:01:42','14:12:33','00:10:51'),
 	 ('2012-07-12','CR0116361','C00000094','933-101-0725','AA0103',30621,0,'PS','AGENT','MIKI','14:13:07','14:32:02','00:18:55'),
@@ -2044,7 +2044,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-07-11','CR0115920','C00002919','233-659-0269','AA0103',30626,0,'NW','AGENT','YIFAT','11:50:21','12:09:13','00:18:52'),
 	 ('2012-07-11','CR0115762','C00002195','530-337-0174','AA0109',30627,1,'PS','AGENT','KAZAV','11:54:06','12:03:24','00:09:18'),
 	 ('2012-07-11','CR0115917','C00010563','438-969-9520','AA0201',30628,2,'NE','AGENT','ELI','09:15:38','09:32:24','00:16:46');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-07-10','CR0114574','C00011147','265-012-6222','AA0214',30629,0,'PS','AGENT','YITZ','11:28:44','11:48:01','00:19:17'),
 	 ('2012-07-10','CR0114555','C00011319','774-966-9831','AA0205',30631,2,'PS','AGENT','SHARON','13:08:21','13:26:01','00:17:40'),
 	 ('2012-07-09','CR0114146','C00002915','430-261-5670','AA0201',30632,0,'PS','AGENT','DARMON','10:26:50','10:30:01','00:03:11'),
@@ -2055,7 +2055,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-07-06','CR0113145','C00000222','788-660-3215','AA0202',30637,2,'NE','AGENT','KAZAV','15:09:40','15:16:27','00:06:47'),
 	 ('2012-07-06','CR0113175','C00003121','508-005-9927','AA0101',30639,0,'PS','AGENT','MICHAL','11:43:42','11:59:39','00:15:57'),
 	 ('2012-07-06','CR0113235','C00004425','495-908-8188','AA0110',30640,2,'PS','AGENT','YITZ','11:32:06','11:39:40','00:07:34');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-07-05','CR0112630','C00008064','473-644-5067','AA0215',30643,0,'NW','AGENT','YITZ','12:16:00','12:27:18','00:11:18'),
 	 ('2012-07-05','CR0112580','C00004476','770-608-8468','AA0102',30644,0,'PS','AGENT','IDIT','15:00:15','15:00:19','00:00:04'),
 	 ('2012-07-05','CR0112657','C00002825','617-902-5032','AA0113',30645,2,'NE','AGENT','BASCH','16:21:24','16:32:12','00:10:48'),
@@ -2066,7 +2066,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-07-02','CR0111296','C00000127','231-192-1790','AA0210',30653,0,'NE','AGENT','ZOHARI','13:56:40','13:57:16','00:00:36'),
 	 ('2012-06-29','CR0110596','C00006804','602-429-6583','AA0215',30655,2,'PS','AGENT','SHARON','14:48:35','15:05:13','00:16:38'),
 	 ('2012-06-27','CR0109085','C00005826','939-177-2497','AA0105',30656,0,'PS','AGENT','NO_SERVER','16:01:16','16:16:56','00:15:40');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-06-27','CR0109157','C00003987','666-778-5526','AA0201',30657,2,'PS','AGENT','KAZAV','15:00:31','15:10:08','00:09:37'),
 	 ('2012-06-27','CR0109092','C00001194','755-412-7389','AA0104',30659,0,'PS','AGENT','KAZAV','11:55:36','12:12:07','00:16:31'),
 	 ('2012-06-27','CR0109143','C00004175','653-476-6009','AA0201',30660,2,'PS','AGENT','MORIAH','12:35:58','12:46:29','00:10:31'),
@@ -2077,7 +2077,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-06-22','CR0106846','C00004284','696-259-9422','AA0104',30669,2,'NE','AGENT','ZOHARI','09:59:55','10:01:02','00:01:07'),
 	 ('2012-06-21','CR0105310','C00000316','585-383-5679','AA0205',30671,0,'NW','AGENT','MICHAL','13:55:35','14:02:07','00:06:32'),
 	 ('2012-06-20','CR0104814','C00007772','212-675-6023','AA0113',30672,0,'PS','AGENT','TOVA','11:49:26','12:05:14','00:15:48');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-06-20','CR0105052','C00001071','811-066-8296','AA0115',30673,0,'NE','AGENT','ZOHARI','15:06:40','15:19:20','00:12:40'),
 	 ('2012-06-19','CR0104468','C00002241','409-357-3349','AA0103',30674,0,'NW','AGENT','YIFAT','09:25:33','09:39:43','00:14:10'),
 	 ('2012-06-19','CR0104698','C00000966','924-131-1644','AA0213',30675,0,'NW','AGENT','SHARON','09:41:25','09:56:11','00:14:46'),
@@ -2088,7 +2088,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-06-13','CR0100600','C00004785','253-740-5990','AA0110',30681,0,'PS','AGENT','SHARON','15:12:05','15:19:12','00:07:07'),
 	 ('2012-06-13','CR0100692','C00011867','212-884-2332','AA0103',30682,2,'PS','AGENT','SHARON','14:32:36','14:37:42','00:05:06'),
 	 ('2012-06-13','CR0100791','C00001699','828-867-3715','AA0204',30683,2,'PS','AGENT','MORIAH','11:47:40','12:00:46','00:13:06');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-06-12','CR0099832','C00002402','484-743-8510','AA0102',30684,1,'PS','AGENT','DARMON','09:15:36','09:27:45','00:12:09'),
 	 ('2012-06-12','CR0100039','C00004763','847-512-8816','AA0204',30685,2,'PS','AGENT','YIFAT','10:07:16','10:12:29','00:05:13'),
 	 ('2012-06-11','CR0099278','C00001016','259-090-1827','AA0107',30686,1,'TT','AGENT','YITZ','13:25:47','13:38:45','00:12:58'),
@@ -2099,7 +2099,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-06-06','CR0095894','C00002111','508-239-5737','AA0106',30692,0,'NW','AGENT','IDIT','15:05:51','15:11:40','00:05:49'),
 	 ('2012-06-06','CR0096101','C00000045','786-924-4329','AA0215',30693,0,'NW','AGENT','MORIAH','15:06:37','15:20:29','00:13:52'),
 	 ('2012-06-05','CR0094894','C00001509','863-434-3517','AA0205',30694,0,'PS','AGENT','BASCH','16:03:54','16:11:04','00:07:10');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-06-05','CR0095162','C00001745','965-720-7677','AA0206',30695,2,'PS','AGENT','YIFAT','14:03:00','14:12:43','00:09:43'),
 	 ('2012-06-05','CR0094780','C00004681','624-323-8907','AA0209',30696,0,'PS','AGENT','MIKI','11:21:19','11:40:33','00:19:14'),
 	 ('2012-06-05','CR0094929','C00000605','212-192-5590','AA0104',30697,0,'PS','AGENT','ANAT','12:13:30','12:32:28','00:18:58'),
@@ -2110,7 +2110,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-08-26','','','585-334-7286','',NULL,NULL,'','','','09:14:43','09:25:10','00:10:27'),
 	 ('2012-06-01','CR0091583','C00001644','617-994-9307','AA0103',30703,0,'NW','AGENT','MICHAL','15:59:38','16:13:12','00:13:34'),
 	 ('2012-06-01','CR0091484','C00002989','184-120-2278','AA0105',30704,0,'PS','AGENT','SHARON','14:41:29','14:48:02','00:06:33');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-05-31','CR0090068','C00011126','212-895-0493','AA0115',30705,0,'PS','AGENT','TOVA','10:45:00','10:57:41','00:12:41'),
 	 ('2012-05-30','CR0089038','C00011004','754-444-8930','AA0201',30706,1,'PS','AGENT','BASCH','09:34:33','09:40:24','00:05:51'),
 	 ('2012-05-30','CR0089291','C00000670','212-626-1708','AA0209',30707,2,'PS','AGENT','STEREN','17:00:36','17:18:51','00:18:15'),
@@ -2121,7 +2121,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-05-24','CR0086947','C00001494','212-073-3135','AA0213',30716,2,'PS','AGENT','ZOHARI','14:50:26','15:00:29','00:10:03'),
 	 ('2012-05-24','CR0086919','C00004170','508-381-5724','AA0204',30717,0,'PS','AGENT','ZOHARI','14:12:51','14:13:23','00:00:32'),
 	 ('2012-05-24','CR0086940','C00003439','320-517-2915','AA0205',30718,0,'PS','AGENT','YITZ','14:01:37','14:05:30','00:03:53');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-05-24','CR0087017','C00001768','776-733-4517','AA0113',30719,0,'PS','AGENT','AVNI','16:04:15','16:16:17','00:12:02'),
 	 ('2012-05-23','CR0001080','C00002867','532-977-4372','AA0106',30720,2,'PS','AGENT','SHARON','15:15:05','15:25:22','00:10:17'),
 	 ('2012-05-23','CR0001710','C00004522','386-743-7973','AA0109',30721,2,'PS','AGENT','KAZAV','14:04:43','14:13:13','00:08:30'),
@@ -2132,7 +2132,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-05-21','CR0000175','C00001231','725-738-6179','AA0101',30726,2,'NE','AGENT','ANAT','16:11:09','16:16:23','00:05:14'),
 	 ('2012-05-21','CR0086445','C00009664','976-330-3665','AA0214',30727,2,'NE','AGENT','ZOHARI','12:17:51','12:24:22','00:06:31'),
 	 ('2012-05-21','CR0000084','C00001366','525-399-7364','AA0103',30728,0,'PS','AGENT','BENSION','14:57:32','14:58:03','00:00:31');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-05-18','CR0084101','C00001810','752-758-3119','AA0115',30730,1,'PS','AGENT','YIFAT','14:17:05','14:31:23','00:14:18'),
 	 ('2012-05-18','CR0083534','C00002427','685-988-8595','AA0205',30731,0,'PS','AGENT','MORIAH','15:24:20','15:45:01','00:20:41'),
 	 ('2012-05-18','CR0084018','C00002731','729-397-5861','AA0203',30733,2,'PS','AGENT','KAZAV','10:33:57','10:44:43','00:10:46'),
@@ -2143,7 +2143,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-05-14','CR0077092','C00000215','617-618-0272','AA0209',30738,0,'NW','AGENT','MICHAL','13:12:14','13:19:00','00:06:46'),
 	 ('2012-05-14','CR0076947','C00003399','669-336-3502','AA0204',30739,0,'PS','AGENT','BASCH','15:46:44','15:49:09','00:02:25'),
 	 ('2012-05-11','CR0076747','C00004772','138-247-9484','AA0105',30740,0,'PS','AGENT','YITZ','14:38:57','14:43:19','00:04:22');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-05-11','CR0075611','C00000651','212-527-2673','AA0213',30741,1,'PS','AGENT','MICHAL','15:06:58','15:27:24','00:20:26'),
 	 ('2012-05-11','CR0075762','C00001090','509-489-8325','AA0213',30742,0,'PS','AGENT','ANAT','14:36:08','14:41:44','00:05:36'),
 	 ('2012-05-10','CR0074942','C00002417','508-826-9957','AA0205',30743,2,'PS','AGENT','KAZAV','11:41:43','11:49:35','00:07:52'),
@@ -2154,7 +2154,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-05-08','CR0028257','C00004584','665-118-6190','AA0205',30749,2,'NW','AGENT','KAZAV','14:39:41','14:57:35','00:17:54'),
 	 ('2012-05-08','CR0073198','C00000365','212-082-8941','AA0205',30751,0,'PS','AGENT','STEREN','09:51:32','10:07:12','00:15:40'),
 	 ('2012-05-07','CR0072165','C00001083','508-951-2034','AA0204',30752,1,'PS','AGENT','YITZ','14:52:00','15:03:51','00:11:51');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-05-07','CR0072500','C00003596','602-319-7593','AA0215',30753,0,'NE','AGENT','ZOHARI','14:15:36','14:21:03','00:05:27'),
 	 ('2012-05-07','CR0072457','C00000504','216-336-1409','AA0214',30754,2,'PS','AGENT','SHARON','09:48:24','10:09:06','00:20:42'),
 	 ('2012-05-07','CR0072526','C00003494','932-385-2125','AA0206',30755,0,'PS','AGENT','STEREN','15:05:58','15:09:16','00:03:18'),
@@ -2165,7 +2165,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-05-01','CR0068641','C00004784','658-845-3868','AA0103',30763,2,'PS','AGENT','SHARON','10:29:13','10:45:03','00:15:50'),
 	 ('2012-05-01','CR0068676','C00003470','114-406-9537','AA0113',30764,1,'PS','AGENT','IDIT','14:30:54','14:51:52','00:20:58'),
 	 ('2012-05-01','CR0068403','C00006422','496-120-8636','AA0102',30765,1,'PS','AGENT','DARMON','16:58:12','16:59:18','00:01:06');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-04-30','CR0068083','C00000749','703-691-3813','AA0105',30766,0,'PS','AGENT','TOVA','13:34:44','13:54:17','00:19:33'),
 	 ('2012-04-30','CR0067650','C00001733','508-367-3298','AA0102',30767,1,'PS','AGENT','KAZAV','11:28:06','11:40:58','00:12:52'),
 	 ('2012-04-30','CR0067618','C00000935','331-145-8845','AA0106',30769,1,'PS','AGENT','MICHAL','12:54:57','12:55:13','00:00:16'),
@@ -2176,7 +2176,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-04-26','CR0066181','C00001690','878-248-1994','AA0104',30774,0,'PS','AGENT','SHLOMO','15:47:00','16:06:05','00:19:05'),
 	 ('2012-04-26','CR0065649','C00013694','212-857-6592','AA0109',30775,0,'PS','AGENT','BENSION','12:36:45','12:44:31','00:07:46'),
 	 ('2017-01-06','','','617-950-8315','',NULL,NULL,'','','','12:06:35','12:24:09','00:17:34');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-04-25','CR0065086','C00003901','978-961-6708','AA0109',30776,2,'PS','AGENT','BASCH','12:51:48','13:04:31','00:12:43'),
 	 ('2012-04-25','CR0065447','C00002944','617-088-9342','AA0102',30777,0,'PS','AGENT','YIFAT','11:09:14','11:16:15','00:07:01'),
 	 ('2012-04-25','CR0064419','C00001476','429-570-1786','AA0213',30778,0,'NW','AGENT','STEREN','13:11:31','13:17:51','00:06:20'),
@@ -2187,7 +2187,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-04-20','CR0061726','C00009798','978-970-5774','AA0115',30784,2,'PS','AGENT','IDIT','11:25:29','11:45:12','00:19:43'),
 	 ('2012-04-20','CR0061695','C00002588','567-262-7509','AA0110',30785,0,'PS','AGENT','IDIT','15:46:56','15:49:56','00:03:00'),
 	 ('2012-04-20','CR0062622','C00002879','554-219-7851','AA0115',30786,2,'PS','AGENT','YITZ','10:27:54','10:34:09','00:06:15');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-04-19','CR0061335','C00003903','212-987-3591','AA0215',30787,0,'NE','AGENT','AVIDAN','14:12:09','14:32:12','00:20:03'),
 	 ('2012-04-19','CR0061314','C00009930','617-242-3776','AA0206',30788,2,'PS','AGENT','MIKI','10:41:11','10:51:21','00:10:10'),
 	 ('2012-04-19','CR0061317','C00002832','261-752-0589','AA0102',30789,2,'PS','AGENT','STEREN','15:21:02','15:35:55','00:14:53'),
@@ -2198,7 +2198,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-04-17','CR0059372','C00003954','861-154-7975','AA0102',30795,2,'PS','AGENT','STEREN','09:03:30','09:22:59','00:19:29'),
 	 ('2012-04-17','CR0059404','C00010555','212-354-7928','AA0215',30796,1,'PS','AGENT','AVNI','11:49:48','12:10:36','00:20:48'),
 	 ('2012-04-16','CR0058621','C00003559','508-556-8376','AA0104',30797,1,'PS','AGENT','SHARON','13:43:30','13:59:00','00:15:30');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-04-16','CR0058907','C00002930','743-738-0264','AA0113',30798,0,'NW','AGENT','MICHAL','10:43:07','10:44:09','00:01:02'),
 	 ('2012-04-16','CR0058580','C00003904','619-439-1402','AA0209',30799,0,'PS','AGENT','YITZ','12:14:33','12:32:29','00:17:56'),
 	 ('2012-04-16','CR0058953','C00003610','830-310-9314','AA0205',30800,2,'PS','AGENT','BASCH','11:16:52','11:32:54','00:16:02'),
@@ -2209,7 +2209,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-04-12','CR0056553','C00000361','676-434-9767','AA0213',30806,0,'PS','AGENT','BENSION','16:12:34','16:28:42','00:16:08'),
 	 ('2012-04-11','CR0055174','C00001359','212-480-2987','AA0214',30807,2,'PS','AGENT','ZOHARI','14:16:29','14:27:02','00:10:33'),
 	 ('2012-04-11','CR0056063','C00002911','295-457-8932','AA0105',30808,0,'NW','AGENT','MICHAL','09:46:46','09:49:12','00:02:26');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-04-11','CR0055912','C00002124','819-831-7432','AA0202',30809,2,'PS','AGENT','SHARON','14:26:20','14:38:40','00:12:20'),
 	 ('2012-04-11','CR0055024','C00001706','758-172-3713','AA0205',30810,0,'NW','AGENT','KAZAV','11:32:36','11:35:15','00:02:39'),
 	 ('2012-04-11','CR0055405','C00003530','609-391-1588','AA0202',30811,1,'PS','AGENT','YITZ','13:46:03','13:49:58','00:03:55'),
@@ -2220,7 +2220,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-04-10','CR0054705','C00004037','212-441-2914','AA0106',30817,2,'PS','AGENT','BENSION','11:59:56','12:08:17','00:08:21'),
 	 ('2012-04-10','CR0053969','C00004241','960-786-0262','AA0109',30818,0,'PS','AGENT','DORIT','16:15:38','16:28:33','00:12:55'),
 	 ('2012-04-09','CR0045163','C00003519','223-993-8335','AA0206',30819,0,'PS','AGENT','ELI','16:37:35','16:53:13','00:15:38');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-04-09','CR0045016','C00004001','978-114-4033','AA0104',30820,0,'PS','AGENT','TOVA','10:03:09','10:12:48','00:09:39'),
 	 ('2012-04-09','CR0045310','C00003927','508-179-0609','AA0210',30821,2,'PS','AGENT','ZOHARI','14:20:24','14:29:44','00:09:20'),
 	 ('2012-04-06','CR0044798','C00003211','919-427-4281','AA0213',30823,0,'PS','AGENT','TOVA','12:38:40','12:53:28','00:14:48'),
@@ -2231,7 +2231,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-04-04','CR0043994','C00003766','212-395-0636','AA0203',30831,2,'NE','AGENT','KAZAV','13:48:39','13:55:09','00:06:30'),
 	 ('2012-04-04','CR0044148','C00000384','668-716-0845','AA0102',30832,0,'NW','AGENT','YIFAT','14:17:10','14:31:50','00:14:40'),
 	 ('2012-04-03','CR0043639','C00002815','259-293-9160','AA0108',30833,1,'TT','AGENT','NO_SERVER','13:55:53','13:57:47','00:01:54');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-04-03','CR0043845','C00002425','589-152-4476','AA0213',30835,0,'PS','AGENT','GILI','09:05:55','09:24:16','00:18:21'),
 	 ('2012-04-03','CR0043661','C00002747','222-045-5921','AA0101',30836,0,'NW','AGENT','BASCH','10:37:02','10:39:45','00:02:43'),
 	 ('2012-03-30','CR0042896','C00002357','284-898-1361','AA0203',30838,2,'PS','AGENT','STEREN','16:17:47','16:22:07','00:04:20'),
@@ -2242,7 +2242,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-03-28','CR0042314','C00002085','212-485-8919','AA0103',30845,0,'NW','AGENT','MIKI','13:20:53','13:40:26','00:19:33'),
 	 ('2012-03-27','CR0041721','C00003345','584-963-0146','AA0203',30846,2,'PS','AGENT','SHARON','15:37:42','15:53:11','00:15:29'),
 	 ('2012-03-26','CR0041236','C00003020','273-113-9563','AA0206',30849,0,'PS','AGENT','ZOHARI','12:39:38','12:49:06','00:09:28');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-03-26','CR0041258','C00003935','617-594-2704','AA0105',30850,0,'NE','AGENT','ANAT','16:26:24','16:31:17','00:04:53'),
 	 ('2018-01-26','','','399-167-3277','',NULL,NULL,'','','','14:25:17','14:26:45','00:01:28'),
 	 ('2012-03-26','CR0040857','C00003408','538-172-6590','AA0214',30851,0,'PS','AGENT','DARMON','11:54:18','12:00:54','00:06:36'),
@@ -2253,7 +2253,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-03-20','CR0037430','C00001683','506-209-1631','AA0109',30857,0,'PS','AGENT','SHLOMO','10:12:48','10:29:48','00:17:00'),
 	 ('2012-03-20','CR0037324','C00004156','941-642-1711','AA0105',30858,0,'PS','AGENT','TOVA','11:00:16','11:08:56','00:08:40'),
 	 ('2012-03-19','CR0036724','C00001986','553-427-2780','AA0214',30860,2,'PS','AGENT','AVNI','11:03:58','11:14:44','00:10:46');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-03-19','CR0036743','C00004108','176-497-5000','AA0104',30861,1,'PS','AGENT','KAZAV','11:26:36','11:35:41','00:09:05'),
 	 ('2012-03-16','CR0036342','C00002633','212-397-6951','AA0109',30862,2,'NE','AGENT','AVIDAN','12:57:16','12:59:55','00:02:39'),
 	 ('2012-03-15','CR0035809','C00004505','455-164-5256','AA0209',30863,0,'PS','AGENT','KAZAV','11:48:25','11:57:51','00:09:26'),
@@ -2264,7 +2264,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-03-13','CR0034342','C00003280','506-762-1690','AA0104',30869,0,'PS','AGENT','MORIAH','14:46:44','14:51:28','00:04:44'),
 	 ('2012-03-13','CR0034623','C00004743','508-477-1134','AA0201',30871,0,'PS','AGENT','MORIAH','09:57:41','10:05:05','00:07:24'),
 	 ('2012-03-13','CR0034559','C00001586','781-721-9358','AA0101',30873,2,'NE','AGENT','SHARON','16:41:16','16:51:37','00:10:21');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-03-12','CR0033772','C00004498','801-398-0462','AA0105',30875,2,'PS','AGENT','KAZAV','16:32:10','16:32:48','00:00:38'),
 	 ('2012-03-12','CR0034164','C00009995','870-214-6557','AA0206',30876,0,'NW','AGENT','SHARON','12:29:15','12:30:05','00:00:50'),
 	 ('2012-03-12','CR0034182','C00007299','212-878-7544','AA0201',30877,2,'PS','AGENT','ANAT','13:48:24','14:02:11','00:13:47'),
@@ -2275,7 +2275,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-03-07','CR0032026','C00003008','823-830-5490','AA0113',30884,0,'PS','AGENT','DORIT','15:06:07','15:27:04','00:20:57'),
 	 ('2012-03-07','CR0031869','C00000165','451-876-8255','AA0213',30885,0,'PS','AGENT','IDIT','16:06:38','16:16:42','00:10:04'),
 	 ('2012-03-07','CR0031594','C00003560','508-430-0793','AA0110',30886,0,'NW','AGENT','AVNI','11:51:18','11:57:30','00:06:12');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-03-06','CR0031126','C00002219','985-689-5263','AA0108',30888,0,'TT','AGENT','ZOHARI','12:31:28','12:34:31','00:03:03'),
 	 ('2012-03-01','CR0029150','C00000733','961-199-2888','AA0112',30889,0,'TT','AGENT','SHARON','09:46:40','09:56:41','00:10:01'),
 	 ('2012-02-29','CR0028245','C00004342','290-638-5549','AA0201',30890,0,'PS','AGENT','ZOHARI','14:05:28','14:21:19','00:15:51'),
@@ -2286,7 +2286,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-02-14','CR0023451','C00013071','895-880-4378','AA0109',30898,2,'NE','AGENT','BENSION','10:11:15','10:12:07','00:00:52'),
 	 ('2012-02-09','CR0022106','C00001596','508-537-2145','AA0210',30899,0,'PS','AGENT','SHLOMO','09:23:38','09:24:02','00:00:24'),
 	 ('2012-02-08','CR0021708','C00002304','508-045-4609','AA0206',30901,0,'PS','AGENT','TOVA','11:12:23','11:25:57','00:13:34');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-02-06','CR0020876','C00000994','478-016-1733','AA0215',30902,0,'PS','AGENT','MORIAH','09:02:58','09:11:15','00:08:17'),
 	 ('2012-02-03','CR0020288','C00001448','938-030-7929','AA0109',30903,0,'PS','AGENT','NO_SERVER','14:00:07','14:00:29','00:00:22'),
 	 ('2012-02-01','CR0019572','C00003695','978-618-4223','AA0215',30904,0,'PS','AGENT','KAZAV','14:50:31','15:01:55','00:11:24'),
@@ -2297,7 +2297,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-01-17','CR0014335','C00001221','439-113-7916','AA0105',30909,0,'NW','AGENT','MICHAL','16:21:47','16:28:58','00:07:11'),
 	 ('2012-01-17','CR0014338','C00005283','314-546-4851','AA0106',30910,0,'PS','AGENT','BENSION','11:50:44','12:10:40','00:19:56'),
 	 ('2012-01-06','CR0010889','C00003624','212-703-8758','AA0203',30911,0,'PS','AGENT','AVNI','14:53:12','15:01:18','00:08:06');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-01-03','CR0009358','C00001891','953-476-9580','AA0213',30912,1,'PS','AGENT','STEREN','14:01:23','14:14:46','00:13:23'),
 	 ('2011-12-27','CR0013314','C00000246','614-478-5366','AA0102',30913,0,'NW','AGENT','IDIT','11:40:37','11:49:53','00:09:16'),
 	 ('2011-12-19','CR0006795','C00008366','192-039-8843','AA0215',30915,0,'PS','AGENT','KAZAV','12:43:32','13:02:33','00:19:01'),
@@ -2308,7 +2308,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2011-12-05','CR0002929','C00007863','814-452-0875','AA0109',30920,0,'PS','AGENT','YIFAT','09:27:41','09:46:41','00:19:00'),
 	 ('2015-09-02','','','259-090-1827','AA0101',34548,0,'NW','HANG','NO_SERVER','13:27:34','13:27:38','00:00:04'),
 	 ('2017-03-07','','','673-468-2528','AA0110',34556,2,'PS','HANG','NO_SERVER','09:12:09','09:12:12','00:00:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-04-02','','','918-677-6649','AA0202',34558,0,'PS','HANG','NO_SERVER','16:27:20','16:27:23','00:00:03'),
 	 ('2016-12-25','','','250-855-5777','AA0203',34575,2,'PS','HANG','NO_SERVER','14:10:10','14:10:12','00:00:02'),
 	 ('2019-11-17','','','978-980-5167','AA0101',34576,1,'PS','HANG','NO_SERVER','16:58:33','16:58:38','00:00:05'),
@@ -2319,7 +2319,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-05-07','','','212-260-8145','AA0110',34593,0,'NW','HANG','NO_SERVER','14:12:57','14:13:01','00:00:04'),
 	 ('2013-05-10','','','190-021-5072','AA0102',34594,0,'NW','HANG','NO_SERVER','10:05:12','10:05:17','00:00:05'),
 	 ('2018-06-07','','','637-156-0285','AA0101',34600,0,'NW','HANG','NO_SERVER','16:55:03','16:55:06','00:00:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-01-04','','','848-614-3185','AA0103',34601,1,'PS','HANG','NO_SERVER','09:32:32','09:32:37','00:00:05'),
 	 ('2019-04-09','','','838-511-3760','AA0110',34606,0,'NW','HANG','NO_SERVER','12:17:54','12:17:55','00:00:01'),
 	 ('2019-10-02','','','728-429-0394','AA0106',34613,0,'PS','HANG','NO_SERVER','14:04:42','14:04:46','00:00:04'),
@@ -2330,7 +2330,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-08-09','','','978-894-9984','AA0113',34638,0,'PS','HANG','NO_SERVER','13:20:49','13:20:53','00:00:04'),
 	 ('2018-01-16','','','508-344-4092','AA0205',34641,0,'NW','HANG','NO_SERVER','16:54:51','16:54:55','00:00:04'),
 	 ('2015-06-24','','','164-808-7956','AA0215',34645,0,'PS','HANG','NO_SERVER','12:42:08','12:42:12','00:00:04');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-10-04','','','781-901-0257','AA0205',34660,0,'PS','HANG','NO_SERVER','09:46:21','09:46:24','00:00:03'),
 	 ('2014-01-27','','','978-111-6880','AA0103',34665,0,'PS','HANG','NO_SERVER','14:04:47','14:04:48','00:00:01'),
 	 ('2014-12-05','','','463-576-8017','AA0112',34675,0,'TT','HANG','NO_SERVER','13:18:28','13:18:32','00:00:04'),
@@ -2341,7 +2341,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-01-13','','','504-679-3670','AA0102',34706,1,'PS','HANG','NO_SERVER','11:58:36','11:58:40','00:00:04'),
 	 ('2014-03-09','','','617-023-8041','AA0115',34712,0,'NW','HANG','NO_SERVER','14:32:18','14:32:21','00:00:03'),
 	 ('2015-07-22','','','848-592-7751','AA0202',34713,1,'PS','HANG','NO_SERVER','15:19:47','15:19:49','00:00:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-04-04','','','212-930-7724','AA0102',34714,0,'NW','HANG','NO_SERVER','10:27:08','10:27:09','00:00:01'),
 	 ('2014-05-05','','','567-845-8514','AA0106',34731,0,'PS','HANG','NO_SERVER','12:46:34','12:46:37','00:00:03'),
 	 ('2018-09-18','','','643-458-5020','AA0206',34733,0,'NW','HANG','NO_SERVER','11:29:41','11:29:43','00:00:02'),
@@ -2352,7 +2352,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-12-20','','','617-395-9384','AA0202',34756,0,'PS','HANG','NO_SERVER','11:16:06','11:16:11','00:00:05'),
 	 ('2018-01-27','','','939-177-2497','AA0105',34758,0,'NW','HANG','NO_SERVER','11:05:30','11:05:33','00:00:03'),
 	 ('2014-11-12','','','508-683-6142','AA0203',34767,0,'NW','HANG','NO_SERVER','14:26:12','14:26:14','00:00:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-07-09','','','112-954-9501','AA0115',34773,0,'NW','HANG','NO_SERVER','16:31:32','16:31:33','00:00:01'),
 	 ('2013-10-07','','','212-047-1219','AA0106',34774,0,'PS','HANG','NO_SERVER','13:14:09','13:14:10','00:00:01'),
 	 ('2015-06-18','','','212-899-9780','AA0108',34777,0,'TT','HANG','NO_SERVER','10:35:08','10:35:10','00:00:02'),
@@ -2363,7 +2363,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-02-05','','','248-570-2876','AA0106',34798,2,'PS','HANG','NO_SERVER','11:11:47','11:11:52','00:00:05'),
 	 ('2018-06-21','','','212-278-6428','AA0101',34803,0,'NW','HANG','NO_SERVER','15:34:24','15:34:29','00:00:05'),
 	 ('2016-02-10','','','915-779-5619','AA0205',34813,2,'NE','HANG','NO_SERVER','15:12:20','15:12:22','00:00:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-02-02','','','405-771-6657','AA0110',34819,0,'PS','HANG','NO_SERVER','13:37:12','13:37:16','00:00:04'),
 	 ('2019-04-04','','','389-688-3833','AA0204',34821,0,'NW','HANG','NO_SERVER','16:43:13','16:43:14','00:00:01'),
 	 ('2017-06-27','','','508-781-1103','AA0205',34833,2,'PS','HANG','NO_SERVER','09:25:08','09:25:09','00:00:01'),
@@ -2374,7 +2374,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-03-23','','','430-261-5670','AA0209',34857,0,'NW','HANG','NO_SERVER','16:50:58','16:50:59','00:00:01'),
 	 ('2013-08-05','','','212-936-0483','AA0105',34859,0,'NW','HANG','NO_SERVER','11:21:42','11:21:44','00:00:02'),
 	 ('2015-12-21','','','337-157-9712','AA0209',34860,2,'PS','HANG','NO_SERVER','13:25:33','13:25:37','00:00:04');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-01-06','','','978-188-1804','AA0104',34861,2,'PS','HANG','NO_SERVER','10:16:17','10:16:18','00:00:01'),
 	 ('2016-09-16','','','133-274-1580','AA0101',34868,0,'NW','HANG','NO_SERVER','09:15:14','09:15:15','00:00:01'),
 	 ('2014-10-19','','','726-281-9507','AA0203',34879,2,'PS','HANG','NO_SERVER','14:57:54','14:57:57','00:00:03'),
@@ -2385,7 +2385,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-01-20','','','466-238-5085','AA0203',34906,0,'PS','HANG','NO_SERVER','12:31:51','12:31:53','00:00:02'),
 	 ('2018-12-09','','','154-320-6171','AA0204',34913,0,'NW','HANG','NO_SERVER','15:20:03','15:20:07','00:00:04'),
 	 ('2017-08-03','','','315-659-2204','',NULL,NULL,'','','','15:39:59','15:51:54','00:11:55');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-11-13','','','648-610-0995','AA0106',34917,2,'PS','HANG','NO_SERVER','16:05:54','16:05:57','00:00:03'),
 	 ('2018-02-06','','','460-365-4008','AA0106',34919,0,'PS','HANG','NO_SERVER','11:44:54','11:44:56','00:00:02'),
 	 ('2017-02-17','','','589-579-7278','AA0101',34928,0,'PS','HANG','NO_SERVER','14:37:54','14:37:59','00:00:05'),
@@ -2396,7 +2396,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-03-14','','','385-156-0221','AA0110',34948,0,'NW','HANG','NO_SERVER','14:38:34','14:38:35','00:00:01'),
 	 ('2018-09-08','','','348-390-0382','AA0102',34949,0,'NW','HANG','NO_SERVER','13:02:05','13:02:10','00:00:05'),
 	 ('2015-11-15','','','327-886-6804','AA0204',34950,0,'PS','HANG','NO_SERVER','15:14:55','15:15:00','00:00:05');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-06-09','','','791-211-8115','AA0214',34954,1,'PS','HANG','NO_SERVER','09:19:49','09:19:54','00:00:05'),
 	 ('2015-08-28','','','413-099-1143','AA0203',34963,0,'NW','HANG','NO_SERVER','14:58:41','14:58:44','00:00:03'),
 	 ('2016-12-01','','','978-562-4262','AA0106',34965,0,'NW','HANG','NO_SERVER','09:48:26','09:48:31','00:00:05'),
@@ -2407,7 +2407,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-03-16','','','781-006-6926','AA0210',35017,0,'NW','HANG','NO_SERVER','16:52:35','16:52:40','00:00:05'),
 	 ('2018-01-18','','','293-431-9766','AA0103',35019,1,'NW','HANG','NO_SERVER','13:03:10','13:03:12','00:00:02'),
 	 ('2015-03-22','','','685-988-8595','AA0105',35026,0,'PS','HANG','NO_SERVER','14:26:30','14:26:31','00:00:01');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-12-17','','','579-102-8353','AA0104',35034,0,'PS','HANG','NO_SERVER','11:38:38','11:38:42','00:00:04'),
 	 ('2019-04-27','','','648-306-6450','AA0213',35036,0,'NW','HANG','NO_SERVER','16:12:48','16:12:49','00:00:01'),
 	 ('2014-10-05','','','508-876-0707','AA0214',35037,1,'PS','HANG','NO_SERVER','16:36:09','16:36:13','00:00:04'),
@@ -2418,7 +2418,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-12-10','','','451-935-8233','AA0214',35079,0,'PS','HANG','NO_SERVER','10:36:00','10:36:05','00:00:05'),
 	 ('2016-11-27','','','400-686-0553','AA0206',35099,0,'NW','HANG','NO_SERVER','10:37:37','10:37:39','00:00:02'),
 	 ('2015-03-03','','','479-159-0860','AA0204',35103,0,'NW','HANG','NO_SERVER','15:20:04','15:20:06','00:00:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-05-14','','','853-967-5809','AA0109',35104,0,'PS','HANG','NO_SERVER','12:09:59','12:10:00','00:00:01'),
 	 ('2019-08-19','','','779-176-2010','AA0205',35120,0,'NW','HANG','NO_SERVER','13:36:20','13:36:24','00:00:04'),
 	 ('2016-03-07','','','578-113-6262','AA0105',35130,0,'NW','HANG','NO_SERVER','11:49:59','11:50:00','00:00:01'),
@@ -2429,7 +2429,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-11-28','','','961-861-0893','AA0104',35160,0,'NW','HANG','NO_SERVER','16:36:57','16:37:00','00:00:03'),
 	 ('2017-04-01','','','782-548-4080','AA0202',35167,0,'PS','HANG','NO_SERVER','11:26:27','11:26:31','00:00:04'),
 	 ('2019-08-07','','','881-318-0855','AA0102',35172,1,'PS','HANG','NO_SERVER','14:46:36','14:46:41','00:00:05');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-10-06','','','508-648-0288','AA0209',35174,0,'NW','HANG','NO_SERVER','15:13:04','15:13:07','00:00:03'),
 	 ('2013-12-08','','','693-882-6445','AA0101',35178,0,'NW','HANG','NO_SERVER','09:39:30','09:39:34','00:00:04'),
 	 ('2015-12-28','','','350-152-4830','AA0215',35179,0,'NW','HANG','NO_SERVER','15:03:27','15:03:30','00:00:03'),
@@ -2440,7 +2440,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-12-28','','','113-965-1383','AA0101',35206,0,'PS','HANG','NO_SERVER','14:26:25','14:26:30','00:00:05'),
 	 ('2013-04-03','','','262-231-8506','AA0106',35222,0,'NW','HANG','NO_SERVER','09:34:10','09:34:12','00:00:02'),
 	 ('2015-01-08','','','881-859-6389','AA0203',35228,1,'PS','HANG','NO_SERVER','14:51:21','14:51:23','00:00:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-07-05','','','210-190-7382','AA0203',35230,0,'NW','HANG','NO_SERVER','10:31:17','10:31:19','00:00:02'),
 	 ('2015-03-01','','','471-246-9491','AA0103',35232,0,'NW','HANG','NO_SERVER','16:45:50','16:45:54','00:00:04'),
 	 ('2014-07-18','','','212-411-1247','AA0102',35237,0,'PS','HANG','NO_SERVER','11:14:50','11:14:52','00:00:02'),
@@ -2451,7 +2451,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-05-21','','','914-260-0680','AA0109',35268,1,'PS','HANG','NO_SERVER','15:30:36','15:30:38','00:00:02'),
 	 ('2019-12-28','','','426-636-2955','AA0205',35269,2,'NE','HANG','NO_SERVER','13:15:16','13:15:19','00:00:03'),
 	 ('2017-09-07','','','573-158-6906','AA0201',35273,0,'NW','HANG','NO_SERVER','13:37:53','13:37:55','00:00:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-03-26','','','727-490-9139','AA0101',35276,0,'NW','HANG','NO_SERVER','16:59:34','16:59:39','00:00:05'),
 	 ('2017-07-04','','','212-211-9651','AA0115',35279,2,'PS','HANG','NO_SERVER','14:13:00','14:13:04','00:00:04'),
 	 ('2019-12-24','','','259-090-1827','AA0202',35285,0,'NW','HANG','NO_SERVER','12:33:14','12:33:19','00:00:05'),
@@ -2462,7 +2462,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-11-19','','','212-530-8043','AA0110',35296,0,'NW','HANG','NO_SERVER','14:04:13','14:04:17','00:00:04'),
 	 ('2013-03-13','','','961-861-0893','AA0105',35308,1,'PS','HANG','NO_SERVER','10:07:13','10:07:18','00:00:05'),
 	 ('2016-09-05','','','123-412-3909','AA0206',35313,0,'NW','HANG','NO_SERVER','16:34:50','16:34:54','00:00:04');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-04-15','','','212-892-4981','AA0210',35316,0,'NW','HANG','NO_SERVER','10:47:08','10:47:11','00:00:03'),
 	 ('2019-02-22','','','684-693-8513','AA0105',35321,1,'PS','HANG','NO_SERVER','14:36:02','14:36:05','00:00:03'),
 	 ('2013-12-13','','','917-793-1424','AA0210',35324,0,'NW','HANG','NO_SERVER','10:23:17','10:23:21','00:00:04'),
@@ -2473,7 +2473,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-12-14','','','212-795-3118','AA0206',35368,1,'PS','HANG','NO_SERVER','16:51:12','16:51:17','00:00:05'),
 	 ('2015-05-01','','','400-553-3209','AA0106',35371,2,'PS','HANG','NO_SERVER','12:48:57','12:49:00','00:00:03'),
 	 ('2016-07-21','','','255-585-1034','AA0213',35377,0,'PS','HANG','NO_SERVER','14:45:18','14:45:21','00:00:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-12-22','','','732-358-6350','AA0205',35380,1,'PS','HANG','NO_SERVER','10:12:28','10:12:29','00:00:01'),
 	 ('2015-09-20','','','184-557-3985','AA0103',35383,1,'PS','HANG','NO_SERVER','09:57:58','09:57:59','00:00:01'),
 	 ('2015-10-06','','','453-103-6221','AA0113',35395,0,'PS','HANG','NO_SERVER','12:20:18','12:20:20','00:00:02'),
@@ -2484,7 +2484,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-01-24','','','212-966-1205','AA0215',35419,2,'PS','HANG','NO_SERVER','10:14:44','10:14:49','00:00:05'),
 	 ('2017-04-25','','','212-809-8492','AA0202',35429,0,'PS','HANG','NO_SERVER','15:33:58','15:34:03','00:00:05'),
 	 ('2013-07-14','','','207-952-7921','AA0115',35431,0,'NW','HANG','NO_SERVER','14:20:54','14:20:57','00:00:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-11-26','','','315-461-2750','AA0205',35433,0,'NW','HANG','NO_SERVER','16:29:09','16:29:11','00:00:02'),
 	 ('2014-06-07','','','872-705-2590','AA0213',35435,0,'NW','HANG','NO_SERVER','10:07:57','10:07:58','00:00:01'),
 	 ('2016-08-11','','','324-429-3076','AA0202',35436,0,'PS','HANG','NO_SERVER','13:17:29','13:17:30','00:00:01'),
@@ -2495,7 +2495,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-06-23','','','228-330-0480','AA0206',35482,2,'PS','HANG','NO_SERVER','12:53:17','12:53:21','00:00:04'),
 	 ('2019-07-05','','','216-336-1409','AA0109',35484,2,'PE','HANG','NO_SERVER','09:07:58','09:08:02','00:00:04'),
 	 ('2016-10-27','','','947-032-7956','AA0203',35485,0,'NW','HANG','NO_SERVER','10:37:46','10:37:48','00:00:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-07-28','','','729-399-6087','AA0206',35490,0,'PS','HANG','NO_SERVER','11:59:58','12:00:02','00:00:04'),
 	 ('2019-12-22','','','505-026-3653','AA0115',35494,1,'PS','HANG','NO_SERVER','10:08:10','10:08:15','00:00:05'),
 	 ('2014-01-16','','','917-175-2713','AA0215',35500,0,'NW','HANG','NO_SERVER','12:07:42','12:07:44','00:00:02'),
@@ -2506,7 +2506,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-06-27','','','212-761-0989','AA0205',35539,1,'PS','HANG','NO_SERVER','10:00:48','10:00:49','00:00:01'),
 	 ('2014-12-05','','','212-371-1131','AA0110',35545,0,'NW','HANG','NO_SERVER','16:29:38','16:29:43','00:00:05'),
 	 ('2015-06-25','','','212-281-4089','AA0206',35548,0,'NW','HANG','NO_SERVER','10:07:27','10:07:32','00:00:05');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-12-19','','','240-641-1005','AA0215',35561,0,'NW','HANG','NO_SERVER','14:41:47','14:41:49','00:00:02'),
 	 ('2019-03-20','','','673-039-3065','AA0106',35563,0,'NW','HANG','NO_SERVER','15:49:03','15:49:05','00:00:02'),
 	 ('2014-05-20','','','903-626-9069','AA0110',35565,0,'NW','HANG','NO_SERVER','13:09:44','13:09:45','00:00:01'),
@@ -2517,7 +2517,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-11-01','','','447-353-2701','AA0106',35589,0,'NW','HANG','NO_SERVER','10:47:14','10:47:18','00:00:04'),
 	 ('2018-01-04','','','315-708-6498','AA0205',35590,0,'NW','HANG','NO_SERVER','12:56:51','12:56:56','00:00:05'),
 	 ('2014-02-11','','','606-618-8686','AA0206',35594,0,'NW','HANG','NO_SERVER','16:15:55','16:15:59','00:00:04');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-08-24','','','514-357-3232','AA0201',35596,0,'NW','HANG','NO_SERVER','11:28:59','11:29:00','00:00:01'),
 	 ('2019-06-06','','','549-940-3463','AA0203',35604,0,'PS','HANG','NO_SERVER','12:16:56','12:16:58','00:00:02'),
 	 ('2017-12-22','','','975-381-4460','AA0213',35615,1,'NE','HANG','NO_SERVER','11:19:34','11:19:37','00:00:03'),
@@ -2528,7 +2528,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-08-19','','','182-491-6790','AA0110',35659,0,'NW','HANG','NO_SERVER','14:46:53','14:46:56','00:00:03'),
 	 ('2018-11-19','','','978-210-2726','AA0109',35668,0,'NW','HANG','NO_SERVER','14:29:28','14:29:30','00:00:02'),
 	 ('2014-05-08','','','350-152-4830','AA0202',35674,2,'NE','HANG','NO_SERVER','14:42:01','14:42:05','00:00:04');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-04-27','','','617-916-9361','AA0202',35676,2,'PS','HANG','NO_SERVER','16:27:03','16:27:08','00:00:05'),
 	 ('2015-04-21','','','652-018-1720','',NULL,NULL,'','','','10:46:28','10:51:37','00:05:09'),
 	 ('2015-10-19','','','203-348-4651','AA0201',35688,0,'NW','HANG','NO_SERVER','10:39:35','10:39:36','00:00:01'),
@@ -2539,7 +2539,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-08-22','','','770-934-4149','AA0202',35719,0,'NW','HANG','NO_SERVER','10:45:51','10:45:55','00:00:04'),
 	 ('2019-03-02','','','236-437-1490','AA0103',35723,0,'NW','HANG','NO_SERVER','09:51:15','09:51:20','00:00:05'),
 	 ('2019-09-25','','','502-681-3452','AA0203',35734,2,'PS','HANG','NO_SERVER','14:28:43','14:28:45','00:00:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-05-14','','','366-643-8813','AA0101',35736,0,'PS','HANG','NO_SERVER','11:29:58','11:30:02','00:00:04'),
 	 ('2017-06-07','','','816-706-5654','AA0216',35740,0,'IN','HANG','NO_SERVER','09:30:54','09:30:58','00:00:04'),
 	 ('2013-12-08','','','825-386-1296','AA0215',35751,2,'NE','HANG','NO_SERVER','16:25:48','16:25:53','00:00:05'),
@@ -2550,7 +2550,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-08-21','','','747-051-6770','AA0202',35789,0,'NW','HANG','NO_SERVER','12:44:51','12:44:55','00:00:04'),
 	 ('2015-05-06','','','343-763-3375','AA0115',35794,2,'PS','HANG','NO_SERVER','11:55:48','11:55:51','00:00:03'),
 	 ('2019-12-01','','','212-089-4018','AA0103',35795,0,'NW','HANG','NO_SERVER','10:31:10','10:31:12','00:00:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-11-15','','','781-705-9449','AA0209',35806,2,'PS','HANG','NO_SERVER','14:20:23','14:20:28','00:00:05'),
 	 ('2016-11-18','','','509-958-6678','AA0115',35812,0,'PS','HANG','NO_SERVER','13:01:46','13:01:47','00:00:01'),
 	 ('2013-06-18','','','212-401-9289','AA0103',35814,0,'NW','HANG','NO_SERVER','16:03:57','16:04:01','00:00:04'),
@@ -2561,7 +2561,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-03-28','','','508-121-3305','AA0205',35861,0,'NW','HANG','NO_SERVER','13:31:35','13:31:38','00:00:03'),
 	 ('2018-08-24','','','413-490-5399','AA0201',35870,1,'PS','HANG','NO_SERVER','09:13:31','09:13:35','00:00:04'),
 	 ('2016-07-15','','','808-626-9008','AA0105',35874,0,'PS','HANG','NO_SERVER','16:50:38','16:50:42','00:00:04');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-03-04','','','961-867-3337','AA0206',35879,0,'NW','HANG','NO_SERVER','09:52:39','09:52:44','00:00:05'),
 	 ('2013-11-02','','','508-414-8874','AA0105',35881,0,'NW','HANG','NO_SERVER','13:35:03','13:35:08','00:00:05'),
 	 ('2014-10-01','','','781-881-8745','AA0202',35883,2,'PS','HANG','NO_SERVER','09:40:22','09:40:25','00:00:03'),
@@ -2572,7 +2572,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-06-09','','','442-947-9163','AA0205',35917,0,'NW','HANG','NO_SERVER','11:32:38','11:32:43','00:00:05'),
 	 ('2013-10-12','','','823-651-5435','AA0202',35919,0,'PS','HANG','NO_SERVER','13:55:15','13:55:19','00:00:04'),
 	 ('2014-01-25','','','752-758-3119','AA0206',35921,0,'PS','HANG','NO_SERVER','09:40:19','09:40:24','00:00:05');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-02-06','','','889-908-0874','AA0210',35926,0,'PS','HANG','NO_SERVER','11:41:50','11:41:51','00:00:01'),
 	 ('2015-11-19','','','617-468-7856','AA0104',35933,0,'PS','HANG','NO_SERVER','12:34:26','12:34:30','00:00:04'),
 	 ('2019-09-16','','','212-144-9443','AA0205',35937,0,'PS','HANG','NO_SERVER','09:46:36','09:46:40','00:00:04'),
@@ -2583,7 +2583,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-06-09','','','212-485-5571','AA0106',35946,1,'PS','HANG','NO_SERVER','16:00:06','16:00:11','00:00:05'),
 	 ('2017-07-24','','','669-242-9811','AA0106',35958,0,'NW','HANG','NO_SERVER','16:07:42','16:07:43','00:00:01'),
 	 ('2014-07-03','','','716-566-1927','AA0215',35960,0,'NW','HANG','NO_SERVER','11:12:32','11:12:35','00:00:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-12-16','','','840-879-1532','AA0106',35962,0,'NW','HANG','NO_SERVER','10:09:56','10:09:59','00:00:03'),
 	 ('2016-07-12','','','648-610-0995','AA0110',35963,0,'NW','HANG','NO_SERVER','13:31:56','13:31:58','00:00:02'),
 	 ('2015-09-27','','','986-710-0560','AA0206',35968,0,'NW','HANG','NO_SERVER','16:25:37','16:25:41','00:00:04'),
@@ -2594,7 +2594,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-11-28','','','212-831-8173','AA0104',36007,0,'NW','HANG','NO_SERVER','09:23:51','09:23:54','00:00:03'),
 	 ('2019-12-25','','','664-106-5379','AA0109',36013,1,'NE','HANG','NO_SERVER','14:48:42','14:48:45','00:00:03'),
 	 ('2017-12-20','','','594-108-2286','AA0101',36019,0,'NW','HANG','NO_SERVER','09:42:23','09:42:26','00:00:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-06-01','','','289-139-8263','AA0101',36020,0,'PS','HANG','NO_SERVER','15:22:19','15:22:20','00:00:01'),
 	 ('2018-04-10','','','414-067-6750','AA0102',36025,0,'NW','HANG','NO_SERVER','11:14:25','11:14:26','00:00:01'),
 	 ('2014-09-04','','','960-652-6854','AA0201',36027,0,'NW','HANG','NO_SERVER','12:58:43','12:58:46','00:00:03'),
@@ -2605,7 +2605,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-07-16','','','511-244-0212','',NULL,NULL,'','','','12:58:50','13:04:13','00:05:23'),
 	 ('2018-12-18','','','212-922-6182','AA0104',36057,0,'NW','HANG','NO_SERVER','11:48:33','11:48:34','00:00:01'),
 	 ('2019-10-01','','','315-464-1425','AA0110',36060,0,'PS','HANG','NO_SERVER','10:20:19','10:20:21','00:00:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-06-19','','','212-259-5250','AA0205',36067,0,'NW','HANG','NO_SERVER','10:37:45','10:37:48','00:00:03'),
 	 ('2019-03-05','','','187-071-3569','AA0214',36087,2,'PS','HANG','NO_SERVER','15:57:09','15:57:10','00:00:01'),
 	 ('2013-03-16','','','436-341-7372','AA0106',36089,0,'NW','HANG','NO_SERVER','09:27:41','09:27:42','00:00:01'),
@@ -2616,7 +2616,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-11-26','','','212-805-3950','AA0202',36117,1,'PS','HANG','NO_SERVER','14:56:30','14:56:33','00:00:03'),
 	 ('2013-11-24','','','705-628-5112','AA0102',36118,0,'NW','HANG','NO_SERVER','11:31:52','11:31:55','00:00:03'),
 	 ('2015-02-26','','','508-616-0754','AA0213',36121,0,'NW','HANG','NO_SERVER','15:42:00','15:42:05','00:00:05');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-08-14','','','809-682-2453','AA0202',36136,0,'NW','HANG','NO_SERVER','09:14:14','09:14:17','00:00:03'),
 	 ('2015-08-15','','','781-894-1475','AA0209',36160,1,'PS','HANG','NO_SERVER','10:37:07','10:37:09','00:00:02'),
 	 ('2015-07-13','','','949-684-7502','AA0202',36162,1,'PS','HANG','NO_SERVER','14:07:28','14:07:32','00:00:04'),
@@ -2627,7 +2627,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-11-11','','','710-578-7696','AA0103',36204,2,'PS','HANG','NO_SERVER','14:00:11','14:00:15','00:00:04'),
 	 ('2019-09-21','','','559-448-3282','AA0105',36206,0,'PS','HANG','NO_SERVER','13:29:07','13:29:08','00:00:01'),
 	 ('2017-09-15','','','964-328-9093','AA0214',36207,0,'PS','HANG','NO_SERVER','09:46:56','09:46:57','00:00:01');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-02-13','','','922-698-9333','AA0206',36208,0,'NW','HANG','NO_SERVER','14:31:55','14:31:56','00:00:01'),
 	 ('2013-05-14','','','137-407-4390','AA0102',36209,1,'PS','HANG','NO_SERVER','16:30:36','16:30:37','00:00:01'),
 	 ('2014-08-24','','','569-848-4390','AA0106',36219,0,'NW','HANG','NO_SERVER','14:30:42','14:30:47','00:00:05'),
@@ -2638,7 +2638,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-07-11','','','592-749-2321','AA0105',30083,0,'NW','HANG','NO_SERVER','09:46:10','09:46:14','00:00:04'),
 	 ('2016-06-12','','','323-864-0051','AA0110',30093,2,'PS','HANG','NO_SERVER','13:42:20','13:42:23','00:00:03'),
 	 ('2016-06-18','','','863-166-6167','AA0210',30118,2,'NE','HANG','NO_SERVER','15:58:35','15:58:39','00:00:04');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-03-19','','','770-367-9290','AA0115',30122,0,'PS','HANG','NO_SERVER','16:21:02','16:21:03','00:00:01'),
 	 ('2014-09-14','','','848-459-4521','AA0209',30125,0,'NW','HANG','NO_SERVER','09:39:34','09:39:39','00:00:05'),
 	 ('2017-11-24','','','683-231-7510','AA0103',30126,0,'PS','HANG','NO_SERVER','14:06:50','14:06:51','00:00:01'),
@@ -2649,7 +2649,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-10-03','','','781-995-6192','AA0203',30154,1,'PS','HANG','NO_SERVER','13:07:11','13:07:13','00:00:02'),
 	 ('2013-07-10','','','121-136-0180','AA0101',30158,0,'NW','HANG','NO_SERVER','15:55:59','15:56:04','00:00:05'),
 	 ('2013-12-08','','','787-408-1352','AA0104',30173,0,'PS','HANG','NO_SERVER','14:56:46','14:56:47','00:00:01');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-03-06','','','914-077-5501','AA0206',30176,0,'NW','HANG','NO_SERVER','12:43:38','12:43:43','00:00:05'),
 	 ('2014-10-18','','','867-915-4044','AA0216',30179,0,'IN','HANG','NO_SERVER','16:16:51','16:16:54','00:00:03'),
 	 ('2016-07-27','','','915-533-7277','AA0115',30210,0,'PS','HANG','NO_SERVER','13:31:50','13:31:55','00:00:05'),
@@ -2660,7 +2660,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-01-22','','','212-280-2432','AA0216',30237,0,'IN','HANG','NO_SERVER','15:04:46','15:04:48','00:00:02'),
 	 ('2016-10-20','','','121-793-0525','AA0115',30249,1,'PS','HANG','NO_SERVER','13:50:41','13:50:45','00:00:04'),
 	 ('2017-05-20','','','212-712-3256','AA0213',30255,1,'NE','HANG','NO_SERVER','12:20:54','12:20:56','00:00:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-07-18','','','163-921-0813','AA0214',30260,1,'PS','HANG','NO_SERVER','12:52:42','12:52:43','00:00:01'),
 	 ('2015-05-23','','','136-985-8380','AA0206',30265,0,'NW','HANG','NO_SERVER','11:20:24','11:20:26','00:00:02'),
 	 ('2014-10-03','','','747-051-6770','AA0202',30267,1,'PS','HANG','NO_SERVER','12:27:45','12:27:49','00:00:04'),
@@ -2671,7 +2671,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-08-09','','','802-842-2969','AA0214',30314,0,'NW','HANG','NO_SERVER','12:35:01','12:35:03','00:00:02'),
 	 ('2015-10-28','','','504-258-2392','AA0206',30324,0,'PS','HANG','NO_SERVER','09:45:27','09:45:31','00:00:04'),
 	 ('2016-01-15','','','492-751-4353','AA0201',30330,1,'PS','HANG','NO_SERVER','16:14:37','16:14:39','00:00:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-07-09','','','207-238-0903','AA0203',30331,0,'NW','HANG','NO_SERVER','12:53:26','12:53:31','00:00:05'),
 	 ('2014-09-07','','','716-974-9850','AA0115',30352,0,'NW','HANG','NO_SERVER','11:08:56','11:08:57','00:00:01'),
 	 ('2015-12-27','','','935-170-2730','AA0106',30363,0,'NW','HANG','NO_SERVER','12:19:12','12:19:14','00:00:02'),
@@ -2682,7 +2682,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-02-09','','','110-661-0836','AA0101',30399,0,'NW','HANG','NO_SERVER','11:50:44','11:50:46','00:00:02'),
 	 ('2019-02-04','','','617-279-9426','AA0104',30402,0,'NW','HANG','NO_SERVER','09:36:41','09:36:42','00:00:01'),
 	 ('2014-11-16','','','212-992-5486','AA0105',30406,2,'PS','HANG','NO_SERVER','12:36:11','12:36:16','00:00:05');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-11-15','','','212-723-6027','AA0202',30424,0,'PS','HANG','NO_SERVER','16:22:23','16:22:24','00:00:01'),
 	 ('2017-12-08','','','101-645-3264','AA0204',30427,0,'NW','HANG','NO_SERVER','12:34:33','12:34:35','00:00:02'),
 	 ('2016-05-09','','','947-269-8060','AA0214',30431,0,'NW','HANG','NO_SERVER','16:07:42','16:07:46','00:00:04'),
@@ -2693,7 +2693,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-06-15','','','914-464-3054','AA0109',30464,2,'PS','HANG','NO_SERVER','15:59:23','15:59:24','00:00:01'),
 	 ('2018-12-27','','','652-394-9340','AA0202',30466,0,'NW','HANG','NO_SERVER','12:44:31','12:44:35','00:00:04'),
 	 ('2019-03-01','','','346-826-0404','AA0103',30492,2,'PS','HANG','NO_SERVER','13:43:33','13:43:36','00:00:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-05-01','','','851-099-2362','AA0216',30511,0,'PS','HANG','NO_SERVER','12:27:29','12:27:34','00:00:05'),
 	 ('2019-10-06','','','719-065-4135','AA0209',30513,0,'NW','HANG','NO_SERVER','14:00:56','14:00:58','00:00:02'),
 	 ('2015-01-19','','','913-909-5355','AA0206',30519,0,'NW','HANG','NO_SERVER','16:32:39','16:32:40','00:00:01'),
@@ -2704,7 +2704,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-05-18','','','579-819-0259','AA0101',30549,0,'PS','HANG','NO_SERVER','13:28:40','13:28:41','00:00:01'),
 	 ('2017-07-23','','','504-421-9666','AA0214',30553,1,'PS','HANG','NO_SERVER','13:10:39','13:10:40','00:00:01'),
 	 ('2019-09-05','','','673-675-3814','AA0215',30557,0,'NW','HANG','NO_SERVER','14:05:53','14:05:57','00:00:04');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-10-26','','','813-517-4859','AA0209',30562,2,'PS','HANG','NO_SERVER','16:29:56','16:29:59','00:00:03'),
 	 ('2013-04-01','','','301-624-3331','AA0205',30566,2,'PS','HANG','NO_SERVER','10:53:25','10:53:28','00:00:03'),
 	 ('2013-11-13','','','179-334-2736','AA0105',30567,1,'PS','HANG','NO_SERVER','09:23:20','09:23:23','00:00:03'),
@@ -2715,7 +2715,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-01-03','','','743-584-2470','AA0206',30591,0,'NE','HANG','NO_SERVER','09:38:28','09:38:32','00:00:04'),
 	 ('2019-07-02','','','628-246-8908','AA0106',30592,1,'PS','HANG','NO_SERVER','12:50:37','12:50:39','00:00:02'),
 	 ('2014-02-17','','','212-333-2794','AA0105',30599,0,'NW','HANG','NO_SERVER','12:33:40','12:33:45','00:00:05');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-09-07','','','809-671-9428','AA0215',30618,0,'NW','HANG','NO_SERVER','15:07:36','15:07:37','00:00:01'),
 	 ('2019-06-06','','','585-554-2122','AA0206',30625,0,'PS','HANG','NO_SERVER','14:15:40','14:15:45','00:00:05'),
 	 ('2019-10-03','','','491-116-4127','AA0110',30630,0,'NW','HANG','NO_SERVER','16:03:54','16:03:56','00:00:02'),
@@ -2726,7 +2726,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-11-26','','','584-081-3628','AA0206',30665,2,'PS','HANG','NO_SERVER','15:35:12','15:35:16','00:00:04'),
 	 ('2013-08-25','','','212-132-2122','AA0110',30666,0,'NW','HANG','NO_SERVER','09:28:58','09:29:02','00:00:04'),
 	 ('2018-12-21','','','255-292-4122','AA0109',30667,2,'PS','HANG','NO_SERVER','14:52:34','14:52:39','00:00:05');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-07-02','','','245-884-7140','AA0106',30670,0,'PS','HANG','NO_SERVER','13:03:54','13:03:58','00:00:04'),
 	 ('2019-11-03','','','212-940-2476','AA0209',30676,0,'NW','HANG','NO_SERVER','15:39:51','15:39:53','00:00:02'),
 	 ('2013-01-07','','','160-037-0960','AA0106',30689,0,'NW','HANG','NO_SERVER','12:28:02','12:28:06','00:00:04'),
@@ -2737,7 +2737,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-10-17','','','918-665-8581','AA0216',30746,0,'IN','HANG','NO_SERVER','15:54:58','15:55:02','00:00:04'),
 	 ('2013-05-15','','','618-501-7822','AA0210',30750,1,'PS','HANG','NO_SERVER','14:23:17','14:23:18','00:00:01'),
 	 ('2018-03-17','','','825-520-4294','AA0214',30756,0,'NW','HANG','NO_SERVER','10:49:50','10:49:54','00:00:04');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-04-09','','','617-285-1067','AA0103',30761,2,'NE','HANG','NO_SERVER','15:54:01','15:54:03','00:00:02'),
 	 ('2018-05-21','','','787-372-9637','AA0214',30762,1,'PS','HANG','NO_SERVER','16:29:59','16:30:04','00:00:05'),
 	 ('2018-12-02','','','709-146-4033','AA0205',30768,1,'PS','HANG','NO_SERVER','14:13:57','14:13:59','00:00:02'),
@@ -2748,7 +2748,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-11-04','','','713-993-1632','AA0213',30824,0,'PS','HANG','NO_SERVER','13:35:49','13:35:50','00:00:01'),
 	 ('2019-12-06','','','438-969-9520','AA0104',30830,0,'NW','HANG','NO_SERVER','09:38:49','09:38:52','00:00:03'),
 	 ('2016-01-11','','','331-438-2564','',NULL,NULL,'','','','11:28:57','11:46:21','00:17:24');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-02-11','','','929-560-0417','AA0115',30834,2,'PS','HANG','NO_SERVER','10:51:45','10:51:46','00:00:01'),
 	 ('2019-11-08','','','618-501-7822','AA0109',30837,0,'NW','HANG','NO_SERVER','15:34:08','15:34:11','00:00:03'),
 	 ('2018-10-18','','','123-828-3437','AA0101',30840,0,'PS','HANG','NO_SERVER','15:22:59','15:23:01','00:00:02'),
@@ -2759,7 +2759,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-09-16','','','617-960-2229','AA0203',30859,1,'PS','HANG','NO_SERVER','15:54:47','15:54:50','00:00:03'),
 	 ('2018-11-15','','','212-387-7039','AA0102',30865,0,'NW','HANG','NO_SERVER','14:47:34','14:47:36','00:00:02'),
 	 ('2018-12-18','','','978-682-7779','AA0101',30870,1,'PS','HANG','NO_SERVER','13:03:44','13:03:49','00:00:05');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-12-24','','','327-140-9584','AA0102',30872,1,'PS','HANG','NO_SERVER','12:01:13','12:01:16','00:00:03'),
 	 ('2019-11-19','','','858-047-2844','AA0209',30874,0,'NW','HANG','NO_SERVER','09:21:07','09:21:10','00:00:03'),
 	 ('2013-05-13','','','719-766-1799','AA0206',30879,2,'PS','HANG','NO_SERVER','15:09:53','15:09:58','00:00:05'),
@@ -2770,7 +2770,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-11-13','','','239-554-4566','AA0210',30894,2,'PS','HANG','NO_SERVER','13:08:42','13:08:45','00:00:03'),
 	 ('2014-08-02','','','212-826-1832','AA0115',30900,0,'NW','HANG','NO_SERVER','11:55:05','11:55:09','00:00:04'),
 	 ('2016-06-16','','','413-789-9118','AA0102',30914,0,'NW','HANG','NO_SERVER','12:59:47','12:59:51','00:00:04');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-08-23','','','508-689-9471','AA0101',34539,2,'PS','PHANTOM','NO_SERVER','10:20:59','10:21:01','00:00:02'),
 	 ('2015-08-06','','','585-527-3656','AA0214',34574,2,'PS','PHANTOM','NO_SERVER','09:14:52','09:14:57','00:00:05'),
 	 ('2019-10-17','','','617-739-1926','AA0112',34817,2,'TT','PHANTOM','NO_SERVER','09:29:10','09:29:12','00:00:02'),
@@ -2781,7 +2781,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-11-11','','','638-594-3266','AA0106',35609,1,'PS','PHANTOM','NO_SERVER','13:51:13','13:51:14','00:00:01'),
 	 ('2015-02-23','','','540-241-0185','AA0202',35717,1,'PS','PHANTOM','NO_SERVER','13:51:50','13:51:51','00:00:01'),
 	 ('2018-07-13','','','360-339-2838','AA0110',35939,2,'PS','PHANTOM','NO_SERVER','12:13:22','12:13:25','00:00:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-07-16','','','413-922-3388','AA0101',35942,0,'NW','PHANTOM','NO_SERVER','12:43:09','12:43:14','00:00:05'),
 	 ('2013-12-25','','','129-823-7196','AA0213',30372,2,'PS','PHANTOM','NO_SERVER','12:55:11','12:55:12','00:00:01'),
 	 ('2015-11-03','','','332-131-6800','AA0215',30412,1,'PS','PHANTOM','NO_SERVER','16:12:47','16:12:50','00:00:03'),
@@ -2792,7 +2792,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-05-20','','','212-494-4487','AA0107',30714,1,'TT','PHANTOM','NO_SERVER','11:47:10','11:47:13','00:00:03'),
 	 ('2019-05-21','','','955-299-0340','AA0205',30732,0,'NW','PHANTOM','NO_SERVER','14:58:44','14:58:49','00:00:05'),
 	 ('2017-03-21','CR2398274','C00001016','259-090-1827','AA0206',40100,0,'PS','AGENT','SHLOMO','14:03:50','14:18:45','00:14:55');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-03-15','CR2388091','C00003091','673-468-2528','AA0109',40101,2,'PS','AGENT','BASCH','11:14:34','11:32:41','00:18:07'),
 	 ('2017-03-14','CR2385276','C00000254','918-677-6649','AA0202',40102,1,'NE','AGENT','ELI','09:43:55','10:05:18','00:21:23'),
 	 ('2017-03-02','CR2369750','C00004287','250-855-5777','AA0210',40103,2,'PS','AGENT','MIKI','10:54:05','11:08:16','00:14:11'),
@@ -2803,7 +2803,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-02-28','CR2363542','C00002175','345-082-3296','AA0101',40108,0,'NW','AGENT','IDIT','12:04:42','12:30:19','00:25:37'),
 	 ('2017-02-22','CR2355130','C00002167','212-260-8145','AA0214',40109,0,'PS','AGENT','BENSION','11:11:54','11:36:37','00:24:43'),
 	 ('2017-02-21','CR2354494','C00004653','190-021-5072','AA0112',40110,2,'PS','AGENT','YITZ','12:51:00','13:13:41','00:22:41');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-02-15','CR2345876','C00008666','637-156-0285','AA0106',40111,2,'NE','AGENT','AVIDAN','09:38:38','09:58:43','00:20:05'),
 	 ('2017-02-15','CR2344957','C00001363','848-614-3185','AA0215',40112,0,'PS','AGENT','KAZAV','11:53:44','12:05:31','00:11:47'),
 	 ('2017-02-14','CR2342976','C00002662','838-511-3760','AA0209',40113,0,'PS','AGENT','STEREN','10:02:54','10:30:26','00:27:32'),
@@ -2814,7 +2814,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-01-27','CR2314759','C00003535','518-904-7717','AA0101',40118,0,'PS','AGENT','IDIT','13:29:09','13:42:37','00:13:28'),
 	 ('2017-01-20','CR2301371','C00000596','978-894-9984','AA0213',40119,0,'PS','AGENT','SHARON','10:14:56','10:39:56','00:25:00'),
 	 ('2017-01-19','CR2297336','C00003761','508-344-4092','AA0215',40120,1,'PS','AGENT','TOVA','13:54:51','14:15:52','00:21:01');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-01-17','CR2291588','C00001550','164-808-7956','AA0214',40121,0,'PS','AGENT','KAZAV','13:11:17','13:32:59','00:21:42'),
 	 ('2016-12-28','CR2267364','C00012221','781-901-0257','AA0213',40122,0,'PS','AGENT','IDIT','09:17:40','09:30:42','00:13:02'),
 	 ('2016-12-23','CR2262551','C00001778','978-111-6880','AA0204',40123,0,'TT','AGENT','SHARON','14:30:08','14:54:31','00:24:23'),
@@ -2825,7 +2825,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-11-23','CR2221686','C00002370','366-476-8371','AA0109',40128,2,'NW','AGENT','NO_SERVER','09:40:10','09:50:23','00:10:13'),
 	 ('2016-11-18','CR2215694','C00003382','504-679-3670','AA0202',40129,0,'NW','AGENT','AVNI','14:15:53','14:21:23','00:05:30'),
 	 ('2016-11-15','CR2208949','C00000348','617-023-8041','AA0210',40130,2,'PS','AGENT','GILI','14:27:09','14:46:11','00:19:02');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-11-15','CR2207638','C00003830','848-592-7751','AA0210',40131,0,'IN','AGENT','SHLOMO','14:43:18','14:57:22','00:14:04'),
 	 ('2016-11-15','CR2209107','C00006987','212-930-7724','AA0210',40132,2,'PS','AGENT','GILI','09:12:00','09:37:03','00:25:03'),
 	 ('2016-11-02','CR2190491','C00001286','567-845-8514','AA0115',40133,0,'PS','AGENT','MIKI','13:01:17','13:26:40','00:25:23'),
@@ -2836,7 +2836,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-10-13','CR2159192','C00002587','534-212-9468','AA0106',40138,0,'PS','AGENT','DORIT','11:31:49','11:39:11','00:07:22'),
 	 ('2016-10-12','CR2155070','C00003243','617-395-9384','AA0215',40139,0,'PS','AGENT','YIFAT','15:05:12','15:28:39','00:23:27'),
 	 ('2016-10-07','CR2151489','C00005826','939-177-2497','AA0209',40140,0,'PS','AGENT','MICHAL','13:43:22','13:52:55','00:09:33');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-09-29','CR2138092','C00000253','508-683-6142','AA0107',40141,1,'PS','AGENT','DORIT','11:34:21','11:44:47','00:10:26'),
 	 ('2016-09-23','CR2128231','C00000636','112-954-9501','AA0106',40142,0,'PS','AGENT','YITZ','13:51:17','13:57:05','00:05:48'),
 	 ('2016-09-23','CR2129024','C00011709','212-047-1219','AA0202',40143,0,'NE','AGENT','TOVA','10:44:16','11:02:41','00:18:25'),
@@ -2847,7 +2847,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-09-07','CR2098701','C00001645','248-694-2681','AA0214',40148,1,'PS','AGENT','BENSION','12:52:43','13:18:16','00:25:33'),
 	 ('2016-09-07','CR2099691','C00003279','248-570-2876','AA0213',40149,2,'PS','AGENT','MORIAH','12:47:40','13:15:27','00:27:47'),
 	 ('2016-09-01','CR2093113','C00002599','212-278-6428','AA0204',40150,1,'TT','AGENT','AVIDAN','11:14:05','11:30:16','00:16:11');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-08-25','CR2080595','C00002765','915-779-5619','AA0213',40151,2,'NW','AGENT','KAZAV','09:12:56','09:38:49','00:25:53'),
 	 ('2016-08-23','CR2076571','C00000403','405-771-6657','AA0107',40152,2,'NE','AGENT','KAZAV','15:51:24','16:14:06','00:22:42'),
 	 ('2016-08-22','CR2078039','C00009973','389-688-3833','AA0205',40153,0,'NE','AGENT','KAZAV','09:34:02','09:44:17','00:10:15'),
@@ -2858,7 +2858,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-08-01','CR2039590','C00000080','914-011-1365','AA0210',40158,0,'PS','AGENT','STEREN','10:30:02','10:48:21','00:18:19'),
 	 ('2016-07-19','CR2018409','C00002915','430-261-5670','AA0210',40159,1,'PS','AGENT','KAZAV','14:28:49','14:40:52','00:12:03'),
 	 ('2016-07-18','CR2017562','C00001336','212-936-0483','AA0115',40160,2,'NW','AGENT','NO_SERVER','09:39:40','09:58:05','00:18:25');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-07-18','CR2016671','C00003196','337-157-9712','AA0102',40161,0,'PS','AGENT','DORIT','12:01:38','12:23:22','00:21:44'),
 	 ('2016-07-18','CR2017593','C00001480','978-188-1804','AA0101',40162,2,'PS','AGENT','MIKI','12:21:17','12:32:29','00:11:12'),
 	 ('2016-07-12','CR2008635','C00000132','133-274-1580','AA0214',40163,1,'NW','AGENT','BASCH','11:03:40','11:13:13','00:09:33'),
@@ -2869,7 +2869,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-06-21','CR1977427','C00006924','576-950-4368','AA0107',40168,0,'PS','AGENT','AVNI','14:07:51','14:30:26','00:22:35'),
 	 ('2016-06-20','CR1976938','C00001329','466-238-5085','AA0106',40169,1,'NE','AGENT','TOVA','10:25:03','10:53:04','00:28:01'),
 	 ('2016-06-16','CR1972261','C00004140','154-320-6171','AA0202',40170,2,'PS','AGENT','DORIT','14:43:49','14:49:57','00:06:08');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-06-14','CR1969066','C00001889','648-610-0995','AA0110',40171,0,'PS','AGENT','ANAT','14:39:41','14:56:20','00:16:39'),
 	 ('2016-06-09','CR1962228','C00000732','460-365-4008','AA0101',40172,2,'PS','AGENT','KAZAV','12:23:47','12:42:25','00:18:38'),
 	 ('2016-06-06','CR1955733','C00001275','589-579-7278','AA0213',40173,2,'PS','AGENT','BASCH','12:01:04','12:09:38','00:08:34'),
@@ -2880,7 +2880,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-05-24','CR1938668','C00011685','385-156-0221','AA0213',40178,2,'PS','AGENT','BASCH','14:06:40','14:28:41','00:22:01'),
 	 ('2016-05-23','CR1937137','C00001048','348-390-0382','AA0107',40179,1,'NE','AGENT','ELI','10:03:54','10:29:02','00:25:08'),
 	 ('2016-05-23','CR1937863','C00002257','327-886-6804','AA0205',40180,1,'PS','AGENT','MIKI','13:29:29','13:55:39','00:26:10');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-05-19','CR1933769','C00002143','791-211-8115','AA0206',40181,2,'PS','AGENT','MICHAL','14:52:33','15:16:37','00:24:04'),
 	 ('2016-05-09','CR1916925','C00004804','413-099-1143','AA0109',40182,2,'PS','AGENT','KAZAV','12:31:51','12:57:06','00:25:15'),
 	 ('2016-05-09','CR1915305','C00003247','978-562-4262','AA0202',40183,0,'PS','AGENT','TOVA','15:06:08','15:17:24','00:11:16'),
@@ -2891,7 +2891,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-04-13','CR1877738','C00000620','345-820-8090','AA0115',40187,2,'PS','AGENT','YITZ','13:22:24','13:34:53','00:12:29'),
 	 ('2016-04-08','CR1870311','C00002320','781-006-6926','AA0102',40188,0,'NE','AGENT','AVIDAN','11:04:16','11:16:15','00:11:59'),
 	 ('2016-04-07','CR1869523','C00010066','293-431-9766','AA0101',40189,0,'PS','AGENT','KAZAV','11:19:40','11:40:48','00:21:08');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-04-05','CR1865360','C00002427','685-988-8595','AA0214',40190,1,'PS','AGENT','STEREN','13:26:25','13:40:21','00:13:56'),
 	 ('2016-03-30','CR1857227','C00001020','579-102-8353','AA0112',40191,1,'PS','AGENT','SHARON','12:27:37','12:45:38','00:18:01'),
 	 ('2016-03-29','CR1854058','C00003075','648-306-6450','AA0106',40192,2,'PS','AGENT','KAZAV','10:00:26','10:22:29','00:22:03'),
@@ -2902,7 +2902,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-03-01','CR1812165','C00004824','830-754-5842','AA0202',40197,2,'PS','AGENT','TOVA','15:01:26','15:27:44','00:26:18'),
 	 ('2016-02-24','CR1801653','C00000329','451-935-8233','AA0110',40198,1,'PS','AGENT','KAZAV','11:53:16','12:16:35','00:23:19'),
 	 ('2016-02-10','CR1782361','C00002261','400-686-0553','AA0101',40199,1,'PS','AGENT','IDIT','09:05:26','09:22:23','00:16:57');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-02-08','CR1777975','C00001988','479-159-0860','AA0213',40200,2,'TT','AGENT','SHARON','13:11:59','13:35:15','00:23:16'),
 	 ('2016-02-05','CR1775841','C00001850','853-967-5809','AA0215',40201,2,'PS','AGENT','MORIAH','10:08:02','10:35:21','00:27:19'),
 	 ('2016-01-21','CR1752903','C00002233','779-176-2010','AA0214',40202,2,'PS','AGENT','KAZAV','11:49:39','11:55:34','00:05:55'),
@@ -2913,7 +2913,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-12-18','CR1709482','C00004814','232-464-6240','AA0205',40207,0,'PS','AGENT','GILI','12:38:22','13:04:23','00:26:01'),
 	 ('2015-12-18','CR1708215','C00001166','961-861-0893','AA0206',40208,0,'IN','AGENT','SHLOMO','13:04:20','13:16:21','00:12:01'),
 	 ('2015-12-14','CR1695646','C00003877','782-548-4080','AA0109',40209,2,'PS','AGENT','GILI','09:55:48','10:10:26','00:14:38');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-12-09','CR1689652','C00013260','881-318-0855','AA0202',40210,2,'PS','AGENT','MIKI','15:41:11','16:01:21','00:20:10'),
 	 ('2015-12-08','CR1688149','C00000955','508-648-0288','AA0210',40211,2,'NW','AGENT','YIFAT','12:34:03','12:51:46','00:17:43'),
 	 ('2015-12-07','CR1686137','C00001085','693-882-6445','AA0210',40212,1,'PS','AGENT','IDIT','14:17:33','14:22:41','00:05:08'),
@@ -2924,7 +2924,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-11-20','CR1666002','C00005873','267-635-5608','AA0214',40217,1,'PS','AGENT','MICHAL','10:50:48','11:00:14','00:09:26'),
 	 ('2015-11-18','CR1661936','C00004644','113-965-1383','AA0112',40218,2,'PS','AGENT','DORIT','14:41:04','14:51:15','00:10:11'),
 	 ('2015-11-09','CR1646569','C00000822','262-231-8506','AA0106',40219,0,'PS','AGENT','YITZ','12:25:06','12:34:43','00:09:37');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-11-04','CR1640253','C00002087','881-859-6389','AA0215',40220,0,'NE','AGENT','TOVA','13:54:52','14:06:11','00:11:19'),
 	 ('2015-11-03','CR1636885','C00000843','210-190-7382','AA0209',40221,0,'NE','AGENT','KAZAV','10:37:49','10:48:15','00:10:26'),
 	 ('2015-11-02','CR1635812','C00009346','471-246-9491','AA0107',40222,2,'PE','AGENT','YIFAT','11:49:19','12:10:56','00:21:37'),
@@ -2935,7 +2935,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-10-19','CR1613673','C00001250','941-908-7283','AA0213',40227,1,'TT','AGENT','AVIDAN','11:37:28','11:59:13','00:21:45'),
 	 ('2015-10-06','CR1595323','C00013095','914-260-0680','AA0215',40228,1,'NW','AGENT','KAZAV','11:48:08','12:11:43','00:23:35'),
 	 ('2015-10-06','CR1594548','C00004021','426-636-2955','AA0214',40229,0,'NE','AGENT','KAZAV','15:47:45','16:13:57','00:26:12');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-10-05','CR1593887','C00005760','573-158-6906','AA0213',40230,1,'NE','AGENT','KAZAV','11:36:17','12:02:04','00:25:47'),
 	 ('2015-10-01','CR1588013','C00004051','727-490-9139','AA0204',40231,0,'PS','AGENT','IDIT','12:22:13','12:37:07','00:14:54'),
 	 ('2015-09-29','CR1585639','C00003469','212-211-9651','AA0213',40232,2,'NE','AGENT','MORIAH','10:05:25','10:33:20','00:27:55'),
@@ -2946,7 +2946,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-09-15','CR1566328','C00003538','212-530-8043','AA0202',40237,2,'NW','AGENT','NO_SERVER','13:16:26','13:31:38','00:15:12'),
 	 ('2015-09-08','CR1555040','C00001166','961-861-0893','AA0210',40238,0,'PS','AGENT','DORIT','11:26:05','11:52:42','00:26:37'),
 	 ('2015-09-04','CR1553694','C00000053','123-412-3909','AA0210',40239,1,'PS','AGENT','MIKI','12:22:01','12:30:23','00:08:22');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-09-03','CR1550817','C00000300','212-892-4981','AA0210',40240,0,'NW','AGENT','BASCH','09:25:45','09:42:28','00:16:43'),
 	 ('2015-09-01','CR1546046','C00001506','684-693-8513','AA0115',40241,2,'PS','AGENT','AVIDAN','10:04:48','10:21:56','00:17:08'),
 	 ('2015-08-27','CR1540941','C00003445','917-793-1424','AA0102',40242,1,'NW','AGENT','IDIT','09:20:57','09:34:21','00:13:24'),
@@ -2957,7 +2957,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-04-23','','','617-048-2829','',NULL,NULL,'','','','09:03:49','09:23:34','00:19:45'),
 	 ('2015-08-05','CR1504722','C00000107','212-795-3118','AA0215',40247,0,'PS','AGENT','DORIT','14:41:50','15:06:18','00:24:28'),
 	 ('2015-08-03','CR1499313','C00001128','400-553-3209','AA0209',40248,0,'PS','AGENT','ANAT','11:31:29','11:57:35','00:26:06');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-07-30','CR1494872','C00000105','255-585-1034','AA0107',40249,1,'PS','AGENT','KAZAV','09:34:35','09:53:17','00:18:42'),
 	 ('2015-07-28','CR1490357','C00003914','732-358-6350','AA0106',40250,0,'PS','AGENT','BASCH','15:31:13','15:53:06','00:21:53'),
 	 ('2015-07-24','CR1485639','C00004819','184-557-3985','AA0202',40251,0,'NW','AGENT','YITZ','12:23:09','12:51:24','00:28:15'),
@@ -2968,7 +2968,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-07-01','CR1446488','C00001151','617-863-7010','AA0214',40256,2,'NE','AGENT','ELI','13:15:45','13:41:47','00:26:02'),
 	 ('2015-06-29','CR1442167','C00005081','212-966-1205','AA0213',40257,2,'PS','AGENT','MIKI','15:38:53','15:51:03','00:12:10'),
 	 ('2015-06-18','CR1426940','C00012163','212-809-8492','AA0204',40258,0,'PS','AGENT','MICHAL','11:50:44','12:00:58','00:10:14');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-06-17','CR1425772','C00002174','207-952-7921','AA0213',40259,0,'PS','AGENT','KAZAV','12:53:57','13:03:59','00:10:02'),
 	 ('2015-06-17','CR1425951','C00001928','315-461-2750','AA0107',40260,1,'PS','AGENT','TOVA','09:13:40','09:41:47','00:28:07'),
 	 ('2015-06-16','CR1424520','C00004134','872-705-2590','AA0205',40261,1,'PS','AGENT','ANAT','15:30:59','15:42:52','00:11:53'),
@@ -2979,7 +2979,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-05-11','CR1369698','C00004384','760-241-9329','AA0210',40266,0,'PS','AGENT','KAZAV','13:51:42','14:19:08','00:27:26'),
 	 ('2015-05-04','CR1359962','C00001425','228-330-0480','AA0210',40267,0,'PS','AGENT','STEREN','12:07:52','12:12:54','00:05:02'),
 	 ('2015-05-01','CR1356968','C00000504','216-336-1409','AA0115',40268,0,'PS','AGENT','SHARON','13:54:17','14:12:53','00:18:36');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-05-01','CR1356748','C00003220','947-032-7956','AA0102',40269,0,'PS','AGENT','KAZAV','11:53:52','12:06:42','00:12:50'),
 	 ('2015-04-28','CR1350257','C00002813','729-399-6087','AA0101',40270,1,'NW','AGENT','TOVA','15:27:47','15:43:07','00:15:20'),
 	 ('2015-04-24','CR1345104','C00000108','505-026-3653','AA0214',40271,1,'PS','AGENT','DARMON','14:51:50','15:11:54','00:20:04'),
@@ -2990,7 +2990,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-03-16','CR1285304','C00000489','972-344-2448','AA0107',40276,2,'PS','AGENT','IDIT','15:36:00','15:53:48','00:17:48'),
 	 ('2015-03-11','CR1277859','C00003488','212-761-0989','AA0106',40277,2,'TT','AGENT','SHARON','11:52:14','12:13:46','00:21:32'),
 	 ('2015-03-09','CR1274016','C00004046','212-371-1131','AA0202',40278,0,'PS','AGENT','MORIAH','09:09:16','09:27:49','00:18:33');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-03-05','CR1269117','C00011034','212-281-4089','AA0110',40279,1,'PS','AGENT','KAZAV','11:51:41','11:57:01','00:05:20'),
 	 ('2015-02-25','CR1256779','C00002000','240-641-1005','AA0101',40280,1,'NW','AGENT','STEREN','11:25:14','11:49:19','00:24:05'),
 	 ('2015-02-24','CR1254909','C00002442','673-039-3065','AA0213',40281,1,'PS','AGENT','TOVA','13:48:41','14:13:25','00:24:44'),
@@ -3001,7 +3001,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-02-12','CR1237951','C00005108','716-566-1927','AA0213',40286,0,'PS','AGENT','GILI','14:29:33','14:38:19','00:08:46'),
 	 ('2015-02-04','CR1223764','C00002139','447-353-2701','AA0107',40287,1,'PS','AGENT','MIKI','14:41:52','14:56:00','00:14:08'),
 	 ('2015-02-03','CR1222263','C00002098','315-708-6498','AA0205',40288,0,'NW','AGENT','YIFAT','10:24:52','10:50:11','00:25:19');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-02-02','CR1219922','C00000327','606-618-8686','AA0206',40289,2,'PS','AGENT','IDIT','12:33:29','12:41:32','00:08:03'),
 	 ('2015-01-30','CR1218028','C00013090','514-357-3232','AA0109',40290,2,'PS','AGENT','AVIDAN','14:51:00','15:19:03','00:28:03'),
 	 ('2015-01-16','CR1197195','C00003038','549-940-3463','AA0202',40291,2,'PS','AGENT','GILI','10:07:53','10:18:19','00:10:26'),
@@ -3012,7 +3012,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-11-18','CR1122473','C00001556','579-041-9190','AA0102',40296,0,'PS','AGENT','YITZ','12:50:14','13:14:58','00:24:44'),
 	 ('2014-11-17','CR1121720','C00003314','182-491-6790','AA0101',40297,2,'NE','AGENT','TOVA','15:02:16','15:15:47','00:13:31'),
 	 ('2014-11-05','CR1104442','C00000529','978-210-2726','AA0214',40298,0,'NE','AGENT','KAZAV','14:51:38','15:05:04','00:13:26');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-10-30','CR1093316','C00002373','350-152-4830','AA0112',40299,2,'PE','AGENT','YIFAT','10:26:20','10:47:30','00:21:10'),
 	 ('2014-10-29','CR1092153','C00003689','617-916-9361','AA0106',40300,2,'PS','AGENT','MICHAL','09:48:23','10:04:52','00:16:29'),
 	 ('2014-10-17','CR1075735','C00000097','203-348-4651','AA0215',40301,2,'PS','AGENT','YITZ','09:50:52','10:12:17','00:21:25'),
@@ -3023,7 +3023,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-09-24','CR1042559','C00003925','770-934-4149','AA0110',40306,1,'NE','AGENT','KAZAV','11:44:21','12:09:36','00:25:15'),
 	 ('2014-09-18','CR1035138','C00005402','236-437-1490','AA0101',40307,2,'NE','AGENT','KAZAV','12:21:50','12:41:05','00:19:15'),
 	 ('2015-01-18','','','888-195-2257','',NULL,NULL,'','','','15:37:33','15:38:45','00:01:12');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-09-10','CR1023103','C00001042','502-681-3452','AA0213',40308,2,'PS','AGENT','IDIT','11:14:54','11:26:49','00:11:55'),
 	 ('2014-09-09','CR1020674','C00001409','366-643-8813','AA0215',40309,0,'NE','AGENT','MORIAH','14:48:06','15:06:57','00:18:51'),
 	 ('2014-09-03','CR1012307','C00003912','816-706-5654','AA0214',40310,0,'PS','AGENT','AVNI','09:36:58','09:43:52','00:06:54'),
@@ -3034,7 +3034,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-07-21','CR0945867','C00000242','618-014-0547','AA0205',40315,0,'PS','AGENT','DORIT','11:02:20','11:12:44','00:10:24'),
 	 ('2014-07-17','CR0941696','C00004072','747-051-6770','AA0206',40316,2,'PS','AGENT','MIKI','12:40:50','12:53:37','00:12:47'),
 	 ('2014-07-15','CR0937550','C00007683','343-763-3375','AA0109',40317,1,'NW','AGENT','BASCH','09:26:49','09:37:28','00:10:39');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-07-14','CR0935400','C00011875','212-089-4018','AA0202',40318,0,'PS','AGENT','AVIDAN','13:08:34','13:21:08','00:12:34'),
 	 ('2014-06-30','CR0916329','C00009675','781-705-9449','AA0210',40319,1,'NW','AGENT','IDIT','12:14:58','12:30:58','00:16:00'),
 	 ('2014-06-24','CR0908830','C00002238','509-958-6678','AA0210',40320,2,'PS','AGENT','GILI','15:36:07','15:45:32','00:09:25'),
@@ -3045,7 +3045,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-05-28','CR0870603','C00004687','131-363-7202','AA0214',40325,2,'PS','AGENT','ANAT','14:34:21','14:52:40','00:18:19'),
 	 ('2014-05-21','CR0863490','C00002271','508-121-3305','AA0112',40326,0,'PS','AGENT','KAZAV','12:40:30','13:00:53','00:20:23'),
 	 ('2014-05-15','CR0854698','C00003661','413-490-5399','AA0106',40327,2,'PS','AGENT','BASCH','10:18:23','10:42:19','00:23:56');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-05-14','CR0852324','C00005606','808-626-9008','AA0215',40328,0,'NW','AGENT','YITZ','13:13:22','13:22:57','00:09:35'),
 	 ('2014-05-14','CR0851842','C00005398','961-867-3337','AA0209',40329,1,'PS','AGENT','BASCH','15:23:57','15:38:33','00:14:36'),
 	 ('2014-05-12','CR0847796','C00004064','508-414-8874','AA0107',40330,2,'PS','AGENT','MORIAH','12:11:20','12:29:34','00:18:14'),
@@ -3056,7 +3056,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-04-11','CR0805239','C00002878','694-424-8121','AA0213',40335,1,'PS','AGENT','MICHAL','15:40:13','16:03:05','00:22:52'),
 	 ('2014-04-10','CR0803746','C00002693','442-947-9163','AA0215',40336,0,'PS','AGENT','KAZAV','14:45:48','15:03:57','00:18:09'),
 	 ('2014-04-10','CR0802265','C00001613','823-651-5435','AA0214',40337,0,'PS','AGENT','TOVA','12:30:34','12:40:04','00:09:30');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-04-09','CR0801584','C00001810','752-758-3119','AA0213',40338,2,'PS','AGENT','ANAT','11:31:28','11:47:28','00:16:00'),
 	 ('2014-04-03','CR0792537','C00002473','889-908-0874','AA0204',40339,0,'NW','AGENT','IDIT','15:09:42','15:35:57','00:26:15'),
 	 ('2014-03-31','CR0786062','C00001091','617-468-7856','AA0213',40340,0,'PS','AGENT','BENSION','11:15:55','11:44:00','00:28:05'),
@@ -3067,7 +3067,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-03-19','CR0766213','C00000999','187-698-7210','AA0202',40345,1,'PS','AGENT','SHARON','11:04:24','11:22:09','00:17:45'),
 	 ('2014-03-18','CR0764268','C00001939','212-485-5571','AA0210',40346,0,'PS','AGENT','KAZAV','11:19:26','11:42:07','00:22:41'),
 	 ('2014-03-10','CR0753780','C00002499','669-242-9811','AA0210',40347,0,'NW','AGENT','TOVA','09:10:33','09:30:39','00:20:06');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-03-07','CR0749542','C00005108','716-566-1927','AA0210',40348,1,'PS','AGENT','DARMON','13:05:15','13:22:18','00:17:03'),
 	 ('2014-03-05','CR0745123','C00001170','840-879-1532','AA0115',40349,0,'PS','AGENT','IDIT','12:34:29','13:02:45','00:28:16'),
 	 ('2014-03-05','CR0744359','C00001889','648-610-0995','AA0102',40350,2,'PS','AGENT','SHARON','13:51:23','13:59:47','00:08:24'),
@@ -3078,7 +3078,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-02-03','CR0697181','C00000834','950-920-6625','AA0215',40355,1,'PS','AGENT','MORIAH','09:51:28','10:07:29','00:16:01'),
 	 ('2014-01-31','CR0694776','C00004595','212-831-8173','AA0209',40356,1,'PS','AGENT','KAZAV','15:53:26','16:17:56','00:24:30'),
 	 ('2014-01-24','CR0684590','C00003230','664-106-5379','AA0107',40357,2,'NW','AGENT','STEREN','09:32:01','09:48:18','00:16:17');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-01-16','CR0672118','C00001002','594-108-2286','AA0106',40358,2,'PS','AGENT','TOVA','11:16:14','11:21:45','00:05:31'),
 	 ('2014-01-15','CR0670381','C00004345','289-139-8263','AA0202',40359,0,'NW','AGENT','NO_SERVER','10:40:28','11:08:10','00:27:42'),
 	 ('2014-01-08','CR0659626','C00003057','414-067-6750','AA0110',40360,2,'NW','AGENT','AVNI','09:03:19','09:27:43','00:24:24'),
@@ -3089,7 +3089,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-12-16','CR0635552','C00003414','788-053-0833','AA0213',40365,1,'NW','AGENT','YIFAT','12:38:55','12:57:42','00:18:47'),
 	 ('2013-12-16','CR0634872','C00004333','212-922-6182','AA0204',40366,1,'PS','AGENT','IDIT','14:03:34','14:16:02','00:12:28'),
 	 ('2013-12-13','CR0633229','C00002611','315-464-1425','AA0213',40367,0,'PS','AGENT','AVIDAN','09:36:55','09:51:34','00:14:39');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-12-09','CR0626230','C00013412','212-259-5250','AA0107',40368,1,'PS','AGENT','GILI','13:00:34','13:25:59','00:25:25'),
 	 ('2014-08-15','','','613-872-9891','',NULL,NULL,'','','','15:01:54','15:20:11','00:18:17'),
 	 ('2013-11-15','CR0599656','C00003974','187-071-3569','AA0205',40369,0,'PS','AGENT','DORIT','09:45:12','09:55:06','00:09:54'),
@@ -3100,7 +3100,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-11-04','CR0584510','C00001331','854-752-3055','AA0210',40374,0,'NE','AGENT','TOVA','09:21:38','09:49:27','00:27:49'),
 	 ('2013-11-01','CR0582227','C00012859','212-805-3950','AA0210',40375,0,'NE','AGENT','KAZAV','14:33:15','14:42:10','00:08:55'),
 	 ('2013-10-31','CR0579459','C00003600','705-628-5112','AA0115',40376,1,'PE','AGENT','YIFAT','15:32:13','15:47:30','00:15:17');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-10-29','CR0576238','C00001109','508-616-0754','AA0102',40377,0,'PS','AGENT','MICHAL','15:06:06','15:19:55','00:13:49'),
 	 ('2013-10-16','CR0560174','C00001101','809-682-2453','AA0101',40378,2,'PS','AGENT','YITZ','15:28:21','15:45:44','00:17:23'),
 	 ('2013-09-26','CR0543628','C00000873','781-894-1475','AA0214',40379,1,'PS','AGENT','BENSION','11:05:31','11:28:26','00:22:55'),
@@ -3111,7 +3111,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-09-10','CR0521490','C00002341','439-629-6067','AA0107',40384,1,'NE','AGENT','KAZAV','09:47:28','09:56:01','00:08:33'),
 	 ('2013-08-30','CR0510744','C00003403','710-578-7696','AA0106',40385,0,'PS','AGENT','IDIT','15:29:32','15:48:27','00:18:55'),
 	 ('2013-08-29','CR0508454','C00000758','559-448-3282','AA0202',40386,2,'NE','AGENT','MORIAH','11:44:23','12:08:14','00:23:51');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-08-29','CR0509672','C00004260','964-328-9093','AA0110',40387,2,'PS','AGENT','AVNI','09:43:03','10:02:24','00:19:21'),
 	 ('2013-08-28','CR0508036','C00002340','922-698-9333','AA0101',40388,1,'PS','AGENT','MIKI','12:52:26','13:19:41','00:27:15'),
 	 ('2013-08-27','CR0505876','C00012092','137-407-4390','AA0213',40389,1,'PS','AGENT','STEREN','15:10:05','15:35:38','00:25:33'),
@@ -3122,7 +3122,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-08-09','CR0485373','C00004485','250-802-4023','AA0213',40394,0,'NW','AGENT','BASCH','13:36:26','13:48:07','00:11:41'),
 	 ('2013-08-07','CR0495121','C00000263','592-749-2321','AA0107',40395,0,'PS','AGENT','AVIDAN','12:46:09','12:55:03','00:08:54'),
 	 ('2013-08-02','CR0472455','C00003309','323-864-0051','AA0205',40396,1,'NW','AGENT','IDIT','12:05:24','12:12:33','00:07:09');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-07-19','CR0461946','C00000769','863-166-6167','AA0206',40397,1,'PS','AGENT','GILI','13:11:05','13:21:24','00:10:19'),
 	 ('2013-07-16','CR0458996','C00001754','770-367-9290','AA0109',40398,2,'PS','AGENT','SHARON','10:50:57','10:59:26','00:08:29'),
 	 ('2013-07-16','CR0457267','C00001060','848-459-4521','AA0202',40399,2,'PS','AGENT','AVNI','13:46:56','13:55:04','00:08:08'),
@@ -3133,7 +3133,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-06-26','CR0443767','C00002098','315-708-6498','AA0102',40404,2,'PS','AGENT','BASCH','14:53:57','15:19:41','00:25:44'),
 	 ('2013-06-26','CR0442902','C00000009','781-995-6192','AA0101',40405,2,'NW','AGENT','YITZ','11:06:14','11:25:20','00:19:06'),
 	 ('2013-06-24','CR0441548','C00002104','121-136-0180','AA0214',40406,0,'PS','AGENT','BASCH','11:00:15','11:06:18','00:06:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-06-13','CR0431928','C00002799','787-408-1352','AA0112',40407,1,'PS','AGENT','MORIAH','10:11:04','10:16:20','00:05:16'),
 	 ('2013-06-12','CR0430014','C00004026','914-077-5501','AA0106',40408,1,'PS','AGENT','SHLOMO','09:00:17','09:06:01','00:05:44'),
 	 ('2013-06-11','CR0429047','C00004232','867-915-4044','AA0215',40409,0,'PS','AGENT','BASCH','10:55:13','11:13:29','00:18:16'),
@@ -3144,7 +3144,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-04-30','CR0395334','C00004287','229-607-2145','AA0110',40414,2,'PS','AGENT','TOVA','12:51:45','13:06:18','00:14:33'),
 	 ('2013-04-18','CR0386114','C00001832','212-280-2432','AA0101',40415,2,'PS','AGENT','ANAT','15:07:53','15:35:45','00:27:52'),
 	 ('2013-04-12','CR0381335','C00005028','121-793-0525','AA0213',40416,1,'NW','AGENT','IDIT','14:40:04','14:50:32','00:10:28');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-04-08','CR0376754','C00000776','212-712-3256','AA0215',40417,2,'PS','AGENT','BENSION','14:13:07','14:37:22','00:24:15'),
 	 ('2013-04-01','CR0370871','C00004382','163-921-0813','AA0214',40418,2,'PS','AGENT','YITZ','13:06:31','13:29:39','00:23:08'),
 	 ('2013-03-28','CR0368748','C00001846','136-985-8380','AA0213',40419,2,'NE','AGENT','AVIDAN','11:10:54','11:27:47','00:16:53'),
@@ -3155,7 +3155,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-02-22','CR0328011','C00002858','278-096-8216','AA0206',40424,2,'NW','AGENT','TOVA','14:01:33','14:15:40','00:14:07'),
 	 ('2013-02-21','CR0325933','C00003438','802-842-2969','AA0109',40425,2,'PS','AGENT','DARMON','09:39:38','09:52:53','00:13:15'),
 	 ('2013-02-13','CR0316296','C00006114','504-258-2392','AA0202',40426,0,'PS','AGENT','IDIT','11:47:19','12:04:58','00:17:39');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-02-11','CR0313638','C00001376','492-751-4353','AA0210',40427,2,'PS','AGENT','SHARON','12:20:49','12:41:17','00:20:28'),
 	 ('2013-02-08','CR0311310','C00000655','207-238-0903','AA0210',40428,1,'PS','AGENT','TOVA','09:23:12','09:48:56','00:25:44'),
 	 ('2013-01-29','CR0272576','C00001393','716-974-9850','AA0210',40429,2,'PS','AGENT','KAZAV','14:10:21','14:36:39','00:26:18'),
@@ -3166,7 +3166,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-12-19','CR0214044','C00007863','814-452-0875','AA0214',40433,0,'PS','AGENT','KAZAV','11:28:15','11:40:06','00:11:51'),
 	 ('2012-12-13','CR0210097','C00001242','110-661-0836','AA0112',40434,2,'NW','AGENT','STEREN','11:13:59','11:35:54','00:21:55'),
 	 ('2012-12-12','CR0209431','C00004928','617-279-9426','AA0106',40435,0,'PS','AGENT','TOVA','13:43:12','14:11:51','00:28:39');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-12-12','CR0209536','C00000914','212-992-5486','AA0215',40436,2,'NW','AGENT','NO_SERVER','09:02:05','09:09:57','00:07:52'),
 	 ('2012-11-29','CR0200342','C00004590','212-723-6027','AA0209',40437,2,'NW','AGENT','AVNI','10:08:31','10:32:06','00:23:35'),
 	 ('2012-11-27','CR0198557','C00002481','101-645-3264','AA0107',40438,0,'PS','AGENT','GILI','10:03:03','10:13:12','00:10:09'),
@@ -3177,7 +3177,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-10-23','CR0176863','C00002918','855-417-5872','AA0213',40443,0,'PS','AGENT','IDIT','15:21:02','15:28:37','00:07:35'),
 	 ('2012-10-23','CR0176128','C00001726','914-464-3054','AA0215',40444,2,'PS','AGENT','AVIDAN','15:36:55','16:00:20','00:23:25'),
 	 ('2012-10-23','CR0176837','C00002005','652-394-9340','AA0214',40445,2,'PS','AGENT','GILI','15:23:11','15:35:54','00:12:43');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-10-03','CR0165148','C00002132','346-826-0404','AA0213',40446,2,'PS','AGENT','DORIT','09:03:05','09:16:11','00:13:06'),
 	 ('2012-09-25','CR0159731','C00007914','851-099-2362','AA0204',40447,0,'PS','AGENT','YIFAT','13:15:30','13:32:56','00:17:26'),
 	 ('2012-09-24','CR0158615','C00004925','719-065-4135','AA0213',40448,1,'PS','AGENT','MICHAL','12:18:44','12:39:53','00:21:09'),
@@ -3188,7 +3188,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-08-29','CR0143576','C00000837','617-310-7209','AA0202',40453,2,'PE','AGENT','YIFAT','09:20:51','09:29:14','00:08:23'),
 	 ('2012-08-24','CR0141641','C00005775','579-819-0259','AA0210',40454,0,'PS','AGENT','MICHAL','09:30:58','09:40:25','00:09:27'),
 	 ('2012-08-22','CR0139572','C00001836','504-421-9666','AA0210',40455,0,'PS','AGENT','YITZ','09:42:12','10:07:13','00:25:01');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-08-21','CR0139234','C00004281','673-675-3814','AA0210',40456,0,'PS','AGENT','BENSION','13:28:14','13:56:17','00:28:03'),
 	 ('2012-08-17','CR0138210','C00005312','813-517-4859','AA0115',40457,2,'PS','AGENT','MORIAH','14:12:01','14:19:56','00:07:55'),
 	 ('2012-08-14','CR0135472','C00001875','301-624-3331','AA0102',40458,2,'TT','AGENT','AVIDAN','12:30:40','12:40:00','00:09:20'),
@@ -3199,7 +3199,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-07-31','CR0127510','C00012643','978-924-4380','AA0215',40463,1,'NE','AGENT','MORIAH','13:32:20','13:40:48','00:08:28'),
 	 ('2012-07-30','CR0126639','C00003346','743-584-2470','AA0209',40464,2,'PS','AGENT','AVNI','14:38:53','15:05:59','00:27:06'),
 	 ('2012-07-27','CR0125971','C00012568','628-246-8908','AA0107',40465,1,'PS','AGENT','MIKI','13:49:34','14:06:30','00:16:56');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-07-24','CR0123486','C00001029','212-333-2794','AA0106',40466,1,'PS','AGENT','STEREN','09:45:15','09:59:13','00:13:58'),
 	 ('2012-07-16','CR0118248','C00001164','809-671-9428','AA0202',40467,2,'PS','AGENT','KAZAV','13:07:39','13:22:23','00:14:44'),
 	 ('2012-07-11','CR0115862','C00004466','585-554-2122','AA0110',40468,0,'NW','AGENT','NO_SERVER','10:21:51','10:45:13','00:23:22'),
@@ -3210,7 +3210,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-06-26','CR0108560','C00003662','281-629-5554','AA0213',40473,1,'NW','AGENT','IDIT','12:54:07','13:16:52','00:22:45'),
 	 ('2012-06-25','CR0107657','C00005249','584-081-3628','AA0204',40474,1,'PS','AGENT','GILI','11:12:31','11:32:33','00:20:02'),
 	 ('2012-06-25','CR0107862','C00002222','212-132-2122','AA0213',40475,1,'PS','AGENT','SHARON','13:23:31','13:51:53','00:28:22');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-06-25','CR0107624','C00013290','255-292-4122','AA0107',40476,2,'PS','AGENT','AVNI','10:10:48','10:36:00','00:25:12'),
 	 ('2012-06-21','CR0106233','C00004418','245-884-7140','AA0205',40477,0,'NE','AGENT','TOVA','14:54:19','15:08:31','00:14:12'),
 	 ('2012-06-19','CR0104543','C00001696','212-940-2476','AA0206',40478,0,'PS','AGENT','DORIT','12:21:38','12:40:02','00:18:24'),
@@ -3221,7 +3221,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-05-21','CR0000072','C00003714','888-142-1355','AA0210',40483,0,'PS','AGENT','BASCH','15:05:49','15:31:33','00:25:44'),
 	 ('2012-05-09','CR0074493','C00000391','918-665-8581','AA0115',40484,0,'PS','AGENT','MORIAH','12:45:53','13:03:13','00:17:20'),
 	 ('2012-05-08','CR0073167','C00010702','618-501-7822','AA0102',40485,1,'PS','AGENT','SHLOMO','14:43:01','15:09:58','00:26:57');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-05-07','CR0072299','C00000029','825-520-4294','AA0101',40486,2,'PS','AGENT','BASCH','11:03:27','11:10:19','00:06:52'),
 	 ('2012-05-02','CR0069276','C00005462','617-285-1067','AA0214',40487,2,'NE','AGENT','ELI','15:48:24','15:58:57','00:10:33'),
 	 ('2012-05-01','CR0068499','C00002420','787-372-9637','AA0112',40488,0,'PS','AGENT','MIKI','09:13:30','09:40:45','00:27:15'),
@@ -3232,7 +3232,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-04-10','CR0054623','C00000310','726-281-9507','AA0107',40492,1,'PS','AGENT','ANAT','09:39:49','09:58:11','00:18:22'),
 	 ('2012-04-09','CR0044941','C00000414','488-977-5369','AA0106',40493,2,'NW','AGENT','IDIT','12:47:25','13:16:05','00:28:40'),
 	 ('2012-04-06','CR0044750','C00002070','713-993-1632','AA0202',40494,2,'PS','AGENT','BENSION','09:11:52','09:21:59','00:10:07');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-04-04','CR0043901','C00010563','438-969-9520','AA0110',40495,2,'PS','AGENT','YITZ','11:27:28','11:34:46','00:07:18'),
 	 ('2012-04-03','CR0043714','C00002607','929-560-0417','AA0101',40496,1,'NE','AGENT','AVIDAN','09:14:34','09:41:14','00:26:40'),
 	 ('2012-04-02','CR0043413','C00010702','618-501-7822','AA0213',40497,2,'PS','AGENT','KAZAV','12:08:31','12:13:45','00:05:14'),
@@ -3243,7 +3243,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-03-26','CR0041196','C00003061','508-775-5993','AA0213',40502,2,'PS','AGENT','DARMON','14:34:05','14:48:04','00:13:59'),
 	 ('2012-03-19','CR0036596','C00002667','617-960-2229','AA0107',40503,0,'PS','AGENT','IDIT','10:34:54','10:47:21','00:12:27'),
 	 ('2012-03-14','CR0035414','C00002343','212-387-7039','AA0205',40504,0,'PS','AGENT','SHARON','15:35:53','16:01:49','00:25:56');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2012-03-13','CR0034615','C00001697','978-682-7779','AA0206',40505,0,'PS','AGENT','TOVA','13:00:49','13:23:31','00:22:42'),
 	 ('2012-03-13','CR0034382','C00000674','327-140-9584','AA0109',40506,2,'PS','AGENT','KAZAV','11:00:27','11:29:20','00:28:53'),
 	 ('2012-03-13','CR0034724','C00002211','858-047-2844','AA0202',40507,2,'PS','AGENT','IDIT','13:45:19','14:04:53','00:19:34'),
@@ -3254,7 +3254,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-02-23','CR0021455','C00000715','952-160-9696','AA0102',40512,0,'PS','AGENT','TOVA','09:08:32','09:25:17','00:16:45'),
 	 ('2012-02-16','CR0024147','C00002658','239-554-4566','AA0101',40513,1,'NW','AGENT','NO_SERVER','13:20:15','13:25:48','00:05:33'),
 	 ('2012-02-08','CR0021753','C00002277','212-826-1832','AA0214',40514,2,'NW','AGENT','AVNI','12:51:08','13:05:12','00:14:04');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2011-12-21','CR0007379','C00004219','413-789-9118','AA0112',40515,0,'PS','AGENT','GILI','10:43:52','11:07:51','00:23:59'),
 	 ('2017-03-24','CR2403628','C00002421','508-689-9471','AA0106',40516,1,'IN','AGENT','SHLOMO','14:18:16','14:44:08','00:25:52'),
 	 ('2017-03-02','CR2369804','C00013261','585-527-3656','AA0215',40517,2,'PS','AGENT','GILI','13:10:57','13:33:08','00:22:11'),
@@ -3265,7 +3265,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-05-18','CR1380771','C00001720','309-450-4960','AA0110',40522,1,'PS','AGENT','GILI','11:17:25','11:37:31','00:20:06'),
 	 ('2015-01-07','CR1184561','C00002301','638-594-3266','AA0101',40523,0,'PS','AGENT','DORIT','15:16:25','15:24:40','00:08:15'),
 	 ('2014-09-26','CR1047535','C00000863','540-241-0185','AA0213',40524,0,'PS','AGENT','YIFAT','10:38:11','11:07:01','00:28:50');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-03-24','CR0774455','C00013290','360-339-2838','AA0215',40525,1,'PS','AGENT','MICHAL','15:19:18','15:28:36','00:09:18'),
 	 ('2014-03-21','CR0771869','C00003537','413-922-3388','AA0214',40526,2,'PS','AGENT','DORIT','09:44:33','10:10:00','00:25:27'),
 	 ('2013-01-08','CR0224586','C00002497','129-823-7196','AA0213',40527,0,'PS','AGENT','YITZ','13:43:06','13:50:51','00:07:45'),
@@ -3276,7 +3276,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2012-05-30','CR0089274','C00010564','446-694-8849','AA0206',40532,2,'PS','AGENT','YITZ','13:38:45','13:52:41','00:13:56'),
 	 ('2012-05-24','CR0087015','C00003297','212-494-4487','AA0109',40533,1,'PS','AGENT','BENSION','14:53:19','15:06:57','00:13:38'),
 	 ('2012-05-18','CR0083830','C00000019','955-299-0340','AA0202',40534,0,'PS','AGENT','MORIAH','09:12:52','09:18:15','00:05:23');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-05-28','','','960-652-6854','AA0210',50100,2,'PS','AGENT','ZOHARI','09:29:01','09:29:02','00:00:01'),
 	 ('2014-11-08','','','212-441-8184','AA0213',50101,0,'PS','AGENT','TOVA','15:22:03','15:34:14','00:12:11'),
 	 ('2016-08-15','','','614-600-3092','AA0202',50102,2,'PS','AGENT','IDIT','10:41:22','10:57:54','00:16:32'),
@@ -3287,7 +3287,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-09-28','','','789-353-5787','AA0102',50107,0,'NW','AGENT','YIFAT','15:10:43','15:16:16','00:05:33'),
 	 ('2017-04-19','','','111-975-0041','AA0108',50108,1,'TT','AGENT','NO_SERVER','09:01:41','09:01:57','00:00:16'),
 	 ('2016-01-04','','','396-556-0077','AA0213',50109,0,'PS','AGENT','GILI','10:31:28','10:39:35','00:08:07');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-09-06','','','905-075-9356','AA0101',50110,0,'NW','AGENT','BASCH','15:26:40','15:45:47','00:19:07'),
 	 ('2016-01-08','','','978-119-7865','AA0203',50111,2,'PS','AGENT','STEREN','10:15:46','10:34:41','00:18:55'),
 	 ('2016-09-08','','','645-843-1783','AA0205',50112,1,'PS','AGENT','AVNI','15:39:16','15:43:25','00:04:09'),
@@ -3298,7 +3298,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-09-03','','','129-219-0672','AA0203',50117,2,'PS','AGENT','SHARON','14:35:44','14:44:41','00:08:57'),
 	 ('2016-04-13','','','617-382-5056','AA0206',50118,0,'PS','AGENT','ZOHARI','13:04:01','13:16:17','00:12:16'),
 	 ('2013-12-22','','','617-146-9207','AA0105',50119,0,'NE','AGENT','ANAT','12:25:33','12:27:18','00:01:45');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-12-17','','','914-464-3054','AA0214',50120,0,'PS','AGENT','DARMON','11:41:42','11:50:53','00:09:11'),
 	 ('2015-02-23','','','212-901-3102','AA0104',50121,0,'NW','AGENT','AVNI','14:20:32','14:27:22','00:06:50'),
 	 ('2019-04-09','','','651-523-3881','AA0209',50122,1,'PS','AGENT','KAZAV','11:45:21','11:57:31','00:12:10'),
@@ -3309,7 +3309,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-12-17','','','461-077-9505','AA0214',50127,2,'PS','AGENT','AVNI','12:29:56','12:35:31','00:05:35'),
 	 ('2013-09-14','','','886-802-8870','AA0104',50128,1,'PS','AGENT','KAZAV','13:24:00','13:25:16','00:01:16'),
 	 ('2013-10-05','','','212-316-9783','AA0109',50129,2,'NE','AGENT','AVIDAN','10:53:47','11:08:43','00:14:56');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-11-10','','','111-613-0035','AA0209',50130,0,'PS','AGENT','KAZAV','10:30:32','10:44:34','00:14:02'),
 	 ('2017-04-12','','','831-023-9586','AA0210',50131,0,'NW','AGENT','SHARON','10:21:15','10:29:04','00:07:49'),
 	 ('2017-07-24','','','854-055-8899','AA0105',50132,0,'PS','AGENT','STEREN','15:49:17','16:08:46','00:19:29'),
@@ -3320,7 +3320,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-03-11','','','944-963-8002','AA0101',50137,2,'NE','AGENT','SHARON','15:28:23','15:34:20','00:05:57'),
 	 ('2019-08-15','','','628-210-0276','AA0105',50138,2,'PS','AGENT','KAZAV','10:39:07','10:45:35','00:06:28'),
 	 ('2014-04-05','','','294-252-5352','AA0206',50139,0,'NW','AGENT','SHARON','10:13:25','10:26:06','00:12:41');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-06-05','','','234-822-3728','AA0201',50140,2,'PS','AGENT','ANAT','15:16:46','15:32:15','00:15:29'),
 	 ('2014-03-06','','','978-388-7148','AA0213',50141,0,'NW','AGENT','IDIT','15:17:53','15:38:07','00:20:14'),
 	 ('2017-08-20','','','617-545-1746','AA0106',50142,0,'PS','AGENT','ELI','15:53:46','15:55:30','00:01:44'),
@@ -3331,7 +3331,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-11-18','','','586-599-2735','AA0110',50147,0,'NW','AGENT','AVNI','09:27:13','09:43:02','00:15:49'),
 	 ('2019-08-02','','','907-757-1166','AA0108',50148,0,'TT','AGENT','ZOHARI','13:20:01','13:26:20','00:06:19'),
 	 ('2016-05-28','','','212-327-7219','AA0112',50149,0,'TT','AGENT','SHARON','13:21:13','13:26:55','00:05:42');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-02-22','','','508-728-0903','AA0201',50150,0,'PS','AGENT','ZOHARI','10:34:51','10:54:37','00:19:46'),
 	 ('2013-10-26','','','781-434-4272','AA0103',50151,1,'PS','AGENT','NAAMA','09:34:35','09:44:21','00:09:46'),
 	 ('2019-07-27','','','716-746-3275','AA0210',50152,2,'PS','AGENT','MICHAL','11:29:48','11:49:22','00:19:34'),
@@ -3342,7 +3342,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-08-28','','','503-955-6293','AA0206',50157,0,'PS','AGENT','TOVA','13:21:39','13:21:41','00:00:02'),
 	 ('2014-11-22','','','818-866-7881','AA0215',50158,0,'PS','AGENT','MORIAH','14:43:56','15:01:35','00:17:39'),
 	 ('2017-05-17','','','623-026-1533','AA0109',50159,0,'PS','AGENT','NO_SERVER','15:32:47','15:41:36','00:08:49');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-04-04','','','994-103-3583','AA0215',50160,0,'PS','AGENT','KAZAV','15:00:22','15:13:46','00:13:24'),
 	 ('2017-09-03','','','262-716-4859','AA0110',50161,0,'PS','AGENT','ANAT','15:14:39','15:23:21','00:08:42'),
 	 ('2018-12-10','','','585-554-2122','AA0113',50162,0,'NW','AGENT','MICHAL','11:13:42','11:33:27','00:19:45'),
@@ -3353,7 +3353,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-11-25','','','212-586-6828','AA0203',50167,0,'PS','AGENT','AVNI','10:43:38','10:50:50','00:07:12'),
 	 ('2017-07-11','','','978-401-2642','AA0213',50168,1,'PS','AGENT','STEREN','13:00:34','13:09:12','00:08:38'),
 	 ('2014-09-14','','','417-025-7705','AA0102',50169,0,'NW','AGENT','IDIT','11:03:34','11:21:45','00:18:11');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-11-18','','','900-149-9625','AA0215',50170,0,'PS','AGENT','KAZAV','15:57:27','16:18:14','00:20:47'),
 	 ('2018-01-18','','','212-295-9205','AA0102',50171,0,'PE','AGENT','GILI','14:48:16','14:53:12','00:04:56'),
 	 ('2013-03-06','','','168-155-6347','AA0115',50172,0,'PS','AGENT','TOVA','13:51:32','14:04:49','00:13:17'),
@@ -3364,7 +3364,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-07-13','','','212-395-0636','',NULL,NULL,'','','','10:21:34','10:24:49','00:03:15'),
 	 ('2014-09-18','','','992-428-3802','',NULL,NULL,'','','','12:44:46','12:57:33','00:12:47'),
 	 ('2018-12-17','','','508-739-1975','',NULL,NULL,'','','','15:09:49','15:13:06','00:03:17');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-04-16','','','212-384-9161','',NULL,NULL,'','','','12:16:15','12:34:09','00:17:54'),
 	 ('2016-08-07','','','582-923-4671','',NULL,NULL,'','','','15:37:10','15:52:21','00:15:11'),
 	 ('2013-10-22','','','159-507-8898','',NULL,NULL,'','','','10:46:41','10:53:07','00:06:26'),
@@ -3375,7 +3375,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-12-08','','','872-598-9396','',NULL,NULL,'','','','15:40:26','15:56:06','00:15:40'),
 	 ('2019-02-12','','','784-237-2376','',NULL,NULL,'','','','10:54:18','11:13:47','00:19:29'),
 	 ('2015-01-04','','','607-834-5523','',NULL,NULL,'','','','13:39:23','13:51:51','00:12:28');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-11-01','','','999-572-7626','',NULL,NULL,'','','','13:01:59','13:13:26','00:11:27'),
 	 ('2019-11-28','','','561-112-8760','',NULL,NULL,'','','','11:37:50','11:54:02','00:16:12'),
 	 ('2019-09-16','','','446-533-3130','',NULL,NULL,'','','','12:56:11','13:02:58','00:06:47'),
@@ -3386,7 +3386,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-04-09','','','631-022-6987','',NULL,NULL,'','','','09:45:41','10:06:20','00:20:39'),
 	 ('2019-10-21','','','197-151-8243','',NULL,NULL,'','','','14:56:41','15:12:24','00:15:43'),
 	 ('2017-01-08','','','212-795-3118','',NULL,NULL,'','','','13:50:00','14:00:42','00:10:42');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-08-28','','','212-221-5503','',NULL,NULL,'','','','11:45:47','11:59:42','00:13:55'),
 	 ('2018-05-15','','','212-801-3177','',NULL,NULL,'','','','10:18:01','10:27:49','00:09:48'),
 	 ('2018-01-27','','','386-343-2859','',NULL,NULL,'','','','10:33:13','10:38:23','00:05:10'),
@@ -3397,7 +3397,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-01-03','','','736-787-3723','',NULL,NULL,'','','','12:47:14','12:51:38','00:04:24'),
 	 ('2013-10-01','','','781-083-7700','',NULL,NULL,'','','','10:43:52','10:48:32','00:04:40'),
 	 ('2017-05-01','','','212-311-9465','',NULL,NULL,'','','','15:53:33','15:59:46','00:06:13');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-08-07','','','652-579-7627','',NULL,NULL,'','','','13:59:20','14:01:11','00:01:51'),
 	 ('2013-03-13','','','161-776-5723','',NULL,NULL,'','','','12:59:06','13:11:09','00:12:03'),
 	 ('2018-05-01','','','508-049-0061','',NULL,NULL,'','','','11:55:04','12:08:21','00:13:17'),
@@ -3408,7 +3408,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-09-06','','','133-833-5697','',NULL,NULL,'','','','12:24:20','12:39:23','00:15:03'),
 	 ('2014-01-26','','','717-851-1908','',NULL,NULL,'','','','10:03:06','10:15:34','00:12:28'),
 	 ('2019-10-27','','','683-374-3797','',NULL,NULL,'','','','09:34:48','09:52:01','00:17:13');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-07-07','','','328-760-7956','',NULL,NULL,'','','','13:23:59','13:39:33','00:15:34'),
 	 ('2019-10-28','','','312-080-0390','',NULL,NULL,'','','','13:55:42','14:13:41','00:17:59'),
 	 ('2019-06-02','','','508-866-7163','',NULL,NULL,'','','','09:32:18','09:36:33','00:04:15'),
@@ -3419,7 +3419,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-08-09','','','566-758-9962','',NULL,NULL,'','','','12:13:58','12:32:34','00:18:36'),
 	 ('2017-04-06','','','532-949-4433','',NULL,NULL,'','','','13:24:26','13:34:04','00:09:38'),
 	 ('2016-06-23','','','617-202-1150','',NULL,NULL,'','','','14:23:18','14:25:19','00:02:01');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-03-11','','','372-198-6139','',NULL,NULL,'','','','13:05:57','13:26:55','00:20:58'),
 	 ('2019-03-26','','','781-887-1135','',NULL,NULL,'','','','10:21:52','10:33:56','00:12:04'),
 	 ('2016-09-28','','','684-009-0681','',NULL,NULL,'','','','15:52:29','16:08:29','00:16:00'),
@@ -3430,7 +3430,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-04-24','','','716-629-1061','',NULL,NULL,'','','','10:07:30','10:19:55','00:12:25'),
 	 ('2015-06-01','','','212-750-4999','',NULL,NULL,'','','','11:01:32','11:04:46','00:03:14'),
 	 ('2017-02-06','','','207-465-2754','',NULL,NULL,'','','','11:30:28','11:35:51','00:05:23');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-05-18','','','868-842-8490','',NULL,NULL,'','','','10:41:54','10:52:47','00:10:53'),
 	 ('2019-04-28','','','890-476-3140','',NULL,NULL,'','','','12:39:13','12:58:08','00:18:55'),
 	 ('2013-05-07','','','627-774-7199','',NULL,NULL,'','','','12:36:04','12:54:09','00:18:05'),
@@ -3441,7 +3441,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-03-24','','','245-884-7140','',NULL,NULL,'','','','09:27:36','09:28:25','00:00:49'),
 	 ('2013-02-11','','','212-526-8214','',NULL,NULL,'','','','11:05:35','11:13:21','00:07:46'),
 	 ('2018-01-12','','','369-179-6952','',NULL,NULL,'','','','13:40:24','13:51:29','00:11:05');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-05-05','','','716-197-5748','',NULL,NULL,'','','','09:12:01','09:30:36','00:18:35'),
 	 ('2017-03-19','','','212-881-0807','',NULL,NULL,'','','','10:06:07','10:11:05','00:04:58'),
 	 ('2017-01-06','','','235-820-8022','',NULL,NULL,'','','','14:27:42','14:37:38','00:09:56'),
@@ -3452,7 +3452,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-01-17','','','831-722-2888','',NULL,NULL,'','','','15:08:50','15:26:33','00:17:43'),
 	 ('2017-01-23','','','742-360-1267','',NULL,NULL,'','','','14:28:28','14:44:14','00:15:46'),
 	 ('2017-10-15','','','781-894-1475','',NULL,NULL,'','','','14:08:19','14:17:14','00:08:55');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-12-28','','','342-649-5451','',NULL,NULL,'','','','13:58:56','14:18:10','00:19:14'),
 	 ('2017-07-07','','','212-095-4630','',NULL,NULL,'','','','11:00:06','11:03:37','00:03:31'),
 	 ('2019-12-24','','','963-518-7612','',NULL,NULL,'','','','14:05:31','14:06:09','00:00:38'),
@@ -3463,7 +3463,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-02-20','','','617-395-4007','',NULL,NULL,'','','','09:29:04','09:36:23','00:07:19'),
 	 ('2017-01-25','','','567-122-8082','',NULL,NULL,'','','','15:57:26','16:08:09','00:10:43'),
 	 ('2015-04-24','','','453-754-4645','',NULL,NULL,'','','','10:43:59','10:46:44','00:02:45');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-08-13','','','491-116-4127','',NULL,NULL,'','','','13:27:29','13:38:18','00:10:49'),
 	 ('2016-12-03','','','305-963-7179','',NULL,NULL,'','','','10:13:21','10:31:56','00:18:35'),
 	 ('2016-01-23','','','833-697-0388','',NULL,NULL,'','','','10:20:52','10:26:57','00:06:05'),
@@ -3474,7 +3474,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-03-10','','','323-740-5504','',NULL,NULL,'','','','12:59:10','13:11:47','00:12:37'),
 	 ('2013-03-23','','','391-304-3315','',NULL,NULL,'','','','15:49:06','16:07:54','00:18:48'),
 	 ('2013-04-17','','','978-900-2898','',NULL,NULL,'','','','09:00:56','09:21:36','00:20:40');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-02-06','','','508-827-1350','',NULL,NULL,'','','','11:32:50','11:38:15','00:05:25'),
 	 ('2016-01-20','','','212-513-0974','',NULL,NULL,'','','','13:44:53','13:52:04','00:07:11'),
 	 ('2017-11-16','','','503-955-6293','',NULL,NULL,'','','','12:47:14','13:02:32','00:15:18'),
@@ -3485,7 +3485,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-11-20','','','184-120-2278','',NULL,NULL,'','','','10:38:45','10:53:07','00:14:22'),
 	 ('2019-06-13','','','537-694-0855','',NULL,NULL,'','','','15:47:17','15:49:01','00:01:44'),
 	 ('2019-09-17','','','367-171-6840','',NULL,NULL,'','','','14:15:26','14:27:10','00:11:44');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-09-10','','','814-833-9414','',NULL,NULL,'','','','11:58:25','12:13:22','00:14:57'),
 	 ('2019-06-12','','','236-176-7658','',NULL,NULL,'','','','11:46:31','12:07:07','00:20:36'),
 	 ('2015-02-16','','','726-281-9507','',NULL,NULL,'','','','11:23:44','11:34:58','00:11:14'),
@@ -3496,7 +3496,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-07-12','','','212-418-1613','',NULL,NULL,'','','','15:33:02','15:41:13','00:08:11'),
 	 ('2015-01-19','','','171-039-9206','',NULL,NULL,'','','','13:13:50','13:31:51','00:18:01'),
 	 ('2014-03-27','','','212-494-4736','',NULL,NULL,'','','','11:22:21','11:40:24','00:18:03');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-06-02','','','602-429-6583','',NULL,NULL,'','','','11:17:29','11:26:48','00:09:19'),
 	 ('2013-09-06','','','312-484-5399','',NULL,NULL,'','','','14:27:19','14:27:29','00:00:10'),
 	 ('2017-07-23','','','232-200-4156','',NULL,NULL,'','','','15:42:59','15:50:44','00:07:45'),
@@ -3507,7 +3507,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-10-15','','','978-498-0563','',NULL,NULL,'','','','15:36:17','15:54:11','00:17:54'),
 	 ('2014-09-23','','','249-709-3187','',NULL,NULL,'','','','15:25:03','15:45:49','00:20:46'),
 	 ('2018-04-17','','','157-007-4331','',NULL,NULL,'','','','12:51:35','13:10:00','00:18:25');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-07-15','','','212-522-4361','',NULL,NULL,'','','','15:13:14','15:25:40','00:12:26'),
 	 ('2019-11-26','','','566-528-0980','',NULL,NULL,'','','','09:40:53','09:47:23','00:06:30'),
 	 ('2014-04-13','','','818-120-9985','',NULL,NULL,'','','','12:08:34','12:26:03','00:17:29'),
@@ -3518,7 +3518,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-07-09','','','596-272-3695','',NULL,NULL,'','','','13:58:45','14:07:03','00:08:18'),
 	 ('2013-12-18','','','379-721-8570','',NULL,NULL,'','','','14:16:42','14:17:30','00:00:48'),
 	 ('2017-02-11','','','617-046-8020','',NULL,NULL,'','','','15:00:05','15:10:30','00:10:25');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-12-09','','','547-229-6091','',NULL,NULL,'','','','12:57:59','13:17:08','00:19:09'),
 	 ('2019-07-13','','','436-341-7372','',NULL,NULL,'','','','11:03:29','11:04:04','00:00:35'),
 	 ('2014-02-24','','','212-115-1485','',NULL,NULL,'','','','15:53:06','16:08:18','00:15:12'),
@@ -3529,7 +3529,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-12-13','','','787-663-3924','',NULL,NULL,'','','','09:34:12','09:39:43','00:05:31'),
 	 ('2014-07-05','','','212-334-9297','',NULL,NULL,'','','','15:17:26','15:23:17','00:05:51'),
 	 ('2019-04-03','','','978-564-1811','',NULL,NULL,'','','','13:39:40','13:58:00','00:18:20');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-07-05','','','737-919-0426','',NULL,NULL,'','','','09:25:30','09:39:08','00:13:38'),
 	 ('2013-09-13','','','897-113-4788','',NULL,NULL,'','','','09:43:35','09:53:04','00:09:29'),
 	 ('2014-01-05','','','648-402-6162','',NULL,NULL,'','','','11:45:42','11:47:03','00:01:21'),
@@ -3540,7 +3540,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-04-21','','','912-949-4599','',NULL,NULL,'','','','15:54:21','16:07:34','00:13:13'),
 	 ('2017-01-13','','','934-073-1051','',NULL,NULL,'','','','09:51:13','09:56:27','00:05:14'),
 	 ('2015-04-27','','','508-702-7043','',NULL,NULL,'','','','11:46:50','11:47:36','00:00:46');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-11-06','','','716-212-2426','',NULL,NULL,'','','','10:36:18','10:46:58','00:10:40'),
 	 ('2015-07-25','','','453-812-9200','',NULL,NULL,'','','','09:27:02','09:33:34','00:06:32'),
 	 ('2015-07-14','','','127-670-7548','',NULL,NULL,'','','','09:55:24','10:10:36','00:15:12'),
@@ -3551,7 +3551,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-05-10','','','869-512-9919','',NULL,NULL,'','','','15:24:27','15:43:28','00:19:01'),
 	 ('2017-04-06','','','456-883-5598','',NULL,NULL,'','','','10:41:11','10:42:59','00:01:48'),
 	 ('2019-10-25','','','865-672-4502','',NULL,NULL,'','','','14:23:04','14:31:56','00:08:52');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-12-17','','','151-268-0244','',NULL,NULL,'','','','12:34:52','12:50:58','00:16:06'),
 	 ('2017-05-27','','','302-865-0282','',NULL,NULL,'','','','13:45:20','13:50:27','00:05:07'),
 	 ('2016-01-13','','','628-369-7277','',NULL,NULL,'','','','13:36:11','13:55:27','00:19:16'),
@@ -3562,7 +3562,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-11-21','','','617-320-8986','',NULL,NULL,'','','','11:25:58','11:30:48','00:04:50'),
 	 ('2015-10-26','','','131-785-0823','',NULL,NULL,'','','','09:43:04','09:57:35','00:14:31'),
 	 ('2014-09-25','','','199-851-3200','',NULL,NULL,'','','','13:06:46','13:19:15','00:12:29');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-11-02','','','826-900-9296','',NULL,NULL,'','','','09:59:53','10:05:01','00:05:08'),
 	 ('2014-06-07','','','390-480-1393','',NULL,NULL,'','','','11:44:16','11:56:43','00:12:27'),
 	 ('2015-10-04','','','279-364-7357','',NULL,NULL,'','','','10:47:19','10:50:19','00:03:00'),
@@ -3573,7 +3573,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-01-21','','','469-757-2819','',NULL,NULL,'','','','14:13:17','14:29:20','00:16:03'),
 	 ('2014-05-20','','','978-431-8789','',NULL,NULL,'','','','09:44:43','10:00:43','00:16:00'),
 	 ('2015-07-27','','','106-614-0486','',NULL,NULL,'','','','14:09:12','14:13:30','00:04:18');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-04-12','','','819-303-4850','',NULL,NULL,'','','','09:21:05','09:22:31','00:01:26'),
 	 ('2018-12-21','','','323-810-2880','',NULL,NULL,'','','','12:22:29','12:29:17','00:06:48'),
 	 ('2019-04-27','','','135-593-8762','',NULL,NULL,'','','','09:20:19','09:26:49','00:06:30'),
@@ -3584,7 +3584,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-04-03','','','978-527-8432','',NULL,NULL,'','','','14:30:40','14:34:46','00:04:06'),
 	 ('2019-12-22','','','379-721-8570','',NULL,NULL,'','','','15:46:06','15:58:17','00:12:11'),
 	 ('2015-04-20','','','913-199-7688','',NULL,NULL,'','','','11:39:32','11:40:05','00:00:33');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-06-26','','','260-221-5999','',NULL,NULL,'','','','09:28:40','09:32:22','00:03:42'),
 	 ('2017-06-25','','','463-576-8017','',NULL,NULL,'','','','09:59:13','10:10:21','00:11:08'),
 	 ('2013-09-07','','','681-721-2565','',NULL,NULL,'','','','14:23:37','14:37:47','00:14:10'),
@@ -3595,7 +3595,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-02-22','','','914-637-0231','',NULL,NULL,'','','','10:00:45','10:12:21','00:11:36'),
 	 ('2017-08-23','','','684-891-2003','',NULL,NULL,'','','','12:19:32','12:26:19','00:06:47'),
 	 ('2013-12-24','','','978-431-8789','',NULL,NULL,'','','','11:56:36','12:00:52','00:04:16');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-12-04','','','351-613-4548','',NULL,NULL,'','','','13:37:08','13:52:09','00:15:01'),
 	 ('2017-05-10','','','463-401-4272','',NULL,NULL,'','','','14:59:07','15:07:18','00:08:11'),
 	 ('2016-07-07','','','840-168-6970','',NULL,NULL,'','','','15:24:39','15:35:11','00:10:32'),
@@ -3606,7 +3606,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-11-04','','','959-339-4547','',NULL,NULL,'','','','15:52:26','15:57:14','00:04:48'),
 	 ('2017-09-05','','','652-018-1720','',NULL,NULL,'','','','10:00:58','10:16:21','00:15:23'),
 	 ('2015-10-26','','','905-907-3508','',NULL,NULL,'','','','09:41:49','09:47:17','00:05:28');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-12-09','','','458-933-8684','',NULL,NULL,'','','','12:06:41','12:25:55','00:19:14'),
 	 ('2018-10-06','','','121-983-2107','',NULL,NULL,'','','','13:40:49','13:47:02','00:06:13'),
 	 ('2017-12-28','','','694-424-8121','',NULL,NULL,'','','','14:35:01','14:41:34','00:06:33'),
@@ -3617,7 +3617,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-04-24','','','668-881-6315','',NULL,NULL,'','','','11:22:05','11:41:07','00:19:02'),
 	 ('2014-08-10','','','985-272-1093','',NULL,NULL,'','','','13:26:23','13:29:08','00:02:45'),
 	 ('2017-08-08','','','617-219-3245','',NULL,NULL,'','','','12:23:08','12:38:28','00:15:20');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-01-02','','','508-739-1975','',NULL,NULL,'','','','14:18:28','14:30:36','00:12:08'),
 	 ('2013-09-07','','','555-496-7059','',NULL,NULL,'','','','14:58:09','15:17:23','00:19:14'),
 	 ('2013-07-02','','','508-026-7532','',NULL,NULL,'','','','12:09:38','12:25:28','00:15:50'),
@@ -3628,7 +3628,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-03-05','','','985-513-9077','',NULL,NULL,'','','','11:13:54','11:20:53','00:06:59'),
 	 ('2018-12-14','','','212-060-2173','',NULL,NULL,'','','','13:13:59','13:26:19','00:12:20'),
 	 ('2019-01-16','','','861-154-7975','',NULL,NULL,'','','','14:58:30','15:11:06','00:12:36');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-03-03','','','903-457-1706','',NULL,NULL,'','','','12:48:15','12:59:47','00:11:32'),
 	 ('2018-08-22','','','978-786-5016','',NULL,NULL,'','','','10:34:05','10:49:34','00:15:29'),
 	 ('2016-06-15','','','485-505-9594','',NULL,NULL,'','','','10:42:43','10:48:04','00:05:21'),
@@ -3639,7 +3639,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-07-28','','','109-943-9230','',NULL,NULL,'','','','14:00:11','14:17:25','00:17:14'),
 	 ('2017-04-02','','','262-321-1954','',NULL,NULL,'','','','09:33:40','09:34:47','00:01:07'),
 	 ('2016-01-01','','','734-658-7098','',NULL,NULL,'','','','09:02:42','09:14:38','00:11:56');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-12-12','','','655-104-1841','',NULL,NULL,'','','','14:26:22','14:42:51','00:16:29'),
 	 ('2017-05-05','','','304-707-9332','',NULL,NULL,'','','','14:51:42','15:11:34','00:19:52'),
 	 ('2013-05-24','','','617-595-3809','',NULL,NULL,'','','','09:43:43','09:44:38','00:00:55'),
@@ -3650,7 +3650,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-08-26','','','843-587-8696','',NULL,NULL,'','','','09:47:25','09:59:33','00:12:08'),
 	 ('2016-11-03','','','786-139-8177','',NULL,NULL,'','','','10:32:50','10:46:20','00:13:30'),
 	 ('2019-09-08','','','833-893-0290','',NULL,NULL,'','','','13:15:56','13:22:03','00:06:07');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-12-12','','','247-742-4550','',NULL,NULL,'','','','15:15:19','15:22:31','00:07:12'),
 	 ('2019-02-15','','','759-824-1019','',NULL,NULL,'','','','13:10:03','13:21:10','00:11:07'),
 	 ('2015-02-11','','','575-753-0135','',NULL,NULL,'','','','15:04:04','15:23:26','00:19:22'),
@@ -3661,7 +3661,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-05-15','','','941-990-9556','',NULL,NULL,'','','','12:27:10','12:37:34','00:10:24'),
 	 ('2013-08-28','','','982-012-2776','',NULL,NULL,'','','','09:59:52','10:19:34','00:19:42'),
 	 ('2018-06-13','','','617-626-7560','',NULL,NULL,'','','','15:00:57','15:01:54','00:00:57');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-04-26','','','198-560-3859','',NULL,NULL,'','','','10:39:42','10:49:02','00:09:20'),
 	 ('2019-07-09','','','623-878-0033','',NULL,NULL,'','','','11:03:24','11:23:24','00:20:00'),
 	 ('2016-02-08','','','781-086-3013','',NULL,NULL,'','','','12:09:00','12:24:22','00:15:22'),
@@ -3672,7 +3672,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-04-12','','','954-839-4580','',NULL,NULL,'','','','12:30:28','12:49:30','00:19:02'),
 	 ('2015-04-10','','','212-251-5996','',NULL,NULL,'','','','09:46:55','09:54:32','00:07:37'),
 	 ('2013-09-04','','','781-650-1437','',NULL,NULL,'','','','10:53:09','11:01:25','00:08:16');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-11-21','','','913-928-9336','',NULL,NULL,'','','','15:55:29','16:08:13','00:12:44'),
 	 ('2017-07-06','','','212-418-1459','',NULL,NULL,'','','','15:11:10','15:20:47','00:09:37'),
 	 ('2014-05-26','','','212-621-0332','',NULL,NULL,'','','','12:10:15','12:13:13','00:02:58'),
@@ -3683,7 +3683,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-12-21','','','552-130-8538','',NULL,NULL,'','','','11:16:37','11:33:23','00:16:46'),
 	 ('2014-05-27','','','300-424-8103','',NULL,NULL,'','','','14:07:08','14:09:44','00:02:36'),
 	 ('2017-06-14','','','915-123-3782','',NULL,NULL,'','','','12:15:36','12:21:36','00:06:00');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-01-18','','','781-995-6192','',NULL,NULL,'','','','14:46:31','14:48:36','00:02:05'),
 	 ('2015-03-06','','','708-719-8768','',NULL,NULL,'','','','09:53:53','10:06:16','00:12:23'),
 	 ('2016-12-03','','','508-272-9566','',NULL,NULL,'','','','11:02:37','11:09:35','00:06:58'),
@@ -3694,7 +3694,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-08-21','','','681-981-1762','',NULL,NULL,'','','','09:32:55','09:42:25','00:09:30'),
 	 ('2014-09-03','','','212-428-8035','',NULL,NULL,'','','','14:55:25','14:56:28','00:01:03'),
 	 ('2014-06-10','','','719-065-4135','',NULL,NULL,'','','','15:41:09','15:45:56','00:04:47');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-07-18','','','798-103-7589','',NULL,NULL,'','','','15:20:14','15:29:57','00:09:43'),
 	 ('2014-11-07','','','315-552-3901','',NULL,NULL,'','','','09:20:24','09:20:56','00:00:32'),
 	 ('2016-04-02','','','413-200-5999','',NULL,NULL,'','','','10:57:13','11:00:43','00:03:30'),
@@ -3705,7 +3705,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-05-16','','','212-635-2396','',NULL,NULL,'','','','10:27:46','10:34:01','00:06:15'),
 	 ('2015-05-08','','','978-976-2752','',NULL,NULL,'','','','10:12:18','10:17:54','00:05:36'),
 	 ('2016-11-07','','','508-742-5784','',NULL,NULL,'','','','09:14:32','09:34:52','00:20:20');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-06-23','','','617-242-3776','',NULL,NULL,'','','','09:09:49','09:28:13','00:18:24'),
 	 ('2014-06-11','','','728-364-2957','',NULL,NULL,'','','','12:49:50','13:02:11','00:12:21'),
 	 ('2017-04-06','','','522-898-5739','',NULL,NULL,'','','','10:57:13','11:06:38','00:09:25'),
@@ -3716,7 +3716,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-08-25','','','196-387-2621','',NULL,NULL,'','','','11:13:23','11:18:19','00:04:56'),
 	 ('2015-11-09','','','617-110-5471','',NULL,NULL,'','','','11:02:58','11:05:03','00:02:05'),
 	 ('2016-01-01','','','807-503-5468','',NULL,NULL,'','','','13:36:47','13:57:03','00:20:16');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-06-09','','','646-534-5825','',NULL,NULL,'','','','09:13:16','09:17:48','00:04:32'),
 	 ('2013-08-17','','','978-401-2642','',NULL,NULL,'','','','09:13:51','09:34:11','00:20:20'),
 	 ('2015-03-03','','','537-694-0855','',NULL,NULL,'','','','12:50:41','13:08:43','00:18:02'),
@@ -3727,7 +3727,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-04-17','','','627-808-3593','',NULL,NULL,'','','','11:26:45','11:38:40','00:11:55'),
 	 ('2015-06-25','','','841-205-6089','',NULL,NULL,'','','','14:22:23','14:37:29','00:15:06'),
 	 ('2015-08-22','','','947-808-9764','',NULL,NULL,'','','','15:41:12','15:56:32','00:15:20');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-02-01','','','671-114-4889','',NULL,NULL,'','','','15:09:24','15:17:42','00:08:18'),
 	 ('2014-07-14','','','370-100-5068','',NULL,NULL,'','','','10:50:31','11:08:35','00:18:04'),
 	 ('2013-09-22','','','880-639-6482','',NULL,NULL,'','','','14:15:33','14:17:36','00:02:03'),
@@ -3738,7 +3738,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-07-06','','','546-999-5216','',NULL,NULL,'','','','09:29:18','09:43:20','00:14:02'),
 	 ('2013-06-19','','','212-130-8148','',NULL,NULL,'','','','12:09:34','12:13:25','00:03:51'),
 	 ('2018-01-09','','','434-860-2602','',NULL,NULL,'','','','15:11:17','15:25:37','00:14:20');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-02-10','','','334-496-9884','',NULL,NULL,'','','','10:03:56','10:08:05','00:04:09'),
 	 ('2016-11-07','','','212-752-9625','',NULL,NULL,'','','','15:43:31','15:48:49','00:05:18'),
 	 ('2013-02-25','','','826-035-6719','',NULL,NULL,'','','','12:14:08','12:14:22','00:00:14'),
@@ -3749,7 +3749,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-07-01','','','508-474-7618','',NULL,NULL,'','','','11:26:21','11:45:36','00:19:15'),
 	 ('2015-12-13','','','446-959-1855','',NULL,NULL,'','','','11:34:45','11:36:52','00:02:07'),
 	 ('2013-08-19','','','413-200-5999','',NULL,NULL,'','','','12:30:58','12:47:07','00:16:09');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-01-09','','','132-219-7951','',NULL,NULL,'','','','09:01:03','09:07:11','00:06:08'),
 	 ('2016-05-04','','','517-247-9066','',NULL,NULL,'','','','14:12:16','14:30:20','00:18:04'),
 	 ('2014-10-22','','','205-266-1085','',NULL,NULL,'','','','09:17:43','09:33:43','00:16:00'),
@@ -3760,7 +3760,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-12-12','','','807-047-7938','',NULL,NULL,'','','','09:13:04','09:23:48','00:10:44'),
 	 ('2017-11-18','','','933-385-4173','',NULL,NULL,'','','','13:46:08','14:04:43','00:18:35'),
 	 ('2017-05-24','','','538-326-6169','',NULL,NULL,'','','','09:15:40','09:28:45','00:13:05');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-01-01','','','914-740-8456','',NULL,NULL,'','','','09:27:50','09:33:14','00:05:24'),
 	 ('2013-04-13','','','431-925-5671','',NULL,NULL,'','','','12:15:05','12:19:57','00:04:52'),
 	 ('2015-01-13','','','508-710-9977','',NULL,NULL,'','','','15:52:11','15:57:09','00:04:58'),
@@ -3771,7 +3771,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-01-04','','','441-336-7295','',NULL,NULL,'','','','09:36:13','09:40:27','00:04:14'),
 	 ('2013-02-19','','','339-339-5109','',NULL,NULL,'','','','10:53:24','11:13:21','00:19:57'),
 	 ('2019-07-25','','','431-869-3807','',NULL,NULL,'','','','15:30:24','15:49:11','00:18:47');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-11-09','','','742-521-6245','',NULL,NULL,'','','','12:46:34','13:04:10','00:17:36'),
 	 ('2013-09-10','','','717-951-3430','',NULL,NULL,'','','','15:41:14','15:42:46','00:01:32'),
 	 ('2019-10-24','','','508-164-5394','',NULL,NULL,'','','','12:53:54','13:04:32','00:10:38'),
@@ -3782,7 +3782,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-03-18','','','781-006-6926','',NULL,NULL,'','','','13:54:55','13:57:18','00:02:23'),
 	 ('2016-12-21','','','247-337-0898','',NULL,NULL,'','','','11:21:33','11:36:45','00:15:12'),
 	 ('2016-10-28','','','617-060-9671','',NULL,NULL,'','','','12:59:34','13:17:28','00:17:54');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-12-25','','','498-620-7444','',NULL,NULL,'','','','10:26:18','10:42:43','00:16:25'),
 	 ('2019-07-13','','','212-801-3177','',NULL,NULL,'','','','12:06:40','12:21:44','00:15:04'),
 	 ('2014-02-28','','','307-979-6963','',NULL,NULL,'','','','11:31:35','11:47:56','00:16:21'),
@@ -3793,7 +3793,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-06-06','','','686-950-7368','',NULL,NULL,'','','','13:06:57','13:17:34','00:10:37'),
 	 ('2015-04-06','','','617-411-9145','',NULL,NULL,'','','','14:09:36','14:16:02','00:06:26'),
 	 ('2013-03-26','','','893-107-7760','',NULL,NULL,'','','','10:32:24','10:42:07','00:09:43');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-11-15','','','121-140-1420','',NULL,NULL,'','','','11:43:47','12:02:14','00:18:27'),
 	 ('2019-09-05','','','761-345-8002','',NULL,NULL,'','','','10:34:21','10:38:07','00:03:46'),
 	 ('2015-04-06','','','941-990-9556','',NULL,NULL,'','','','14:21:48','14:30:42','00:08:54'),
@@ -3804,7 +3804,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-12-12','','','717-989-7187','',NULL,NULL,'','','','12:05:49','12:20:01','00:14:12'),
 	 ('2019-07-21','','','150-690-5225','',NULL,NULL,'','','','11:39:16','11:55:23','00:16:07'),
 	 ('2016-10-18','','','617-066-8236','',NULL,NULL,'','','','10:55:24','11:15:40','00:20:16');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-12-08','','','914-424-2496','',NULL,NULL,'','','','14:29:04','14:38:33','00:09:29'),
 	 ('2018-04-01','','','617-778-7592','',NULL,NULL,'','','','11:37:52','11:44:39','00:06:47'),
 	 ('2017-12-11','','','617-301-4944','',NULL,NULL,'','','','13:18:20','13:32:18','00:13:58'),
@@ -3815,7 +3815,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-04-12','','','431-433-6867','',NULL,NULL,'','','','15:33:37','15:39:01','00:05:24'),
 	 ('2014-10-24','','','749-791-0553','',NULL,NULL,'','','','13:18:58','13:34:21','00:15:23'),
 	 ('2013-11-16','','','978-223-1902','',NULL,NULL,'','','','11:38:42','11:42:22','00:03:40');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-01-20','','','160-037-0960','',NULL,NULL,'','','','09:10:42','09:24:50','00:14:08'),
 	 ('2017-11-22','','','325-037-9809','',NULL,NULL,'','','','13:34:21','13:36:17','00:01:56'),
 	 ('2018-05-22','','','146-490-0819','',NULL,NULL,'','','','10:19:20','10:24:16','00:04:56'),
@@ -3826,7 +3826,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-12-07','','','617-286-0356','',NULL,NULL,'','','','09:54:41','09:58:32','00:03:51'),
 	 ('2016-10-25','','','727-490-9139','',NULL,NULL,'','','','14:54:39','15:05:43','00:11:04'),
 	 ('2016-08-25','','','617-546-3041','',NULL,NULL,'','','','09:57:36','10:11:43','00:14:07');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-09-15','','','926-613-9719','',NULL,NULL,'','','','15:41:54','15:47:51','00:05:57'),
 	 ('2014-07-04','','','214-352-9726','',NULL,NULL,'','','','12:03:14','12:06:10','00:02:56'),
 	 ('2015-08-21','','','440-601-0701','',NULL,NULL,'','','','13:11:59','13:24:40','00:12:41'),
@@ -3837,7 +3837,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-07-02','','','886-514-9424','',NULL,NULL,'','','','11:35:29','11:41:14','00:05:45'),
 	 ('2018-07-27','','','284-898-1361','',NULL,NULL,'','','','14:31:27','14:37:39','00:06:12'),
 	 ('2017-06-28','','','270-567-0303','',NULL,NULL,'','','','15:26:06','15:41:12','00:15:06');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-01-03','','','216-336-1409','',NULL,NULL,'','','','14:49:05','14:50:52','00:01:47'),
 	 ('2015-10-01','','','706-196-2666','',NULL,NULL,'','','','15:22:30','15:39:11','00:16:41'),
 	 ('2014-07-09','','','381-341-7785','',NULL,NULL,'','','','15:49:49','15:56:59','00:07:10'),
@@ -3848,7 +3848,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-07-13','','','978-413-0205','',NULL,NULL,'','','','15:03:15','15:21:21','00:18:06'),
 	 ('2014-07-07','','','918-500-4113','',NULL,NULL,'','','','15:28:18','15:30:12','00:01:54'),
 	 ('2019-06-10','','','984-024-9840','',NULL,NULL,'','','','14:37:33','14:39:27','00:01:54');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-03-08','','','212-379-5049','',NULL,NULL,'','','','11:05:58','11:18:31','00:12:33'),
 	 ('2015-01-25','','','413-200-5999','',NULL,NULL,'','','','14:32:20','14:34:56','00:02:36'),
 	 ('2018-02-24','','','403-470-7551','',NULL,NULL,'','','','10:06:19','10:17:32','00:11:13'),
@@ -3859,7 +3859,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-07-13','','','683-374-3797','',NULL,NULL,'','','','10:27:20','10:34:37','00:07:17'),
 	 ('2013-01-14','','','873-837-9110','',NULL,NULL,'','','','11:27:54','11:43:46','00:15:52'),
 	 ('2018-04-16','','','752-758-3119','',NULL,NULL,'','','','10:49:48','11:04:46','00:14:58');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-11-24','','','714-073-9055','',NULL,NULL,'','','','09:56:16','09:56:41','00:00:25'),
 	 ('2016-02-19','','','245-572-5349','',NULL,NULL,'','','','10:12:02','10:22:35','00:10:33'),
 	 ('2018-09-02','','','824-495-3934','',NULL,NULL,'','','','10:11:52','10:17:10','00:05:18'),
@@ -3870,7 +3870,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-08-17','','','327-140-9584','',NULL,NULL,'','','','12:21:06','12:29:02','00:07:56'),
 	 ('2018-03-17','','','967-932-4739','',NULL,NULL,'','','','12:45:54','12:57:21','00:11:27'),
 	 ('2014-05-13','','','990-310-2234','',NULL,NULL,'','','','09:17:23','09:21:59','00:04:36');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-07-16','','','676-023-8105','',NULL,NULL,'','','','10:33:00','10:39:59','00:06:59'),
 	 ('2016-10-20','','','212-138-8605','',NULL,NULL,'','','','11:45:16','11:54:54','00:09:38'),
 	 ('2018-02-07','','','695-797-7653','',NULL,NULL,'','','','11:02:23','11:14:49','00:12:26'),
@@ -3881,7 +3881,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-04-18','','','269-876-2611','',NULL,NULL,'','','','10:42:56','11:03:32','00:20:36'),
 	 ('2018-07-15','','','817-611-6965','',NULL,NULL,'','','','15:35:18','15:49:04','00:13:46'),
 	 ('2019-07-21','','','612-176-1959','',NULL,NULL,'','','','14:00:29','14:04:00','00:03:31');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-04-28','','','429-375-5152','',NULL,NULL,'','','','12:20:10','12:20:48','00:00:38'),
 	 ('2016-05-17','','','954-455-9367','',NULL,NULL,'','','','14:38:27','14:40:10','00:01:43'),
 	 ('2017-06-05','','','911-877-1002','',NULL,NULL,'','','','14:45:14','14:49:10','00:03:56'),
@@ -3892,7 +3892,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-04-10','','','150-690-5225','',NULL,NULL,'','','','10:13:21','10:20:15','00:06:54'),
 	 ('2019-05-01','','','801-605-1504','',NULL,NULL,'','','','14:49:01','14:57:16','00:08:15'),
 	 ('2014-08-12','','','564-499-4301','',NULL,NULL,'','','','11:34:35','11:42:54','00:08:19');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-10-27','','','212-915-4941','',NULL,NULL,'','','','15:32:41','15:46:16','00:13:35'),
 	 ('2017-12-20','','','544-218-8128','',NULL,NULL,'','','','13:29:51','13:40:46','00:10:55'),
 	 ('2016-02-15','','','244-514-7292','',NULL,NULL,'','','','10:01:31','10:18:51','00:17:20'),
@@ -3903,7 +3903,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-12-16','','','279-487-1447','',NULL,NULL,'','','','10:10:26','10:12:00','00:01:34'),
 	 ('2019-03-26','','','716-342-2867','',NULL,NULL,'','','','15:11:27','15:22:44','00:11:17'),
 	 ('2015-07-19','','','788-948-1054','',NULL,NULL,'','','','10:17:23','10:25:56','00:08:33');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-09-16','','','691-142-1024','',NULL,NULL,'','','','15:59:39','16:17:39','00:18:00'),
 	 ('2014-11-09','','','557-143-5191','',NULL,NULL,'','','','12:14:39','12:30:44','00:16:05'),
 	 ('2019-07-04','','','160-295-9647','',NULL,NULL,'','','','14:51:15','14:53:27','00:02:12'),
@@ -3914,7 +3914,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-05-17','','','384-579-9008','',NULL,NULL,'','','','09:35:24','09:36:04','00:00:40'),
 	 ('2016-06-24','','','930-562-0448','',NULL,NULL,'','','','09:06:57','09:26:14','00:19:17'),
 	 ('2018-04-10','','','493-150-1553','',NULL,NULL,'','','','14:26:05','14:39:06','00:13:01');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-08-06','','','617-152-2948','',NULL,NULL,'','','','12:35:49','12:39:16','00:03:27'),
 	 ('2019-03-18','','','983-880-2511','',NULL,NULL,'','','','14:50:42','15:04:33','00:13:51'),
 	 ('2019-03-01','','','994-963-0629','',NULL,NULL,'','','','09:44:52','10:03:20','00:18:28'),
@@ -3925,7 +3925,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-12-24','','','642-945-0799','',NULL,NULL,'','','','13:28:38','13:43:56','00:15:18'),
 	 ('2016-10-16','','','841-333-2623','',NULL,NULL,'','','','14:28:57','14:39:26','00:10:29'),
 	 ('2013-06-10','','','522-842-7966','',NULL,NULL,'','','','10:49:11','11:06:46','00:17:35');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-09-14','','','460-667-0446','',NULL,NULL,'','','','14:10:49','14:16:31','00:05:42'),
 	 ('2017-10-06','','','236-061-6362','',NULL,NULL,'','','','14:19:23','14:27:27','00:08:04'),
 	 ('2019-06-20','','','212-031-4727','',NULL,NULL,'','','','12:33:14','12:52:12','00:18:58'),
@@ -3936,7 +3936,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-08-02','','','787-710-3157','',NULL,NULL,'','','','11:12:32','11:25:01','00:12:29'),
 	 ('2016-08-11','','','730-979-0332','',NULL,NULL,'','','','09:13:08','09:30:33','00:17:25'),
 	 ('2017-05-11','','','821-301-3949','',NULL,NULL,'','','','15:17:45','15:29:33','00:11:48');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-05-27','','','585-586-3733','',NULL,NULL,'','','','10:44:59','11:03:58','00:18:59'),
 	 ('2018-07-25','','','212-901-9701','',NULL,NULL,'','','','11:41:40','11:53:21','00:11:41'),
 	 ('2019-07-18','','','896-764-5919','',NULL,NULL,'','','','11:38:38','11:50:30','00:11:52'),
@@ -3947,7 +3947,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-12-28','','','607-176-8630','',NULL,NULL,'','','','14:28:50','14:31:27','00:02:37'),
 	 ('2019-03-09','','','617-291-8209','',NULL,NULL,'','','','11:20:06','11:36:37','00:16:31'),
 	 ('2018-04-21','','','617-605-6835','',NULL,NULL,'','','','12:43:34','12:48:59','00:05:25');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-08-16','','','980-469-4248','',NULL,NULL,'','','','14:32:29','14:34:08','00:01:39'),
 	 ('2016-03-01','','','417-959-9748','',NULL,NULL,'','','','15:49:47','16:09:22','00:19:35'),
 	 ('2015-04-15','','','212-271-5275','',NULL,NULL,'','','','09:31:02','09:39:44','00:08:42'),
@@ -3958,7 +3958,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-05-06','','','978-886-8518','',NULL,NULL,'','','','14:15:21','14:21:16','00:05:55'),
 	 ('2017-04-13','','','783-668-6208','',NULL,NULL,'','','','10:01:59','10:03:08','00:01:09'),
 	 ('2019-07-15','','','207-238-0903','',NULL,NULL,'','','','10:50:59','11:11:45','00:20:46');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-10-11','','','202-053-1850','',NULL,NULL,'','','','12:06:43','12:19:37','00:12:54'),
 	 ('2018-12-15','','','590-772-8262','',NULL,NULL,'','','','11:13:17','11:18:09','00:04:52'),
 	 ('2017-05-25','','','429-647-9486','',NULL,NULL,'','','','11:56:25','12:02:51','00:06:26'),
@@ -3969,7 +3969,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-02-27','','','684-426-5729','',NULL,NULL,'','','','11:39:55','11:53:37','00:13:42'),
 	 ('2016-01-05','','','639-869-5721','',NULL,NULL,'','','','15:20:24','15:24:53','00:04:29'),
 	 ('2019-08-10','','','101-653-1236','',NULL,NULL,'','','','13:47:12','13:52:08','00:04:56');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-11-09','','','727-490-9139','',NULL,NULL,'','','','14:32:36','14:53:29','00:20:53'),
 	 ('2018-06-13','','','978-499-7589','',NULL,NULL,'','','','14:13:41','14:19:55','00:06:14'),
 	 ('2013-07-07','','','369-636-7752','',NULL,NULL,'','','','09:19:38','09:19:55','00:00:17'),
@@ -3980,7 +3980,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-12-18','','','888-142-1355','',NULL,NULL,'','','','13:28:03','13:31:26','00:03:23'),
 	 ('2014-09-09','','','556-415-7930','',NULL,NULL,'','','','11:08:34','11:17:59','00:09:25'),
 	 ('2016-11-08','','','212-661-0114','',NULL,NULL,'','','','09:35:43','09:41:01','00:05:18');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-05-03','','','212-864-3548','',NULL,NULL,'','','','14:19:48','14:28:15','00:08:27'),
 	 ('2017-02-26','','','250-802-4023','',NULL,NULL,'','','','14:19:19','14:21:15','00:01:56'),
 	 ('2016-02-24','','','508-997-4131','',NULL,NULL,'','','','13:49:37','13:49:46','00:00:09'),
@@ -3991,7 +3991,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-03-06','','','212-381-0195','',NULL,NULL,'','','','15:19:33','15:25:38','00:06:05'),
 	 ('2015-03-17','','','977-765-8557','',NULL,NULL,'','','','15:03:50','15:23:51','00:20:01'),
 	 ('2017-06-12','','','702-154-3232','',NULL,NULL,'','','','09:03:28','09:03:58','00:00:30');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-06-14','','','508-056-6464','',NULL,NULL,'','','','09:20:31','09:37:50','00:17:19'),
 	 ('2014-03-18','','','410-007-0975','',NULL,NULL,'','','','14:55:50','15:00:06','00:04:16'),
 	 ('2016-07-26','','','463-576-8017','',NULL,NULL,'','','','15:36:55','15:50:58','00:14:03'),
@@ -4002,7 +4002,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-11-12','','','648-065-5089','',NULL,NULL,'','','','13:35:29','13:48:48','00:13:19'),
 	 ('2013-10-04','','','989-294-2100','',NULL,NULL,'','','','11:53:23','12:14:20','00:20:57'),
 	 ('2013-05-27','','','248-779-0717','',NULL,NULL,'','','','12:30:22','12:39:41','00:09:19');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-10-06','','','334-968-3959','',NULL,NULL,'','','','13:19:02','13:28:23','00:09:21'),
 	 ('2016-06-22','','','423-746-4274','',NULL,NULL,'','','','11:00:52','11:19:47','00:18:55'),
 	 ('2013-10-23','','','760-423-6354','',NULL,NULL,'','','','15:46:18','15:58:11','00:11:53'),
@@ -4013,7 +4013,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-03-22','','','617-175-3681','',NULL,NULL,'','','','13:21:53','13:31:33','00:09:40'),
 	 ('2019-05-19','','','724-470-3875','',NULL,NULL,'','','','10:51:39','11:10:39','00:19:00'),
 	 ('2016-06-25','','','716-101-9418','',NULL,NULL,'','','','10:26:25','10:43:38','00:17:13');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-09-22','','','508-458-9071','',NULL,NULL,'','','','14:25:34','14:37:23','00:11:49'),
 	 ('2013-05-23','','','736-524-0353','',NULL,NULL,'','','','12:56:48','13:12:21','00:15:33'),
 	 ('2013-03-13','','','176-054-5463','',NULL,NULL,'','','','11:01:42','11:10:04','00:08:22'),
@@ -4024,7 +4024,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-04-13','','','914-297-7141','',NULL,NULL,'','','','13:29:51','13:44:05','00:14:14'),
 	 ('2018-03-17','','','575-438-2122','',NULL,NULL,'','','','11:56:15','12:09:53','00:13:38'),
 	 ('2016-01-20','','','863-826-5826','',NULL,NULL,'','','','09:36:07','09:42:46','00:06:39');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-04-09','','','686-950-7368','',NULL,NULL,'','','','09:58:00','10:07:17','00:09:17'),
 	 ('2017-05-03','','','448-629-0921','',NULL,NULL,'','','','10:20:59','10:37:25','00:16:26'),
 	 ('2013-11-07','','','777-924-4093','',NULL,NULL,'','','','14:23:45','14:37:44','00:13:59'),
@@ -4035,7 +4035,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-12-12','','','361-077-3840','',NULL,NULL,'','','','13:43:19','13:45:18','00:01:59'),
 	 ('2017-06-19','','','151-970-7677','',NULL,NULL,'','','','12:13:52','12:14:52','00:01:00'),
 	 ('2017-09-24','','','212-077-7937','',NULL,NULL,'','','','12:47:14','12:48:31','00:01:17');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-05-25','','','480-826-4979','',NULL,NULL,'','','','09:08:13','09:27:02','00:18:49'),
 	 ('2019-07-11','','','629-781-4455','',NULL,NULL,'','','','10:43:43','10:48:09','00:04:26'),
 	 ('2018-02-07','','','472-256-4449','',NULL,NULL,'','','','10:23:50','10:43:44','00:19:54'),
@@ -4046,7 +4046,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-12-22','','','374-270-4174','',NULL,NULL,'','','','11:50:58','11:52:06','00:01:08'),
 	 ('2015-04-23','','','617-411-9145','',NULL,NULL,'','','','10:57:18','11:03:41','00:06:23'),
 	 ('2018-04-01','','','863-914-7253','',NULL,NULL,'','','','09:18:03','09:39:01','00:20:58');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-08-12','','','547-198-0119','',NULL,NULL,'','','','14:02:38','14:11:31','00:08:53'),
 	 ('2018-03-11','','','508-261-0624','',NULL,NULL,'','','','15:52:10','15:53:30','00:01:20'),
 	 ('2014-10-18','','','325-913-3782','',NULL,NULL,'','','','15:13:19','15:31:12','00:17:53'),
@@ -4057,7 +4057,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-02-03','','','781-153-0742','',NULL,NULL,'','','','09:30:45','09:36:59','00:06:14'),
 	 ('2016-07-26','','','914-054-0812','',NULL,NULL,'','','','13:29:52','13:50:36','00:20:44'),
 	 ('2016-05-26','','','625-222-2705','',NULL,NULL,'','','','13:29:05','13:48:36','00:19:31');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-10-08','','','970-867-1482','',NULL,NULL,'','','','13:40:45','13:57:06','00:16:21'),
 	 ('2018-02-26','','','508-737-0060','',NULL,NULL,'','','','13:34:45','13:35:11','00:00:26'),
 	 ('2017-03-11','','','413-129-7278','',NULL,NULL,'','','','15:16:12','15:20:38','00:04:26'),
@@ -4068,7 +4068,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-01-13','','','165-648-5757','',NULL,NULL,'','','','12:27:34','12:44:02','00:16:28'),
 	 ('2019-10-13','','','225-343-2523','',NULL,NULL,'','','','13:54:10','14:10:56','00:16:46'),
 	 ('2014-10-07','','','886-802-8870','',NULL,NULL,'','','','11:33:24','11:54:08','00:20:44');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-01-06','','','260-102-3371','',NULL,NULL,'','','','11:30:37','11:49:10','00:18:33'),
 	 ('2015-10-08','','','514-469-9578','',NULL,NULL,'','','','12:09:36','12:24:05','00:14:29'),
 	 ('2014-07-06','','','936-058-0469','',NULL,NULL,'','','','15:30:59','15:31:10','00:00:11'),
@@ -4079,7 +4079,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-12-15','','','459-017-0877','',NULL,NULL,'','','','12:14:54','12:34:48','00:19:54'),
 	 ('2016-03-24','','','380-496-5066','',NULL,NULL,'','','','12:09:12','12:25:32','00:16:20'),
 	 ('2015-06-06','','','495-420-9638','',NULL,NULL,'','','','15:17:58','15:36:45','00:18:47');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-04-08','','','182-279-1817','',NULL,NULL,'','','','10:26:10','10:30:09','00:03:59'),
 	 ('2018-03-14','','','334-157-5235','',NULL,NULL,'','','','12:58:10','13:13:48','00:15:38'),
 	 ('2014-12-02','','','684-426-5729','',NULL,NULL,'','','','13:47:33','14:06:07','00:18:34'),
@@ -4090,7 +4090,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-09-22','','','424-986-2799','',NULL,NULL,'','','','14:43:14','15:02:21','00:19:07'),
 	 ('2016-05-08','','','598-660-9302','',NULL,NULL,'','','','15:06:49','15:08:28','00:01:39'),
 	 ('2014-05-18','','','184-808-3773','',NULL,NULL,'','','','15:33:58','15:40:40','00:06:42');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-01-09','','','119-511-6760','',NULL,NULL,'','','','13:33:29','13:47:06','00:13:37'),
 	 ('2015-12-04','','','752-758-3119','',NULL,NULL,'','','','09:40:57','09:43:32','00:02:35'),
 	 ('2018-01-16','','','627-057-4067','',NULL,NULL,'','','','15:24:42','15:37:05','00:12:23'),
@@ -4101,7 +4101,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-12-28','','','200-923-5276','',NULL,NULL,'','','','11:28:17','11:42:36','00:14:19'),
 	 ('2015-01-13','','','678-731-5913','',NULL,NULL,'','','','10:25:42','10:27:55','00:02:13'),
 	 ('2014-12-08','','','516-033-0577','',NULL,NULL,'','','','11:47:26','11:53:03','00:05:37');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-09-19','','','788-598-3153','',NULL,NULL,'','','','15:12:06','15:31:13','00:19:07'),
 	 ('2016-09-25','','','417-623-7015','',NULL,NULL,'','','','12:37:05','12:37:27','00:00:22'),
 	 ('2015-10-12','','','894-336-4117','',NULL,NULL,'','','','09:19:17','09:26:40','00:07:23'),
@@ -4112,7 +4112,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-05-02','','','775-303-3152','',NULL,NULL,'','','','12:33:50','12:45:52','00:12:02'),
 	 ('2017-05-16','','','165-020-5476','',NULL,NULL,'','','','09:16:10','09:33:54','00:17:44'),
 	 ('2019-09-11','','','980-893-5999','',NULL,NULL,'','','','13:26:23','13:32:12','00:05:49');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-09-26','','','978-855-1335','',NULL,NULL,'','','','13:02:33','13:16:14','00:13:41'),
 	 ('2019-08-14','','','617-170-9335','',NULL,NULL,'','','','13:37:28','13:56:47','00:19:19'),
 	 ('2016-07-12','','','434-491-2160','',NULL,NULL,'','','','14:52:36','15:11:08','00:18:32'),
@@ -4123,7 +4123,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-05-02','','','918-080-4299','',NULL,NULL,'','','','15:03:05','15:09:27','00:06:22'),
 	 ('2018-08-06','','','508-355-1545','',NULL,NULL,'','','','10:29:03','10:35:22','00:06:19'),
 	 ('2016-01-04','','','565-308-1099','',NULL,NULL,'','','','14:42:45','14:46:30','00:03:45');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-02-07','','','617-964-0399','',NULL,NULL,'','','','13:21:29','13:26:05','00:04:36'),
 	 ('2016-08-19','','','117-187-9228','',NULL,NULL,'','','','09:01:10','09:16:48','00:15:38'),
 	 ('2014-09-12','','','716-729-3104','',NULL,NULL,'','','','14:06:30','14:25:45','00:19:15'),
@@ -4134,7 +4134,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-06-01','','','427-099-7774','',NULL,NULL,'','','','15:22:09','15:33:23','00:11:14'),
 	 ('2019-06-23','','','637-052-4494','',NULL,NULL,'','','','13:17:24','13:37:45','00:20:21'),
 	 ('2018-11-22','','','212-658-5857','',NULL,NULL,'','','','12:52:25','13:13:06','00:20:41');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-01-28','','','954-082-0678','',NULL,NULL,'','','','13:52:47','13:59:35','00:06:48'),
 	 ('2019-11-10','','','727-483-1000','',NULL,NULL,'','','','10:12:16','10:15:31','00:03:15'),
 	 ('2018-10-22','','','212-677-1436','',NULL,NULL,'','','','09:05:34','09:15:50','00:10:16'),
@@ -4145,7 +4145,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-03-24','','','212-447-9736','',NULL,NULL,'','','','14:59:50','15:14:24','00:14:34'),
 	 ('2013-11-08','','','567-262-7509','',NULL,NULL,'','','','11:04:33','11:19:49','00:15:16'),
 	 ('2018-07-08','','','982-075-6244','',NULL,NULL,'','','','15:00:48','15:12:03','00:11:15');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-07-05','','','978-248-2574','',NULL,NULL,'','','','10:11:50','10:32:20','00:20:30'),
 	 ('2013-04-12','','','718-886-5679','',NULL,NULL,'','','','11:49:52','12:01:04','00:11:12'),
 	 ('2017-02-11','','','935-918-5069','',NULL,NULL,'','','','14:34:26','14:47:29','00:13:03'),
@@ -4156,7 +4156,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-12-14','','','923-892-3047','',NULL,NULL,'','','','10:39:53','10:47:00','00:07:07'),
 	 ('2018-06-10','','','978-682-7779','',NULL,NULL,'','','','14:29:19','14:31:22','00:02:03'),
 	 ('2015-05-11','','','617-301-4944','',NULL,NULL,'','','','09:01:16','09:07:05','00:05:49');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-04-20','','','331-401-3802','',NULL,NULL,'','','','14:11:27','14:31:04','00:19:37'),
 	 ('2013-04-06','','','264-320-6450','',NULL,NULL,'','','','11:02:25','11:06:13','00:03:48'),
 	 ('2019-11-26','','','401-820-1933','',NULL,NULL,'','','','09:18:05','09:35:53','00:17:48'),
@@ -4167,7 +4167,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2016-06-14','','','343-763-3375','',NULL,NULL,'','','','14:04:00','14:19:37','00:15:37'),
 	 ('2017-06-26','','','716-080-0475','',NULL,NULL,'','','','15:34:59','15:51:48','00:16:49'),
 	 ('2017-04-26','','','753-674-7069','',NULL,NULL,'','','','15:34:29','15:42:56','00:08:27');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-01-01','','','862-407-2039','',NULL,NULL,'','','','13:19:50','13:33:33','00:13:43'),
 	 ('2017-09-12','','','474-506-7854','',NULL,NULL,'','','','09:24:22','09:31:32','00:07:10'),
 	 ('2014-12-28','','','508-903-3675','',NULL,NULL,'','','','09:18:04','09:21:50','00:03:46'),
@@ -4178,7 +4178,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-12-01','','','738-048-2435','',NULL,NULL,'','','','09:08:55','09:11:44','00:02:49'),
 	 ('2016-12-04','','','103-944-1294','',NULL,NULL,'','','','09:52:04','10:03:29','00:11:25'),
 	 ('2016-09-02','','','279-474-7774','',NULL,NULL,'','','','12:00:17','12:17:30','00:17:13');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-04-21','','','602-603-9416','',NULL,NULL,'','','','10:58:46','11:19:09','00:20:23'),
 	 ('2019-04-20','','','397-071-1073','',NULL,NULL,'','','','13:31:11','13:48:40','00:17:29'),
 	 ('2014-09-07','','','508-277-9543','',NULL,NULL,'','','','14:02:53','14:22:28','00:19:35'),
@@ -4189,7 +4189,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-04-13','','','617-616-4286','',NULL,NULL,'','','','11:22:09','11:35:16','00:13:07'),
 	 ('2017-07-03','','','212-428-7323','',NULL,NULL,'','','','15:36:04','15:56:07','00:20:03'),
 	 ('2018-06-12','','','862-444-0641','',NULL,NULL,'','','','12:05:52','12:06:09','00:00:17');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-11-09','','','976-117-5351','',NULL,NULL,'','','','13:43:16','13:59:03','00:15:47'),
 	 ('2014-11-26','','','565-901-6748','',NULL,NULL,'','','','12:45:48','12:50:26','00:04:38'),
 	 ('2015-01-27','','','490-097-2554','',NULL,NULL,'','','','11:35:57','11:56:21','00:20:24'),
@@ -4200,7 +4200,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-06-21','','','947-399-3303','',NULL,NULL,'','','','12:35:30','12:47:24','00:11:54'),
 	 ('2016-01-18','','','212-395-9322','',NULL,NULL,'','','','10:38:55','10:44:49','00:05:54'),
 	 ('2013-03-14','','','133-326-4229','',NULL,NULL,'','','','12:24:43','12:29:20','00:04:37');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-05-08','','','315-592-0066','',NULL,NULL,'','','','14:02:20','14:09:44','00:07:24'),
 	 ('2014-11-23','','','978-980-5167','',NULL,NULL,'','','','15:10:14','15:24:02','00:13:48'),
 	 ('2016-06-17','','','212-024-6999','',NULL,NULL,'','','','13:06:11','13:25:39','00:19:28'),
@@ -4211,7 +4211,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-09-25','','','930-852-0131','',NULL,NULL,'','','','09:58:17','10:05:44','00:07:27'),
 	 ('2018-08-28','','','155-584-9707','',NULL,NULL,'','','','10:26:18','10:44:23','00:18:05'),
 	 ('2014-05-10','','','212-168-3553','',NULL,NULL,'','','','09:11:15','09:16:56','00:05:41');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-12-16','','','438-356-6438','',NULL,NULL,'','','','09:39:12','09:47:46','00:08:34'),
 	 ('2013-01-27','','','388-246-4001','',NULL,NULL,'','','','13:54:11','13:54:34','00:00:23'),
 	 ('2017-06-03','','','576-472-7275','',NULL,NULL,'','','','13:49:54','14:05:19','00:15:25'),
@@ -4222,7 +4222,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-05-23','','','927-625-8105','',NULL,NULL,'','','','11:33:32','11:50:36','00:17:04'),
 	 ('2015-02-28','','','604-401-6084','',NULL,NULL,'','','','11:00:46','11:05:45','00:04:59'),
 	 ('2018-01-12','','','627-563-5950','',NULL,NULL,'','','','10:39:04','10:56:23','00:17:19');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-05-18','','','508-360-8958','',NULL,NULL,'','','','10:21:04','10:41:43','00:20:39'),
 	 ('2017-12-17','','','231-231-8280','',NULL,NULL,'','','','15:43:07','15:56:48','00:13:41'),
 	 ('2017-08-10','','','832-850-3736','',NULL,NULL,'','','','09:36:06','09:49:24','00:13:18'),
@@ -4233,7 +4233,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-12-09','','','323-740-5504','',NULL,NULL,'','','','10:04:30','10:15:45','00:11:15'),
 	 ('2014-12-15','','','826-900-9296','',NULL,NULL,'','','','11:28:06','11:44:30','00:16:24'),
 	 ('2016-03-09','','','658-087-8204','',NULL,NULL,'','','','12:11:35','12:23:14','00:11:39');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2013-06-06','','','212-191-5895','',NULL,NULL,'','','','09:16:02','09:19:27','00:03:25'),
 	 ('2018-02-08','','','212-653-6668','',NULL,NULL,'','','','14:07:36','14:14:49','00:07:13'),
 	 ('2014-04-07','','','623-878-0033','',NULL,NULL,'','','','12:19:20','12:23:38','00:04:18'),
@@ -4244,7 +4244,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-11-02','','','468-847-7192','',NULL,NULL,'','','','11:54:51','12:08:59','00:14:08'),
 	 ('2018-07-11','','','542-579-9264','',NULL,NULL,'','','','14:53:05','15:07:36','00:14:31'),
 	 ('2016-05-04','','','837-195-8937','',NULL,NULL,'','','','09:20:26','09:33:42','00:13:16');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2019-04-19','','','674-371-7429','',NULL,NULL,'','','','13:46:44','13:46:56','00:00:12'),
 	 ('2013-06-15','','','588-819-5021','',NULL,NULL,'','','','13:18:11','13:38:09','00:19:58'),
 	 ('2013-03-28','','','840-956-6993','',NULL,NULL,'','','','14:08:58','14:09:36','00:00:38'),
@@ -4255,7 +4255,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-03-05','','','817-831-8134','',NULL,NULL,'','','','12:34:57','12:54:14','00:19:17'),
 	 ('2015-11-22','','','585-527-3656','',NULL,NULL,'','','','12:37:43','12:57:59','00:20:16'),
 	 ('2014-02-11','','','617-960-2229','',NULL,NULL,'','','','15:18:03','15:38:42','00:20:39');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-05-04','','','208-228-2308','',NULL,NULL,'','','','12:40:51','12:52:01','00:11:10'),
 	 ('2013-12-01','','','883-529-9005','',NULL,NULL,'','','','14:52:41','15:10:42','00:18:01'),
 	 ('2018-02-01','','','865-751-9494','',NULL,NULL,'','','','09:11:24','09:15:20','00:03:56'),
@@ -4266,7 +4266,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-10-27','','','431-662-8446','',NULL,NULL,'','','','09:00:54','09:17:50','00:16:56'),
 	 ('2018-04-06','','','413-363-6706','',NULL,NULL,'','','','09:31:02','09:47:28','00:16:26'),
 	 ('2018-10-26','','','447-353-2701','',NULL,NULL,'','','','13:44:54','13:47:22','00:02:28');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-09-19','','','240-113-6134','',NULL,NULL,'','','','11:58:56','12:11:42','00:12:46'),
 	 ('2019-04-19','','','767-565-6363','',NULL,NULL,'','','','09:12:58','09:15:17','00:02:19'),
 	 ('2013-07-19','','','893-427-1196','',NULL,NULL,'','','','13:08:55','13:21:49','00:12:54'),
@@ -4277,7 +4277,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-03-14','','','820-884-1707','',NULL,NULL,'','','','11:21:56','11:41:48','00:19:52'),
 	 ('2018-04-03','','','135-224-5404','',NULL,NULL,'','','','13:56:38','14:13:12','00:16:34'),
 	 ('2017-01-19','','','734-568-6608','',NULL,NULL,'','','','15:39:17','15:44:59','00:05:42');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-11-24','','','144-200-8512','',NULL,NULL,'','','','12:22:26','12:41:46','00:19:20'),
 	 ('2017-12-02','','','847-151-7112','',NULL,NULL,'','','','11:25:07','11:25:27','00:00:20'),
 	 ('2018-05-22','','','569-119-1809','',NULL,NULL,'','','','10:07:40','10:19:23','00:11:43'),
@@ -4288,7 +4288,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-07-09','','','456-230-2896','',NULL,NULL,'','','','14:47:08','15:06:55','00:19:47'),
 	 ('2019-12-25','','','737-650-4885','',NULL,NULL,'','','','10:32:02','10:39:05','00:07:03'),
 	 ('2013-06-14','','','508-968-9580','',NULL,NULL,'','','','14:06:05','14:13:21','00:07:16');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2016-07-24','','','212-844-7393','',NULL,NULL,'','','','11:49:00','12:05:56','00:16:56'),
 	 ('2013-12-25','','','460-213-2078','',NULL,NULL,'','','','12:34:02','12:46:47','00:12:45'),
 	 ('2013-01-10','','','627-689-2424','',NULL,NULL,'','','','14:22:34','14:40:22','00:17:48'),
@@ -4299,7 +4299,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-06-01','','','970-867-7411','',NULL,NULL,'','','','11:52:14','12:05:47','00:13:33'),
 	 ('2014-06-07','','','480-368-2737','',NULL,NULL,'','','','14:17:59','14:24:11','00:06:12'),
 	 ('2015-09-23','','','650-075-0007','',NULL,NULL,'','','','15:55:07','15:59:33','00:04:26');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-11-26','','','631-072-7793','',NULL,NULL,'','','','15:00:17','15:05:23','00:05:06'),
 	 ('2016-11-14','','','349-348-0617','',NULL,NULL,'','','','09:45:55','09:59:46','00:13:51'),
 	 ('2017-08-16','','','346-192-7574','',NULL,NULL,'','','','12:37:16','12:43:12','00:05:56'),
@@ -4310,7 +4310,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2017-11-27','','','934-693-6070','',NULL,NULL,'','','','11:01:41','11:11:37','00:09:56'),
 	 ('2018-05-02','','','824-936-8477','',NULL,NULL,'','','','12:11:13','12:26:32','00:15:19'),
 	 ('2019-12-25','','','864-673-0631','',NULL,NULL,'','','','12:12:22','12:22:37','00:10:15');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-11-25','','','550-466-4772','',NULL,NULL,'','','','09:28:18','09:48:40','00:20:22'),
 	 ('2018-12-14','','','388-293-6752','',NULL,NULL,'','','','11:20:36','11:21:08','00:00:32'),
 	 ('2013-11-22','','','212-522-4265','',NULL,NULL,'','','','10:12:25','10:33:13','00:20:48'),
@@ -4321,7 +4321,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2015-04-14','','','945-268-1098','',NULL,NULL,'','','','14:36:22','14:42:51','00:06:29'),
 	 ('2019-02-27','','','653-243-6309','',NULL,NULL,'','','','14:29:02','14:31:50','00:02:48'),
 	 ('2015-04-16','','','261-720-6997','',NULL,NULL,'','','','09:38:46','09:52:10','00:13:24');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-08-03','','','159-896-7994','',NULL,NULL,'','','','12:10:28','12:11:24','00:00:56'),
 	 ('2013-10-22','','','405-771-6657','',NULL,NULL,'','','','15:12:12','15:28:25','00:16:13'),
 	 ('2015-03-01','','','561-912-3585','',NULL,NULL,'','','','11:25:47','11:45:19','00:19:32'),
@@ -4332,7 +4332,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-08-28','','','372-267-7252','',NULL,NULL,'','','','10:39:49','10:58:00','00:18:11'),
 	 ('2013-01-02','','','242-130-8157','',NULL,NULL,'','','','13:52:32','14:08:44','00:16:12'),
 	 ('2017-05-26','','','907-411-7938','',NULL,NULL,'','','','12:25:43','12:45:35','00:19:52');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-02-23','','','212-090-7062','',NULL,NULL,'','','','14:09:24','14:12:14','00:02:50'),
 	 ('2015-07-07','','','540-207-6766','',NULL,NULL,'','','','09:46:29','09:48:03','00:01:34'),
 	 ('2019-05-03','','','400-784-6705','',NULL,NULL,'','','','15:32:45','15:39:21','00:06:36'),
@@ -4343,7 +4343,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-04-11','','','914-103-8613','',NULL,NULL,'','','','10:16:45','10:27:33','00:10:48'),
 	 ('2017-06-02','','','630-585-5016','',NULL,NULL,'','','','13:20:18','13:27:06','00:06:48'),
 	 ('2013-12-24','','','978-205-6863','',NULL,NULL,'','','','13:27:31','13:46:27','00:18:56');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2018-10-21','','','946-240-9087','',NULL,NULL,'','','','10:39:27','10:57:06','00:17:39'),
 	 ('2013-09-06','','','363-890-7536','',NULL,NULL,'','','','09:57:19','10:07:32','00:10:13'),
 	 ('2015-06-25','','','212-547-9916','',NULL,NULL,'','','','10:56:32','11:08:17','00:11:45'),
@@ -4354,7 +4354,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2014-11-01','','','315-967-5696','',NULL,NULL,'','','','12:20:50','12:26:54','00:06:04'),
 	 ('2019-03-25','','','840-168-6970','',NULL,NULL,'','','','11:09:50','11:16:31','00:06:41'),
 	 ('2017-09-09','','','716-179-4777','',NULL,NULL,'','','','15:55:06','16:00:40','00:05:34');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2015-12-17','','','212-843-5410','',NULL,NULL,'','','','12:32:30','12:39:23','00:06:53'),
 	 ('2014-07-06','','','570-042-0977','',NULL,NULL,'','','','12:27:38','12:45:16','00:17:38'),
 	 ('2017-05-25','','','781-004-8273','',NULL,NULL,'','','','14:17:06','14:18:14','00:01:08'),
@@ -4365,7 +4365,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2013-08-26','','','508-952-6679','',NULL,NULL,'','','','12:21:18','12:40:14','00:18:56'),
 	 ('2017-10-08','','','160-037-0960','',NULL,NULL,'','','','14:02:07','14:21:48','00:19:41'),
 	 ('2013-08-10','','','789-353-5787','',NULL,NULL,'','','','14:41:56','14:56:32','00:14:36');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2014-09-08','','','897-846-2483','',NULL,NULL,'','','','13:10:58','13:11:52','00:00:54'),
 	 ('2013-01-14','','','781-968-0062','',NULL,NULL,'','','','09:50:12','09:54:36','00:04:24'),
 	 ('2018-06-26','','','610-520-7079','',NULL,NULL,'','','','14:55:08','15:07:18','00:12:10'),
@@ -4376,7 +4376,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2019-08-05','','','796-491-5894','',NULL,NULL,'','','','10:27:56','10:43:25','00:15:29'),
 	 ('2016-11-07','','','617-794-8732','',NULL,NULL,'','','','13:10:06','13:28:13','00:18:07'),
 	 ('2015-06-27','','','624-844-2198','',NULL,NULL,'','','','14:08:59','14:27:40','00:18:41');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-11-01','','','978-749-8596','',NULL,NULL,'','','','09:41:37','09:48:22','00:06:45'),
 	 ('2015-09-16','','','315-579-4114','',NULL,NULL,'','','','09:45:47','09:50:45','00:04:58'),
 	 ('2015-06-15','','','914-492-5419','',NULL,NULL,'','','','10:31:09','10:38:20','00:07:11'),
@@ -4387,7 +4387,7 @@ INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand cli
 	 ('2018-03-27','','','673-468-2528','',NULL,NULL,'','','','10:05:28','10:21:02','00:15:34'),
 	 ('2016-09-05','','','315-845-3003','',NULL,NULL,'','','','11:39:19','11:53:32','00:14:13'),
 	 ('2018-03-07','','','859-373-2628','',NULL,NULL,'','','','09:16:25','09:17:57','00:01:32');
-INSERT INTO public."CRMCallCenterLogs" ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
+INSERT INTO public.CRMCallCenterLogs ("Date received","Complaint ID","rand client",phonefinal,"vru+line",call_id,priority,"type",outcome,"server",ser_start,ser_exit,ser_time) VALUES
 	 ('2017-10-18','','','692-308-9768','',NULL,NULL,'','','','09:43:42','09:55:01','00:11:19'),
 	 ('2017-12-04','','','913-928-9336','',NULL,NULL,'','','','13:57:19','14:11:31','00:14:12'),
 	 ('2015-11-07','','','630-413-4883','',NULL,NULL,'','','','10:03:08','10:09:11','00:06:03'),

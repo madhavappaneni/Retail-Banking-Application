@@ -99,7 +99,7 @@ CREATE TABLE public."order" (
 	k_symbol varchar(50) NULL
 );
 
-CREATE TABLE public."LuxuryLoanPortfolio" (
+CREATE TABLE public.LuxuryLoanPortfolio (
 	loan_id varchar(50) NOT NULL,
 	funded_amount float4 NOT NULL,
 	funded_date varchar(50) NOT NULL,

@@ -16,6 +16,8 @@ DROP TABLE if exists district;
 
 DROP TABLE if exists CRMCallCenterLogs;
 
-DROP TABLE public."LuxuryLoanPortfolio";
+DROP TABLE public.LuxuryLoanPortfolio;
 
-DROP TABLE public."order";
+DROP TABLE public.order;
+
+

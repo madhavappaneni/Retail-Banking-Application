@@ -8,7 +8,9 @@ CREATE TABLE public.account (
     account_id varchar NOT NULL,
     district_id integer NOT NULL,
     frequency account_frequency_enum NOT NULL,
-    "date" date NOT NULL
+    "date" date NOT NULL,
+	primary key(account_id),
+	foreign key(district_id) references district(district_id)
 );
 
 CREATE TYPE card_type_enum AS ENUM (
@@ -21,7 +23,9 @@ CREATE TABLE public.card (
     card_id varchar(50) NOT NULL,
     disp_id varchar(50) NOT NULL,
     "type" card_type_enum NOT NULL,
-    date date NOT NULL
+    date date NOT NULL,
+	primary key(card_id),
+	foreign key(disp_id) references disposition(disp_id)
 );
 
 CREATE TYPE disposition_type_enum AS ENUM ('Owner', 'User');
@@ -30,7 +34,10 @@ CREATE TABLE public.disposition (
     disp_id varchar(10) NOT NULL,
     client_id varchar(10) NOT NULL,
     account_id varchar(10) NOT NULL,
-    "type" varchar(50) NOT NULL
+    "type" varchar(50) NOT NULL,
+	primary key (disp_id),
+   	foreign key(client_id) references client(client_id),
+    foreign key(account_id) references account(account_id)
 );
 
 CREATE TABLE public.client (
@@ -49,7 +56,9 @@ CREATE TABLE public.client (
 	city varchar NOT NULL,
 	state varchar NOT NULL,
 	zipcode varchar NOT NULL,
-	district_id varchar NOT NULL
+	district_id varchar NOT NULL,
+	primary key (client_id),
+    foreign key (district_id) references district(district_id)
 );
 
 CREATE TABLE public.district (
@@ -58,7 +67,8 @@ CREATE TABLE public.district (
 	state_name varchar(50) NULL,
 	state_abbrev varchar(50) NULL,
 	region varchar(50) NULL,
-	division varchar(50) NULL
+	division varchar(50) NULL,
+	primary key(district_id)
 );
 
 CREATE TABLE public.loan (
@@ -70,7 +80,9 @@ CREATE TABLE public.loan (
 	status varchar(50) NULL,
 	fulldate varchar(50) NULL,
 	"location" int4 NULL,
-	purpose varchar(50) NULL
+	purpose varchar(50) NULL,
+	primary key (loan_id),
+	foreign key(account_id) references account(account_id)
 );
 
 CREATE TABLE public.CRMCallCenterLogs (
@@ -86,7 +98,9 @@ CREATE TABLE public.CRMCallCenterLogs (
 	"server" varchar(50) NULL,
 	ser_start varchar(50) NULL,
 	ser_exit varchar(50) NULL,
-	ser_time varchar(50) NULL
+	ser_time varchar(50) NULL,
+	primary key(call_id),
+	foreign key(complaint_id) references CRMEvents(complaint_id)
 );
 
 
@@ -96,7 +110,9 @@ CREATE TABLE public."order" (
 	bank_to varchar(50) NULL,
 	account_to int4 NULL,
 	amount int4 NULL,
-	k_symbol varchar(50) NULL
+	k_symbol varchar(50) NULL,
+	primary key(order_id),
+	foreign key(account_id) references account(account_id)
 );
 
 CREATE TABLE public.LuxuryLoanPortfolio (
@@ -131,7 +147,8 @@ CREATE TABLE public.LuxuryLoanPortfolio (
 	"TOTAL UNITS" int4 NULL,
 	"LAND SQUARE FEET" varchar(50) NULL,
 	"GROSS SQUARE FEET" varchar(50) NULL,
-	"TAX CLASS AT TIME OF SALE" int4 NULL
+	"TAX CLASS AT TIME OF SALE" int4 NULL,
+	primary key(loan_id)
 );
 
 CREATE TABLE public.crmevents (
@@ -149,7 +166,9 @@ CREATE TABLE public.crmevents (
 	"Timely response?" varchar(50) NULL,
 	"Consumer disputed?" varchar(50) NULL,
 	"Complaint ID" varchar(50) NULL,
-	"Client_ID" varchar(50) NULL
+	"Client_ID" varchar(50) NULL,
+	primary key(complaint_id),
+	foreign key(client_id) references client(client_id)
 );
 
 CREATE TABLE public.CRMReviews (
@@ -176,5 +195,7 @@ CREATE TABLE public.transaction (
 	"day" int4 NULL,
 	"date" varchar(50) NULL,
 	fulltime varchar(50) NULL,
-	fulldatewithtime varchar(50) NULL
+	fulldatewithtime varchar(50) NULL,
+	primary key(trans_id),
+	foreign key(account_id) references account(account_id)
 );

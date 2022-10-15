@@ -1,47 +1,40 @@
 CREATE TYPE account_frequency_enum AS ENUM (
-    'Issuance After Transaction',
-    'Monthly Issuance',
-    'Weekly Issuance'
+	'Issuance After Transaction',
+	'Monthly Issuance',
+	'Weekly Issuance'
 );
 
 CREATE TABLE public.account (
-    account_id varchar NOT NULL,
-    district_id integer NOT NULL,
-    frequency account_frequency_enum NOT NULL,
-    "date" date NOT NULL,
-	primary key(account_id),
-	foreign key(district_id) references district(district_id)
+	account_id varchar NOT NULL primary key,
+	district_id integer NOT NULL,
+	frequency account_frequency_enum NOT NULL,
+	"date" date NOT NULLs
 );
 
 CREATE TYPE card_type_enum AS ENUM (
-    'VISA Signature',
-    'VISA Standard',
-    'VISA Infinite'
+	'VISA Signature',
+	'VISA Standard',
+	'VISA Infinite'
 );
 
 CREATE TABLE public.card (
-    card_id varchar(50) NOT NULL,
-    disp_id varchar(50) NOT NULL,
-    "type" card_type_enum NOT NULL,
-    date date NOT NULL,
-	primary key(card_id),
-	foreign key(disp_id) references disposition(disp_id)
+	card_id varchar(50) NOT NULL primary key,
+	disp_id varchar(50) NOT NULL,
+	"type" card_type_enum NOT NULL,
+	date date NOT NULL
 );
 
 CREATE TYPE disposition_type_enum AS ENUM ('Owner', 'User');
 
 CREATE TABLE public.disposition (
-    disp_id varchar(10) NOT NULL,
-    client_id varchar(10) NOT NULL,
-    account_id varchar(10) NOT NULL,
-    "type" varchar(50) NOT NULL,
-	primary key (disp_id),
-   	foreign key(client_id) references client(client_id),
-    foreign key(account_id) references account(account_id)
+	disp_id varchar(10) NOT NULL primary key,
+	client_id varchar(10) NOT NULL,
+	account_id varchar(10) NOT NULL,
+	"type" varchar(50) NOT NULL
 );
 
 CREATE TABLE public.client (
-	client_id varchar NOT NULL,
+	client_id varchar NOT NULL primary key,
 	sex varchar NOT NULL,
 	fulldate date NULL,
 	age int4 NULL,
@@ -56,9 +49,7 @@ CREATE TABLE public.client (
 	city varchar NOT NULL,
 	state varchar NOT NULL,
 	zipcode varchar NOT NULL,
-	district_id varchar NOT NULL,
-	primary key (client_id),
-    foreign key (district_id) references district(district_id)
+	district_id varchar NOT NULL
 );
 
 CREATE TABLE public.district (
@@ -102,7 +93,6 @@ CREATE TABLE public.CRMCallCenterLogs (
 	primary key(call_id),
 	foreign key(complaint_id) references CRMEvents(complaint_id)
 );
-
 
 CREATE TABLE public."order" (
 	order_id int4 NOT NULL,
@@ -199,3 +189,24 @@ CREATE TABLE public.transaction (
 	primary key(trans_id),
 	foreign key(account_id) references account(account_id)
 );
+
+ALTER TABLE
+	public.account
+ADD
+	foreign key(district_id) references district(district_id);
+
+ALTER TABLE
+	public.card
+ADD
+	foreign key(disp_id) references disposition(disp_id);
+
+ALTER TABLE
+	public.disposition
+ADD
+	foreign key(client_id) references client(client_id),
+	foreign key(account_id) references account(account_id);
+
+ALTER TABLE
+	public.client
+ADD
+	foreign key (district_id) references district(district_id);

@@ -233,3 +233,8 @@ ALTER TABLE
 	public.client
 ADD
 	foreign key (district_id) references district(district_id);
+
+ALTER TABLE
+	public.CRMReviews
+ADD
+	foreign key (district_id) references district(district_id);

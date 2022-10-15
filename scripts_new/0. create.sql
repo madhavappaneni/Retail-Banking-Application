@@ -64,12 +64,12 @@ CREATE TABLE public.district (
 CREATE TABLE public.loan (
 	loan_id varchar(50) NULL,
 	account_id varchar(50) NULL,
-	amount int4 NULL,
-	duration int4 NULL,
-	payments int4 NULL,
+	amount integer NULL,
+	duration integer NULL,
+	payments integer NULL,
 	status varchar(50) NULL,
 	date date NULL,
-	location int4 NULL,
+	location integer NULL,
 	purpose varchar(50) NULL
 );
 

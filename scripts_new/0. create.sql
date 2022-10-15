@@ -36,13 +36,13 @@ CREATE TABLE public.disposition (
 CREATE TABLE public.client (
 	client_id varchar NOT NULL primary key,
 	sex varchar NOT NULL,
-	fulldate date NULL,
-	age integer NULL,
+	fulldate date NOT NULL,
+	age integer NOT NULL,
 	social varchar NOT NULL,
-	"first" varchar NOT NULL,
-	middle varchar NULL,
-	"last" varchar NOT NULL,
-	phone integer NULL,
+	firstName varchar NOT NULL,
+	middleName varchar NULL,
+	lastName varchar NOT NULL,
+	phone integer NOT NULL,
 	email varchar NOT NULL,
 	address_1 varchar NOT NULL,
 	address_2 varchar NULL,
@@ -54,11 +54,11 @@ CREATE TABLE public.client (
 
 CREATE TABLE public.district (
 	district_id integer NOT NULL PRIMARY KEY,
-	city varchar(50) NULL,
-	state_name varchar(50) NULL,
-	state_abbrev varchar(50) NULL,
-	region varchar(50) NULL,
-	division varchar(50) NULL
+	city varchar(50) NOT NULL,
+	state_name varchar(50) NOT NULL,
+	state_abbrev varchar(50) NOT NULL,
+	region varchar(50) NOT NULL,
+	division varchar(50) NOT NULL
 );
 
 CREATE TABLE public.loan (
@@ -112,9 +112,9 @@ CREATE TABLE public.LuxuryLoanPortfolio (
 	"loan balance" float4 NULL,
 	"property value" float4 NULL,
 	purpose varchar(50) NULL,
-	firstname varchar(50) NULL,
-	middlename varchar(50) NULL,
-	lastname varchar(50) NULL,
+	firstNamename varchar(50) NULL,
+	middleNamename varchar(50) NULL,
+	lastNamename varchar(50) NULL,
 	social varchar(50) NOT NULL,
 	phone varchar(50) NULL,
 	title varchar(50) NULL,

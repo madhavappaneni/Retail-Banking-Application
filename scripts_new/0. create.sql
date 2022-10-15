@@ -37,23 +37,23 @@ CREATE TABLE public.client (
 	client_id varchar NOT NULL primary key,
 	sex varchar NOT NULL,
 	fulldate date NULL,
-	age int4 NULL,
+	age integer NULL,
 	social varchar NOT NULL,
 	"first" varchar NOT NULL,
 	middle varchar NULL,
 	"last" varchar NOT NULL,
-	phone int4 NULL,
+	phone integer NULL,
 	email varchar NOT NULL,
 	address_1 varchar NOT NULL,
 	address_2 varchar NULL,
 	city varchar NOT NULL,
 	state varchar NOT NULL,
 	zipcode varchar NOT NULL,
-	district_id varchar NOT NULL
+	district_id integer NOT NULL
 );
 
 CREATE TABLE public.district (
-	district_id int4 NOT NULL PRIMARY KEY,
+	district_id integer NOT NULL PRIMARY KEY,
 	city varchar(50) NULL,
 	state_name varchar(50) NULL,
 	state_abbrev varchar(50) NULL,
@@ -62,14 +62,14 @@ CREATE TABLE public.district (
 );
 
 CREATE TABLE public.loan (
-	loan_id varchar(50) NOT NULL PRIMARY KEY,
-	account_id varchar(50) NOT NULL,
+	loan_id varchar(50) NULL,
+	account_id varchar(50) NULL,
 	amount int4 NULL,
 	duration int4 NULL,
 	payments int4 NULL,
 	status varchar(50) NULL,
-	fulldate varchar(50) NULL,
-	"location" int4 NULL,
+	date date NULL,
+	location int4 NULL,
 	purpose varchar(50) NULL
 );
 
@@ -79,8 +79,8 @@ CREATE TABLE public.CRMCallCenterLogs (
 	"rand client" varchar(50) NULL,
 	phonefinal varchar(50) NULL,
 	"vru+line" varchar(50) NULL,
-	call_id int4 NULL,
-	priority int4 NULL,
+	call_id integer NULL,
+	priority integer NULL,
 	"type" varchar(50) NULL,
 	outcome varchar(50) NULL,
 	"server" varchar(50) NULL,
@@ -90,11 +90,11 @@ CREATE TABLE public.CRMCallCenterLogs (
 );
 
 CREATE TABLE public."order" (
-	order_id int4 NOT NULL PRIMARY KEY,
+	order_id integer NOT NULL PRIMARY KEY,
 	account_id varchar(50) NOT NULL,
 	bank_to varchar(50) NULL,
-	account_to int4 NULL,
-	amount int4 NULL,
+	account_to integer NULL,
+	amount integer NULL,
 	k_symbol varchar(50) NULL
 );
 
@@ -102,13 +102,13 @@ CREATE TABLE public.LuxuryLoanPortfolio (
 	loan_id varchar(50) NOT NULL PRIMARY KEY,
 	funded_amount float4 NOT NULL,
 	funded_date varchar(50) NOT NULL,
-	"duration years" int4 NULL,
-	"duration months" int4 NULL,
+	"duration years" integer NULL,
+	"duration months" integer NULL,
 	"10 yr treasury index date funded" float4 NULL,
 	"interest rate percent" float4 NULL,
 	"interest rate" float4 NULL,
 	payments float4 NULL,
-	"total past payments" int4 NULL,
+	"total past payments" integer NULL,
 	"loan balance" float4 NULL,
 	"property value" float4 NULL,
 	purpose varchar(50) NULL,
@@ -118,19 +118,19 @@ CREATE TABLE public.LuxuryLoanPortfolio (
 	social varchar(50) NOT NULL,
 	phone varchar(50) NULL,
 	title varchar(50) NULL,
-	"employment length" int4 NULL,
+	"employment length" integer NULL,
 	"BUILDING CLASS CATEGORY" varchar(50) NULL,
 	"TAX CLASS AT PRESENT" varchar(50) NULL,
 	"BUILDING CLASS AT PRESENT" varchar(50) NULL,
 	"ADDRESS 1" varchar(50) NULL,
 	"ADDRESS 2" varchar(50) NULL,
-	"ZIP CODE" int4 NULL,
+	"ZIP CODE" integer NULL,
 	city varchar(50) NULL,
 	state varchar(50) NULL,
-	"TOTAL UNITS" int4 NULL,
+	"TOTAL UNITS" integer NULL,
 	"LAND SQUARE FEET" varchar(50) NULL,
 	"GROSS SQUARE FEET" varchar(50) NULL,
-	"TAX CLASS AT TIME OF SALE" int4 NULL
+	"TAX CLASS AT TIME OF SALE" integer NULL
 );
 
 CREATE TABLE public.crmevents (
@@ -148,32 +148,31 @@ CREATE TABLE public.crmevents (
 	"Timely response?" varchar(50) NULL,
 	"Consumer disputed?" varchar(50) NULL,
 	"Complaint ID" varchar(50) NOT NULL PRIMARY KEY,
-	"Client_ID" varchar(50) NULL,
-	foreign key(client_id) references client(client_id)
+	"Client_ID" varchar(50) NULL
 );
 
 CREATE TABLE public.CRMReviews (
 	"Date" date NULL,
-	"Stars" int4 NULL,
+	"Stars" integer NULL,
 	"Reviews" varchar NULL,
 	"Product" varchar(50) NULL,
-	district_id int4 NOT NULL PRIMARY KEY
+	district_id integer NOT NULL
 );
 
 CREATE TABLE public.transaction (
-	"Column1" int4 NULL,
+	"Column1" integer NULL,
 	trans_id varchar(50) NOT NULL PRIMARY KEY,
 	account_id varchar(50) NULL,
 	"type" varchar(50) NULL,
 	operation varchar(50) NULL,
-	amount int4 NULL,
-	balance int4 NULL,
+	amount integer NULL,
+	balance integer NULL,
 	k_symbol varchar(50) NULL,
 	bank varchar(50) NULL,
 	account varchar(50) NULL,
-	"year" int4 NULL,
-	"month" int4 NULL,
-	"day" int4 NULL,
+	"year" integer NULL,
+	"month" integer NULL,
+	"day" integer NULL,
 	"date" varchar(50) NULL,
 	fulltime varchar(50) NULL,
 	fulldatewithtime varchar(50) NULL
@@ -197,18 +196,19 @@ ADD
 ALTER TABLE
 	public.crmevents
 ADD
-	FOREIGN KEY (client_id) REFERENCES client(client_id);
+	FOREIGN KEY ("Client_ID") REFERENCES client(client_id);
 
 ALTER TABLE
 	public.CRMCallCenterLogs
 ADD
-	FOREIGN KEY (complaint_id) REFERENCES CRMEvents(complaint_id);
+	FOREIGN KEY ("Complaint ID") REFERENCES CRMEvents("Complaint ID");
 
 ALTER TABLE
 	public.order
 ADD
 	FOREIGN KEY (account_id) references account(account_id);
 
+-- 
 ALTER TABLE
 	public.account
 ADD
@@ -222,8 +222,12 @@ ADD
 ALTER TABLE
 	public.disposition
 ADD
-	foreign key(client_id) references client(client_id),
-	foreign key(account_id) references account(account_id);
+	foreign key (client_id) references client(client_id);
+
+ALTER TABLE
+	public.disposition
+ADD
+	foreign key (account_id) references account(account_id);
 
 ALTER TABLE
 	public.client

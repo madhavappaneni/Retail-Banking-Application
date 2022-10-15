@@ -1,4 +1,4 @@
-CREATE TYPE account_frequency_enum AS ENUM (
+CREATE TYPE test.account_frequency_enum AS ENUM (
 	'Issuance After Transaction',
 	'Monthly Issuance',
 	'Weekly Issuance'
@@ -11,7 +11,7 @@ CREATE TABLE test.account (
 	"date" date NOT NULL
 );
 
-CREATE TYPE card_type_enum AS ENUM (
+CREATE TYPE test.card_type_enum AS ENUM (
 	'VISA Signature',
 	'VISA Standard',
 	'VISA Infinite'
@@ -24,7 +24,7 @@ CREATE TABLE test.card (
 	date date NOT NULL
 );
 
-CREATE TYPE disposition_type_enum AS ENUM ('Owner', 'User');
+CREATE TYPE test.disposition_type_enum AS ENUM ('Owner', 'User');
 
 CREATE TABLE test.disposition (
 	disp_id varchar(10) NOT NULL primary key,

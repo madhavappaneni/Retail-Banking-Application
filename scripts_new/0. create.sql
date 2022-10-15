@@ -62,15 +62,15 @@ CREATE TABLE public.district (
 );
 
 CREATE TABLE public.loan (
-	loan_id varchar(50) NULL,
-	account_id varchar(50) NULL,
-	amount integer NULL,
-	duration integer NULL,
-	payments integer NULL,
-	status varchar(50) NULL,
-	date date NULL,
-	location integer NULL,
-	purpose varchar(50) NULL
+	loan_id varchar(50) NOT NULL,
+	account_id varchar(50) NOT NULL,
+	amount integer NOT NULL,
+	duration integer NOT NULL,
+	payments integer NOT NULL,
+	status varchar(50) NOT NULL,
+	date date NOT NULL,
+	location integer NOT NULL,
+	purpose varchar(50) NOT NULL
 );
 
 CREATE TABLE public.CRMCallCenterLogs (
@@ -84,17 +84,17 @@ CREATE TABLE public.CRMCallCenterLogs (
 	"type" varchar(50) NULL,
 	outcome varchar(50) NULL,
 	"server" varchar(50) NULL,
-	ser_start varchar(50) NULL,
-	ser_exit varchar(50) NULL,
-	ser_time varchar(50) NULL
+	ser_start varchar(50) NOT NULL,
+	ser_exit varchar(50) NOT NULL,
+	ser_time varchar(50) NOT NULL
 );
 
 CREATE TABLE public."order" (
 	order_id integer NOT NULL PRIMARY KEY,
 	account_id varchar(50) NOT NULL,
-	bank_to varchar(50) NULL,
-	account_to integer NULL,
-	amount integer NULL,
+	bank_to varchar(50) NOT NULL,
+	account_to integer NOT NULL,
+	amount integer NOT NULL,
 	k_symbol varchar(50) NULL
 );
 
@@ -134,39 +134,39 @@ CREATE TABLE public.LuxuryLoanPortfolio (
 );
 
 CREATE TABLE public.crmevents (
-	"Date received" date NULL,
-	"Product" varchar(50) NULL,
+	"Date received" date NOT NULL,
+	"Product" varchar(50) NOT NULL,
 	"Sub-product" varchar(50) NULL,
-	"Issue" varchar(50) NULL,
-	"Sub-issue" varchar(50) NULL,
+	"Issue" varchar(50) NOT NULL,
+	"Sub-issue" varchar(50) NOT NULL,
 	"Consumer complaint narrative" varchar NULL,
 	"Tags" varchar(50) NULL,
 	"Consumer consent provided?" varchar(50) NULL,
-	"Submitted via" varchar(50) NULL,
-	"Date sent to company" varchar(50) NULL,
-	"Company response to consumer" varchar(50) NULL,
-	"Timely response?" varchar(50) NULL,
+	"Submitted via" varchar(50) NOT NULL,
+	"Date sent to company" varchar(50) NOT NULL,
+	"Company response to consumer" varchar(50) NOT NULL,
+	"Timely response?" varchar(50) NOT NULL,
 	"Consumer disputed?" varchar(50) NULL,
 	"Complaint ID" varchar(50) NOT NULL PRIMARY KEY,
 	"Client_ID" varchar(50) NULL
 );
 
 CREATE TABLE public.CRMReviews (
-	"Date" date NULL,
-	"Stars" integer NULL,
+	"Date" date NOT NULL,
+	"Stars" integer NOT NULL,
 	"Reviews" varchar NULL,
-	"Product" varchar(50) NULL,
+	"Product" varchar(50) NOT NULL,
 	district_id integer NOT NULL
 );
 
 CREATE TABLE public.transaction (
 	"Column1" integer NULL,
 	trans_id varchar(50) NOT NULL PRIMARY KEY,
-	account_id varchar(50) NULL,
-	"type" varchar(50) NULL,
+	account_id varchar(50) NOT NULL,
+	"type" varchar(50) NOT NULL,
 	operation varchar(50) NULL,
-	amount integer NULL,
-	balance integer NULL,
+	amount integer NOT NULL,
+	balance integer NOT NULL,
 	k_symbol varchar(50) NULL,
 	bank varchar(50) NULL,
 	account varchar(50) NULL,
@@ -174,7 +174,7 @@ CREATE TABLE public.transaction (
 	"month" integer NULL,
 	"day" integer NULL,
 	"date" varchar(50) NULL,
-	fulltime varchar(50) NULL,
+	fulltime varchar(50) NOT NULL,
 	fulldatewithtime varchar(50) NULL
 );
 

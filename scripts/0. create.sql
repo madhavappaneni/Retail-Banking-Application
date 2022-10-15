@@ -5,12 +5,10 @@ CREATE TYPE account_frequency_enum AS ENUM (
 );
 
 CREATE TABLE public.account (
-	account_id varchar NOT NULL,
+	account_id varchar NOT NULL primary key,
 	district_id integer NOT NULL,
 	frequency account_frequency_enum NOT NULL,
-	"date" date NOT NULL,
-	primary key(account_id),
-	foreign key(district_id) references district(district_id)
+	"date" date NOT NULL
 );
 
 CREATE TYPE card_type_enum AS ENUM (
@@ -20,28 +18,23 @@ CREATE TYPE card_type_enum AS ENUM (
 );
 
 CREATE TABLE public.card (
-	card_id varchar(50) NOT NULL,
+	card_id varchar(50) NOT NULL primary key,
 	disp_id varchar(50) NOT NULL,
 	"type" card_type_enum NOT NULL,
-	date date NOT NULL,
-	primary key(card_id),
-	foreign key(disp_id) references disposition(disp_id)
+	date date NOT NULL
 );
 
 CREATE TYPE disposition_type_enum AS ENUM ('Owner', 'User');
 
 CREATE TABLE public.disposition (
-	disp_id varchar(10) NOT NULL,
+	disp_id varchar(10) NOT NULL primary key,
 	client_id varchar(10) NOT NULL,
 	account_id varchar(10) NOT NULL,
-	"type" varchar(50) NOT NULL,
-	primary key (disp_id),
-	foreign key(client_id) references client(client_id),
-	foreign key(account_id) references account(account_id)
+	"type" varchar(50) NOT NULL
 );
 
 CREATE TABLE public.client (
-	client_id varchar NOT NULL,
+	client_id varchar NOT NULL primary key,
 	sex varchar NOT NULL,
 	fulldate date NULL,
 	age int4 NULL,
@@ -56,9 +49,7 @@ CREATE TABLE public.client (
 	city varchar NOT NULL,
 	state varchar NOT NULL,
 	zipcode varchar NOT NULL,
-	district_id varchar NOT NULL,
-	primary key (client_id),
-	foreign key (district_id) references district(district_id)
+	district_id varchar NOT NULL
 );
 
 CREATE TABLE public.district (
@@ -217,3 +208,24 @@ ALTER TABLE
 	public.order
 ADD
 	FOREIGN KEY (account_id) references account(account_id);
+
+ALTER TABLE
+	public.account
+ADD
+	foreign key(district_id) references district(district_id);
+
+ALTER TABLE
+	public.card
+ADD
+	foreign key(disp_id) references disposition(disp_id);
+
+ALTER TABLE
+	public.disposition
+ADD
+	foreign key(client_id) references client(client_id),
+	foreign key(account_id) references account(account_id);
+
+ALTER TABLE
+	public.client
+ADD
+	foreign key (district_id) references district(district_id);

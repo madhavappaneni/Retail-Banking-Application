@@ -1,0 +1,1 @@
+1. Remove column_1 in transaction

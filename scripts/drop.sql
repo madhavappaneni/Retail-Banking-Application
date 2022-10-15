@@ -1,11 +1,21 @@
-drop table if exists account;
-drop table if exists card;
-drop type if exists account_frequency_enum;
-drop type if exists card_type_enum;
-drop table if exists disposition;
+DROP TABLE if exists account;
+
+DROP TABLE if exists card;
+
+DROP TABLE if exists account_frequency_enum;
+
+DROP TABLE if exists card_type_enum;
+
+DROP TABLE if exists disposition;
+
 DROP TABLE if exists loan;
+
 DROP TABLE if exists client;
+
 DROP TABLE if exists district;
+
 DROP TABLE if exists CRMCallCenterLogs;
-DROP TABLE order;
-DROP TABLE LuxuryLoanPortfolio;
+
+DROP TABLE public."LuxuryLoanPortfolio";
+
+DROP TABLE public."order";

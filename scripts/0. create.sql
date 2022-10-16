@@ -160,7 +160,6 @@ CREATE TABLE public.CRMReviews (
 );
 
 CREATE TABLE public.transaction (
-	"Column1" integer NULL,
 	trans_id varchar(50) NOT NULL PRIMARY KEY,
 	account_id varchar(50) NOT NULL,
 	"type" varchar(50) NOT NULL,
@@ -170,11 +169,7 @@ CREATE TABLE public.transaction (
 	k_symbol varchar(50) NULL,
 	bank varchar(50) NULL,
 	account varchar(50) NULL,
-	"year" integer NULL,
-	"month" integer NULL,
-	"day" integer NULL,
 	"date" varchar(50) NULL,
-	fulltime varchar(50) NOT NULL,
 	fulldatewithtime varchar(50) NULL
 );
 

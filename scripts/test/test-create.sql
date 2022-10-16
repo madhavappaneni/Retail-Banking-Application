@@ -1,3 +1,5 @@
+CREATE SCHEMA test;
+
 CREATE TYPE test.account_frequency_enum AS ENUM (
 	'Issuance After Transaction',
 	'Monthly Issuance',
@@ -7,7 +9,7 @@ CREATE TYPE test.account_frequency_enum AS ENUM (
 CREATE TABLE test.account (
 	account_id varchar NOT NULL primary key,
 	district_id integer NOT NULL,
-	frequency account_frequency_enum NOT NULL,
+	frequency test.account_frequency_enum NOT NULL,
 	"date" date NOT NULL
 );
 
@@ -20,7 +22,7 @@ CREATE TYPE test.card_type_enum AS ENUM (
 CREATE TABLE test.card (
 	card_id varchar(50) NOT NULL primary key,
 	disp_id varchar(50) NOT NULL,
-	"type" card_type_enum NOT NULL,
+	"type" test.card_type_enum NOT NULL,
 	date date NOT NULL
 );
 
@@ -175,55 +177,55 @@ CREATE TABLE test.transaction (
 ALTER TABLE
 	test.transaction
 ADD
-	FOREIGN KEY (account_id) REFERENCES account(account_id);
+	FOREIGN KEY (account_id) REFERENCES test.account(account_id);
 
 ALTER TABLE
 	test.loan
 ADD
-	FOREIGN KEY (account_id) references account(account_id);
+	FOREIGN KEY (account_id) references test.account(account_id);
 
 ALTER TABLE
 	test.transaction
 ADD
-	FOREIGN KEY (account_id) REFERENCES account(account_id);
+	FOREIGN KEY (account_id) REFERENCES test.account(account_id);
 
 ALTER TABLE
 	test.crmevents
 ADD
-	FOREIGN KEY ("Client_ID") REFERENCES client(client_id);
+	FOREIGN KEY ("Client_ID") REFERENCES test.client(client_id);
 
 ALTER TABLE
 	test.CRMCallCenterLogs
 ADD
-	FOREIGN KEY ("Complaint ID") REFERENCES CRMEvents("Complaint ID");
+	FOREIGN KEY ("Complaint ID") REFERENCES test.CRMEvents("Complaint ID");
 
 ALTER TABLE
 	test.order
 ADD
-	FOREIGN KEY (account_id) references account(account_id);
+	FOREIGN KEY (account_id) references test.account(account_id);
 
 -- 
 ALTER TABLE
 	test.account
 ADD
-	foreign key(district_id) references district(district_id);
+	foreign key(district_id) references test.district(district_id);
 
 ALTER TABLE
 	test.card
 ADD
-	foreign key(disp_id) references disposition(disp_id);
+	foreign key(disp_id) references test.disposition(disp_id);
 
 ALTER TABLE
 	test.disposition
 ADD
-	foreign key (client_id) references client(client_id);
+	foreign key (client_id) references test.client(client_id);
 
 ALTER TABLE
 	test.disposition
 ADD
-	foreign key (account_id) references account(account_id);
+	foreign key (account_id) references test.account(account_id);
 
 ALTER TABLE
 	test.client
 ADD
-	foreign key (district_id) references district(district_id);
+	foreign key (district_id) references test.district(district_id);

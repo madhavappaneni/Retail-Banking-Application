@@ -3,3 +3,4 @@
 *.log.*
 *-audit.json
 .env
+.gitignore

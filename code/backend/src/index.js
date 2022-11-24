@@ -3,7 +3,7 @@ const app = require('./config/express');
 const pg = require('./config/db.config');
 
 const db = require("./api/models");
-db.sequelize.sync({alter: true});
+db.sequelize.sync({ alter: true });
 
 port = process.env.PORT || 8000
 env = process.env.ENVIRONMENT || 'development'

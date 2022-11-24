@@ -4,7 +4,8 @@ module.exports = (sequelize, Sequelize) => {
     return sequelize.define('CRMEvents', {
         'Date received': {
             type: Sequelize.DATEONLY,
-            allowNull: false
+            allowNull: false,
+            defaultValue: new Date().toISOString().split('T')[0],
         },
         Product: {
             type: Sequelize.STRING(50),
@@ -20,10 +21,10 @@ module.exports = (sequelize, Sequelize) => {
         },
         'Sub-issue': {
             type: Sequelize.STRING(50),
-            allowNull: false
+            allowNull: true
         },
         'Consumer complaint narrative': {
-            type: Sequelize.STRING(20000),
+            type: Sequelize.STRING(10000000),
             allowNull: true
         },
         Tags: {
@@ -36,19 +37,19 @@ module.exports = (sequelize, Sequelize) => {
         },
         'Submitted via': {
             type: Sequelize.STRING(50),
-            allowNull: false
+            allowNull: true
         },
         'Date sent to company': {
             type: Sequelize.STRING(50),
-            allowNull: false
+            allowNull: true
         },
         'Company response to consumer': {
             type: Sequelize.STRING(50),
-            allowNull: false
+            allowNull: true
         },
         'Timely response?': {
             type: Sequelize.STRING(50),
-            allowNull: false
+            allowNull: true
         },
         'Consumer disputed?': {
             type: Sequelize.STRING(50),

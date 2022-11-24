@@ -3,6 +3,7 @@ const httpStatus = require('http-status');
 
 exports.createCRMEvent = async (data) => {
     try {
+        console.log('test input', data);
         const _crmevents = await CRMEvents.create(data);
         return _crmevents;
     } catch (e) {

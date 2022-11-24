@@ -1,5 +1,5 @@
 const httpStatus = require('http-status');
-const crmeventsService = require('../services/crmevents');
+const crmeventsService = require('../services/crmevents.js');
 
 exports.getcrmevents = async (req, res, next) => {
     try {

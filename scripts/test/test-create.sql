@@ -197,7 +197,7 @@ ADD
 ALTER TABLE
 	test.CRMCallCenterLogs
 ADD
-	FOREIGN KEY ("Complaint ID") REFERENCES test.CRMEvents("Complaint ID");
+	FOREIGN KEY ("Complaint ID") REFERENCES test.crmevents("Complaint ID");
 
 ALTER TABLE
 	test.order

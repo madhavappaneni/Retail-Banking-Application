@@ -1,3 +1,5 @@
+create schema public;
+
 CREATE TYPE account_frequency_enum AS ENUM (
 	'Issuance After Transaction',
 	'Monthly Issuance',
@@ -133,13 +135,13 @@ CREATE TABLE public."order" (
 -- 	"TAX CLASS AT TIME OF SALE" integer NULL
 -- );
 
-CREATE TABLE public.crmevents (
+CREATE TABLE public."CRMEvents" (
 	"Date received" date NOT NULL,
 	"Product" varchar(50) NOT NULL,
 	"Sub-product" varchar(50) NULL,
 	"Issue" varchar(50) NOT NULL,
 	"Sub-issue" varchar(50) NOT NULL,
-	"Consumer complaint narrative" varchar NULL,
+	"Consumer complaint narrative" varchar(20000) NULL,
 	"Tags" varchar(50) NULL,
 	"Consumer consent provided?" varchar(50) NULL,
 	"Submitted via" varchar(50) NOT NULL,
@@ -147,8 +149,10 @@ CREATE TABLE public.crmevents (
 	"Company response to consumer" varchar(50) NOT NULL,
 	"Timely response?" varchar(50) NOT NULL,
 	"Consumer disputed?" varchar(50) NULL,
-	"Complaint ID" varchar(50) NOT NULL PRIMARY KEY,
-	"Client_ID" varchar(50) NULL
+	"Complaint ID" varchar(50) NOT NULL,
+	"Client_ID" varchar(50) NULL,
+	"createdAt" timestamptz NOT null DEFAULT NOW(),
+	"updatedAt" timestamptz NOT null DEFAULT NOW()
 );
 
 CREATE TABLE public.CRMReviews (
@@ -196,7 +200,7 @@ ADD
 ALTER TABLE
 	public.CRMCallCenterLogs
 ADD
-	FOREIGN KEY ("Complaint ID") REFERENCES CRMEvents("Complaint ID");
+	FOREIGN KEY ("Complaint ID") REFERENCES crmevents("Complaint ID");
 
 ALTER TABLE
 	public.order

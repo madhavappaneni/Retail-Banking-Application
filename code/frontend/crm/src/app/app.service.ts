@@ -7,13 +7,15 @@ import { HttpClient } from '@angular/common/http'
 export class AppService {
   constructor(private httpClient: HttpClient) {}
 
+  baseURL = 'https://lionfish-app-y3ij5.ondigitalocean.app/api/api/'
+
   getCRMEvents() {
-    let url = 'http://localhost:8000/api/v1/CRMEvents'
+    let url = `${this.baseURL}v1/CRMEvents`
     return this.httpClient.get(url)
   }
 
   insertCRMEvents(data: any) {
-    let url = 'http://localhost:8000/api/v1/CRMEvents'
+    let url = `${this.baseURL}v1/CRMEvents`
     return this.httpClient.post(url, data)
   }
 }

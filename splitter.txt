@@ -1,7 +1,22 @@
-Split using the following queries
+select * from disposition d;
 
 select disp_id, client_id into disposition_temp from disposition d;
 
 select client_id, account_id, type into clientaccount from disposition d;
 
 select distinct(zipcode), district_id into zipcode from client c order by zipcode;
+
+
+ALTER TABLE client
+DROP COLUMN city;
+
+ALTER TABLE client
+DROP COLUMN state;
+
+ALTER TABLE client
+DROP COLUMN district_id;
+
+
+select * from client c;
+
+select distinct state_name, state_abbrev, region, division into state from district  order by state_abbrev;

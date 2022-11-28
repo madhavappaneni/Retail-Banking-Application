@@ -1,0 +1,7 @@
+Split using the following queries
+
+select disp_id, client_id into disposition_temp from disposition d;
+
+select client_id, account_id, type into clientaccount from disposition d;
+
+select distinct(zipcode), district_id into zipcode from client c order by zipcode;

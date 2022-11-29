@@ -26,11 +26,16 @@ DROP TABLE if exists public.CRMReviews CASCADE;
 
 DROP TABLE if exists public.transaction CASCADE;
 
+DROP TABLE if exists public."CRMEvents" CASCADE;
+
+DROP TABLE if exists public.clientaccount CASCADE;
+
+DROP TABLE if exists public.zipcode CASCADE;
+
+DROP TABLE if exists public.state CASCADE;
 
 DROP TYPE IF EXISTS public.account_frequency_enum CASCADE;
 
 DROP TYPE IF EXISTS public.card_type_enum CASCADE;
 
 DROP TYPE IF EXISTS public.disposition_type_enum CASCADE;
-
-

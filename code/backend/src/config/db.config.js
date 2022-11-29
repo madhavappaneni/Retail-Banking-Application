@@ -5,10 +5,10 @@ module.exports = {
     PASSWORD: process.env.DB_PASSWORD || "postgres",
     DB: process.env.DB_NAME || "postgres",
     // ...(process.env.NODE_ENV == "production") && {
-    ssl: {
-        require: true,
-        rejectUnauthorized: false
-    },
+    // ssl: {
+    //     require: true,
+    //     rejectUnauthorized: false
+    // },
     // },
     dialect: "postgres",
     pool: {

@@ -33,3 +33,11 @@ CREATE TABLE public."CRMEvents" (
 	"createdAt" timestamptz NOT null DEFAULT NOW(),
 	"updatedAt" timestamptz NOT null DEFAULT NOW()
 );
+
+
+
+
+card
+client
+crmcallcenterlogs
+disposition

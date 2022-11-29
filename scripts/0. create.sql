@@ -30,9 +30,13 @@ CREATE TYPE disposition_type_enum AS ENUM ('Owner', 'User');
 
 CREATE TABLE public.disposition (
 	disp_id varchar(10) NOT NULL primary key,
-	client_id varchar(10) NOT NULL,
-	account_id varchar(10) NOT NULL,
-	"type" varchar(50) NOT NULL
+	client_id varchar(10) NOT NULL
+);
+
+CREATE TABLE public.clientaccount (
+	client_id varchar(10) NULL,
+	account_id varchar(10) NULL,
+	"type" varchar(50) NULL
 );
 
 CREATE TABLE public.client (
@@ -48,19 +52,22 @@ CREATE TABLE public.client (
 	email varchar NOT NULL,
 	address_1 varchar NOT NULL,
 	address_2 varchar NULL,
-	city varchar NOT NULL,
-	state varchar NOT NULL,
-	zipcode varchar NOT NULL,
-	district_id integer NOT NULL
+	zipcode varchar NOT NULL
 );
+
+CREATE TABLE public.zipcode (zipcode varchar NULL, district_id int4 NULL);
 
 CREATE TABLE public.district (
 	district_id integer NOT NULL PRIMARY KEY,
 	city varchar(50) NOT NULL,
-	state_name varchar(50) NOT NULL,
-	state_abbrev varchar(50) NOT NULL,
-	region varchar(50) NOT NULL,
-	division varchar(50) NOT NULL
+	state_name varchar(50) NOT NULL
+);
+
+CREATE TABLE public.state (
+	state_name varchar(50) NULL,
+	state_abbrev varchar(50) NULL,
+	region varchar(50) NULL,
+	division varchar(50) NULL
 );
 
 CREATE TABLE public.loan (

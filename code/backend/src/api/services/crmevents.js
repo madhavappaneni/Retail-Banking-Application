@@ -11,11 +11,24 @@ exports.createCRMEvent = async (data) => {
     }
 };
 
-exports.getCRMEvents = async (id) => {
+exports.getCRMEvents = async () => {
     try {
         const _crmevents = await CRMEvents.findAll({
             order: [['createdAt', 'DESC']],
             limit: 10
+        });
+        return _crmevents;
+    } catch (e) {
+        console.log('err', e);
+    }
+};
+
+exports.deleteCRMEvent = async (complaintId) => {
+    try {
+        const _crmevents = await CRMEvents.destroy({
+            where: {
+                'Complaint ID': complaintId
+            }
         });
         return _crmevents;
     } catch (e) {

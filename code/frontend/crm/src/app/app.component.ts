@@ -13,6 +13,7 @@ export class AppComponent implements OnInit {
     'Sub-Product',
     'Issue',
     'Consumer complaint narrative',
+    'actions',
   ]
   dataSource: any = []
   title = 'Retail Banking Data - CRM'
@@ -40,8 +41,23 @@ export class AppComponent implements OnInit {
     console.log('crmEvents', this.crmEvents)
   }
 
+  updateCRMEvent(data: any) {
+    console.log(data['Complaint ID'])
+    // this.appService.getCRMEvents().subscribe((data: any) => {
+    //   this.crmEvents = data.data
+    // })
+  }
+
+  deleteCRMEvent(data: any) {
+    this.appService
+      .deleteCRMEvent(data['Complaint ID'])
+      .subscribe((data: any) => {
+        this.crmEvents = data.data
+      })
+  }
+
   submitCRMEvent() {
-    this.appService.insertCRMEvents(this.form).subscribe((data) => {
+    this.appService.insertCRMEvent(this.form).subscribe((data) => {
       this.getCRMEvents()
       this.clearFormData()
     })

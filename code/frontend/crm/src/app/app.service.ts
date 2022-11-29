@@ -14,8 +14,13 @@ export class AppService {
     return this.httpClient.get(url)
   }
 
-  insertCRMEvents(data: any) {
+  insertCRMEvent(data: any) {
     let url = `${this.baseURL}v1/CRMEvents`
     return this.httpClient.post(url, data)
+  }
+
+  deleteCRMEvent(complaintId: string) {
+    let url = `${this.baseURL}v1/CRMEvents/${complaintId}`
+    return this.httpClient.delete(url)
   }
 }

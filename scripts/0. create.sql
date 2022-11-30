@@ -1,4 +1,4 @@
-create schema public;
+-- create schema public;
 
 CREATE TYPE account_frequency_enum AS ENUM (
 	'Issuance After Transaction',
@@ -34,7 +34,7 @@ CREATE TABLE public.disposition (
 );
 
 CREATE TABLE public.clientaccount (
-	client_id varchar(10) NULL,
+	client_id varchar(10) NULL primary key,
 	account_id varchar(10) NULL,
 	"type" varchar(50) NULL
 );
@@ -52,10 +52,11 @@ CREATE TABLE public.client (
 	email varchar NOT NULL,
 	address_1 varchar NOT NULL,
 	address_2 varchar NULL,
-	zipcode varchar NOT NULL
+	city varchar NOT NULL,
+	state varchar NOT NULL,
+	zipcode varchar NOT NULL,
+	district_id integer NOT NULL
 );
-
-CREATE TABLE public.zipcode (zipcode varchar NULL, district_id int4 NULL);
 
 CREATE TABLE public.district (
 	district_id integer NOT NULL PRIMARY KEY,
@@ -64,10 +65,10 @@ CREATE TABLE public.district (
 );
 
 CREATE TABLE public.state (
-	state_name varchar(50) NULL,
-	state_abbrev varchar(50) NULL,
-	region varchar(50) NULL,
-	division varchar(50) NULL
+	state_name varchar(50) NOT NULL PRIMARY KEY,
+	state_abbrev varchar(50) NOT NULL,
+	region varchar(50) NOT NULL,
+	division varchar(50) NOT NULL
 );
 
 CREATE TABLE public.loan (
@@ -155,7 +156,7 @@ CREATE TABLE public."CRMEvents" (
 	"Company response to consumer" varchar(50) NULL,
 	"Timely response?" varchar(50) NULL,
 	"Consumer disputed?" varchar(50) NULL,
-	"Complaint ID" varchar(50) NOT NULL,
+	"Complaint ID" varchar(50) NOT NULL PRIMARY KEY,
 	"Client_ID" varchar(50) NULL,
 	"createdAt" timestamptz NOT null DEFAULT NOW(),
 	"updatedAt" timestamptz NOT null DEFAULT NOW()
@@ -200,21 +201,20 @@ ADD
 	FOREIGN KEY (account_id) REFERENCES account(account_id);
 
 ALTER TABLE
-	public.crmevents
+	public."CRMEvents"
 ADD
 	FOREIGN KEY ("Client_ID") REFERENCES client(client_id);
 
 ALTER TABLE
 	public.CRMCallCenterLogs
 ADD
-	FOREIGN KEY ("Complaint ID") REFERENCES crmevents("Complaint ID");
+	FOREIGN KEY ("Complaint ID") REFERENCES public."CRMEvents"("Complaint ID");
 
 ALTER TABLE
-	public.order
+	public."order"
 ADD
 	FOREIGN KEY (account_id) references account(account_id);
 
--- 
 ALTER TABLE
 	public.account
 ADD
@@ -233,7 +233,7 @@ ADD
 ALTER TABLE
 	public.disposition
 ADD
-	foreign key (account_id) references account(account_id);
+	foreign key (client_id) references clientaccount(client_id);
 
 ALTER TABLE
 	public.client
@@ -244,3 +244,8 @@ ALTER TABLE
 	public.CRMReviews
 ADD
 	foreign key (district_id) references district(district_id);
+
+ALTER TABLE
+	public.district
+ADD
+	FOREIGN KEY (state_name) REFERENCES "state"(state_name);

@@ -52,7 +52,8 @@ export class AppComponent implements OnInit {
     this.appService
       .deleteCRMEvent(data['Complaint ID'])
       .subscribe((data: any) => {
-        this.crmEvents = data.data
+        // this.crmEvents = data.data
+        this.getCRMEvents()
       })
   }
 

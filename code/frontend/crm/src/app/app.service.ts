@@ -19,6 +19,11 @@ export class AppService {
     return this.httpClient.get(url)
   }
 
+  updateCRMEvent(data: any) {
+    let url = `${this.baseURL}v1/CRMEvents`
+    return this.httpClient.put(url, data)
+  }
+
   insertCRMEvent(data: any) {
     let url = `${this.baseURL}v1/CRMEvents`
     return this.httpClient.post(url, data)

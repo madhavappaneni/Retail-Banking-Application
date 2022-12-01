@@ -10,22 +10,6 @@ import { AppService } from '../app.service'
 export class ComplaintUpdateComponent {
   constructor(private router: Router, private appService: AppService) {}
 
-  // "Date received"
-  // "Product"
-  // "Sub-product"
-  // "Issue"
-  // "Sub-issue"
-  // "Consumer complaint narrative"
-  // "Tags"
-  // "Consumer consent provided?"
-  // "Submitted via"
-  // "Date sent to company"
-  // "Company response to consumer"
-  // "Timely response?"
-  // "Consumer disputed?"
-  // "Complaint ID"
-  // "Client_ID"
-
   displayedColumns: string[] = [
     'Date received',
     'Product',
@@ -80,10 +64,9 @@ export class ComplaintUpdateComponent {
   }
 
   updateCRMEvent() {
-    console.log(this.form)
-    // this.appService.getCRMEvents().subscribe((data: any) => {
-    //   this.crmEvents = data.data
-    // })
+    this.appService.updateCRMEvent(this.form).subscribe((data: any) => {
+      this.crmEvents = data.data
+    })
   }
 
   clearFormData() {

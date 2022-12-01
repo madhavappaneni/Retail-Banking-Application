@@ -8,80 +8,187 @@
   </nav>
   <br />
 
-  <h2>Submit a complaint</h2>
+  <h2>Update a complaint</h2>
   <form #crmForm="ngForm" (ngSubmit)="updateCRMEvent()">
     <div class="form-group">
-      <label for="Product" class="form-label">Product:</label>
+      <label for="Product" class="form-label">Complaint ID</label>
+      <br />
+      <input
+        type="text"
+        name="Complaint ID"
+        class="form-control"
+        [(ngModel)]="form['Complaint ID']"
+        readonly
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Product" class="form-label">Client_ID</label>
+      <br />
+      <input
+        type="text"
+        name="Client_ID"
+        class="form-control"
+        [(ngModel)]="form['Client_ID']"
+        readonly
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Product" class="form-label">Date received (YYYY-MM-DD)</label>
+      <br />
+      <input
+        type="text"
+        name="Date received"
+        class="form-control"
+        [(ngModel)]="form['Date received']"
+        readonly
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Product" class="form-label">Product</label>
       <br />
       <input
         type="text"
         name="Product"
         class="form-control"
-        [(ngModel)]="form.Product"
+        [(ngModel)]="form['Product']"
       />
     </div>
-    <div class="form-group">
-      <label for="Sub Product" class="form-label">Sub Product:</label>
-      <br />
-      <div class="col-xs-3">
-        <input
-          type="text"
-          name="Sub Product"
-          class="form-control"
-          [(ngModel)]="form['Sub-product']"
-        />
-      </div>
-    </div>
-
-    <!-- Issue: '',
-            'Complaint Id': '',
-            'Consumer complaint narrative': '', -->
 
     <div class="form-group">
-      <label for="Issue" class="form-label">Issue:</label>
+      <label for="Product" class="form-label">Sub-product</label>
       <br />
-      <div class="col-xs-3">
-        <input
-          type="text"
-          name="Issue"
-          class="form-control"
-          [(ngModel)]="form['Issue']"
-        />
-      </div>
+      <input
+        type="text"
+        name="Sub-product"
+        class="form-control"
+        [(ngModel)]="form['Sub-product']"
+      />
     </div>
 
     <div class="form-group">
-      <label for="Complaint ID" class="form-label">Complaint ID:</label>
+      <label for="Product" class="form-label">Issue</label>
       <br />
-      <div class="col-xs-3">
-        <input
-          type="text"
-          name="Complaint ID"
-          class="form-control"
-          [(ngModel)]="form['Complaint ID']"
-        />
-      </div>
+      <input
+        type="text"
+        name="Issue"
+        class="form-control"
+        [(ngModel)]="form['Issue']"
+      />
     </div>
 
     <div class="form-group">
-      <label for="Consumer complaint narrative" class="form-label">
-        Consumer complaint narrative:
+      <label for="Product" class="form-label">Sub-issue</label>
+      <br />
+      <input
+        type="text"
+        name="Sub-issue"
+        class="form-control"
+        [(ngModel)]="form['Sub-issue']"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Product" class="form-label">
+        Consumer complaint narrative
       </label>
       <br />
-      <div class="col-xs-3">
-        <input
-          type="text"
-          name="Consumer complaint narrative"
-          class="form-control"
-          [(ngModel)]="form['Consumer complaint narrative']"
-        />
-      </div>
+      <input
+        type="text"
+        name="Consumer complaint narrative"
+        class="form-control"
+        [(ngModel)]="form['Consumer complaint narrative']"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Product" class="form-label">Tags</label>
+      <br />
+      <input
+        type="text"
+        name="Tags"
+        class="form-control"
+        [(ngModel)]="form['Tags']"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Product" class="form-label">Consumer consent provided?</label>
+      <br />
+      <input
+        type="text"
+        name="Consumer consent provided?"
+        class="form-control"
+        [(ngModel)]="form['Consumer consent provided?']"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Product" class="form-label">Submitted via</label>
+      <br />
+      <input
+        type="text"
+        name="Submitted via"
+        class="form-control"
+        [(ngModel)]="form['Submitted via']"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Product" class="form-label">
+        Date sent to company (YYYY-MM-DD)
+      </label>
+      <br />
+      <input
+        type="text"
+        name="Date sent to company"
+        class="form-control"
+        [(ngModel)]="form['Date sent to company']"
+        readonly
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Product" class="form-label">
+        Company response to consumer
+      </label>
+      <br />
+      <input
+        type="text"
+        name="Company response to consumer"
+        class="form-control"
+        [(ngModel)]="form['Company response to consumer']"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Product" class="form-label">Timely response?</label>
+      <br />
+      <input
+        type="text"
+        name="Timely response?"
+        class="form-control"
+        [(ngModel)]="form['Timely response?']"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Product" class="form-label">Consumer disputed?</label>
+      <br />
+      <input
+        type="text"
+        name="Consumer disputed?"
+        class="form-control"
+        [(ngModel)]="form['Consumer disputed?']"
+      />
     </div>
 
     <br />
 
     <button type="submit" ngbButton type="submit" class="btn btn-dark mb-3">
-      Submit
+      Update
     </button>
   </form>
   <hr />

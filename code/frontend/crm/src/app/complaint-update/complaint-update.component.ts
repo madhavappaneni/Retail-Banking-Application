@@ -10,23 +10,58 @@ import { AppService } from '../app.service'
 export class ComplaintUpdateComponent {
   constructor(private router: Router, private appService: AppService) {}
 
+  // "Date received"
+  // "Product"
+  // "Sub-product"
+  // "Issue"
+  // "Sub-issue"
+  // "Consumer complaint narrative"
+  // "Tags"
+  // "Consumer consent provided?"
+  // "Submitted via"
+  // "Date sent to company"
+  // "Company response to consumer"
+  // "Timely response?"
+  // "Consumer disputed?"
+  // "Complaint ID"
+  // "Client_ID"
+
   displayedColumns: string[] = [
-    'Complaint ID',
+    'Date received',
     'Product',
-    'Sub-Product',
+    'Sub-product',
     'Issue',
+    'Sub-issue',
     'Consumer complaint narrative',
-    'actions',
+    'Tags',
+    'Consumer consent provided?',
+    'Submitted via',
+    'Date sent to company',
+    'Company response to consumer',
+    'Timely response?',
+    'Consumer disputed?',
+    'Complaint ID',
+    'Client_ID',
   ]
   dataSource: any = []
   title = 'Retail Banking Data - CRM'
   crmEvents: any = []
   form = {
+    'Date received': '',
     Product: '',
     'Sub-product': '',
     Issue: '',
-    'Complaint ID': '',
+    'Sub-issue': '',
     'Consumer complaint narrative': '',
+    Tags: '',
+    'Consumer consent provided?': '',
+    'Submitted via': '',
+    'Date sent to company': '',
+    'Company response to consumer': '',
+    'Timely response?': '',
+    'Consumer disputed?': '',
+    'Complaint ID': '',
+    Client_ID: '',
     Date: new Date().toISOString().split('T')[0],
   }
 
@@ -39,8 +74,9 @@ export class ComplaintUpdateComponent {
     console.log(this.form)
     this.appService.getCRMEvent(complaintId).subscribe((data: any) => {
       this.form = data.data
+      // console.log('data.data', data.data)
+      // console.log('crmEvents', this.form)
     })
-    console.log('crmEvents', this.crmEvents)
   }
 
   updateCRMEvent() {
@@ -52,11 +88,21 @@ export class ComplaintUpdateComponent {
 
   clearFormData() {
     this.form = {
-      'Sub-product': '',
+      'Date received': '',
       Product: '',
+      'Sub-product': '',
       Issue: '',
-      'Complaint ID': '',
+      'Sub-issue': '',
       'Consumer complaint narrative': '',
+      Tags: '',
+      'Consumer consent provided?': '',
+      'Submitted via': '',
+      'Date sent to company': '',
+      'Company response to consumer': '',
+      'Timely response?': '',
+      'Consumer disputed?': '',
+      'Complaint ID': '',
+      Client_ID: '',
       Date: new Date().toISOString().split('T')[0],
     }
   }

@@ -10,13 +10,13 @@ export class LoanComponent {
   displayedColumns: string[] = [
     'Loan Id',
     'Account Id',
-    'Type',
-    'Operation',
     'Amount',
-    'Balance',
-    'Bank',
-    'Account',
-    'Timestamp',
+    'Duration',
+    'Payments',
+    'Status',
+    'Date',
+    'Location',
+    'Purpose',
   ]
   dataSource: any = []
   title = 'Retail Banking Data - CRM'

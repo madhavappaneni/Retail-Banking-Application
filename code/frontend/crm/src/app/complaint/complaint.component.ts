@@ -19,11 +19,21 @@ export class ComplaintComponent {
   title = 'Retail Banking Data - CRM'
   crmEvents: any = []
   form = {
+    'Date received': '',
     Product: '',
     'Sub-product': '',
     Issue: '',
-    'Complaint ID': '',
+    'Sub-issue': '',
     'Consumer complaint narrative': '',
+    Tags: '',
+    'Consumer consent provided?': '',
+    'Submitted via': '',
+    'Date sent to company': '',
+    'Company response to consumer': '',
+    'Timely response?': '',
+    'Consumer disputed?': '',
+    'Complaint ID': '',
+    Client_ID: '',
     Date: new Date().toISOString().split('T')[0],
   }
 
@@ -66,11 +76,21 @@ export class ComplaintComponent {
 
   clearFormData() {
     this.form = {
-      'Sub-product': '',
+      'Date received': '',
       Product: '',
+      'Sub-product': '',
       Issue: '',
-      'Complaint ID': '',
+      'Sub-issue': '',
       'Consumer complaint narrative': '',
+      Tags: '',
+      'Consumer consent provided?': '',
+      'Submitted via': '',
+      'Date sent to company': '',
+      'Company response to consumer': '',
+      'Timely response?': '',
+      'Consumer disputed?': '',
+      'Complaint ID': '',
+      Client_ID: '',
       Date: new Date().toISOString().split('T')[0],
     }
   }

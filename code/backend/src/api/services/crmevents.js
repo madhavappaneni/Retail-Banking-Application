@@ -1,4 +1,4 @@
-const { CRMEvents } = require("../models");
+const { CRMEvents, transaction } = require("../models");
 const httpStatus = require('http-status');
 
 exports.createCRMEvent = async (data) => {
@@ -39,8 +39,10 @@ exports.deleteCRMEvent = async (complaintId) => {
 
 exports.getTransaction = async (transactionId) => {
     try {
-        const _crmevents = await CRMEvents.findAll({
-            order: [['createdAt', 'DESC']],
+        console.log(transactionId, 'test')
+        const _crmevents = await transaction.findAll({
+            order: [['fulldatewithtime', 'DESC']],
+            where: { trans_id: transactionId },
             limit: 10
         });
         return _crmevents;

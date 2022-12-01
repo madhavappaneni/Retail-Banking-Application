@@ -23,4 +23,9 @@ export class AppService {
     let url = `${this.baseURL}v1/CRMEvents/${complaintId}`
     return this.httpClient.delete(url)
   }
+
+  getTransactions(transactionId: string) {
+    let url = `${this.baseURL}v1/transactions/${transactionId}`
+    return this.httpClient.get(url)
+  }
 }

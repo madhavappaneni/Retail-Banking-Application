@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 router
-    .route('transactions/:transaction')
-    .delete(controller.getTransaction);
+    .route('/transactions/:transactionId')
+    .get(controller.getTransaction);
 
 module.exports = router;

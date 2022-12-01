@@ -8,70 +8,39 @@ import { AppService } from './../app.service'
 })
 export class TransactionComponent {
   displayedColumns: string[] = [
-    'Complaint ID',
-    'Product',
-    'Sub-Product',
-    'Issue',
-    'Consumer complaint narrative',
-    'actions',
+    'Transaction Id',
+    'Account Id',
+    'Type',
+    'Operation',
+    'Amount',
+    'Balance',
+    'Bank',
+    'Account',
+    'Timestamp',
   ]
   dataSource: any = []
   title = 'Retail Banking Data - CRM'
-  crmEvents: any = []
+  transactions: any = []
   form = {
-    Product: '',
-    'Sub-product': '',
-    Issue: '',
-    'Complaint ID': '',
-    'Consumer complaint narrative': '',
-    Date: new Date().toISOString().split('T')[0],
+    transactionId: '',
   }
 
   constructor(private appService: AppService) {}
 
-  ngOnInit(): void {
-    this.getCRMEvents()
-  }
+  ngOnInit(): void {}
 
-  getCRMEvents() {
+  getTransaction() {
     console.log(this.form)
-    this.appService.getCRMEvents().subscribe((data: any) => {
-      this.crmEvents = data.data
+    const transactionId = this.form.transactionId;
+    this.appService.getTransactions(transactionId).subscribe((data: any) => {
+      this.transactions = data.data
     })
-    console.log('crmEvents', this.crmEvents)
-  }
-
-  updateCRMEvent(data: any) {
-    console.log(data['Complaint ID'])
-    // this.appService.getCRMEvents().subscribe((data: any) => {
-    //   this.crmEvents = data.data
-    // })
-  }
-
-  deleteCRMEvent(data: any) {
-    this.appService
-      .deleteCRMEvent(data['Complaint ID'])
-      .subscribe((data: any) => {
-        // this.crmEvents = data.data
-        this.getCRMEvents()
-      })
-  }
-
-  submitCRMEvent() {
-    this.appService.insertCRMEvent(this.form).subscribe((data: any) => {
-      this.getCRMEvents()
-      this.clearFormData()
-    })
+    console.log('transactions', this.transactions)
   }
 
   clearFormData() {
     this.form = {
-      'Sub-product': '',
-      Product: '',
-      Issue: '',
-      'Complaint ID': '',
-      'Consumer complaint narrative': '',
-      Date: new Date().toISOString().split('T')[0],
+      transactionId: '',
     }
   }
 }

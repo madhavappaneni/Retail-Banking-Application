@@ -37,23 +37,13 @@
 
   <table mat-table [dataSource]="loans" class="mat-elevation-z8">
     <ng-container matColumnDef="Loan Id">
-      <th mat-header-cell *matHeaderCellDef>Loan Id</th>
-      <td mat-cell *matCellDef="let element">{{ element.trans_id }}</td>
+      <th mat-header-cell *matHeaderCellDef>Loan Loan Id</th>
+      <td mat-cell *matCellDef="let element">{{ element.loan_id }}</td>
     </ng-container>
 
     <ng-container matColumnDef="Account Id">
-      <th mat-header-cell *matHeaderCellDef>Account Id</th>
+      <th mat-header-cell *matHeaderCellDef>Account Account Id</th>
       <td mat-cell *matCellDef="let element">{{ element.account_id }}</td>
-    </ng-container>
-
-    <ng-container matColumnDef="Type">
-      <th mat-header-cell *matHeaderCellDef>Type</th>
-      <td mat-cell *matCellDef="let element">{{ element.type }}</td>
-    </ng-container>
-
-    <ng-container matColumnDef="Operation">
-      <th mat-header-cell *matHeaderCellDef>Operation</th>
-      <td mat-cell *matCellDef="let element">{{ element.operation }}</td>
     </ng-container>
 
     <ng-container matColumnDef="Amount">
@@ -61,24 +51,34 @@
       <td mat-cell *matCellDef="let element">{{ element.amount }}</td>
     </ng-container>
 
-    <ng-container matColumnDef="Balance">
-      <th mat-header-cell *matHeaderCellDef>Balance</th>
-      <td mat-cell *matCellDef="let element">{{ element.balance }}</td>
+    <ng-container matColumnDef="Duration">
+      <th mat-header-cell *matHeaderCellDef>Duration</th>
+      <td mat-cell *matCellDef="let element">{{ element.duration }}</td>
     </ng-container>
 
-    <ng-container matColumnDef="Bank">
-      <th mat-header-cell *matHeaderCellDef>Bank</th>
-      <td mat-cell *matCellDef="let element">{{ element.bank }}</td>
+    <ng-container matColumnDef="Payments">
+      <th mat-header-cell *matHeaderCellDef>Payments</th>
+      <td mat-cell *matCellDef="let element">{{ element.payments }}</td>
     </ng-container>
 
-    <ng-container matColumnDef="Account">
-      <th mat-header-cell *matHeaderCellDef>Account</th>
-      <td mat-cell *matCellDef="let element">{{ element.account }}</td>
+    <ng-container matColumnDef="Status">
+      <th mat-header-cell *matHeaderCellDef>Status</th>
+      <td mat-cell *matCellDef="let element">{{ element.status }}</td>
     </ng-container>
 
-    <ng-container matColumnDef="Timestamp">
-      <th mat-header-cell *matHeaderCellDef>Timestamp</th>
-      <td mat-cell *matCellDef="let element">{{ element.fulldatewithtime }}</td>
+    <ng-container matColumnDef="Date">
+      <th mat-header-cell *matHeaderCellDef>Date</th>
+      <td mat-cell *matCellDef="let element">{{ element.date }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Location">
+      <th mat-header-cell *matHeaderCellDef>Location</th>
+      <td mat-cell *matCellDef="let element">{{ element.location }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Purpose">
+      <th mat-header-cell *matHeaderCellDef>Purpose</th>
+      <td mat-cell *matCellDef="let element">{{ element.purpose }}</td>
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>

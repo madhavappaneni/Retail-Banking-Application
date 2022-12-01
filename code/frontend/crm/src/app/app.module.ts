@@ -11,10 +11,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatTableModule } from '@angular/material/table';
 import { TransactionComponent } from './transaction/transaction.component';
 import { ClientComponent } from './client/client.component';
-import { LoanComponent } from './loan/loan.component'
+import { LoanComponent } from './loan/loan.component';
+import { ComplaintUpdateComponent } from './complaint-update/complaint-update.component'
 
 @NgModule({
-  declarations: [AppComponent, ComplaintComponent, TransactionComponent, ClientComponent, LoanComponent],
+  declarations: [AppComponent, ComplaintComponent, TransactionComponent, ClientComponent, LoanComponent, ComplaintUpdateComponent],
   imports: [
     BrowserModule,
     HttpClientModule,

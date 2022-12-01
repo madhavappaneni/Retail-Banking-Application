@@ -14,6 +14,11 @@ export class AppService {
     return this.httpClient.get(url)
   }
 
+  getCRMEvent(complaintId: string) {
+    let url = `${this.baseURL}v1/CRMEvents/${complaintId}`
+    return this.httpClient.get(url)
+  }
+
   insertCRMEvent(data: any) {
     let url = `${this.baseURL}v1/CRMEvents`
     return this.httpClient.post(url, data)

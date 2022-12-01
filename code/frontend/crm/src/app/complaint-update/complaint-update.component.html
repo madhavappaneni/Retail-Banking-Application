@@ -1,0 +1,88 @@
+<!-- The routed views render in the <router-outlet>-->
+
+<div class="container-fluid">
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      {{ title }}
+    </a>
+  </nav>
+  <br />
+
+  <h2>Submit a complaint</h2>
+  <form #crmForm="ngForm" (ngSubmit)="updateCRMEvent()">
+    <div class="form-group">
+      <label for="Product" class="form-label">Product:</label>
+      <br />
+      <input
+        type="text"
+        name="Product"
+        class="form-control"
+        [(ngModel)]="form.Product"
+      />
+    </div>
+    <div class="form-group">
+      <label for="Sub Product" class="form-label">Sub Product:</label>
+      <br />
+      <div class="col-xs-3">
+        <input
+          type="text"
+          name="Sub Product"
+          class="form-control"
+          [(ngModel)]="form['Sub-product']"
+        />
+      </div>
+    </div>
+
+    <!-- Issue: '',
+            'Complaint Id': '',
+            'Consumer complaint narrative': '', -->
+
+    <div class="form-group">
+      <label for="Issue" class="form-label">Issue:</label>
+      <br />
+      <div class="col-xs-3">
+        <input
+          type="text"
+          name="Issue"
+          class="form-control"
+          [(ngModel)]="form['Issue']"
+        />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="Complaint ID" class="form-label">Complaint ID:</label>
+      <br />
+      <div class="col-xs-3">
+        <input
+          type="text"
+          name="Complaint ID"
+          class="form-control"
+          [(ngModel)]="form['Complaint ID']"
+        />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="Consumer complaint narrative" class="form-label">
+        Consumer complaint narrative:
+      </label>
+      <br />
+      <div class="col-xs-3">
+        <input
+          type="text"
+          name="Consumer complaint narrative"
+          class="form-control"
+          [(ngModel)]="form['Consumer complaint narrative']"
+        />
+      </div>
+    </div>
+
+    <br />
+
+    <button type="submit" ngbButton type="submit" class="btn btn-dark mb-3">
+      Submit
+    </button>
+  </form>
+  <hr />
+</div>

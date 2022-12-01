@@ -10,19 +10,18 @@
   <br />
 
   <h2>Search for Transactions</h2>
-  <form #crmForm="ngForm" (ngSubmit)="submitCRMEvent()">
-    
+  <form #crmForm="ngForm" (ngSubmit)="getTransaction()">
     <div class="form-group">
-      <label for="Consumer complaint narrative" class="form-label">
+      <label for="transactionId" class="form-label">
         Transaction ID:
       </label>
       <br />
       <div class="col-xs-3">
         <input
           type="text"
-          name="Consumer complaint narrative"
+          name="transactionId"
           class="form-control"
-          [(ngModel)]="form['Consumer complaint narrative']"
+          [(ngModel)]="form['transactionId']"
         />
       </div>
     </div>
@@ -36,7 +35,7 @@
 
   <h3>Past Complaints</h3>
 
-  <table mat-table [dataSource]="crmEvents" class="mat-elevation-z8">
+  <table mat-table [dataSource]="transactions" class="mat-elevation-z8">
     <ng-container matColumnDef="Complaint ID">
       <th mat-header-cell *matHeaderCellDef>Complaint ID</th>
       <td mat-cell *matCellDef="let element">{{ element['Complaint ID'] }}</td>
@@ -61,15 +60,6 @@
       <th mat-header-cell *matHeaderCellDef>Consumer complaint narrative</th>
       <td mat-cell *matCellDef="let element">
         {{ element['Consumer complaint narrative'] }}
-      </td>
-    </ng-container>
-
-    <ng-container matColumnDef="actions">
-      <th mat-header-cell *matHeaderCellDef>Actions</th>
-      <td mat-cell *matCellDef="let element">
-        <!-- <button mat-button (click)="updateCRMEvent(element)">Edit</button>
-                &nbsp; -->
-        <button mat-button (click)="deleteCRMEvent(element)">Delete</button>
       </td>
     </ng-container>
 

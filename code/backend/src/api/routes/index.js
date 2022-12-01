@@ -1,6 +1,6 @@
 const express = require('express');
 const CRMRoutes = require('./v1/crmevents');
-const CRMRoutes = require('./v1/transaction');
+const TransactionRoutes = require('./v1/transaction');
 
 
 const router = express.Router();

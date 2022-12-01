@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-module.exports = function(sequelize, DataTypes) {
+module.exports = function (sequelize, DataTypes) {
   return sequelize.define('transaction', {
     trans_id: {
       type: DataTypes.STRING(50),
@@ -49,7 +49,7 @@ module.exports = function(sequelize, DataTypes) {
     fulldatewithtime: {
       type: DataTypes.STRING(50),
       allowNull: true
-    }
+    },
   }, {
     sequelize,
     tableName: 'transaction',
@@ -70,5 +70,8 @@ module.exports = function(sequelize, DataTypes) {
         ]
       },
     ]
-  });
+  }, {
+    timestamps: false
+  }
+  );
 };

@@ -39,7 +39,8 @@ exports.deleteCRMEvent = async (req, res, next) => {
 
 exports.getTransaction = async (req, res, next) => {
     try {
-        const response = await crmeventsService.getTransaction();
+        const transactionId = req.params.transactionId;
+        const response = await crmeventsService.getTransaction(transactionId);
         return res.status(httpStatus.OK).json({
             code: httpStatus.OK,
             data: response,

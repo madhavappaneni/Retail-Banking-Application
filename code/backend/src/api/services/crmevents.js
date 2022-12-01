@@ -35,3 +35,16 @@ exports.deleteCRMEvent = async (complaintId) => {
         console.log('err', e);
     }
 };
+
+
+exports.getTransaction = async (transactionId) => {
+    try {
+        const _crmevents = await CRMEvents.findAll({
+            order: [['createdAt', 'DESC']],
+            limit: 10
+        });
+        return _crmevents;
+    } catch (e) {
+        console.log('err', e);
+    }
+};

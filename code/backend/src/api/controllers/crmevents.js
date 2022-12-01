@@ -36,3 +36,16 @@ exports.deleteCRMEvent = async (req, res, next) => {
         return next(error);
     }
 };
+
+exports.getTransaction = async (req, res, next) => {
+    try {
+        const response = await crmeventsService.getTransaction();
+        return res.status(httpStatus.OK).json({
+            code: httpStatus.OK,
+            data: response,
+        });
+    } catch (error) {
+        return next(error);
+    }
+};
+

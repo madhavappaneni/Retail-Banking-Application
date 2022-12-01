@@ -6,6 +6,8 @@ router
     .route('/')
     .post(controller.createCRMEvent)
     .get(controller.getCRMEvent)
+    .update(controller.updateCRMEvent)
+
 
 router
     .route('/:complaintId')

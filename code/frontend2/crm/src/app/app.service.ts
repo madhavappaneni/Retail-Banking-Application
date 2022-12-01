@@ -28,4 +28,14 @@ export class AppService {
     let url = `${this.baseURL}v1/transactions/${transactionId}`
     return this.httpClient.get(url)
   }
+
+  getLoan(loanId: string) {
+    let url = `${this.baseURL}v1/loans/${loanId}`
+    return this.httpClient.get(url)
+  }
+
+  getClient(clientId: string) {
+    let url = `${this.baseURL}v1/clients/${clientId}`
+    return this.httpClient.get(url)
+  }
 }

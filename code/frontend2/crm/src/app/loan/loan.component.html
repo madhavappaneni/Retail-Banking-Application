@@ -1,0 +1,87 @@
+<!-- The routed views render in the <router-outlet>-->
+<router-outlet></router-outlet>
+
+<div class="container-fluid">
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      {{ title }}
+    </a>
+  </nav>
+  <br />
+
+  <h2>Search for Loans</h2>
+  <form #crmForm="ngForm" (ngSubmit)="getLoan()">
+    <div class="form-group">
+      <label for="loanId" class="form-label">
+        Loan ID:
+      </label>
+      <br />
+      <div class="col-xs-3">
+        <input
+          type="text"
+          name="loanId"
+          class="form-control"
+          [(ngModel)]="form['loanId']"
+        />
+      </div>
+    </div>
+
+    <br />
+    <button type="submit" ngbButton type="submit" class="btn btn-dark mb-3">
+      Submit
+    </button>
+  </form>
+  <hr />
+
+  <h3>Loans</h3>
+
+  <table mat-table [dataSource]="loans" class="mat-elevation-z8">
+    <ng-container matColumnDef="Loan Id">
+      <th mat-header-cell *matHeaderCellDef>Loan Id</th>
+      <td mat-cell *matCellDef="let element">{{ element.trans_id }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Account Id">
+      <th mat-header-cell *matHeaderCellDef>Account Id</th>
+      <td mat-cell *matCellDef="let element">{{ element.account_id }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Type">
+      <th mat-header-cell *matHeaderCellDef>Type</th>
+      <td mat-cell *matCellDef="let element">{{ element.type }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Operation">
+      <th mat-header-cell *matHeaderCellDef>Operation</th>
+      <td mat-cell *matCellDef="let element">{{ element.operation }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Amount">
+      <th mat-header-cell *matHeaderCellDef>Amount</th>
+      <td mat-cell *matCellDef="let element">{{ element.amount }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Balance">
+      <th mat-header-cell *matHeaderCellDef>Balance</th>
+      <td mat-cell *matCellDef="let element">{{ element.balance }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Bank">
+      <th mat-header-cell *matHeaderCellDef>Bank</th>
+      <td mat-cell *matCellDef="let element">{{ element.bank }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Account">
+      <th mat-header-cell *matHeaderCellDef>Account</th>
+      <td mat-cell *matCellDef="let element">{{ element.account }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Timestamp">
+      <th mat-header-cell *matHeaderCellDef>Timestamp</th>
+      <td mat-cell *matCellDef="let element">{{ element.fulldatewithtime }}</td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+</div>

@@ -1,4 +1,4 @@
-const { CRMEvents, transaction } = require("../models");
+const { CRMEvents, transaction, client, loan } = require("../models");
 const httpStatus = require('http-status');
 
 exports.createCRMEvent = async (data) => {
@@ -43,6 +43,32 @@ exports.getTransaction = async (transactionId) => {
         const _crmevents = await transaction.findAll({
             order: [['fulldatewithtime', 'DESC']],
             where: { trans_id: transactionId },
+            limit: 10
+        });
+        return _crmevents;
+    } catch (e) {
+        console.log('err', e);
+    }
+};
+
+exports.getLoan = async (loanId) => {
+    try {
+        console.log(loanId, 'test')
+        const _crmevents = await loan.findAll({
+            where: { loan_id: loanId },
+            limit: 10
+        });
+        return _crmevents;
+    } catch (e) {
+        console.log('err', e);
+    }
+};
+
+exports.getClient = async (clientId) => {
+    try {
+        console.log(clientId, 'test')
+        const _crmevents = await client.findAll({
+            where: { client_id: clientId },
             limit: 10
         });
         return _crmevents;

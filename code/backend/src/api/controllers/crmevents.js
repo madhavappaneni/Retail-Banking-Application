@@ -50,3 +50,29 @@ exports.getTransaction = async (req, res, next) => {
     }
 };
 
+exports.getLoan = async (req, res, next) => {
+    try {
+        const loanId = req.params.loanId;
+        const response = await crmeventsService.getLoan(loanId);
+        return res.status(httpStatus.OK).json({
+            code: httpStatus.OK,
+            data: response,
+        });
+    } catch (error) {
+        return next(error);
+    }
+};
+
+exports.getClient = async (req, res, next) => {
+    try {
+        const clientId = req.params.clientId;
+        const response = await crmeventsService.getClient(clientId);
+        return res.status(httpStatus.OK).json({
+            code: httpStatus.OK,
+            data: response,
+        });
+    } catch (error) {
+        return next(error);
+    }
+};
+

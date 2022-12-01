@@ -24,6 +24,7 @@ fs
         (file.slice(-3) === '.js'))
     .forEach((file) => {
         const model = require(path.join(__dirname, file))(sequelize, Sequelize.DataTypes)
+        console.log(model.name, 'testdb')
         db[model.name] = model;
     });
 
@@ -32,6 +33,6 @@ Object.keys(db).forEach((modelName) => {
         db[modelName].associate(db);
     }
 });
-console.log(db, 'test db')
+// console.log(db, 'test db')
 
 module.exports = db;

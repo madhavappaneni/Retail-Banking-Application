@@ -24,6 +24,18 @@ exports.getCRMEvents = async () => {
 };
 
 
+exports.getCRMEvent = async (complaintId) => {
+    try {
+        const _crmevents = await CRMEvents.findOne({
+            where: { "Complaint ID": complaintId }
+        });
+        return _crmevents;
+    } catch (e) {
+        console.log('err', e);
+    }
+};
+
+
 exports.updateCRMEvent = async (id, data) => {
     try {
         const _crmevents = await CRMEvents.update(data, {

@@ -1,9 +1,22 @@
 const httpStatus = require('http-status');
 const crmeventsService = require('../services/crmevents');
 
-exports.getCRMEvent = async (req, res, next) => {
+exports.getCRMEvents = async (req, res, next) => {
     try {
         const response = await crmeventsService.getCRMEvents();
+        return res.status(httpStatus.OK).json({
+            code: httpStatus.OK,
+            data: response,
+        });
+    } catch (error) {
+        return next(error);
+    }
+};
+
+exports.getCRMEvent = async (req, res, next) => {
+    try {
+        const complaintId = req.params.complaintId
+        const response = await crmeventsService.getCRMEvent(complaintId);
         return res.status(httpStatus.OK).json({
             code: httpStatus.OK,
             data: response,

@@ -188,64 +188,64 @@ CREATE TABLE public.transaction (
 ALTER TABLE
 	public.transaction
 ADD
-	FOREIGN KEY (account_id) REFERENCES account(account_id);
+	FOREIGN KEY (account_id) REFERENCES account(account_id) on delete cascade;
 
 ALTER TABLE
 	public.loan
 ADD
-	FOREIGN KEY (account_id) references account(account_id);
+	FOREIGN KEY (account_id) references account(account_id) on delete cascade;
 
 ALTER TABLE
 	public.transaction
 ADD
-	FOREIGN KEY (account_id) REFERENCES account(account_id);
+	FOREIGN KEY (account_id) REFERENCES account(account_id) on delete cascade;
 
 ALTER TABLE
 	public."CRMEvents"
 ADD
-	FOREIGN KEY ("Client_ID") REFERENCES client(client_id);
+	FOREIGN KEY ("Client_ID") REFERENCES client(client_id) on delete cascade;
 
 ALTER TABLE
 	public.CRMCallCenterLogs
 ADD
-	FOREIGN KEY ("Complaint ID") REFERENCES public."CRMEvents"("Complaint ID");
+	FOREIGN KEY ("Complaint ID") REFERENCES public."CRMEvents"("Complaint ID") on delete cascade;
 
 ALTER TABLE
 	public."order"
 ADD
-	FOREIGN KEY (account_id) references account(account_id);
+	FOREIGN KEY (account_id) references account(account_id) on delete cascade;
 
 ALTER TABLE
 	public.account
 ADD
-	foreign key(district_id) references district(district_id);
+	foreign key(district_id) references district(district_id) on delete cascade;
 
 ALTER TABLE
 	public.card
 ADD
-	foreign key(disp_id) references disposition(disp_id);
+	foreign key(disp_id) references disposition(disp_id) on delete cascade;
 
 ALTER TABLE
 	public.disposition
 ADD
-	foreign key (client_id) references client(client_id);
+	foreign key (client_id) references client(client_id) on delete cascade;
 
 ALTER TABLE
 	public.disposition
 ADD
-	foreign key (client_id) references clientaccount(client_id);
+	foreign key (client_id) references clientaccount(client_id) on delete cascade;
 
 ALTER TABLE
 	public.client
 ADD
-	foreign key (district_id) references district(district_id);
+	foreign key (district_id) references district(district_id) on delete cascade;
 
 ALTER TABLE
 	public.CRMReviews
 ADD
-	foreign key (district_id) references district(district_id);
+	foreign key (district_id) references district(district_id) on delete cascade;
 
 ALTER TABLE
 	public.district
 ADD
-	FOREIGN KEY (state_name) REFERENCES "state"(state_name);
+	FOREIGN KEY (state_name) REFERENCES "state"(state_name) on delete cascade;

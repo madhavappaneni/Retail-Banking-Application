@@ -14,7 +14,7 @@ exports.createCRMEvent = async (data) => {
 exports.getCRMEvents = async () => {
     try {
         const _crmevents = await CRMEvents.findAll({
-            order: [['createdAt', 'DESC']],
+            order: [['updatedAt', 'DESC']],
             limit: 10
         });
         return _crmevents;
@@ -27,7 +27,7 @@ exports.getCRMEvents = async () => {
 exports.updateCRMEvent = async (id, data) => {
     try {
         const _crmevents = await CRMEvents.update(data, {
-            where: { id },
+            where: { "Complaint ID": id },
             returning: true,
         });
         return _crmevents;

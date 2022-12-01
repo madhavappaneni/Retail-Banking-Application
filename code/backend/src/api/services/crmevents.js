@@ -23,6 +23,20 @@ exports.getCRMEvents = async () => {
     }
 };
 
+
+exports.updateCRMEvent = async (id, data) => {
+    try {
+        const _crmevents = await CRMEvents.update(data, {
+            where: { id },
+            returning: true,
+        });
+        return _crmevents;
+    } catch (e) {
+        console.log('err', e);
+    }
+};
+
+
 exports.deleteCRMEvent = async (complaintId) => {
     try {
         const _crmevents = await CRMEvents.destroy({
@@ -60,7 +74,7 @@ exports.getLoan = async (loanId) => {
         });
         return _crmevents;
     } catch (e) {
-        console.log('err', e);
+        console.log('err', e.name);
     }
 };
 

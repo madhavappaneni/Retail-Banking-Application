@@ -13,6 +13,22 @@ exports.getCRMEvent = async (req, res, next) => {
     }
 };
 
+
+exports.updateCRMEvent = async (req, res, next) => {
+    try {
+        const data = req.body;
+        const id = req.body["Complaint ID"];
+        const response = await crmeventsService.updateCRMEvent(id, data);
+        return res.status(httpStatus.OK).json({
+            code: httpStatus.OK,
+            data: response,
+        });
+    } catch (error) {
+        return next(error);
+    }
+};
+
+
 exports.createCRMEvent = async (req, res, next) => {
     try {
         const response = await crmeventsService.createCRMEvent(req.body);

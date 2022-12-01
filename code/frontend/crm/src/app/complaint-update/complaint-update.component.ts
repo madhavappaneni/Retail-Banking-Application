@@ -58,8 +58,6 @@ export class ComplaintUpdateComponent {
     console.log(this.form)
     this.appService.getCRMEvent(complaintId).subscribe((data: any) => {
       this.form = data.data
-      // console.log('data.data', data.data)
-      // console.log('crmEvents', this.form)
     })
   }
 

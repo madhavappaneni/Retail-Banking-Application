@@ -7,7 +7,8 @@ import { HttpClient } from '@angular/common/http'
 export class AppService {
   constructor(private httpClient: HttpClient) {}
 
-  baseURL = 'https://lionfish-app-y3ij5.ondigitalocean.app/api/api/'
+  // baseURL = 'https://lionfish-app-y3ij5.ondigitalocean.app/api/api/'
+  baseURL = 'http://localhost:8080/api/'
 
   getCRMEvents() {
     let url = `${this.baseURL}v1/CRMEvents`

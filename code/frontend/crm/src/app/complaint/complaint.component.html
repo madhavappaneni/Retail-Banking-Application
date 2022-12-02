@@ -11,17 +11,6 @@
   <h2>Submit a complaint</h2>
   <form #crmForm="ngForm" (ngSubmit)="submitCRMEvent()">
     <div class="form-group">
-      <label for="Product" class="form-label">Complaint ID</label>
-      <br />
-      <input
-        type="text"
-        name="Complaint ID"
-        class="form-control"
-        [(ngModel)]="form['Complaint ID']"
-      />
-    </div>
-
-    <div class="form-group">
       <label for="Product" class="form-label">Client_ID</label>
       <br />
       <input
@@ -161,8 +150,8 @@
     <ng-container matColumnDef="actions">
       <th mat-header-cell *matHeaderCellDef>Actions</th>
       <td mat-cell *matCellDef="let element">
-        <!-- <button mat-button (click)="updateCRMEvent(element)">Edit</button>
-            &nbsp; -->
+        <button mat-button (click)="updateCRMEvent(element)">Update</button>
+        &nbsp;
         <button mat-button (click)="deleteCRMEvent(element)">Delete</button>
       </td>
     </ng-container>

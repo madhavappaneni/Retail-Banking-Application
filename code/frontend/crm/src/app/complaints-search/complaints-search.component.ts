@@ -1,13 +1,13 @@
-import { Component, OnInit } from '@angular/core'
-import { AppService } from '../app.service'
+import { Component } from '@angular/core'
 import { Router } from '@angular/router'
+import { AppService } from '../app.service'
 
 @Component({
-  selector: 'app-complaint',
-  templateUrl: './complaint.component.html',
-  styleUrls: ['./complaint.component.css'],
+  selector: 'app-complaints-search',
+  templateUrl: './complaints-search.component.html',
+  styleUrls: ['./complaints-search.component.css'],
 })
-export class ComplaintComponent {
+export class ComplaintsSearchComponent {
   displayedColumns: string[] = [
     'Date received',
     'Product',
@@ -71,7 +71,7 @@ export class ComplaintComponent {
     this.appService
       .getCRMEvent(this.form2.complaintId)
       .subscribe((data: any) => {
-        this.crmEvents = data.data
+        this.crmEvents = [data.data]
       })
   }
 

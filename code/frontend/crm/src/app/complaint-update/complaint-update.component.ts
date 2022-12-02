@@ -64,6 +64,7 @@ export class ComplaintUpdateComponent {
   updateCRMEvent() {
     this.appService.updateCRMEvent(this.form).subscribe((data: any) => {
       this.crmEvents = data.data
+      this.router.navigate([`/complaints`])
     })
   }
 

@@ -8,121 +8,12 @@
   </nav>
   <br />
 
-  <h2>Submit a complaint</h2>
-  <form #crmForm="ngForm" (ngSubmit)="submitCRMEvent()">
-    <div class="form-group">
-      <label for="Product" class="form-label">Client_ID</label>
-      <br />
-      <input
-        type="text"
-        name="Client_ID"
-        class="form-control"
-        [(ngModel)]="form['Client_ID']"
-      />
-    </div>
+  <h3>Search for complaints</h3>
 
-    <div class="form-group">
-      <label for="Product" class="form-label">Product</label>
-      <br />
-      <input
-        type="text"
-        name="Product"
-        class="form-control"
-        [(ngModel)]="form['Product']"
-      />
-    </div>
-
-    <div class="form-group">
-      <label for="Product" class="form-label">Sub-product</label>
-      <br />
-      <input
-        type="text"
-        name="Sub-product"
-        class="form-control"
-        [(ngModel)]="form['Sub-product']"
-      />
-    </div>
-
-    <div class="form-group">
-      <label for="Product" class="form-label">Issue</label>
-      <br />
-      <input
-        type="text"
-        name="Issue"
-        class="form-control"
-        [(ngModel)]="form['Issue']"
-      />
-    </div>
-
-    <div class="form-group">
-      <label for="Product" class="form-label">Sub-issue</label>
-      <br />
-      <input
-        type="text"
-        name="Sub-issue"
-        class="form-control"
-        [(ngModel)]="form['Sub-issue']"
-      />
-    </div>
-
-    <div class="form-group">
-      <label for="Product" class="form-label">
-        Consumer complaint narrative
-      </label>
-      <br />
-      <input
-        type="text"
-        name="Consumer complaint narrative"
-        class="form-control"
-        [(ngModel)]="form['Consumer complaint narrative']"
-      />
-    </div>
-
-    <div class="form-group">
-      <label for="Product" class="form-label">Tags</label>
-      <br />
-      <input
-        type="text"
-        name="Tags"
-        class="form-control"
-        [(ngModel)]="form['Tags']"
-      />
-    </div>
-
-    <div class="form-group">
-      <label for="Product" class="form-label">Consumer consent provided?</label>
-      <br />
-      <input
-        type="text"
-        name="Consumer consent provided?"
-        class="form-control"
-        [(ngModel)]="form['Consumer consent provided?']"
-      />
-    </div>
-
-    <div class="form-group">
-      <label for="Product" class="form-label">Submitted via</label>
-      <br />
-      <input
-        type="text"
-        name="Submitted via"
-        class="form-control"
-        [(ngModel)]="form['Submitted via']"
-      />
-    </div>
-    <br />
-    <button type="submit" ngbButton type="submit" class="btn btn-dark mb-3">
-      Submit
-    </button>
-  </form>
-  <hr />
-
-  <h3>Past Complaints</h3>
-
-  <!-- <form #crmForm="ngForm" (ngSubmit)="getCRMEvent()">
+  <form #crmForm="ngForm" (ngSubmit)="getCRMEvent()">
     <div class="form-group">
       <label for="complaintId" class="form-label">
-        Loan ID:
+        Complaint ID:
       </label>
       <br />
       <div class="col-xs-3">
@@ -139,7 +30,7 @@
     <button type="submit" ngbButton type="submit" class="btn btn-dark mb-3">
       Submit
     </button>
-  </form> -->
+  </form>
   <hr />
   <table mat-table [dataSource]="crmEvents" class="mat-elevation-z8">
     <ng-container matColumnDef="Date received">
@@ -168,23 +59,23 @@
     </ng-container>
 
     <!-- <ng-container matColumnDef="Consumer complaint narrative">
-      <th mat-header-cell *matHeaderCellDef>Consumer complaint narrative</th>
-      <td mat-cell *matCellDef="let element">
-        {{ element['Consumer complaint narrative'] }}
-      </td>
-    </ng-container> -->
+            <th mat-header-cell *matHeaderCellDef>Consumer complaint narrative</th>
+            <td mat-cell *matCellDef="let element">
+              {{ element['Consumer complaint narrative'] }}
+            </td>
+          </ng-container> -->
     <!-- 
-    <ng-container matColumnDef="Tags">
-      <th mat-header-cell *matHeaderCellDef>Tags</th>
-      <td mat-cell *matCellDef="let element">{{ element['Tags'] }}</td>
-    </ng-container>
-
-    <ng-container matColumnDef="Consumer consent provided?">
-      <th mat-header-cell *matHeaderCellDef>Consumer consent provided?</th>
-      <td mat-cell *matCellDef="let element">
-        {{ element['Consumer consent provided?'] }}
-      </td>
-    </ng-container> -->
+          <ng-container matColumnDef="Tags">
+            <th mat-header-cell *matHeaderCellDef>Tags</th>
+            <td mat-cell *matCellDef="let element">{{ element['Tags'] }}</td>
+          </ng-container>
+      
+          <ng-container matColumnDef="Consumer consent provided?">
+            <th mat-header-cell *matHeaderCellDef>Consumer consent provided?</th>
+            <td mat-cell *matCellDef="let element">
+              {{ element['Consumer consent provided?'] }}
+            </td>
+          </ng-container> -->
 
     <ng-container matColumnDef="Submitted via">
       <th mat-header-cell *matHeaderCellDef>Submitted via</th>

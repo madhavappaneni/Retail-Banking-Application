@@ -13,10 +13,11 @@ import { TransactionComponent } from './transaction/transaction.component';
 import { ClientComponent } from './client/client.component';
 import { LoanComponent } from './loan/loan.component';
 import { ComplaintUpdateComponent } from './complaint-update/complaint-update.component';
-import { ComplaintsSearchComponent } from './complaints-search/complaints-search.component'
+import { ComplaintsSearchComponent } from './complaints-search/complaints-search.component';
+import { HomeComponent } from './home/home.component'
 
 @NgModule({
-  declarations: [AppComponent, ComplaintComponent, TransactionComponent, ClientComponent, LoanComponent, ComplaintUpdateComponent, ComplaintsSearchComponent],
+  declarations: [AppComponent, ComplaintComponent, TransactionComponent, ClientComponent, LoanComponent, ComplaintUpdateComponent, ComplaintsSearchComponent, HomeComponent],
   imports: [
     BrowserModule,
     HttpClientModule,

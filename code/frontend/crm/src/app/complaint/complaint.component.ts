@@ -9,11 +9,21 @@ import { Router } from '@angular/router'
 })
 export class ComplaintComponent {
   displayedColumns: string[] = [
-    'Complaint ID',
+    'Date received',
     'Product',
-    'Sub-Product',
+    'Sub-product',
     'Issue',
-    'Consumer complaint narrative',
+    'Sub-issue',
+    // 'Consumer complaint narrative',
+    // 'Tags',
+    // 'Consumer consent provided?',
+    'Submitted via',
+    'Date sent to company',
+    // 'Company response to consumer',
+    // 'Timely response?',
+    // 'Consumer disputed?',
+    'Complaint ID',
+    'Client_ID',
     'actions',
   ]
   dataSource: any = []
@@ -39,6 +49,10 @@ export class ComplaintComponent {
     Client_ID: '',
   }
 
+  form2 = {
+    complaintId: '',
+  }
+
   constructor(private router: Router, private appService: AppService) {}
 
   ngOnInit(): void {
@@ -51,6 +65,14 @@ export class ComplaintComponent {
       this.crmEvents = data.data
     })
     console.log('crmEvents', this.crmEvents)
+  }
+
+  getCRMEvent() {
+    this.appService
+      .getCRMEvent(this.form2.complaintId)
+      .subscribe((data: any) => {
+        this.crmEvents = data.data
+      })
   }
 
   updateCRMEvent(data: any) {

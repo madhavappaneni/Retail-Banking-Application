@@ -12,10 +12,11 @@ import { MatTableModule } from '@angular/material/table';
 import { TransactionComponent } from './transaction/transaction.component';
 import { ClientComponent } from './client/client.component';
 import { LoanComponent } from './loan/loan.component';
-import { ComplaintUpdateComponent } from './complaint-update/complaint-update.component'
+import { ComplaintUpdateComponent } from './complaint-update/complaint-update.component';
+import { ComplaintsSearchComponent } from './complaints-search/complaints-search.component'
 
 @NgModule({
-  declarations: [AppComponent, ComplaintComponent, TransactionComponent, ClientComponent, LoanComponent, ComplaintUpdateComponent],
+  declarations: [AppComponent, ComplaintComponent, TransactionComponent, ClientComponent, LoanComponent, ComplaintUpdateComponent, ComplaintsSearchComponent],
   imports: [
     BrowserModule,
     HttpClientModule,

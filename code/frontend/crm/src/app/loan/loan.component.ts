@@ -27,7 +27,11 @@ export class LoanComponent {
 
   constructor(private appService: AppService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.appService.getLoans().subscribe((data: any) => {
+      this.loans = data.data
+    })
+  }
 
   getLoan() {
     console.log(this.form)

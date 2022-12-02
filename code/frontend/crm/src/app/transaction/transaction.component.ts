@@ -25,14 +25,18 @@ export class TransactionComponent {
     transactionId: '',
   }
 
-  constructor(private appService: AppService) {}
+  constructor(private appService: AppService) {
+    this.appService.getTransactions().subscribe((data: any) => {
+      this.transactions = data.data
+    })
+  }
 
   ngOnInit(): void {}
 
   getTransaction() {
     console.log(this.form)
-    const transactionId = this.form.transactionId;
-    this.appService.getTransactions(transactionId).subscribe((data: any) => {
+    const transactionId = this.form.transactionId
+    this.appService.getTransaction(transactionId).subscribe((data: any) => {
       this.transactions = data.data
     })
     console.log('transactions', this.transactions)

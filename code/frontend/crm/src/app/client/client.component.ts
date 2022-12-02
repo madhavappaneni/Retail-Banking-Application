@@ -32,7 +32,11 @@ export class ClientComponent {
 
   constructor(private appService: AppService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.appService.getClients().subscribe((data: any) => {
+      this.clients = data.data
+    })
+  }
 
   getClient() {
     console.log(this.form)

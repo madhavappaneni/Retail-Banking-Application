@@ -142,6 +142,11 @@
   </form> -->
   <hr />
   <table mat-table [dataSource]="crmEvents" class="mat-elevation-z8">
+    <ng-container matColumnDef="Complaint ID">
+      <th mat-header-cell *matHeaderCellDef>Complaint ID</th>
+      <td mat-cell *matCellDef="let element">{{ element['Complaint ID'] }}</td>
+    </ng-container>
+
     <ng-container matColumnDef="Date received">
       <th mat-header-cell *matHeaderCellDef>Date received</th>
       <td mat-cell *matCellDef="let element">{{ element['Date received'] }}</td>
@@ -217,11 +222,6 @@
       <td mat-cell *matCellDef="let element">
         {{ element['Consumer disputed?'] }}
       </td>
-    </ng-container>
-
-    <ng-container matColumnDef="Complaint ID">
-      <th mat-header-cell *matHeaderCellDef>Complaint ID</th>
-      <td mat-cell *matCellDef="let element">{{ element['Complaint ID'] }}</td>
     </ng-container>
 
     <ng-container matColumnDef="Client_ID">

@@ -9,6 +9,7 @@ import { Router } from '@angular/router'
 })
 export class ComplaintComponent {
   displayedColumns: string[] = [
+    'Complaint ID',
     'Date received',
     'Product',
     'Sub-product',
@@ -22,7 +23,6 @@ export class ComplaintComponent {
     // 'Company response to consumer',
     // 'Timely response?',
     // 'Consumer disputed?',
-    'Complaint ID',
     'Client_ID',
     'actions',
   ]

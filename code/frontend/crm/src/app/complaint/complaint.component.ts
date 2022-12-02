@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core'
 import { AppService } from '../app.service'
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-complaint',
@@ -19,7 +20,7 @@ export class ComplaintComponent {
   title = 'Retail Banking Data - CRM'
   crmEvents: any = []
   form = {
-    'Date received': '',
+    'Date received': new Date().toISOString().split('T')[0],
     Product: '',
     'Sub-product': '',
     Issue: '',
@@ -28,16 +29,17 @@ export class ComplaintComponent {
     Tags: '',
     'Consumer consent provided?': '',
     'Submitted via': '',
-    'Date sent to company': '',
+    'Date sent to company': new Date().toISOString().split('T')[0],
     'Company response to consumer': '',
     'Timely response?': '',
     'Consumer disputed?': '',
-    'Complaint ID': '',
+    'Complaint ID': `CR${Math.floor(
+      Math.random() * (10000000000 - 1000000000 + 1) + 1000000000,
+    )}`,
     Client_ID: '',
-    Date: new Date().toISOString().split('T')[0],
   }
 
-  constructor(private appService: AppService) {}
+  constructor(private router: Router, private appService: AppService) {}
 
   ngOnInit(): void {
     this.getCRMEvents()
@@ -52,10 +54,7 @@ export class ComplaintComponent {
   }
 
   updateCRMEvent(data: any) {
-    console.log(data['Complaint ID'])
-    // this.appService.getCRMEvents().subscribe((data: any) => {
-    //   this.crmEvents = data.data
-    // })
+    this.router.navigate([`/complaints/${data['Complaint ID']}/update`])
   }
 
   deleteCRMEvent(data: any) {
@@ -76,7 +75,7 @@ export class ComplaintComponent {
 
   clearFormData() {
     this.form = {
-      'Date received': '',
+      'Date received': new Date().toISOString().split('T')[0],
       Product: '',
       'Sub-product': '',
       Issue: '',
@@ -85,13 +84,14 @@ export class ComplaintComponent {
       Tags: '',
       'Consumer consent provided?': '',
       'Submitted via': '',
-      'Date sent to company': '',
+      'Date sent to company': new Date().toISOString().split('T')[0],
       'Company response to consumer': '',
       'Timely response?': '',
       'Consumer disputed?': '',
-      'Complaint ID': '',
+      'Complaint ID': `CR${Math.floor(
+        Math.random() * (10000000000 - 1000000000 + 1) + 1000000000,
+      )}`,
       Client_ID: '',
-      Date: new Date().toISOString().split('T')[0],
     }
   }
 }

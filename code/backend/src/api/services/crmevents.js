@@ -77,6 +77,18 @@ exports.getTransaction = async (transactionId) => {
     }
 };
 
+exports.getTransactions = async () => {
+    try {
+        const _crmevents = await transaction.findAll({
+            order: [['fulldatewithtime', 'DESC']],
+            limit: 10,
+        });
+        return _crmevents;
+    } catch (e) {
+        console.log('err', e);
+    }
+};
+
 exports.getLoan = async (loanId) => {
     try {
         console.log(loanId, 'test')
@@ -90,11 +102,35 @@ exports.getLoan = async (loanId) => {
     }
 };
 
+exports.getLoans = async () => {
+    try {
+        const _crmevents = await loan.findAll({
+            order: [['loan_id', 'DESC']],
+            limit: 10
+        });
+        return _crmevents;
+    } catch (e) {
+        console.log('err', e.name);
+    }
+};
+
 exports.getClient = async (clientId) => {
     try {
         console.log(clientId, 'test')
         const _crmevents = await client.findAll({
             where: { client_id: clientId },
+            limit: 10
+        });
+        return _crmevents;
+    } catch (e) {
+        console.log('err', e);
+    }
+};
+
+exports.getClients = async () => {
+    try {
+        const _crmevents = await client.findAll({
+            order: [['client_id', 'DESC']],
             limit: 10
         });
         return _crmevents;

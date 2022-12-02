@@ -79,6 +79,20 @@ exports.getTransaction = async (req, res, next) => {
     }
 };
 
+
+exports.getTransactions = async (req, res, next) => {
+    try {
+        const response = await crmeventsService.getTransactions();
+        return res.status(httpStatus.OK).json({
+            code: httpStatus.OK,
+            data: response,
+        });
+    } catch (error) {
+        return next(error);
+    }
+};
+
+
 exports.getLoan = async (req, res, next) => {
     try {
         const loanId = req.params.loanId;
@@ -92,10 +106,34 @@ exports.getLoan = async (req, res, next) => {
     }
 };
 
+exports.getLoans = async (req, res, next) => {
+    try {
+        const response = await crmeventsService.getLoans();
+        return res.status(httpStatus.OK).json({
+            code: httpStatus.OK,
+            data: response,
+        });
+    } catch (error) {
+        return next(error);
+    }
+};
+
 exports.getClient = async (req, res, next) => {
     try {
         const clientId = req.params.clientId;
         const response = await crmeventsService.getClient(clientId);
+        return res.status(httpStatus.OK).json({
+            code: httpStatus.OK,
+            data: response,
+        });
+    } catch (error) {
+        return next(error);
+    }
+};
+
+exports.getClients = async (req, res, next) => {
+    try {
+        const response = await crmeventsService.getClients();
         return res.status(httpStatus.OK).json({
             code: httpStatus.OK,
             data: response,

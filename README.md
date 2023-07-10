@@ -1,6 +1,6 @@
-# DMQL-Project
-
 # Retail Banking Application
+
+This is a full-stack application built using Node.js for the backend, Angular for the frontend, and PostgreSQL as the database. The application utilizes the "Retail Banking Demo Data" dataset, providing a simulated retail banking environment for analysis and demonstration purposes.
 
 This project is based on the dataset called "Retail Banking Demo Data." The dataset consists of various datasets stitched together from real-world data sources, including CRM (Customer Relationship Management) and core banking data. It is built off the 1999 Czech banking dataset, with further modifications and augmentation.
 
@@ -21,8 +21,50 @@ The dataset comprises several components:
 
 3. Luxury Loan Portfolio: Eagle National Bank has recently acquired this loan portfolio. The dataset includes information about the loans, including the factors used to determine interest rates (with a hint that one factor is the size of the loan). It presents an opportunity to analyze and forecast profits or collections for the bank by combining all loan data.
 
+
+## Installation
+
+To set up and run the Retail Banking Demo Application, follow these steps:
+
+1. Clone the repository: `git clone <repository-url>`
+2. Install the necessary dependencies for the backend:
+   ```
+   cd code/backend
+   npm install
+   ```
+3. Configure the PostgreSQL database connection in the backend. Update the database credentials and connection details in the configuration files.
+4. Load the dataset into the PostgreSQL database using the provided data loading scripts. Run the necessary scripts to populate the database with the dataset.
+5. Start the backend server:
+   ```
+   npm start
+   ```
+6. Install the necessary dependencies for the frontend:
+   ```
+   cd code/frontend/crm
+   npm install
+   ```
+7. Configure the backend API endpoint in the frontend. Update the API URL in the configuration files to point to the running backend server.
+8. Start the frontend application:
+   ```
+   ng serve
+   ```
+9. Access the application by opening a web browser and navigating to `http://localhost:4200`.
+
+## Usage
+
+Once the Retail Banking Demo Application is up and running, you can perform the following actions:
+
+- Explore the frontend interface: Use the Angular frontend to navigate through different sections of the application, such as account management, core banking transactions, customer interactions, and loan portfolio analysis.
+- Interact with the backend APIs: The Node.js backend provides various RESTful APIs that can be accessed to perform operations on the retail banking data. Refer to the API documentation or code for details on the available endpoints and their functionality.
+
+
+
+
 ## Acknowledgments
 
 The dataset was initially prepared by an intern for a software demo at Cambridge Semantics. If you are interested in graph databases, consider checking out https://data.world/lpetrocelli/retail-banking-demo-data
 
 **Note**: The information provided in this readme file is based on the available summary of the dataset. For more detailed information or any specific questions about the dataset, kindly refer to the original dataset source or contact the creator.
+
+
+

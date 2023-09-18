@@ -1,5 +1,21 @@
 # Retail Banking Application
 
+# Project Introduction
+
+The Retail Banking Application Database Optimization project is a comprehensive exploration of query optimization and normalization techniques applied to a simulated retail banking application. The primary objective of this project is to load raw CSV files into a SQL database and emulate the operations of a retail banking application while systematically optimizing and normalizing the underlying database structure and queries. This project served as a practical learning experience for understanding the crucial aspects of database performance enhancement in a real-world context.
+
+Project Goals: 
+1. Database Population: Importing raw data into the SQL database.
+2. Normalization: Ensuring the database is in Boyce-Codd Normal Form (BCNF) or 3NF.
+3. Query Analysis: Analyzing various SQL queries for performance bottlenecks.
+4. Query Optimization: Employing a range of optimization techniques including query rewriting, join optimization, indexing, subquery optimization, optimized database design, and connection pooling.
+5. Performance Evaluation: Assessing the overall performance of the database and queries.
+
+The scripts for database population is present in the [Scripts](./scripts/) folder.
+The specifics about the tables, normalization of the tables, query analysis of a few queries, and the query optimization using various techniques is discussed in the [project report](./Project%20Report.pdf)
+
+# Application Introduction
+
 This is a full-stack application built using Node.js for the backend, Angular for the frontend, and PostgreSQL as the database. The application utilizes the "Retail Banking Demo Data" dataset, providing a simulated retail banking environment for analysis and demonstration purposes.
 
 This project is based on the dataset called "Retail Banking Demo Data." The dataset consists of various datasets stitched together from real-world data sources, including CRM (Customer Relationship Management) and core banking data. It is built off the 1999 Czech banking dataset, with further modifications and augmentation.

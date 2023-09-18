@@ -78,7 +78,4 @@ Once the Retail Banking Demo Application is up and running, you can perform the 
 
 The dataset was initially prepared by an intern for a software demo at Cambridge Semantics. If you are interested in graph databases, consider checking out https://data.world/lpetrocelli/retail-banking-demo-data
 
-**Note**: The information provided in this readme file is based on the available summary of the dataset. For more detailed information or any specific questions about the dataset, kindly refer to the original dataset source or contact the creator.
-
-
 

@@ -18,7 +18,7 @@
     "http-status": "^1.5.3",
     "pg": "^8.8.0",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.25.8",
+    "sequelize": "^6.29.0",
     "sequelize-auto": "^0.8.8",
     "winston": "^3.8.2",
     "winston-daily-rotate-file": "^4.7.1"
